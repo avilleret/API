@@ -1,0 +1,578 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceossia_1_1net" kind="namespace" language="C++">
+    <compoundname>ossia::net</compoundname>
+    <innerclass refid="classossia_1_1net_1_1address__base" prot="public">ossia::net::address_base</innerclass>
+    <innerclass refid="classossia_1_1net_1_1device__base" prot="public">ossia::net::device_base</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__base" prot="public">ossia::net::domain_base</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__base_3_01_behavior_01_4" prot="public">ossia::net::domain_base&lt; Behavior &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__base_3_01_destination_01_4" prot="public">ossia::net::domain_base&lt; Destination &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__base_3_01_impulse_01_4" prot="public">ossia::net::domain_base&lt; Impulse &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__base_3_01_string_01_4" prot="public">ossia::net::domain_base&lt; String &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__base_3_01_tuple_01_4" prot="public">ossia::net::domain_base&lt; Tuple &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__base_3_01_vec_3_01float_00_01_n_01_4_01_4" prot="public">ossia::net::domain_base&lt; Vec&lt; float, N &gt; &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__clamp__visitor" prot="public">ossia::net::domain_clamp_visitor</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__conversion" prot="public">ossia::net::domain_conversion</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_behavior_01_4_01_4" prot="public">ossia::net::domain_conversion&lt; domain_base&lt; Behavior &gt; &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_destination_01_4_01_4" prot="public">ossia::net::domain_conversion&lt; domain_base&lt; Destination &gt; &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_impulse_01_4_01_4" prot="public">ossia::net::domain_conversion&lt; domain_base&lt; Impulse &gt; &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_string_01_4_01_4" prot="public">ossia::net::domain_conversion&lt; domain_base&lt; String &gt; &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_tuple_01_4_01_4" prot="public">ossia::net::domain_conversion&lt; domain_base&lt; Tuple &gt; &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_vec_3_01float_00_01_n_01_4_01_4_01_4" prot="public">ossia::net::domain_conversion&lt; domain_base&lt; Vec&lt; float, N &gt; &gt; &gt;</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__creation__visitor" prot="public">ossia::net::domain_creation_visitor</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__max__visitor" prot="public">ossia::net::domain_max_visitor</innerclass>
+    <innerclass refid="structossia_1_1net_1_1domain__min__visitor" prot="public">ossia::net::domain_min_visitor</innerclass>
+    <innerclass refid="classossia_1_1net_1_1generic__address" prot="public">ossia::net::generic_address</innerclass>
+    <innerclass refid="classossia_1_1net_1_1generic__device" prot="public">ossia::net::generic_device</innerclass>
+    <innerclass refid="classossia_1_1net_1_1generic__node" prot="public">ossia::net::generic_node</innerclass>
+    <innerclass refid="classossia_1_1net_1_1local__protocol" prot="public">ossia::net::local_protocol</innerclass>
+    <innerclass refid="classossia_1_1net_1_1minuit__protocol" prot="public">ossia::net::minuit_protocol</innerclass>
+    <innerclass refid="classossia_1_1net_1_1node__base" prot="public">ossia::net::node_base</innerclass>
+    <innerclass refid="classossia_1_1net_1_1osc__protocol" prot="public">ossia::net::osc_protocol</innerclass>
+    <innerclass refid="structossia_1_1net_1_1_o_s_c_inbound_visitor" prot="public">ossia::net::OSCInboundVisitor</innerclass>
+    <innerclass refid="structossia_1_1net_1_1_o_s_c_outbound_visitor" prot="public">ossia::net::OSCOutboundVisitor</innerclass>
+    <innerclass refid="classossia_1_1net_1_1protocol__base" prot="public">ossia::net::protocol_base</innerclass>
+    <innernamespace refid="namespaceossia_1_1net_1_1midi">ossia::net::midi</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="address_8hpp_1af688973275898a04868963f67369537d" prot="public" static="no">
+        <type>std::function&lt; void(const <ref refid="classossia_1_1value" kindref="compound">value</ref> &amp;)&gt;</type>
+        <definition>using ossia::net::value_callback = typedef std::function&lt;void(const value&amp;)&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/base/address.hpp" line="19" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/base/address.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="domain__base_8hpp_1a2f57b53b2c73eb9e0d5613133cd98e14" prot="public" static="no">
+        <type>eggs::variant&lt; <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_impulse" kindref="compound">Impulse</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_bool" kindref="compound">Bool</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_int" kindref="compound">Int</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_float" kindref="compound">Float</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_char" kindref="compound">Char</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_string" kindref="compound">String</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_tuple" kindref="compound">Tuple</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="classossia_1_1_vec" kindref="compound">Vec2f</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="classossia_1_1_vec" kindref="compound">Vec3f</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="classossia_1_1_vec" kindref="compound">Vec4f</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="classossia_1_1_destination" kindref="compound">Destination</ref> &gt;, <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_behavior" kindref="compound">Behavior</ref> &gt;&gt;</type>
+        <definition>using ossia::net::domain = typedef eggs::variant&lt;domain_base&lt;Impulse&gt;, domain_base&lt;Bool&gt;, domain_base&lt;Int&gt;, domain_base&lt;Float&gt;, domain_base&lt;Char&gt;, domain_base&lt;String&gt;, domain_base&lt;Tuple&gt;, domain_base&lt;Vec2f&gt;, domain_base&lt;Vec3f&gt;, domain_base&lt;Vec4f&gt;, domain_base&lt;Destination&gt;, domain_base&lt;Behavior&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>domain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_base.hpp" line="180" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_base.hpp" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="address_8cpp_1ade65ab8ca7e35bd717f576bac73ade07" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ossia::net::getAddressFromNode_rec</definition>
+        <argsstring>(const node_base &amp;n, std::vector&lt; std::string &gt; &amp;str)</argsstring>
+        <name>getAddressFromNode_rec</name>
+        <param>
+          <type>const <ref refid="classossia_1_1net_1_1node__base" kindref="compound">node_base</ref> &amp;</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/base/address.cpp" line="10" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/base/address.cpp" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="address_8cpp_1a750ef70ac69dc27826ff5be5965b5137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>OSSIA_EXPORT std::string ossia::net::address_string_from_node</definition>
+        <argsstring>(const ossia::net::node_base &amp;)</argsstring>
+        <name>address_string_from_node</name>
+        <param>
+          <type>const <ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref> &amp;</type>
+          <defname>node</defname>
+        </param>
+        <briefdescription>
+<para>getAddressFromNode </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the textual address of a node : aDevice:/an/address </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/base/address.cpp" line="18" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/base/address.cpp" bodystart="18" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1a1aea62b7624fd549b3fdfd02edcf6e2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">value</ref></type>
+        <definition>value ossia::net::clamp</definition>
+        <argsstring>(const domain &amp;dom, bounding_mode b, const value &amp;val)</argsstring>
+        <name>clamp</name>
+        <param>
+          <type>const domain &amp;</type>
+          <declname>dom</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceossia_1aed414113ede1f539256e47262c495722" kindref="member">bounding_mode</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="9" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1a2a920c7cb98225b9d4bef41cc95bf988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">value</ref></type>
+        <definition>value ossia::net::min</definition>
+        <argsstring>(const domain &amp;dom)</argsstring>
+        <name>min</name>
+        <param>
+          <type>const domain &amp;</type>
+          <declname>dom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="18" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1ad0440402993db162ce0af6448932a4d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">value</ref></type>
+        <definition>value ossia::net::max</definition>
+        <argsstring>(const domain &amp;dom)</argsstring>
+        <name>max</name>
+        <param>
+          <type>const domain &amp;</type>
+          <declname>dom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="23" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1aadc66696fc14e2ed6904a907a5fd398e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>domain</type>
+        <definition>domain ossia::net::makeDomain</definition>
+        <argsstring>(const ossia::value &amp;min, const ossia::value &amp;max)</argsstring>
+        <name>makeDomain</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="28" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1ac90b88e9192c5ad21440ba69f579a092" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::operator==</definition>
+        <argsstring>(const domain_base&lt; Int &gt; &amp;lhs, const domain_base&lt; Int &gt; &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_int" kindref="compound">Int</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_int" kindref="compound">Int</ref> &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="38" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1a52f70b7227be627695bd89ec8f52804a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::operator==</definition>
+        <argsstring>(const domain_base&lt; Float &gt; &amp;lhs, const domain_base&lt; Float &gt; &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_float" kindref="compound">Float</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_float" kindref="compound">Float</ref> &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="43" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1a59b1da4d1368dcf0ea377c92082508f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::operator==</definition>
+        <argsstring>(const domain_base&lt; Bool &gt; &amp;lhs, const domain_base&lt; Bool &gt; &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_bool" kindref="compound">Bool</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_bool" kindref="compound">Bool</ref> &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="48" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1a09dca58f0a402e9733038e5cf9f85e3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::operator==</definition>
+        <argsstring>(const domain_base&lt; Char &gt; &amp;lhs, const domain_base&lt; Char &gt; &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_char" kindref="compound">Char</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_char" kindref="compound">Char</ref> &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="53" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1a368fb67cc0cf15beb1ce92444e64b6b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::operator==</definition>
+        <argsstring>(const domain_base&lt; String &gt; &amp;lhs, const domain_base&lt; String &gt; &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_string" kindref="compound">String</ref> &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_string" kindref="compound">String</ref> &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="58" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="domain_8hpp_1a2b1cd523c5779bece0ebb3a5f587b0a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool ossia::net::operator==</definition>
+        <argsstring>(const domain_base&lt; T &gt; &amp;lhs, const domain_base&lt; T &gt; &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; T &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; T &gt; &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" line="64" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain.hpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="domain__conversion_8hpp_1ae3dd0d14649ab44fdcd54a3acfea6e49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>domain</type>
+        <definition>domain ossia::net::convert_domain</definition>
+        <argsstring>(const domain &amp;dom, ossia::val_type newtype)</argsstring>
+        <name>convert_domain</name>
+        <param>
+          <type>const domain &amp;</type>
+          <declname>dom</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197" kindref="member">ossia::val_type</ref></type>
+          <declname>newtype</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_conversion.hpp" line="156" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_conversion.hpp" bodystart="156" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="generic__device_8cpp_1a1d387dd9fc73e5f2aac1bd14de1c0c03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> *</type>
+        <definition>OSSIA_EXPORT generic_node * ossia::net::find_node</definition>
+        <argsstring>(generic_device &amp;dev, boost::string_ref address)</argsstring>
+        <name>find_node</name>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref> &amp;</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>boost::string_ref</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_device.cpp" line="128" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_device.cpp" bodystart="128" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="generic__device_8cpp_1aa26b4926c6b124a16a794be7d3d18d05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> &amp;</type>
+        <definition>OSSIA_EXPORT generic_node &amp; ossia::net::find_or_create_node</definition>
+        <argsstring>(generic_device &amp;dev, boost::string_ref address)</argsstring>
+        <name>find_or_create_node</name>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref> &amp;</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>boost::string_ref</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_device.cpp" line="139" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_device.cpp" bodystart="139" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="local_8cpp_1afc96bb39316ec2e53cd7da532edf373f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ossia::net::observe_rec</definition>
+        <argsstring>(protocol_base &amp;proto, ossia::net::node_base &amp;n)</argsstring>
+        <name>observe_rec</name>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1protocol__base" kindref="compound">protocol_base</ref> &amp;</type>
+          <declname>proto</declname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref> &amp;</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/local/local.cpp" line="50" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/local/local.cpp" bodystart="50" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1aeb431d0304cc9e8baa03648bb6d7bb1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref></type>
+        <definition>ossia::value ossia::net::filterValue</definition>
+        <argsstring>(const ossia::net::domain &amp;dom, const ossia::value &amp;base_val, ossia::bounding_mode mode)</argsstring>
+        <name>filterValue</name>
+        <param>
+          <type>const ossia::net::domain &amp;</type>
+          <declname>dom</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>base_val</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceossia_1aed414113ede1f539256e47262c495722" kindref="member">ossia::bounding_mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="266" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="266" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1a33d0b3cd04eaee5d277bfc5fd31c7284" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref></type>
+        <definition>ossia::value ossia::net::filterValue</definition>
+        <argsstring>(const ossia::net::generic_address &amp;addr)</argsstring>
+        <name>filterValue</name>
+        <param>
+          <type>const <ref refid="classossia_1_1net_1_1generic__address" kindref="compound">ossia::net::generic_address</ref> &amp;</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="284" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="284" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1aeeb5b2eca84f014d6aa4d7ca8f352d61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boost::string_ref</type>
+        <definition>boost::string_ref ossia::net::getOSCAddress</definition>
+        <argsstring>(const ossia::net::address_base &amp;address)</argsstring>
+        <name>getOSCAddress</name>
+        <param>
+          <type>const <ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="294" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="294" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1a1b5bde4c6336c81e19ea132a3c35e0ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ossia::net::getOSCAddressAsString</definition>
+        <argsstring>(const ossia::net::address_base &amp;address)</argsstring>
+        <name>getOSCAddressAsString</name>
+        <param>
+          <type>const <ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="302" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="302" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1a560f4d92c223ee3b5bc341a4260c5ceb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ossia::net::getOSCAddressAsString</definition>
+        <argsstring>(const ossia::net::node_base &amp;node)</argsstring>
+        <name>getOSCAddressAsString</name>
+        <param>
+          <type>const <ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref> &amp;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="308" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="308" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1a6644f5e27550b1e606317b8acd6582db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref></type>
+        <definition>ossia::value ossia::net::toValue</definition>
+        <argsstring>(const ossia::value &amp;current, oscpack::ReceivedMessageArgumentIterator beg_it, oscpack::ReceivedMessageArgumentIterator end_it, int N)</argsstring>
+        <name>toValue</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type>oscpack::ReceivedMessageArgumentIterator</type>
+          <declname>beg_it</declname>
+        </param>
+        <param>
+          <type>oscpack::ReceivedMessageArgumentIterator</type>
+          <declname>end_it</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="314" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="314" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1ac5948db88b4b4c4ab9bc426c6a0df33b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::net::updateValue</definition>
+        <argsstring>(ossia::net::address_base &amp;addr, oscpack::ReceivedMessageArgumentIterator beg_it, oscpack::ReceivedMessageArgumentIterator end_it, int N)</argsstring>
+        <name>updateValue</name>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> &amp;</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>oscpack::ReceivedMessageArgumentIterator</type>
+          <declname>beg_it</declname>
+        </param>
+        <param>
+          <type>oscpack::ReceivedMessageArgumentIterator</type>
+          <declname>end_it</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="322" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="322" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1a684c4ce90918b19daefe9782dd029ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::net::updateValue</definition>
+        <argsstring>(ossia::net::address_base &amp;addr, const oscpack::ReceivedMessage &amp;mess)</argsstring>
+        <name>updateValue</name>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> &amp;</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>const oscpack::ReceivedMessage &amp;</type>
+          <declname>mess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="341" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="341" bodyend="346"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/automation/automation.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

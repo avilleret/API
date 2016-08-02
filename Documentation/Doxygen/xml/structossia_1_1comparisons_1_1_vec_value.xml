@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1comparisons_1_1_vec_value" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::comparisons::VecValue</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structossia_1_1comparisons_1_1_vec_value_1afb9f0d5038754ef7ffe058e98953a5f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vec_T</type>
+          </param>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool ossia::comparisons::VecValue::apply</definition>
+        <argsstring>(const Vec_T &amp;lhs, const ossia::value &amp;val, Fun fun)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const Vec_T &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>fun</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="395" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="395" bodyend="398"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="393" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="392" bodyend="399"/>
+    <listofallmembers>
+      <member refid="structossia_1_1comparisons_1_1_vec_value_1afb9f0d5038754ef7ffe058e98953a5f2" prot="public" virt="non-virtual"><scope>ossia::comparisons::VecValue</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

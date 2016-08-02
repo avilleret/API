@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceossia_1_1detail" kind="namespace" language="C++">
+    <compoundname>ossia::detail</compoundname>
+    <innerclass refid="classossia_1_1detail_1_1automation__impl" prot="public">ossia::detail::automation_impl</innerclass>
+    <innerclass refid="classossia_1_1detail_1_1clock__impl" prot="public">ossia::detail::clock_impl</innerclass>
+    <innerclass refid="classossia_1_1detail_1_1curve__impl" prot="public">ossia::detail::curve_impl</innerclass>
+    <innerclass refid="classossia_1_1detail_1_1loop__impl" prot="public">ossia::detail::loop_impl</innerclass>
+    <innerclass refid="classossia_1_1detail_1_1mapper__impl" prot="public">ossia::detail::mapper_impl</innerclass>
+    <innerclass refid="classossia_1_1detail_1_1scenario__impl" prot="public">ossia::detail::scenario_impl</innerclass>
+    <innerclass refid="classossia_1_1detail_1_1time__constraint__impl" prot="public">ossia::detail::time_constraint_impl</innerclass>
+    <innerclass refid="classossia_1_1detail_1_1time__event__impl" prot="public">ossia::detail::time_event_impl</innerclass>
+    <innerclass refid="classossia_1_1detail_1_1time__node__impl" prot="public">ossia::detail::time_node_impl</innerclass>
+    <innerclass refid="classossia_1_1detail_1_1time__process__impl" prot="public">ossia::detail::time_process_impl</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_curve__impl_8hpp_1acb8574023190f9f98717b377c480255c" prot="public" static="no">
+        <type>boost::container::flat_map&lt; Args... &gt;</type>
+        <definition>using ossia::detail::curve_map = typedef boost::container::flat_map&lt;Args...&gt;</definition>
+        <argsstring></argsstring>
+        <name>curve_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" line="16" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_scenario__impl_8cpp_1a69ac2e05fd98df2e99c48ce0f3e959a4" prot="public" static="no">
+        <type>std::unordered_map&lt; <ref refid="classossia_1_1time__node" kindref="compound">time_node</ref> *, <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref> &gt;</type>
+        <definition>using ossia::detail::DateMap = typedef std::unordered_map&lt;time_node*, time_value&gt;</definition>
+        <argsstring></argsstring>
+        <name>DateMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/detail/Scenario_impl.cpp" line="20" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/detail/Scenario_impl.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_scenario__impl_8cpp_1a6e2003802269641e9b4e2e3e86c06327" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classossia_1_1time__event" kindref="compound">ossia::time_event</ref> &gt;</type>
+        <definition>using ossia::detail::EventPtr = typedef std::shared_ptr&lt;ossia::time_event&gt;</definition>
+        <argsstring></argsstring>
+        <name>EventPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/detail/Scenario_impl.cpp" line="21" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/detail/Scenario_impl.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_scenario__impl_8cpp_1ac96fa9d6285d641d3000f329127e06a5" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classossia_1_1time__constraint" kindref="compound">ossia::time_constraint</ref> &gt;</type>
+        <definition>using ossia::detail::ConstraintPtr = typedef std::shared_ptr&lt;ossia::time_constraint&gt;</definition>
+        <argsstring></argsstring>
+        <name>ConstraintPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/detail/Scenario_impl.cpp" line="22" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/detail/Scenario_impl.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_curve__impl_8hpp_1a6c1559ab8b055ea698f442a2c4b6ceb2" prot="public" static="no" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const constexpr std::nullptr_t</type>
+        <definition>const constexpr std::nullptr_t ossia::detail::OssiaType</definition>
+        <argsstring></argsstring>
+        <name>OssiaType</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" line="78" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_curve__impl_8hpp_1a68515c2a626e359bb1989e052b2e256b" prot="public" static="no" mutable="no">
+        <templateparamlist>
+        </templateparamlist>
+        <type>const constexpr <ref refid="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502" kindref="member">ossia::curve_segment_type</ref></type>
+        <definition>const constexpr ossia::curve_segment_type ossia::detail::OssiaType&lt; int &gt;</definition>
+        <argsstring></argsstring>
+        <name>OssiaType&lt; int &gt;</name>
+        <initializer>= ossia::curve_segment_type::INT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" line="80" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_curve__impl_8hpp_1aaf1da6a9bb3d4836a080722c97893c4b" prot="public" static="no" mutable="no">
+        <templateparamlist>
+        </templateparamlist>
+        <type>const constexpr <ref refid="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502" kindref="member">ossia::curve_segment_type</ref></type>
+        <definition>const constexpr ossia::curve_segment_type ossia::detail::OssiaType&lt; float &gt;</definition>
+        <argsstring></argsstring>
+        <name>OssiaType&lt; float &gt;</name>
+        <initializer>= ossia::curve_segment_type::FLOAT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" line="83" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_curve__impl_8hpp_1a6f1f30478d4f2762141312276cf9a8f2" prot="public" static="no" mutable="no">
+        <templateparamlist>
+        </templateparamlist>
+        <type>const constexpr <ref refid="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502" kindref="member">ossia::curve_segment_type</ref></type>
+        <definition>const constexpr ossia::curve_segment_type ossia::detail::OssiaType&lt; double &gt;</definition>
+        <argsstring></argsstring>
+        <name>OssiaType&lt; double &gt;</name>
+        <initializer>= ossia::curve_segment_type::DOUBLE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" line="86" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_curve__impl_8hpp_1adbd054c68c10ed624b87c5ae004ecd1f" prot="public" static="no" mutable="no">
+        <templateparamlist>
+        </templateparamlist>
+        <type>const constexpr <ref refid="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502" kindref="member">ossia::curve_segment_type</ref></type>
+        <definition>const constexpr ossia::curve_segment_type ossia::detail::OssiaType&lt; bool &gt;</definition>
+        <argsstring></argsstring>
+        <name>OssiaType&lt; bool &gt;</name>
+        <initializer>= ossia::curve_segment_type::BOOL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" line="89" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/detail/Curve_impl.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_scenario__impl_8cpp_1a06626cd10a31f4afa60f56219934c2b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ossia::detail::process_timenode_dates</definition>
+        <argsstring>(time_node &amp;t, DateMap &amp;map)</argsstring>
+        <name>process_timenode_dates</name>
+        <param>
+          <type><ref refid="classossia_1_1time__node" kindref="compound">time_node</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>DateMap &amp;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/detail/Scenario_impl.cpp" line="23" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/detail/Scenario_impl.cpp" bodystart="23" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/automation/detail/Automation_impl.cpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

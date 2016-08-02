@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1comparisons_1_1_vec_visitor" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::comparisons::VecVisitor</compoundname>
+    <templateparamlist>
+      <param>
+        <type>int</type>
+        <declname>N</declname>
+        <defname>N</defname>
+      </param>
+      <param>
+        <type>typename Fun</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structossia_1_1comparisons_1_1_vec_visitor_1ab6333fa6c69ad2218f4ea5f8de2bca8e" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classossia_1_1_vec" kindref="compound">Vec</ref>&lt; float, N &gt; &amp;</type>
+        <definition>const Vec&lt;float, N&gt;&amp; ossia::comparisons::VecVisitor&lt; N, Fun &gt;::lhs</definition>
+        <argsstring></argsstring>
+        <name>lhs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="361" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structossia_1_1comparisons_1_1_vec_visitor_1aa369bcd5eaa50c037f7716304242f203" prot="public" static="no" mutable="no">
+        <type>Fun</type>
+        <definition>Fun ossia::comparisons::VecVisitor&lt; N, Fun &gt;::fun</definition>
+        <argsstring></argsstring>
+        <name>fun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="362" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1comparisons_1_1_vec_visitor_1a8b6333fade9cb459a64d285798276197" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::comparisons::VecVisitor&lt; N, Fun &gt;::operator()</definition>
+        <argsstring>(Impulse) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type><ref refid="structossia_1_1_impulse" kindref="compound">Impulse</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="365" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="365" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1comparisons_1_1_vec_visitor_1aea8fc7e4990464f128c4bfe7ef2eab60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::comparisons::VecVisitor&lt; N, Fun &gt;::operator()</definition>
+        <argsstring>(const Vec&lt; float, N &gt; &amp;d) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const <ref refid="classossia_1_1_vec" kindref="compound">Vec</ref>&lt; float, N &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="369" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="369" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1comparisons_1_1_vec_visitor_1a194f8d9a73fa1b4e490fbd573dd5e3b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool ossia::comparisons::VecVisitor&lt; N, Fun &gt;::operator()</definition>
+        <argsstring>(const T &amp;v) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="375" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="375" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1comparisons_1_1_vec_visitor_1a29d27eec3197ee1fdc6321944f65c8dc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::comparisons::VecVisitor&lt; N, Fun &gt;::operator()</definition>
+        <argsstring>() const </argsstring>
+        <name>operator()</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="380" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="380" bodyend="383"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="587">
+        <label>ossia::comparisons::VecVisitor&lt; N, Fun &gt;</label>
+        <link refid="structossia_1_1comparisons_1_1_vec_visitor"/>
+        <childnode refid="588" relation="usage">
+          <edgelabel>lhs</edgelabel>
+        </childnode>
+      </node>
+      <node id="588">
+        <label>ossia::Vec&lt; float, N &gt;</label>
+        <link refid="classossia_1_1_vec"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="360" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="359" bodyend="384"/>
+    <listofallmembers>
+      <member refid="structossia_1_1comparisons_1_1_vec_visitor_1aa369bcd5eaa50c037f7716304242f203" prot="public" virt="non-virtual"><scope>ossia::comparisons::VecVisitor</scope><name>fun</name></member>
+      <member refid="structossia_1_1comparisons_1_1_vec_visitor_1ab6333fa6c69ad2218f4ea5f8de2bca8e" prot="public" virt="non-virtual"><scope>ossia::comparisons::VecVisitor</scope><name>lhs</name></member>
+      <member refid="structossia_1_1comparisons_1_1_vec_visitor_1a8b6333fade9cb459a64d285798276197" prot="public" virt="non-virtual"><scope>ossia::comparisons::VecVisitor</scope><name>operator()</name></member>
+      <member refid="structossia_1_1comparisons_1_1_vec_visitor_1aea8fc7e4990464f128c4bfe7ef2eab60" prot="public" virt="non-virtual"><scope>ossia::comparisons::VecVisitor</scope><name>operator()</name></member>
+      <member refid="structossia_1_1comparisons_1_1_vec_visitor_1a194f8d9a73fa1b4e490fbd573dd5e3b4" prot="public" virt="non-virtual"><scope>ossia::comparisons::VecVisitor</scope><name>operator()</name></member>
+      <member refid="structossia_1_1comparisons_1_1_vec_visitor_1a29d27eec3197ee1fdc6321944f65c8dc" prot="public" virt="non-virtual"><scope>ossia::comparisons::VecVisitor</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

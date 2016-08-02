@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1easing_1_1bounce_out" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::easing::bounceOut</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1easing_1_1bounce_out_1a1ae5dba30b6c45bbe9fd4715c496d166" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr T</type>
+        <definition>constexpr T ossia::easing::bounceOut&lt; T &gt;::operator()</definition>
+        <argsstring>(T t)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>T</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" line="361" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" bodystart="361" bodyend="379"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" line="360" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" bodystart="359" bodyend="380"/>
+    <listofallmembers>
+      <member refid="structossia_1_1easing_1_1bounce_out_1a1ae5dba30b6c45bbe9fd4715c496d166" prot="public" virt="non-virtual"><scope>ossia::easing::bounceOut</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

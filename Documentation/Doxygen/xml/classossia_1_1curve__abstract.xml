@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1curve__abstract" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ossia::curve_abstract</compoundname>
+    <derivedcompoundref refid="classossia_1_1curve" prot="public" virt="non-virtual">ossia::curve&lt; X, Y &gt;</derivedcompoundref>
+    <includes refid="curve__abstract_8hpp" local="no">curve_abstract.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1curve__abstract_1a6732ddb48110558af62c01ef03530d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ossia::curve_abstract::~curve_abstract</definition>
+        <argsstring>()</argsstring>
+        <name>~curve_abstract</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_abstract.hpp" line="39" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve.cpp" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1curve__abstract_1a4dd2a95830508a62a4ac35668f3ff737" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>curve_type</type>
+        <definition>virtual curve_type ossia::curve_abstract::getType</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getType</name>
+        <reimplementedby refid="classossia_1_1detail_1_1curve__impl_1a47bcc2baaffed03463514adb61af48f6">getType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the type of both coordinates </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_abstract.hpp" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1curve__abstract_1a5132f6ae3c0eaa547c9d1fac0c4b0792" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ossia::curve_abstract::reset</definition>
+        <argsstring>()=0</argsstring>
+        <name>reset</name>
+        <reimplementedby refid="classossia_1_1detail_1_1curve__impl_1a462306f98e274cfdb635c9148934c22e">reset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clear internal data structures of the curve. Call before a new execution. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_abstract.hpp" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classossia_1_1curve__abstract" kindref="compound">curve_abstract</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+<para>Base class for curves.</para><para><simplesect kind="see"><para><ref refid="classossia_1_1curve" kindref="compound">curve</ref> <ref refid="namespaceossia_1a3864160b52657c18d819ab3f02e04268" kindref="member">curve_segment</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="99">
+        <label>ossia::curve_abstract</label>
+        <link refid="classossia_1_1curve__abstract"/>
+      </node>
+      <node id="101">
+        <label>ossia::detail::curve_impl&lt; X, Y &gt;</label>
+        <link refid="classossia_1_1detail_1_1curve__impl"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>ossia::curve&lt; X, Y &gt;</label>
+        <link refid="classossia_1_1curve"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_abstract.hpp" line="37" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_abstract.hpp" bodystart="36" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classossia_1_1curve__abstract_1a4dd2a95830508a62a4ac35668f3ff737" prot="public" virt="pure-virtual"><scope>ossia::curve_abstract</scope><name>getType</name></member>
+      <member refid="classossia_1_1curve__abstract_1a5132f6ae3c0eaa547c9d1fac0c4b0792" prot="public" virt="pure-virtual"><scope>ossia::curve_abstract</scope><name>reset</name></member>
+      <member refid="classossia_1_1curve__abstract_1a6732ddb48110558af62c01ef03530d6f" prot="public" virt="virtual"><scope>ossia::curve_abstract</scope><name>~curve_abstract</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1expressions_1_1expression__composition" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>ossia::expressions::expression_composition</compoundname>
+    <basecompoundref refid="classossia_1_1callback__container" prot="public" virt="non-virtual">ossia::callback_container&lt; expression_result_callback &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classossia_1_1expressions_1_1expression__composition_1aa89783e44dec39f5a1e1f0532d4daa3c" prot="public" static="no">
+        <name>Operator</name>
+        <enumvalue id="classossia_1_1expressions_1_1expression__composition_1aa89783e44dec39f5a1e1f0532d4daa3ca558ffc8f5770d8e4f95f51d822685532" prot="public">
+          <name>AND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classossia_1_1expressions_1_1expression__composition_1aa89783e44dec39f5a1e1f0532d4daa3ca1d00e7dce692e8dc3f6877f035e3a616" prot="public">
+          <name>OR</name>
+          <briefdescription>
+<para>&amp;&amp; </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classossia_1_1expressions_1_1expression__composition_1aa89783e44dec39f5a1e1f0532d4daa3ca97675eb3f268048604dc5155511a2a4d" prot="public">
+          <name>XOR</name>
+          <briefdescription>
+<para>|| </para>          </briefdescription>
+          <detaileddescription>
+<para>^ </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="17" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" bodystart="16" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classossia_1_1expressions_1_1expression__composition_1a842f218fe420628b388041c9963ef584" prot="private" static="no" mutable="no">
+        <type>expression_ptr</type>
+        <definition>expression_ptr ossia::expressions::expression_composition::mFirstExpression</definition>
+        <argsstring></argsstring>
+        <name>mFirstExpression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="51" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1expressions_1_1expression__composition_1a345b184bdcb9b417f6b424cbeb9e7e63" prot="private" static="no" mutable="no">
+        <type>expression_ptr</type>
+        <definition>expression_ptr ossia::expressions::expression_composition::mSecondExpression</definition>
+        <argsstring></argsstring>
+        <name>mSecondExpression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="52" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1expressions_1_1expression__composition_1a8c04ed36fbb7b46e3ff091a6ef9a47fa" prot="private" static="no" mutable="no">
+        <type>expression_callback_iterator</type>
+        <definition>expression_callback_iterator ossia::expressions::expression_composition::mFirstResultCallbackIndex</definition>
+        <argsstring></argsstring>
+        <name>mFirstResultCallbackIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="54" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1expressions_1_1expression__composition_1abaa11a44200cf1db0dda1ff1b60280be" prot="private" static="no" mutable="no">
+        <type>expression_callback_iterator</type>
+        <definition>expression_callback_iterator ossia::expressions::expression_composition::mSecondResultCallbackIndex</definition>
+        <argsstring></argsstring>
+        <name>mSecondResultCallbackIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="55" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1expressions_1_1expression__composition_1a96fcfddfdb9435acc4ed4642f5b4aa97" prot="private" static="no" mutable="no">
+        <type><ref refid="classossia_1_1expressions_1_1expression__composition_1aa89783e44dec39f5a1e1f0532d4daa3c" kindref="member">Operator</ref></type>
+        <definition>Operator ossia::expressions::expression_composition::mOperator</definition>
+        <argsstring></argsstring>
+        <name>mOperator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="57" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1ad90194ac744cbcf7844d87df18b6efea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_composition::expression_composition</definition>
+        <argsstring>(expression_ptr expr1, Operator op, expression_ptr expr2)</argsstring>
+        <name>expression_composition</name>
+        <param>
+          <type>expression_ptr</type>
+          <declname>expr1</declname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1expressions_1_1expression__composition_1aa89783e44dec39f5a1e1f0532d4daa3c" kindref="member">Operator</ref></type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>expression_ptr</type>
+          <declname>expr2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="23" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="10" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a02c38bf8f42cb1c98eb93ef7e083119c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_composition::expression_composition</definition>
+        <argsstring>(expression_composition &amp;&amp;other)=delete</argsstring>
+        <name>expression_composition</name>
+        <param>
+          <type><ref refid="classossia_1_1expressions_1_1expression__composition" kindref="compound">expression_composition</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a5cbd1f38376307f8aa11c226b16972e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1expressions_1_1expression__composition" kindref="compound">expression_composition</ref> &amp;</type>
+        <definition>expression_composition&amp; ossia::expressions::expression_composition::operator=</definition>
+        <argsstring>(expression_composition &amp;&amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classossia_1_1expressions_1_1expression__composition" kindref="compound">expression_composition</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1ac9133c0bcff005ad5b501644c6b02dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_composition::expression_composition</definition>
+        <argsstring>(const expression_composition &amp;other)=delete</argsstring>
+        <name>expression_composition</name>
+        <param>
+          <type>const <ref refid="classossia_1_1expressions_1_1expression__composition" kindref="compound">expression_composition</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a47080e444cee794aa66b41e043d044cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1expressions_1_1expression__composition" kindref="compound">expression_composition</ref> &amp;</type>
+        <definition>expression_composition&amp; ossia::expressions::expression_composition::operator=</definition>
+        <argsstring>(const expression_composition &amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1expressions_1_1expression__composition" kindref="compound">expression_composition</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a3a7c19221368cb30fb7b8c6ae1c83f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_composition::~expression_composition</definition>
+        <argsstring>()</argsstring>
+        <name>~expression_composition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1ab6dd710bdc970a4eff85c00e22fe1c69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::expressions::expression_composition::evaluate</definition>
+        <argsstring>() const </argsstring>
+        <name>evaluate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="34" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a3a7bc751c0d4482e9ad7171b1718f123" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_composition::update</definition>
+        <argsstring>() const </argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="36" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a416a02a0ad21e409b5a8abc2eae759b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>expression_base &amp;</type>
+        <definition>expression_base &amp; ossia::expressions::expression_composition::getFirstOperand</definition>
+        <argsstring>() const </argsstring>
+        <name>getFirstOperand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="38" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a4a321498c4850481b4e9abd961b57f37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1expressions_1_1expression__composition_1aa89783e44dec39f5a1e1f0532d4daa3c" kindref="member">Operator</ref></type>
+        <definition>expression_composition::Operator ossia::expressions::expression_composition::getOperator</definition>
+        <argsstring>() const </argsstring>
+        <name>getOperator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="39" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a9c640bf394528baffcc27a0ff2b13734" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>expression_base &amp;</type>
+        <definition>expression_base &amp; ossia::expressions::expression_composition::getSecondOperand</definition>
+        <argsstring>() const </argsstring>
+        <name>getSecondOperand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="40" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a766e9e2ea239cde286e9fb5294c13d81" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_composition::onFirstCallbackAdded</definition>
+        <argsstring>() override</argsstring>
+        <name>onFirstCallbackAdded</name>
+        <reimplements refid="classossia_1_1callback__container_1ad6b20377c200c7e458cfbcb6e2922373">onFirstCallbackAdded</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="43" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="47" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1afd6055b5367e0df1c9f1f337fdea1429" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_composition::onRemovingLastCallback</definition>
+        <argsstring>() override</argsstring>
+        <name>onRemovingLastCallback</name>
+        <reimplements refid="classossia_1_1callback__container_1aed6b18d99e31b4b3f2932f2161a5bf23">onRemovingLastCallback</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="44" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a1c28c1d6921a5e297ca47cfadc67a58f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::expressions::expression_composition::do_evaluation</definition>
+        <argsstring>(bool first, bool second) const </argsstring>
+        <name>do_evaluation</name>
+        <param>
+          <type>bool</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="46" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="67" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1a7f0bda1ac7e59aebb02fe452ca2ee3ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_composition::firstResultCallback</definition>
+        <argsstring>(bool first_result)</argsstring>
+        <name>firstResultCallback</name>
+        <param>
+          <type>bool</type>
+          <declname>first_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="48" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="88" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__composition_1ad489eac8a5902dd5f421726573363284" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_composition::secondResultCallback</definition>
+        <argsstring>(bool second_result)</argsstring>
+        <name>secondResultCallback</name>
+        <param>
+          <type>bool</type>
+          <declname>second_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="49" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.cpp" bodystart="95" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="194">
+        <label>expression_callback_container</label>
+        <link refid="classossia_1_1callback__container"/>
+      </node>
+      <node id="193">
+        <label>ossia::expressions::expression_composition</label>
+        <link refid="classossia_1_1expressions_1_1expression__composition"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="196">
+        <label>expression_callback_container</label>
+        <link refid="classossia_1_1callback__container"/>
+      </node>
+      <node id="195">
+        <label>ossia::expressions::expression_composition</label>
+        <link refid="classossia_1_1expressions_1_1expression__composition"/>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" line="14" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_composition.hpp" bodystart="12" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classossia_1_1callback__container_1ad21ff92bc6284ef5a0b6097e0ed7b455" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>add_callback</name></member>
+      <member refid="classossia_1_1callback__container_1a9c1b5ed0a5feaf59665578c1c8b4f87c" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>callback_count</name></member>
+      <member refid="classossia_1_1callback__container_1a72acb3badf806e11bd22d424a0151e01" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>callbacks_empty</name></member>
+      <member refid="classossia_1_1callback__container_1a1f09835226ea883c77e1b5d55f0f3b9c" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>clear</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a1c28c1d6921a5e297ca47cfadc67a58f" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>do_evaluation</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1ab6dd710bdc970a4eff85c00e22fe1c69" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>evaluate</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1ad90194ac744cbcf7844d87df18b6efea" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>expression_composition</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a02c38bf8f42cb1c98eb93ef7e083119c" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>expression_composition</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1ac9133c0bcff005ad5b501644c6b02dd3" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>expression_composition</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a7f0bda1ac7e59aebb02fe452ca2ee3ed" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>firstResultCallback</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a416a02a0ad21e409b5a8abc2eae759b6" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>getFirstOperand</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a4a321498c4850481b4e9abd961b57f37" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>getOperator</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a9c640bf394528baffcc27a0ff2b13734" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>getSecondOperand</name></member>
+      <member refid="classossia_1_1callback__container_1a144133e0f59b6ec47c2a99d91a20b993" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>impl</name></member>
+      <member refid="classossia_1_1callback__container_1a867e817087e302ab14dad64fcf683139" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>iterator</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a842f218fe420628b388041c9963ef584" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>mFirstExpression</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a8c04ed36fbb7b46e3ff091a6ef9a47fa" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>mFirstResultCallbackIndex</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a96fcfddfdb9435acc4ed4642f5b4aa97" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>mOperator</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a345b184bdcb9b417f6b424cbeb9e7e63" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>mSecondExpression</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1abaa11a44200cf1db0dda1ff1b60280be" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>mSecondResultCallbackIndex</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a766e9e2ea239cde286e9fb5294c13d81" prot="private" virt="virtual"><scope>ossia::expressions::expression_composition</scope><name>onFirstCallbackAdded</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1afd6055b5367e0df1c9f1f337fdea1429" prot="private" virt="virtual"><scope>ossia::expressions::expression_composition</scope><name>onRemovingLastCallback</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1aa89783e44dec39f5a1e1f0532d4daa3c" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>Operator</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a5cbd1f38376307f8aa11c226b16972e0" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>operator=</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a47080e444cee794aa66b41e043d044cc" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>operator=</name></member>
+      <member refid="classossia_1_1callback__container_1ac7c057961187bd1b7f0b9f3cfe22f4d0" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>remove_callback</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1ad489eac8a5902dd5f421726573363284" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>secondResultCallback</name></member>
+      <member refid="classossia_1_1callback__container_1a64bffd9efaf340f463b05524b6c92a05" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>send</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a3a7bc751c0d4482e9ad7171b1718f123" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_composition</scope><name>update</name></member>
+      <member refid="classossia_1_1callback__container_1a07a0636fddb69c17c0c5782e4af00456" prot="public" virt="virtual"><scope>ossia::expressions::expression_composition</scope><name>~callback_container</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__composition_1a3a7c19221368cb30fb7b8c6ae1c83f9b" prot="public" virt="virtual"><scope>ossia::expressions::expression_composition</scope><name>~expression_composition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_7c7d65fffa6172bb3f244ca63467a4f2" kind="dir">
+    <compoundname>value</compoundname>
+    <innerfile refid="behavior_8hpp">behavior.hpp</innerfile>
+    <innerfile refid="bool_8hpp">bool.hpp</innerfile>
+    <innerfile refid="char_8hpp">char.hpp</innerfile>
+    <innerfile refid="destination_8hpp">destination.hpp</innerfile>
+    <innerfile refid="float_8hpp">float.hpp</innerfile>
+    <innerfile refid="impulse_8hpp">impulse.hpp</innerfile>
+    <innerfile refid="int_8hpp">int.hpp</innerfile>
+    <innerfile refid="string_8hpp">string.hpp</innerfile>
+    <innerfile refid="tuple_8hpp">tuple.hpp</innerfile>
+    <innerfile refid="value_8cpp">value.cpp</innerfile>
+    <innerfile refid="value_8hpp">value.hpp</innerfile>
+    <innerfile refid="value__base_8hpp">value_base.hpp</innerfile>
+    <innerfile refid="value__comparison_8hpp">value_comparison.hpp</innerfile>
+    <innerfile refid="value__traits_8hpp">value_traits.hpp</innerfile>
+    <innerfile refid="vec_8hpp">vec.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/"/>
+  </compounddef>
+</doxygen>

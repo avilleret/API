@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="generic__device_8hpp" kind="file" language="C++">
+    <compoundname>generic_device.hpp</compoundname>
+    <includes refid="device_8hpp" local="no">ossia/network/base/device.hpp</includes>
+    <includes refid="generic__node_8hpp" local="no">ossia/network/generic/generic_node.hpp</includes>
+    <includes local="no">boost/utility/string_ref.hpp</includes>
+    <includedby refid="generic__address_8hpp" local="no">generic_address.hpp</includedby>
+    <includedby refid="generic__device_8cpp" local="no">generic_device.cpp</includedby>
+    <includedby refid="generic__node_8cpp" local="no">generic_node.cpp</includedby>
+    <includedby refid="local_8cpp" local="no">local.cpp</includedby>
+    <includedby refid="minuit__parser_8hpp" local="no">minuit_parser.hpp</includedby>
+    <includedby refid="network_8hpp" local="no">network.hpp</includedby>
+    <includedby refid="osc_8cpp" local="no">osc.cpp</includedby>
+    <incdepgraph>
+      <node id="1961">
+        <label>list</label>
+      </node>
+      <node id="1966">
+        <label>functional</label>
+      </node>
+      <node id="1957">
+        <label>generic_device.hpp</label>
+        <link refid="generic_device.hpp"/>
+        <childnode refid="1958" relation="include">
+        </childnode>
+        <childnode refid="1970" relation="include">
+        </childnode>
+        <childnode refid="1972" relation="include">
+        </childnode>
+      </node>
+      <node id="1967">
+        <label>string</label>
+      </node>
+      <node id="1959">
+        <label>ossia/network/base/node.hpp</label>
+        <link refid="node_8hpp_source"/>
+        <childnode refid="1960" relation="include">
+        </childnode>
+        <childnode refid="1962" relation="include">
+        </childnode>
+        <childnode refid="1965" relation="include">
+        </childnode>
+        <childnode refid="1966" relation="include">
+        </childnode>
+        <childnode refid="1963" relation="include">
+        </childnode>
+        <childnode refid="1967" relation="include">
+        </childnode>
+        <childnode refid="1968" relation="include">
+        </childnode>
+        <childnode refid="1969" relation="include">
+        </childnode>
+      </node>
+      <node id="1969">
+        <label>ossia_export.h</label>
+      </node>
+      <node id="1971">
+        <label>map</label>
+      </node>
+      <node id="1960">
+        <label>ossia/detail/callback_container.hpp</label>
+        <link refid="callback__container_8hpp_source"/>
+        <childnode refid="1961" relation="include">
+        </childnode>
+      </node>
+      <node id="1965">
+        <label>ossia/network/common/address_properties.hpp</label>
+        <link refid="address__properties_8hpp_source"/>
+      </node>
+      <node id="1964">
+        <label>vector</label>
+      </node>
+      <node id="1962">
+        <label>ossia/detail/ptr_container.hpp</label>
+        <link refid="ptr__container_8hpp_source"/>
+        <childnode refid="1963" relation="include">
+        </childnode>
+        <childnode refid="1964" relation="include">
+        </childnode>
+      </node>
+      <node id="1968">
+        <label>nano_signal_slot.hpp</label>
+      </node>
+      <node id="1958">
+        <label>ossia/network/base/device.hpp</label>
+        <link refid="device_8hpp_source"/>
+        <childnode refid="1959" relation="include">
+        </childnode>
+        <childnode refid="1968" relation="include">
+        </childnode>
+        <childnode refid="1969" relation="include">
+        </childnode>
+      </node>
+      <node id="1972">
+        <label>boost/utility/string_ref.hpp</label>
+      </node>
+      <node id="1970">
+        <label>ossia/network/generic/generic_node.hpp</label>
+        <link refid="generic__node_8hpp_source"/>
+        <childnode refid="1960" relation="include">
+        </childnode>
+        <childnode refid="1959" relation="include">
+        </childnode>
+        <childnode refid="1965" relation="include">
+        </childnode>
+        <childnode refid="1966" relation="include">
+        </childnode>
+        <childnode refid="1971" relation="include">
+        </childnode>
+      </node>
+      <node id="1963">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1973">
+        <label>generic_device.hpp</label>
+        <link refid="generic_device.hpp"/>
+        <childnode refid="1974" relation="include">
+        </childnode>
+        <childnode refid="1975" relation="include">
+        </childnode>
+        <childnode refid="1976" relation="include">
+        </childnode>
+      </node>
+      <node id="1976">
+        <label>network.hpp</label>
+        <link refid="network_8hpp_source"/>
+        <childnode refid="1977" relation="include">
+        </childnode>
+      </node>
+      <node id="1975">
+        <label>minuit_parser.hpp</label>
+        <link refid="minuit__parser_8hpp_source"/>
+      </node>
+      <node id="1974">
+        <label>generic_address.hpp</label>
+        <link refid="generic__address_8hpp_source"/>
+        <childnode refid="1975" relation="include">
+        </childnode>
+        <childnode refid="1976" relation="include">
+        </childnode>
+        <childnode refid="1978" relation="include">
+        </childnode>
+      </node>
+      <node id="1977">
+        <label>ossia.hpp</label>
+        <link refid="ossia_8hpp_source"/>
+      </node>
+      <node id="1978">
+        <label>osc.hpp</label>
+        <link refid="detail_2osc_8hpp_source"/>
+        <childnode refid="1975" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classossia_1_1net_1_1generic__device" prot="public">ossia::net::generic_device</innerclass>
+    <innernamespace refid="namespaceossia">ossia</innernamespace>
+    <innernamespace refid="namespaceossia_1_1net">ossia::net</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/network/base/device.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/network/generic/generic_node.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/utility/string_ref.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceossia" kindref="compound">ossia</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">net</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="classossia_1_1net_1_1generic__device" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1net_1_1device__base" kindref="compound">ossia::net::device_base</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>()<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>(<ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>&amp;&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>&amp;<sp/>operator=(<ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>&amp;&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>(</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::unique_ptr&lt;ossia::net::protocol_base&gt;<sp/><ref refid="classossia_1_1net_1_1protocol__base" kindref="compound">protocol_base</ref>,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>name);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref>&amp;<sp/>getRootNode()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
+<codeline lineno="26"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref>&amp;<sp/>getRootNode()</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="30"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>generic_node::getName;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>generic_node::setName;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>~<ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>address<sp/>:<sp/>format<sp/>/a/b/c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref>*</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">find_node(<ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>&amp;<sp/>dev,<sp/>boost::string_ref<sp/><ref refid="classossia_1_1net_1_1address__base" kindref="compound">address_base</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref>&amp;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">find_or_create_node(<ref refid="classossia_1_1net_1_1generic__device" kindref="compound">generic_device</ref>&amp;<sp/>dev,<sp/>boost::string_ref<sp/>address_base);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_device.hpp"/>
+  </compounddef>
+</doxygen>

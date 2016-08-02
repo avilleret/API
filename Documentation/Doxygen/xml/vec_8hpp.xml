@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="vec_8hpp" kind="file" language="C++">
+    <compoundname>vec.hpp</compoundname>
+    <includes local="no">array</includes>
+    <includedby refid="value__base_8hpp" local="no">value_base.hpp</includedby>
+    <incdepgraph>
+      <node id="5846">
+        <label>vec.hpp</label>
+        <link refid="vec.hpp"/>
+        <childnode refid="5847" relation="include">
+        </childnode>
+      </node>
+      <node id="5847">
+        <label>array</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5879">
+        <label>Curve_impl.hpp</label>
+        <link refid="_curve__impl_8hpp_source"/>
+      </node>
+      <node id="5876">
+        <label>domain_visitors.hpp</label>
+        <link refid="domain__visitors_8hpp_source"/>
+        <childnode refid="5877" relation="include">
+        </childnode>
+      </node>
+      <node id="5867">
+        <label>time_process.hpp</label>
+        <link refid="time__process_8hpp_source"/>
+        <childnode refid="5868" relation="include">
+        </childnode>
+        <childnode refid="5854" relation="include">
+        </childnode>
+        <childnode refid="5869" relation="include">
+        </childnode>
+        <childnode refid="5870" relation="include">
+        </childnode>
+        <childnode refid="5857" relation="include">
+        </childnode>
+        <childnode refid="5858" relation="include">
+        </childnode>
+        <childnode refid="5871" relation="include">
+        </childnode>
+      </node>
+      <node id="5874">
+        <label>value_traits.hpp</label>
+        <link refid="value__traits_8hpp_source"/>
+        <childnode refid="5875" relation="include">
+        </childnode>
+      </node>
+      <node id="5865">
+        <label>message.hpp</label>
+        <link refid="message_8hpp_source"/>
+        <childnode refid="5862" relation="include">
+        </childnode>
+        <childnode refid="5866" relation="include">
+        </childnode>
+      </node>
+      <node id="5856">
+        <label>TimeEvent_impl.hpp</label>
+        <link refid="_time_event__impl_8hpp_source"/>
+        <childnode refid="5857" relation="include">
+        </childnode>
+        <childnode refid="5858" relation="include">
+        </childnode>
+      </node>
+      <node id="5884">
+        <label>midi_address.hpp</label>
+        <link refid="midi__address_8hpp_source"/>
+        <childnode refid="5885" relation="include">
+        </childnode>
+      </node>
+      <node id="5853">
+        <label>expression.hpp</label>
+        <link refid="expression_8hpp_source"/>
+        <childnode refid="5854" relation="include">
+        </childnode>
+        <childnode refid="5856" relation="include">
+        </childnode>
+        <childnode refid="5860" relation="include">
+        </childnode>
+        <childnode refid="5861" relation="include">
+        </childnode>
+      </node>
+      <node id="5882">
+        <label>network.hpp</label>
+        <link refid="network_8hpp_source"/>
+        <childnode refid="5855" relation="include">
+        </childnode>
+      </node>
+      <node id="5870">
+        <label>mapper.hpp</label>
+        <link refid="mapper_8hpp_source"/>
+        <childnode refid="5854" relation="include">
+        </childnode>
+        <childnode refid="5862" relation="include">
+        </childnode>
+      </node>
+      <node id="5885">
+        <label>midi_impl.hpp</label>
+        <link refid="midi__impl_8hpp_source"/>
+        <childnode refid="5886" relation="include">
+        </childnode>
+      </node>
+      <node id="5852">
+        <label>expression_atom.hpp</label>
+        <link refid="expression__atom_8hpp_source"/>
+        <childnode refid="5853" relation="include">
+        </childnode>
+      </node>
+      <node id="5878">
+        <label>address.hpp</label>
+        <link refid="address_8hpp_source"/>
+        <childnode refid="5851" relation="include">
+        </childnode>
+        <childnode refid="5879" relation="include">
+        </childnode>
+        <childnode refid="5852" relation="include">
+        </childnode>
+        <childnode refid="5863" relation="include">
+        </childnode>
+        <childnode refid="5862" relation="include">
+        </childnode>
+        <childnode refid="5864" relation="include">
+        </childnode>
+        <childnode refid="5873" relation="include">
+        </childnode>
+        <childnode refid="5880" relation="include">
+        </childnode>
+        <childnode refid="5884" relation="include">
+        </childnode>
+        <childnode refid="5886" relation="include">
+        </childnode>
+        <childnode refid="5883" relation="include">
+        </childnode>
+      </node>
+      <node id="5848">
+        <label>vec.hpp</label>
+        <link refid="vec.hpp"/>
+        <childnode refid="5849" relation="include">
+        </childnode>
+      </node>
+      <node id="5863">
+        <label>expression_pulse.hpp</label>
+        <link refid="expression__pulse_8hpp_source"/>
+        <childnode refid="5853" relation="include">
+        </childnode>
+      </node>
+      <node id="5881">
+        <label>minuit_parser.hpp</label>
+        <link refid="minuit__parser_8hpp_source"/>
+      </node>
+      <node id="5891">
+        <label>minuit_name_table.hpp</label>
+        <link refid="minuit__name__table_8hpp_source"/>
+        <childnode refid="5889" relation="include">
+        </childnode>
+      </node>
+      <node id="5888">
+        <label>domain_conversion.hpp</label>
+        <link refid="domain__conversion_8hpp_source"/>
+      </node>
+      <node id="5849">
+        <label>value_base.hpp</label>
+        <link refid="value__base_8hpp_source"/>
+        <childnode refid="5850" relation="include">
+        </childnode>
+      </node>
+      <node id="5880">
+        <label>generic_address.hpp</label>
+        <link refid="generic__address_8hpp_source"/>
+        <childnode refid="5881" relation="include">
+        </childnode>
+        <childnode refid="5882" relation="include">
+        </childnode>
+        <childnode refid="5883" relation="include">
+        </childnode>
+      </node>
+      <node id="5877">
+        <label>domain.hpp</label>
+        <link refid="domain_8hpp_source"/>
+        <childnode refid="5878" relation="include">
+        </childnode>
+        <childnode refid="5888" relation="include">
+        </childnode>
+        <childnode refid="5885" relation="include">
+        </childnode>
+        <childnode refid="5886" relation="include">
+        </childnode>
+        <childnode refid="5889" relation="include">
+        </childnode>
+        <childnode refid="5883" relation="include">
+        </childnode>
+      </node>
+      <node id="5862">
+        <label>Mapper_impl.hpp</label>
+        <link refid="_mapper__impl_8hpp_source"/>
+      </node>
+      <node id="5855">
+        <label>ossia.hpp</label>
+        <link refid="ossia_8hpp_source"/>
+      </node>
+      <node id="5868">
+        <label>automation.hpp</label>
+        <link refid="automation_8hpp_source"/>
+        <childnode refid="5851" relation="include">
+        </childnode>
+        <childnode refid="5854" relation="include">
+        </childnode>
+      </node>
+      <node id="5851">
+        <label>Automation_impl.hpp</label>
+        <link refid="_automation__impl_8hpp_source"/>
+      </node>
+      <node id="5873">
+        <label>value_comparison.hpp</label>
+        <link refid="value__comparison_8hpp_source"/>
+      </node>
+      <node id="5872">
+        <label>state_flatten_visitor.hpp</label>
+        <link refid="state__flatten__visitor_8hpp_source"/>
+      </node>
+      <node id="5857">
+        <label>Scenario_impl.hpp</label>
+        <link refid="_scenario__impl_8hpp_source"/>
+        <childnode refid="5857" relation="include">
+        </childnode>
+        <childnode refid="5856" relation="include">
+        </childnode>
+      </node>
+      <node id="5869">
+        <label>loop.hpp</label>
+        <link refid="loop_8hpp_source"/>
+        <childnode refid="5854" relation="include">
+        </childnode>
+        <childnode refid="5859" relation="include">
+        </childnode>
+      </node>
+      <node id="5890">
+        <label>minuit_common.hpp</label>
+        <link refid="minuit__common_8hpp_source"/>
+        <childnode refid="5891" relation="include">
+        </childnode>
+        <childnode refid="5881" relation="include">
+        </childnode>
+      </node>
+      <node id="5854">
+        <label>editor.hpp</label>
+        <link refid="editor_8hpp_source"/>
+        <childnode refid="5855" relation="include">
+        </childnode>
+      </node>
+      <node id="5889">
+        <label>minuit.hpp</label>
+        <link refid="minuit_8hpp_source"/>
+        <childnode refid="5881" relation="include">
+        </childnode>
+        <childnode refid="5882" relation="include">
+        </childnode>
+      </node>
+      <node id="5860">
+        <label>TimeNode_impl.hpp</label>
+        <link refid="_time_node__impl_8hpp_source"/>
+        <childnode refid="5856" relation="include">
+        </childnode>
+        <childnode refid="5857" relation="include">
+        </childnode>
+        <childnode refid="5858" relation="include">
+        </childnode>
+      </node>
+      <node id="5850">
+        <label>value.hpp</label>
+        <link refid="value_8hpp_source"/>
+        <childnode refid="5851" relation="include">
+        </childnode>
+        <childnode refid="5852" relation="include">
+        </childnode>
+        <childnode refid="5863" relation="include">
+        </childnode>
+        <childnode refid="5862" relation="include">
+        </childnode>
+        <childnode refid="5864" relation="include">
+        </childnode>
+        <childnode refid="5865" relation="include">
+        </childnode>
+        <childnode refid="5873" relation="include">
+        </childnode>
+        <childnode refid="5874" relation="include">
+        </childnode>
+        <childnode refid="5875" relation="include">
+        </childnode>
+        <childnode refid="5880" relation="include">
+        </childnode>
+        <childnode refid="5885" relation="include">
+        </childnode>
+        <childnode refid="5886" relation="include">
+        </childnode>
+        <childnode refid="5890" relation="include">
+        </childnode>
+        <childnode refid="5889" relation="include">
+        </childnode>
+        <childnode refid="5883" relation="include">
+        </childnode>
+      </node>
+      <node id="5871">
+        <label>scenario.hpp</label>
+        <link refid="scenario_8hpp_source"/>
+        <childnode refid="5854" relation="include">
+        </childnode>
+        <childnode refid="5857" relation="include">
+        </childnode>
+      </node>
+      <node id="5866">
+        <label>state_element.hpp</label>
+        <link refid="state__element_8hpp_source"/>
+        <childnode refid="5851" relation="include">
+        </childnode>
+        <childnode refid="5854" relation="include">
+        </childnode>
+        <childnode refid="5867" relation="include">
+        </childnode>
+        <childnode refid="5872" relation="include">
+        </childnode>
+        <childnode refid="5864" relation="include">
+        </childnode>
+      </node>
+      <node id="5875">
+        <label>domain_base.hpp</label>
+        <link refid="domain__base_8hpp_source"/>
+        <childnode refid="5876" relation="include">
+        </childnode>
+        <childnode refid="5877" relation="include">
+        </childnode>
+      </node>
+      <node id="5883">
+        <label>osc.hpp</label>
+        <link refid="detail_2osc_8hpp_source"/>
+        <childnode refid="5881" relation="include">
+        </childnode>
+      </node>
+      <node id="5864">
+        <label>state_print_visitor.hpp</label>
+        <link refid="state__print__visitor_8hpp_source"/>
+      </node>
+      <node id="5887">
+        <label>midi.hpp</label>
+        <link refid="midi_8hpp_source"/>
+      </node>
+      <node id="5886">
+        <label>midi_protocol.hpp</label>
+        <link refid="midi__protocol_8hpp_source"/>
+        <childnode refid="5887" relation="include">
+        </childnode>
+      </node>
+      <node id="5861">
+        <label>time_node.hpp</label>
+        <link refid="time__node_8hpp_source"/>
+        <childnode refid="5851" relation="include">
+        </childnode>
+        <childnode refid="5854" relation="include">
+        </childnode>
+        <childnode refid="5862" relation="include">
+        </childnode>
+        <childnode refid="5857" relation="include">
+        </childnode>
+        <childnode refid="5856" relation="include">
+        </childnode>
+        <childnode refid="5860" relation="include">
+        </childnode>
+      </node>
+      <node id="5859">
+        <label>Loop_impl.hpp</label>
+        <link refid="_loop__impl_8hpp_source"/>
+      </node>
+      <node id="5858">
+        <label>TimeConstraint_impl.hpp</label>
+        <link refid="_time_constraint__impl_8hpp_source"/>
+        <childnode refid="5859" relation="include">
+        </childnode>
+        <childnode refid="5856" relation="include">
+        </childnode>
+        <childnode refid="5857" relation="include">
+        </childnode>
+        <childnode refid="5858" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classossia_1_1_vec" prot="public">ossia::Vec</innerclass>
+    <innernamespace refid="namespaceossia">ossia</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceossia" kindref="compound">ossia</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">value;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Vec</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>constexpr<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size_value<sp/>=<sp/>N;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>std::array&lt;T,<sp/>N&gt;<sp/>value;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>Vec()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>Vec(std::array&lt;T,<sp/>N&gt;<sp/>v)<sp/>:<sp/>value(std::move(v))</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>Vec(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vec&amp;)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>Vec(Vec&amp;&amp;)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>Vec&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vec&amp;)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>Vec&amp;<sp/>operator=(Vec&amp;&amp;)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref>&amp;)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref>&amp;)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator&gt;(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref>&amp;)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator&gt;=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref>&amp;)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator&lt;(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref>&amp;)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator&lt;=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref>&amp;)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Vec2f<sp/>=<sp/>Vec&lt;float,<sp/>2&gt;;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Vec3f<sp/>=<sp/>Vec&lt;float,<sp/>3&gt;;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Vec4f<sp/>=<sp/>Vec&lt;float,<sp/>4&gt;;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp"/>
+  </compounddef>
+</doxygen>

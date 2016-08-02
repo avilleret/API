@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="custom__state_8hpp" kind="file" language="C++">
+    <compoundname>custom_state.hpp</compoundname>
+    <includes local="no">functional</includes>
+    <includes local="no">ossia_export.h</includes>
+    <includedby refid="state__element_8hpp" local="no">state_element.hpp</includedby>
+    <incdepgraph>
+      <node id="825">
+        <label>functional</label>
+      </node>
+      <node id="826">
+        <label>ossia_export.h</label>
+      </node>
+      <node id="824">
+        <label>custom_state.hpp</label>
+        <link refid="custom_state.hpp"/>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="826" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="832">
+        <label>time_process.hpp</label>
+        <link refid="time__process_8hpp_source"/>
+        <childnode refid="833" relation="include">
+        </childnode>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="834" relation="include">
+        </childnode>
+        <childnode refid="836" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="840" relation="include">
+        </childnode>
+        <childnode refid="841" relation="include">
+        </childnode>
+      </node>
+      <node id="839">
+        <label>TimeEvent_impl.hpp</label>
+        <link refid="_time_event__impl_8hpp_source"/>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="840" relation="include">
+        </childnode>
+      </node>
+      <node id="836">
+        <label>mapper.hpp</label>
+        <link refid="mapper_8hpp_source"/>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+      </node>
+      <node id="837">
+        <label>Mapper_impl.hpp</label>
+        <link refid="_mapper__impl_8hpp_source"/>
+      </node>
+      <node id="831">
+        <label>ossia.hpp</label>
+        <link refid="ossia_8hpp_source"/>
+      </node>
+      <node id="833">
+        <label>automation.hpp</label>
+        <link refid="automation_8hpp_source"/>
+        <childnode refid="829" relation="include">
+        </childnode>
+        <childnode refid="830" relation="include">
+        </childnode>
+      </node>
+      <node id="829">
+        <label>Automation_impl.hpp</label>
+        <link refid="_automation__impl_8hpp_source"/>
+      </node>
+      <node id="842">
+        <label>state_flatten_visitor.hpp</label>
+        <link refid="state__flatten__visitor_8hpp_source"/>
+      </node>
+      <node id="838">
+        <label>Scenario_impl.hpp</label>
+        <link refid="_scenario__impl_8hpp_source"/>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="839" relation="include">
+        </childnode>
+      </node>
+      <node id="834">
+        <label>loop.hpp</label>
+        <link refid="loop_8hpp_source"/>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="835" relation="include">
+        </childnode>
+      </node>
+      <node id="830">
+        <label>editor.hpp</label>
+        <link refid="editor_8hpp_source"/>
+        <childnode refid="831" relation="include">
+        </childnode>
+      </node>
+      <node id="841">
+        <label>scenario.hpp</label>
+        <link refid="scenario_8hpp_source"/>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+      </node>
+      <node id="828">
+        <label>state_element.hpp</label>
+        <link refid="state__element_8hpp_source"/>
+        <childnode refid="829" relation="include">
+        </childnode>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+        <childnode refid="842" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+      </node>
+      <node id="843">
+        <label>state_print_visitor.hpp</label>
+        <link refid="state__print__visitor_8hpp_source"/>
+      </node>
+      <node id="827">
+        <label>custom_state.hpp</label>
+        <link refid="custom_state.hpp"/>
+        <childnode refid="828" relation="include">
+        </childnode>
+      </node>
+      <node id="835">
+        <label>Loop_impl.hpp</label>
+        <link refid="_loop__impl_8hpp_source"/>
+      </node>
+      <node id="840">
+        <label>TimeConstraint_impl.hpp</label>
+        <link refid="_time_constraint__impl_8hpp_source"/>
+        <childnode refid="835" relation="include">
+        </childnode>
+        <childnode refid="839" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="840" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classossia_1_1custom__state" prot="public">ossia::custom_state</innerclass>
+    <innernamespace refid="namespaceossia">ossia</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia_export.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceossia" kindref="compound">ossia</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15" refid="classossia_1_1custom__state" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1custom__state" kindref="compound">custom_state</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>std::function&lt;void()&gt;<sp/>func;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceossia_1ae9e56b7579cf9dfb007bc697d2f12d77" kindref="member">launch</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="20"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(func)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>func();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1custom__state" kindref="compound">custom_state</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1custom__state" kindref="compound">custom_state</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1custom__state" kindref="compound">custom_state</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1custom__state" kindref="compound">custom_state</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/custom_state.hpp"/>
+  </compounddef>
+</doxygen>

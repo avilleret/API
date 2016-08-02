@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1comparisons_1_1_destination_value" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::comparisons::DestinationValue</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structossia_1_1comparisons_1_1_destination_value_1aa84d937240d4096229e686580b8ec377" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool ossia::comparisons::DestinationValue::apply</definition>
+        <argsstring>(const Destination &amp;lhs, const ossia::value &amp;val, Fun fun)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const <ref refid="classossia_1_1_destination" kindref="compound">Destination</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>fun</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="352" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="352" bodyend="355"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="350" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="349" bodyend="356"/>
+    <listofallmembers>
+      <member refid="structossia_1_1comparisons_1_1_destination_value_1aa84d937240d4096229e686580b8ec377" prot="public" virt="non-virtual"><scope>ossia::comparisons::DestinationValue</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

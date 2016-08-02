@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1net_1_1osc__protocol" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>ossia::net::osc_protocol</compoundname>
+    <basecompoundref refid="classossia_1_1net_1_1protocol__base" prot="public" virt="non-virtual">ossia::net::protocol_base</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classossia_1_1net_1_1osc__protocol_1a01f599c35e86ca24de97deaaabf73218" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ossia::net::osc_protocol::mIp</definition>
+        <argsstring></argsstring>
+        <name>mIp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="18" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1osc__protocol_1a5f4c59c9e076c213f84ef43ac0f3bf21" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t ossia::net::osc_protocol::mRemotePort</definition>
+        <argsstring></argsstring>
+        <name>mRemotePort</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="19" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1osc__protocol_1a0ff97d105240b255083d55ee612f6f49" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t ossia::net::osc_protocol::mLocalPort</definition>
+        <argsstring></argsstring>
+        <name>mLocalPort</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>the port that a remote device opens </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="20" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1osc__protocol_1ad5a87887c6d2050c3a09681590a6946c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ossia::net::osc_protocol::mLearning</definition>
+        <argsstring></argsstring>
+        <name>mLearning</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the port where a remote device sends OSC messages to (opened in this library) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="22" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1osc__protocol_1a77c789375e3d62ebc342b662311362af" prot="private" static="no" mutable="no">
+        <type><ref refid="classosc_1_1sender" kindref="compound">osc::sender</ref></type>
+        <definition>osc::sender ossia::net::osc_protocol::mSender</definition>
+        <argsstring></argsstring>
+        <name>mSender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if the device is currently learning from inbound messages. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="25" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1osc__protocol_1a49e1feb661254d4f4d04a53e8193ee3b" prot="private" static="no" mutable="no">
+        <type><ref refid="classosc_1_1receiver" kindref="compound">osc::receiver</ref></type>
+        <definition>osc::receiver ossia::net::osc_protocol::mReceiver</definition>
+        <argsstring></argsstring>
+        <name>mReceiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="26" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1osc__protocol_1ac74fbf2e597a94338b62c655a63d5dc3" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex ossia::net::osc_protocol::mListeningMutex</definition>
+        <argsstring></argsstring>
+        <name>mListeningMutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="28" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1osc__protocol_1a557f3ce5ec63276d597f1588c73a4aa0" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, <ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> * &gt;</type>
+        <definition>std::unordered_map&lt;std::string, ossia::net::address_base*&gt; ossia::net::osc_protocol::mListening</definition>
+        <argsstring></argsstring>
+        <name>mListening</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="29" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1a4e96db85f78b6ec960c0b9b4904160b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::osc_protocol::osc_protocol</definition>
+        <argsstring>(std::string ip, uint16_t remote_port, uint16_t local_port)</argsstring>
+        <name>osc_protocol</name>
+        <param>
+          <type>std::string</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>remote_port</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>local_port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="32" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="14" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1a10e7c5ed577232ca614732ad48d55811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::osc_protocol::~osc_protocol</definition>
+        <argsstring>()</argsstring>
+        <name>~osc_protocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="33" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1ac2d49b4ceb135347e405ae818802bd90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; ossia::net::osc_protocol::getIp</definition>
+        <argsstring>() const </argsstring>
+        <name>getIp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="35" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1a05dcb703bdcee06bef664faf49fe59d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1net_1_1osc__protocol" kindref="compound">osc_protocol</ref> &amp;</type>
+        <definition>osc_protocol &amp; ossia::net::osc_protocol::setIp</definition>
+        <argsstring>(std::string)</argsstring>
+        <name>setIp</name>
+        <param>
+          <type>std::string</type>
+          <defname>ip</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="36" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="37" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1a9223a7a922e815e2faf69a62eae72271" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t ossia::net::osc_protocol::getRemotePort</definition>
+        <argsstring>() const </argsstring>
+        <name>getRemotePort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="38" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1ad6d563e5f149385c9e7ba6001ddf9696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1net_1_1osc__protocol" kindref="compound">osc_protocol</ref> &amp;</type>
+        <definition>osc_protocol &amp; ossia::net::osc_protocol::setRemotePort</definition>
+        <argsstring>(uint16_t)</argsstring>
+        <name>setRemotePort</name>
+        <param>
+          <type>uint16_t</type>
+          <defname>in_port</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="39" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1ad601e5b6a94e671b6f6b1f45938e3bb6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t ossia::net::osc_protocol::getLocalPort</definition>
+        <argsstring>() const </argsstring>
+        <name>getLocalPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="41" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1a91f009c62ef3f0861d9c57691cee32c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1net_1_1osc__protocol" kindref="compound">osc_protocol</ref> &amp;</type>
+        <definition>osc_protocol &amp; ossia::net::osc_protocol::setLocalPort</definition>
+        <argsstring>(uint16_t)</argsstring>
+        <name>setLocalPort</name>
+        <param>
+          <type>uint16_t</type>
+          <defname>out_port</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="42" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="63" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1a15bda85c646479ab43b5905bc3f46b5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::osc_protocol::getLearningStatus</definition>
+        <argsstring>() const </argsstring>
+        <name>getLearningStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="44" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1ab9875788442c41bfa686afe828efeadd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1net_1_1osc__protocol" kindref="compound">osc_protocol</ref> &amp;</type>
+        <definition>osc_protocol &amp; ossia::net::osc_protocol::setLearningStatus</definition>
+        <argsstring>(ossia::net::device_base &amp;, bool)</argsstring>
+        <name>setLearningStatus</name>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1device__base" kindref="compound">ossia::net::device_base</ref> &amp;</type>
+          <defname>ossiaDevice</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <defname>newLearn</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="45" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1a68ee9098005d2aab9ffdc6c482928582" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::osc_protocol::update</definition>
+        <argsstring>(ossia::net::node_base &amp;node_base) override</argsstring>
+        <name>update</name>
+        <reimplements refid="classossia_1_1net_1_1protocol__base_1a44027a4b3e1022665fca33351bb0a2cd">update</reimplements>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref> &amp;</type>
+          <declname>node_base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="47" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1a7cae93ac7c6450fecda7629ab269bd01" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::osc_protocol::pull</definition>
+        <argsstring>(ossia::net::address_base &amp;address_base) override</argsstring>
+        <name>pull</name>
+        <reimplements refid="classossia_1_1net_1_1protocol__base_1a1cae6af67be19aacec42910f0801994e">pull</reimplements>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> &amp;</type>
+          <declname>address_base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="49" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1aae71bd23e55f8ae30ad3d56aca0cf897" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::osc_protocol::push</definition>
+        <argsstring>(const ossia::net::address_base &amp;address_base) override</argsstring>
+        <name>push</name>
+        <reimplements refid="classossia_1_1net_1_1protocol__base_1a21dad93b7e8d8bb6be7c2c4091ac1bcd">push</reimplements>
+        <param>
+          <type>const <ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> &amp;</type>
+          <declname>address_base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="51" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="94" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1a71f801d72db0f44b4fc5958983205f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::osc_protocol::observe</definition>
+        <argsstring>(ossia::net::address_base &amp;address_base, bool enable) override</argsstring>
+        <name>observe</name>
+        <reimplements refid="classossia_1_1net_1_1protocol__base_1a7a7132d7e94632f34c65a27d69000730">observe</reimplements>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> &amp;</type>
+          <declname>address_base</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="53" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="110" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classossia_1_1net_1_1osc__protocol_1abbcb24d27258fb19b6d584f031396c8c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::net::osc_protocol::handleReceivedMessage</definition>
+        <argsstring>(const oscpack::ReceivedMessage &amp;m, const oscpack::IpEndpointName &amp;ip)</argsstring>
+        <name>handleReceivedMessage</name>
+        <param>
+          <type>const oscpack::ReceivedMessage &amp;</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const oscpack::IpEndpointName &amp;</type>
+          <declname>ip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="56" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.cpp" bodystart="123" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="396">
+        <label>ossia::net::protocol_base</label>
+        <link refid="classossia_1_1net_1_1protocol__base"/>
+      </node>
+      <node id="395">
+        <label>ossia::net::osc_protocol</label>
+        <link refid="classossia_1_1net_1_1osc__protocol"/>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="398">
+        <label>ossia::net::protocol_base</label>
+        <link refid="classossia_1_1net_1_1protocol__base"/>
+      </node>
+      <node id="397">
+        <label>ossia::net::osc_protocol</label>
+        <link refid="classossia_1_1net_1_1osc__protocol"/>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" line="16" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/osc.hpp" bodystart="15" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classossia_1_1net_1_1osc__protocol_1ac2d49b4ceb135347e405ae818802bd90" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>getIp</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a15bda85c646479ab43b5905bc3f46b5a" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>getLearningStatus</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1ad601e5b6a94e671b6f6b1f45938e3bb6" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>getLocalPort</name></member>
+      <member refid="classossia_1_1net_1_1protocol__base_1a0ae2a08adde9a8069e9409aed612f19b" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>getLogger</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a9223a7a922e815e2faf69a62eae72271" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>getRemotePort</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1abbcb24d27258fb19b6d584f031396c8c" prot="private" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>handleReceivedMessage</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a01f599c35e86ca24de97deaaabf73218" prot="private" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>mIp</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1ad5a87887c6d2050c3a09681590a6946c" prot="private" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>mLearning</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a557f3ce5ec63276d597f1588c73a4aa0" prot="private" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>mListening</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1ac74fbf2e597a94338b62c655a63d5dc3" prot="private" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>mListeningMutex</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a0ff97d105240b255083d55ee612f6f49" prot="private" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>mLocalPort</name></member>
+      <member refid="classossia_1_1net_1_1protocol__base_1a829636c8756b394d889f34d9c964b209" prot="protected" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>mLogger</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a49e1feb661254d4f4d04a53e8193ee3b" prot="private" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>mReceiver</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a5f4c59c9e076c213f84ef43ac0f3bf21" prot="private" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>mRemotePort</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a77c789375e3d62ebc342b662311362af" prot="private" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>mSender</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a71f801d72db0f44b4fc5958983205f38" prot="public" virt="virtual"><scope>ossia::net::osc_protocol</scope><name>observe</name></member>
+      <member refid="classossia_1_1net_1_1protocol__base_1a56f5c1ca6826506fbafd05285ad472e8" prot="public" virt="virtual"><scope>ossia::net::osc_protocol</scope><name>observe_quietly</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a4e96db85f78b6ec960c0b9b4904160b7" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>osc_protocol</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a7cae93ac7c6450fecda7629ab269bd01" prot="public" virt="virtual"><scope>ossia::net::osc_protocol</scope><name>pull</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1aae71bd23e55f8ae30ad3d56aca0cf897" prot="public" virt="virtual"><scope>ossia::net::osc_protocol</scope><name>push</name></member>
+      <member refid="classossia_1_1net_1_1protocol__base_1ab204e6778ab44b3781216db0fcec1bd5" prot="public" virt="virtual"><scope>ossia::net::osc_protocol</scope><name>pushState</name></member>
+      <member refid="classossia_1_1net_1_1protocol__base_1ac9969f0b645face508f56080670aaab6" prot="public" virt="virtual"><scope>ossia::net::osc_protocol</scope><name>setDevice</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a05dcb703bdcee06bef664faf49fe59d6" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>setIp</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1ab9875788442c41bfa686afe828efeadd" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>setLearningStatus</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a91f009c62ef3f0861d9c57691cee32c2" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>setLocalPort</name></member>
+      <member refid="classossia_1_1net_1_1protocol__base_1a9a1f6bd88abee145abd954f0be5a6887" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>setLogger</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1ad6d563e5f149385c9e7ba6001ddf9696" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>setRemotePort</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a68ee9098005d2aab9ffdc6c482928582" prot="public" virt="virtual"><scope>ossia::net::osc_protocol</scope><name>update</name></member>
+      <member refid="classossia_1_1net_1_1osc__protocol_1a10e7c5ed577232ca614732ad48d55811" prot="public" virt="non-virtual"><scope>ossia::net::osc_protocol</scope><name>~osc_protocol</name></member>
+      <member refid="classossia_1_1net_1_1protocol__base_1a1edda438840ffcda93e30c3c22232dce" prot="public" virt="virtual"><scope>ossia::net::osc_protocol</scope><name>~protocol_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

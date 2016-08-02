@@ -1,0 +1,548 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1net_1_1midi_1_1midi__address" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>ossia::net::midi::midi_address</compoundname>
+    <basecompoundref refid="classossia_1_1net_1_1address__base" prot="public" virt="non-virtual">ossia::net::address_base</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classossia_1_1net_1_1midi_1_1midi__address_1a645d0d259dfe13d2a6905f2af9614e42" prot="private" static="no" mutable="no">
+        <type><ref refid="structossia_1_1net_1_1midi_1_1address__info" kindref="compound">address_info</ref></type>
+        <definition>address_info ossia::net::midi::midi_address::mInfo</definition>
+        <argsstring></argsstring>
+        <name>mInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="115" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1midi_1_1midi__address_1a89c39ee23a6e6475c23f533ce2fe9090" prot="private" static="no" mutable="no">
+        <type><ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref> &amp;</type>
+        <definition>ossia::net::node_base&amp; ossia::net::midi::midi_address::mParent</definition>
+        <argsstring></argsstring>
+        <name>mParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="116" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1midi_1_1midi__address_1a2fffccc35b8cf4d7d80d546a08196828" prot="private" static="no" mutable="no">
+        <type><ref refid="classossia_1_1net_1_1midi_1_1midi__protocol" kindref="compound">midi_protocol</ref> &amp;</type>
+        <definition>midi_protocol&amp; ossia::net::midi::midi_address::mProtocol</definition>
+        <argsstring></argsstring>
+        <name>mProtocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="117" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1midi_1_1midi__address_1a74050a16416b84af296137c0f006d122" prot="private" static="no" mutable="no">
+        <type>ossia::net::domain</type>
+        <definition>ossia::net::domain ossia::net::midi::midi_address::mDomain</definition>
+        <argsstring></argsstring>
+        <name>mDomain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="118" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1midi_1_1midi__address_1a3b4b1b63a8d01c7f0c2a85ae34a7accc" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197" kindref="member">ossia::val_type</ref></type>
+        <definition>ossia::val_type ossia::net::midi::midi_address::mType</definition>
+        <argsstring></argsstring>
+        <name>mType</name>
+        <initializer>= ossia::val_type::INT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="120" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1midi_1_1midi__address_1ae6c3e4833895d4278daa22e026714ed9" prot="private" static="no" mutable="no">
+        <type><ref refid="classossia_1_1value" kindref="compound">value</ref></type>
+        <definition>value ossia::net::midi::midi_address::mValue</definition>
+        <argsstring></argsstring>
+        <name>mValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="121" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1midi_1_1midi__address_1a130e215a8ca0f5c248599684e1fbc30b" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ossia::net::midi::midi_address::mAddress</definition>
+        <argsstring></argsstring>
+        <name>mAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="122" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1ad6457e0fd9fb3ec658962e237f89d556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::midi::midi_address::midi_address</definition>
+        <argsstring>(address_info info, ossia::net::node_base &amp;parent)</argsstring>
+        <name>midi_address</name>
+        <param>
+          <type><ref refid="structossia_1_1net_1_1midi_1_1address__info" kindref="compound">address_info</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref> &amp;</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="125" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="10" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a416d5112b2cf857f9951ae13afdf4bb6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structossia_1_1net_1_1midi_1_1address__info" kindref="compound">address_info</ref> &amp;</type>
+        <definition>const address_info &amp; ossia::net::midi::midi_address::info</definition>
+        <argsstring>() const </argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="127" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a672d71f8e0f36f2e43fadb3e9901ff0c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref> &amp;</type>
+        <definition>const node_base &amp; ossia::net::midi::midi_address::getNode</definition>
+        <argsstring>() const override</argsstring>
+        <name>getNode</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1ace94b71a48e30ef66b9bece658b35096">getNode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="129" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1ac598f8e4ba4f4acb7967c207383eb5fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ossia::net::midi::midi_address::pullValue</definition>
+        <argsstring>() override</argsstring>
+        <name>pullValue</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a479068e135a3a848c98443060a23197d">pullValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="131" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a8236ec49b96a6bc5cabb4887c1b4e70d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">address_base</ref> &amp;</type>
+        <definition>address_base &amp; ossia::net::midi::midi_address::pushValue</definition>
+        <argsstring>(const value &amp;val) override</argsstring>
+        <name>pushValue</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a47db96ca882652ada5276fe310d24cf0">pushValue</reimplements>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="132" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a842306e980b8412cd401820d2f045773" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">address_base</ref> &amp;</type>
+        <definition>address_base &amp; ossia::net::midi::midi_address::pushValue</definition>
+        <argsstring>() override</argsstring>
+        <name>pushValue</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a52f0f8dfd7365c3f36b642bc5a2f45ff">pushValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="133" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1aaf0f5be73d562a757a912cf202409542" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classossia_1_1value" kindref="compound">value</ref> &amp;</type>
+        <definition>const ossia::value &amp; ossia::net::midi::midi_address::getValue</definition>
+        <argsstring>() const </argsstring>
+        <name>getValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="134" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1aa3e42b4aefff542f53e42d5dc49edb53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">value</ref></type>
+        <definition>ossia::value ossia::net::midi::midi_address::cloneValue</definition>
+        <argsstring>(destination_index) const override</argsstring>
+        <name>cloneValue</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a4ab583a88ce0afe9da097d1b1dadd743">cloneValue</reimplements>
+        <param>
+          <type><ref refid="namespaceossia_1a958f8755ee4ec8c71d5d4eac73e0c5f5" kindref="member">destination_index</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="136" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a1e54b59b877a25bbbed0bd520a23aaad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">address_base</ref> &amp;</type>
+        <definition>address_base &amp; ossia::net::midi::midi_address::setValue</definition>
+        <argsstring>(const value &amp;v) override</argsstring>
+        <name>setValue</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a26d414e77829dc9f1a052563c2da4ecc">setValue</reimplements>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">value</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="137" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a162abcee3d5fb2626cdf4295989eea23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197" kindref="member">ossia::val_type</ref></type>
+        <definition>val_type ossia::net::midi::midi_address::getValueType</definition>
+        <argsstring>() const override</argsstring>
+        <name>getValueType</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a97cb300b10e90dc9b20b2d8eaf7a68b0">getValueType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="139" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1aadb4f460bca27b28dc1a6e095f52b2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">address_base</ref> &amp;</type>
+        <definition>address_base &amp; ossia::net::midi::midi_address::setValueType</definition>
+        <argsstring>(ossia::val_type) override</argsstring>
+        <name>setValueType</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1ab16960b1fdc7a1f6793073b3868616c9">setValueType</reimplements>
+        <param>
+          <type><ref refid="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197" kindref="member">ossia::val_type</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="140" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1ae0ff0b3c4f55cb89f3338d1f6d989964" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="namespaceossia_1a12eff94246938e4d287a2afe9aeaafa4" kindref="member">ossia::access_mode</ref></type>
+        <definition>access_mode ossia::net::midi::midi_address::getAccessMode</definition>
+        <argsstring>() const override</argsstring>
+        <name>getAccessMode</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a5c08dd8ca54078ecc00022e0a0777171">getAccessMode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="142" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a7cc8a2ce07f11e9148d7dc3cf3c434ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">address_base</ref> &amp;</type>
+        <definition>address_base &amp; ossia::net::midi::midi_address::setAccessMode</definition>
+        <argsstring>(ossia::access_mode) override</argsstring>
+        <name>setAccessMode</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a40965585e2ad5226681c720c52ead708">setAccessMode</reimplements>
+        <param>
+          <type><ref refid="namespaceossia_1a12eff94246938e4d287a2afe9aeaafa4" kindref="member">ossia::access_mode</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="143" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1adb1477cdec424fb2fdd1af4b7cfe203a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const ossia::net::domain &amp;</type>
+        <definition>const ossia::net::domain &amp; ossia::net::midi::midi_address::getDomain</definition>
+        <argsstring>() const override</argsstring>
+        <name>getDomain</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1af7ef5e39f3454ad068e256ded479e3a4">getDomain</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="145" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a39b7f8faad40d85db9c223c176376b91" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">address_base</ref> &amp;</type>
+        <definition>address_base &amp; ossia::net::midi::midi_address::setDomain</definition>
+        <argsstring>(const ossia::net::domain &amp;) override</argsstring>
+        <name>setDomain</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1acc2abb3a566ca220ec68c8c52a2ad102">setDomain</reimplements>
+        <param>
+          <type>const ossia::net::domain &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="146" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1ae2aa3bb94ab0bbc012a740ce9c6525d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="namespaceossia_1aed414113ede1f539256e47262c495722" kindref="member">ossia::bounding_mode</ref></type>
+        <definition>bounding_mode ossia::net::midi::midi_address::getBoundingMode</definition>
+        <argsstring>() const override</argsstring>
+        <name>getBoundingMode</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a4b81a84fe7cce922834708e3da3519aa">getBoundingMode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="148" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a8ecac188b24dc2d4e289f25d43b7e933" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">address_base</ref> &amp;</type>
+        <definition>address_base &amp; ossia::net::midi::midi_address::setBoundingMode</definition>
+        <argsstring>(ossia::bounding_mode) override</argsstring>
+        <name>setBoundingMode</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a15dd09a6a6784e6550507165ef7b73be">setBoundingMode</reimplements>
+        <param>
+          <type><ref refid="namespaceossia_1aed414113ede1f539256e47262c495722" kindref="member">ossia::bounding_mode</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="149" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1aeda2a1cea0e513610041b370b771f155" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="namespaceossia_1aac39a31c26df4a22e2553efeccd2e245" kindref="member">ossia::repetition_filter</ref></type>
+        <definition>repetition_filter ossia::net::midi::midi_address::getRepetitionFilter</definition>
+        <argsstring>() const override</argsstring>
+        <name>getRepetitionFilter</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a4933ffcc1b554e80516840d4fa649034">getRepetitionFilter</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="151" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1ac17bc054fa429d10d18abcf18e1d0795" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">address_base</ref> &amp;</type>
+        <definition>address_base &amp; ossia::net::midi::midi_address::setRepetitionFilter</definition>
+        <argsstring>(ossia::repetition_filter) override</argsstring>
+        <name>setRepetitionFilter</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1a49e9a86e9b172bab84a59c861c03db9c">setRepetitionFilter</reimplements>
+        <param>
+          <type><ref refid="namespaceossia_1aac39a31c26df4a22e2553efeccd2e245" kindref="member">ossia::repetition_filter</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="152" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1af8ccb43d04df3c5fed8620b5d456a2fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ossia::net::midi::midi_address::onFirstCallbackAdded</definition>
+        <argsstring>() override</argsstring>
+        <name>onFirstCallbackAdded</name>
+        <reimplements refid="classossia_1_1callback__container_1ad6b20377c200c7e458cfbcb6e2922373">onFirstCallbackAdded</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="154" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a5de25a5a21d02553b9a4dd23a84ba058" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ossia::net::midi::midi_address::onRemovingLastCallback</definition>
+        <argsstring>() override</argsstring>
+        <name>onRemovingLastCallback</name>
+        <reimplements refid="classossia_1_1callback__container_1aed6b18d99e31b4b3f2932f2161a5bf23">onRemovingLastCallback</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="155" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a1809976baf0e094a6b5f140e43e5ca51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; ossia::net::midi::midi_address::getTextualAddress</definition>
+        <argsstring>() const override</argsstring>
+        <name>getTextualAddress</name>
+        <reimplements refid="classossia_1_1net_1_1address__base_1acedda3aa7698a8498331abcb2734d50c">getTextualAddress</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="157" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1midi_1_1midi__address_1a703ece52a6863d26564756401799de36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::net::midi::midi_address::valueCallback</definition>
+        <argsstring>(const ossia::value &amp;val)</argsstring>
+        <name>valueCallback</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="159" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.cpp" bodystart="127" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="278">
+        <label>ossia::net::address_base</label>
+        <link refid="classossia_1_1net_1_1address__base"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>ossia::callback_container&lt; value_callback &gt;</label>
+        <link refid="classossia_1_1callback__container"/>
+      </node>
+      <node id="277">
+        <label>ossia::net::midi::midi_address</label>
+        <link refid="classossia_1_1net_1_1midi_1_1midi__address"/>
+        <childnode refid="278" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="281">
+        <label>ossia::net::address_base</label>
+        <link refid="classossia_1_1net_1_1address__base"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>ossia::callback_container&lt; value_callback &gt;</label>
+        <link refid="classossia_1_1callback__container"/>
+      </node>
+      <node id="280">
+        <label>ossia::net::midi::midi_address</label>
+        <link refid="classossia_1_1net_1_1midi_1_1midi__address"/>
+        <childnode refid="281" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" line="114" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_address.hpp" bodystart="113" bodyend="160"/>
+    <listofallmembers>
+      <member refid="classossia_1_1callback__container_1ad21ff92bc6284ef5a0b6097e0ed7b455" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>add_callback</name></member>
+      <member refid="classossia_1_1net_1_1address__base_1a2cf29784b3cf92c18df11c273e7bd95f" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>address_base</name></member>
+      <member refid="classossia_1_1net_1_1address__base_1a97a249262366d5bce2e8c14b286c351e" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>address_base</name></member>
+      <member refid="classossia_1_1net_1_1address__base_1a88731003ed7a8d7dc4eedc9db75fd9d1" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>address_base</name></member>
+      <member refid="classossia_1_1callback__container_1a9c1b5ed0a5feaf59665578c1c8b4f87c" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>callback_count</name></member>
+      <member refid="classossia_1_1net_1_1address__base_1a2928a1cca41cb3fb394e377d2ce39c60" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>callback_index</name></member>
+      <member refid="classossia_1_1callback__container_1a72acb3badf806e11bd22d424a0151e01" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>callbacks_empty</name></member>
+      <member refid="classossia_1_1callback__container_1a1f09835226ea883c77e1b5d55f0f3b9c" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>clear</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1aa3e42b4aefff542f53e42d5dc49edb53" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>cloneValue</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1ae0ff0b3c4f55cb89f3338d1f6d989964" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>getAccessMode</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1ae2aa3bb94ab0bbc012a740ce9c6525d0" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>getBoundingMode</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1adb1477cdec424fb2fdd1af4b7cfe203a" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>getDomain</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a672d71f8e0f36f2e43fadb3e9901ff0c" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>getNode</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1aeda2a1cea0e513610041b370b771f155" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>getRepetitionFilter</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a1809976baf0e094a6b5f140e43e5ca51" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>getTextualAddress</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1aaf0f5be73d562a757a912cf202409542" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>getValue</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a162abcee3d5fb2626cdf4295989eea23" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>getValueType</name></member>
+      <member refid="classossia_1_1callback__container_1a144133e0f59b6ec47c2a99d91a20b993" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>impl</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a416d5112b2cf857f9951ae13afdf4bb6" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>info</name></member>
+      <member refid="classossia_1_1callback__container_1a867e817087e302ab14dad64fcf683139" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>iterator</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a130e215a8ca0f5c248599684e1fbc30b" prot="private" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>mAddress</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a74050a16416b84af296137c0f006d122" prot="private" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>mDomain</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1ad6457e0fd9fb3ec658962e237f89d556" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>midi_address</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a645d0d259dfe13d2a6905f2af9614e42" prot="private" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>mInfo</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a89c39ee23a6e6475c23f533ce2fe9090" prot="private" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>mParent</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a2fffccc35b8cf4d7d80d546a08196828" prot="private" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>mProtocol</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a3b4b1b63a8d01c7f0c2a85ae34a7accc" prot="private" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>mType</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1ae6c3e4833895d4278daa22e026714ed9" prot="private" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>mValue</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1af8ccb43d04df3c5fed8620b5d456a2fe" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>onFirstCallbackAdded</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a5de25a5a21d02553b9a4dd23a84ba058" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>onRemovingLastCallback</name></member>
+      <member refid="classossia_1_1net_1_1address__base_1a9395ac6ecd8e80ecf4732ca605b8c5cf" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>operator=</name></member>
+      <member refid="classossia_1_1net_1_1address__base_1a27e40446882460ed81cd736bed61c2c1" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>operator=</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1ac598f8e4ba4f4acb7967c207383eb5fc" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>pullValue</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a8236ec49b96a6bc5cabb4887c1b4e70d" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>pushValue</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a842306e980b8412cd401820d2f045773" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>pushValue</name></member>
+      <member refid="classossia_1_1callback__container_1ac7c057961187bd1b7f0b9f3cfe22f4d0" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>remove_callback</name></member>
+      <member refid="classossia_1_1callback__container_1a64bffd9efaf340f463b05524b6c92a05" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>send</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a7cc8a2ce07f11e9148d7dc3cf3c434ee" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>setAccessMode</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a8ecac188b24dc2d4e289f25d43b7e933" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>setBoundingMode</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a39b7f8faad40d85db9c223c176376b91" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>setDomain</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1ac17bc054fa429d10d18abcf18e1d0795" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>setRepetitionFilter</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a1e54b59b877a25bbbed0bd520a23aaad" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>setValue</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1aadb4f460bca27b28dc1a6e095f52b2bf" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>setValueType</name></member>
+      <member refid="classossia_1_1net_1_1midi_1_1midi__address_1a703ece52a6863d26564756401799de36" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_address</scope><name>valueCallback</name></member>
+      <member refid="classossia_1_1net_1_1address__base_1acada286a8755a96915a30dfce605df1a" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>~address_base</name></member>
+      <member refid="classossia_1_1callback__container_1a07a0636fddb69c17c0c5782e4af00456" prot="public" virt="virtual"><scope>ossia::net::midi::midi_address</scope><name>~callback_container</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

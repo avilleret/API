@@ -1,0 +1,673 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1clock" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ossia::clock</compoundname>
+    <derivedcompoundref refid="classossia_1_1detail_1_1clock__impl" prot="public" virt="virtual">ossia::detail::clock_impl</derivedcompoundref>
+    <derivedcompoundref refid="classossia_1_1time__constraint" prot="private" virt="virtual">ossia::time_constraint</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classossia_1_1clock_1a18e42faacb4981427ee145af965f04c0" prot="public" static="no">
+        <name>ClockExecutionStatus</name>
+        <enumvalue id="classossia_1_1clock_1a18e42faacb4981427ee145af965f04c0a54de49dc9baf70f824caf9ad85fdab6a" prot="public">
+          <name>RUNNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classossia_1_1clock_1a18e42faacb4981427ee145af965f04c0ab7b047ae98171231cbbca374c33c6162" prot="public">
+          <name>STOPPED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="22" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="enum" id="classossia_1_1clock_1ab29da04d2a9891c6a1d22a2ff7d30f19" prot="public" static="no">
+        <name>DriveMode</name>
+        <enumvalue id="classossia_1_1clock_1ab29da04d2a9891c6a1d22a2ff7d30f19a182fa1c42a2468f8488e6dcf75a81b81" prot="public">
+          <name>INTERNAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classossia_1_1clock_1ab29da04d2a9891c6a1d22a2ff7d30f19a3932d629fb5e2be9d09b3a4485b3cc9d" prot="public">
+          <name>EXTERNAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how the time flows for the clock </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="30" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classossia_1_1clock_1ac6b049a94bb22183159d15198295467a" prot="public" static="no">
+        <type>std::function&lt; void(<ref refid="classossia_1_1time__value" kindref="compound">time_value</ref>, <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref>, unsigned char)&gt;</type>
+        <definition>using ossia::clock::ExecutionCallback =  std::function&lt;void(time_value, time_value, unsigned char)&gt;</definition>
+        <argsstring></argsstring>
+        <name>ExecutionCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to get the clock execution back <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>date </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dropped</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ticks </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="18" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classossia_1_1clock_1a3f56b527e1416f58e728fbc25c502775" prot="public" static="no">
+        <type>std::function&lt; void(ClockExecutionStatus)&gt;</type>
+        <definition>using ossia::clock::ExecutionStatusCallback =  std::function&lt;void(ClockExecutionStatus)&gt;</definition>
+        <argsstring></argsstring>
+        <name>ExecutionStatusCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="26" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classossia_1_1clock_1a1ff17e388c8a12f036efcbd504e02394" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classossia_1_1clock" kindref="compound">clock</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; clock &gt; ossia::clock::create</definition>
+        <argsstring>(clock::ExecutionCallback, time_value=Infinite, time_value=10., time_value=0., float=1., DriveMode=clock::DriveMode::INTERNAL)</argsstring>
+        <name>create</name>
+        <param>
+          <type><ref refid="classossia_1_1clock_1ac6b049a94bb22183159d15198295467a" kindref="member">clock::ExecutionCallback</ref></type>
+          <defname>callback</defname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+          <defname>duration</defname>
+          <defval>Infinite</defval>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+          <defname>granularity</defname>
+          <defval>10.</defval>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+          <defname>offset</defname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <defname>speed</defname>
+          <defval>1.</defval>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1clock_1ab29da04d2a9891c6a1d22a2ff7d30f19" kindref="member">DriveMode</ref></type>
+          <defname>driveMode</defname>
+          <defval>clock::DriveMode::INTERNAL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>factory <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>ExecutionCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>granularity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>drive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mode </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::shared_ptr&lt;#Clock&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="43" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.cpp" bodystart="4" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1clock_1acb1ee4871f7d40a8378e75b57f16d74b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ossia::clock::~clock</definition>
+        <argsstring>()</argsstring>
+        <name>~clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a566815b2fa8481443491f845b61e68bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ossia::clock::start</definition>
+        <argsstring>()=0</argsstring>
+        <name>start</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__constraint__impl_1a79e16af87506949f37b82d844a853753">start</reimplementedby>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1ae9c06970acb8422828c645c4d2626f33">start</reimplementedby>
+        <reimplementedby refid="classossia_1_1time__constraint_1af4f8fe466dd231a5ace2fd31a2ae8ff5">start</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start the clock </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a888a5e5040e962cbb707509844f28b68" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ossia::clock::stop</definition>
+        <argsstring>()=0</argsstring>
+        <name>stop</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__constraint__impl_1ac05d6abff398fa1d0756df3faac5ac8d">stop</reimplementedby>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1abaab6dac0a0bd97a5e9b9930dd2fb941">stop</reimplementedby>
+        <reimplementedby refid="classossia_1_1time__constraint_1a57cf67b8317c455c13b8af231f7ba3ca">stop</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>halt the clock </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1aacddc780538de6f689acdca87bd3bc5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ossia::clock::pause</definition>
+        <argsstring>()=0</argsstring>
+        <name>pause</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__constraint__impl_1aef3bdb4b7dd9c03ad9ac1b9a54943db0">pause</reimplementedby>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1accc523213abc500fe7380cb4b9a75cfe">pause</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>pause the clock progression </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a952fa30524400eaca025bcec417555b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ossia::clock::paused</definition>
+        <argsstring>() const =0</argsstring>
+        <name>paused</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1ac77d3e5bec9ea96f91d6ad3fb878b3b8">paused</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true if the constraint is running and paused, else false </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1af59dc72b1eeed75ab6da2e25b81297a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ossia::clock::resume</definition>
+        <argsstring>()=0</argsstring>
+        <name>resume</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__constraint__impl_1a9b6ed0012325df738487c6afa8a79347">resume</reimplementedby>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a89c953ce08b7f5036c70defd593e3927">resume</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resume the clock progression </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a8144ea6655b3dd028eaa528f1510afca" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ossia::clock::tick</definition>
+        <argsstring>()=0</argsstring>
+        <name>tick</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1aad4a6489bd275f28837accf37314f654">tick</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>called every time a new step should be processed.</para><para>can be use to force step processing in case of external drive but the callback will not be called <simplesect kind="return"><para>bool true if the clock ticks </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1ab78b4ccddba0fb70d78da7d23dc2c24b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ossia::clock::tick</definition>
+        <argsstring>(time_value usec)=0</argsstring>
+        <name>tick</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a458214016cb920ba5c1e3cfb08c7eb21">tick</reimplementedby>
+        <param>
+          <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+          <declname>usec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>can be called by hand to advance the clock from a certain number of ticks. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>usec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of microseconds to move the clock </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool true if the clock ticks </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1acd05499b74f7862059b232666f20d39b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref> &amp;</type>
+        <definition>virtual const time_value&amp; ossia::clock::getDuration</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getDuration</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a9c395f8a0d5104d427dfe1f64f64d141">getDuration</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the duration of the clock <simplesect kind="return"><para>const #TimeValue duration </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a0780e2ba50e0232c07cad2ef52a75536" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1clock" kindref="compound">clock</ref> &amp;</type>
+        <definition>virtual clock&amp; ossia::clock::setDuration</definition>
+        <argsstring>(time_value)=0</argsstring>
+        <name>setDuration</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1ae618ce04932e8e2a7971f8ad76be7b17">setDuration</reimplementedby>
+        <param>
+          <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the duration of the clock execution <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>const</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>#TimeValue duration </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>#Clock the clock </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1afa9ae31d2d69534c889379ce68918218" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref> &amp;</type>
+        <definition>virtual const time_value&amp; ossia::clock::getOffset</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getOffset</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a7971a26b557c511bc1b5279ee62da4e5">getOffset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the offset of the clock <simplesect kind="return"><para>const #TimeValue offset </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a595952dea8498a28b7d156170dad65bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1clock" kindref="compound">clock</ref> &amp;</type>
+        <definition>virtual clock&amp; ossia::clock::setOffset</definition>
+        <argsstring>(time_value)=0</argsstring>
+        <name>setOffset</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a79ab9a6f3fb2ff31b60ebe50f8323b60">setOffset</reimplementedby>
+        <param>
+          <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the offset of the clock <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>const</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>#TimeValue offset </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>#Clock the clock </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a292e905982b91d992bddd683ed6a3b9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref> &amp;</type>
+        <definition>virtual const time_value&amp; ossia::clock::getGranularity</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getGranularity</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1ab9c74c8caba3b91f22bba93776efe066">getGranularity</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the granularity of the clock <simplesect kind="return"><para>const #TimeValue granularity </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1aff46293cec767b5afc97a97e477d28a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1clock" kindref="compound">clock</ref> &amp;</type>
+        <definition>virtual clock&amp; ossia::clock::setGranularity</definition>
+        <argsstring>(time_value)=0</argsstring>
+        <name>setGranularity</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a48f1f922ea0630d173605f626cb649c8">setGranularity</reimplementedby>
+        <param>
+          <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the granularity of the clock execution <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>const</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>#TimeValue granularity </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>#Clock the clock </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a6d975a25eed678ebee1f1e39391ba7a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double ossia::clock::getSpeed</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getSpeed</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a7d6aeb753592e803253ade5ca83f5485">getSpeed</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the speed of the clock <simplesect kind="return"><para>const #TimeValue speed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1ae5cfcde7b1fa8d849ef0a6d86060e345" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1clock" kindref="compound">clock</ref> &amp;</type>
+        <definition>virtual clock&amp; ossia::clock::setSpeed</definition>
+        <argsstring>(double)=0</argsstring>
+        <name>setSpeed</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a172b829b548cc94f07d0de4abbfbbc30">setSpeed</reimplementedby>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the speed factor attribute <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>double</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>speed factor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>#Clock the clock </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1ab215eea3f5fb7eb60046d62d5c166d46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1clock_1ab29da04d2a9891c6a1d22a2ff7d30f19" kindref="member">DriveMode</ref></type>
+        <definition>virtual DriveMode ossia::clock::getDriveMode</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getDriveMode</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a17cae7d8444c44beca8748232c64946a">getDriveMode</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the clock drive mode <simplesect kind="return"><para><ref refid="classossia_1_1clock_1ab29da04d2a9891c6a1d22a2ff7d30f19" kindref="member">DriveMode</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1ad12f11ced84b9e016a0c7f8a41a6f9c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1clock" kindref="compound">clock</ref> &amp;</type>
+        <definition>virtual clock&amp; ossia::clock::setDriveMode</definition>
+        <argsstring>(DriveMode)=0</argsstring>
+        <name>setDriveMode</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1ad2d3c5c2560ff8a55964ad7ffef9c90f">setDriveMode</reimplementedby>
+        <param>
+          <type><ref refid="classossia_1_1clock_1ab29da04d2a9891c6a1d22a2ff7d30f19" kindref="member">DriveMode</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set is the clock drive mode <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>DriveMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>#Clock the clock </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a56103d7b6eec9ce62af86b14c43ad1cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ossia::clock::getRunning</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getRunning</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a29f8aca40e3f3d594c982dfa8932faa4">getRunning</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the running status of the clock <simplesect kind="return"><para>bool true if is running </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="125" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a0c0069992e812e6b4414fcb874eb144f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref> &amp;</type>
+        <definition>virtual const time_value&amp; ossia::clock::getPosition</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getPosition</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1add89b52b9a50a77d0502ac10b62e2116">getPosition</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the position of the clock <simplesect kind="return"><para>const #TimeValue position </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a9fd3ad43f5bf1da856578620b073d837" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref> &amp;</type>
+        <definition>virtual const time_value&amp; ossia::clock::getDate</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getDate</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1ac1dc850fcaa850cc6acdb32998c45c86">getDate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the date of the clock <simplesect kind="return"><para>const #TimeValue date </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="133" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1a7bcb2db763eb95f2164fafe29a2fc18e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ossia::clock::setExecutionStatusCallback</definition>
+        <argsstring>(ExecutionStatusCallback)=0</argsstring>
+        <name>setExecutionStatusCallback</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1a501175a9885d24fa1a61c4c533777454">setExecutionStatusCallback</reimplementedby>
+        <param>
+          <type>ExecutionStatusCallback</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1clock_1aa1aa510f42d354d447aad09dbfbaf430" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>ExecutionStatusCallback</type>
+        <definition>virtual ExecutionStatusCallback ossia::clock::getExecutionStatusCallback</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getExecutionStatusCallback</name>
+        <reimplementedby refid="classossia_1_1detail_1_1clock__impl_1ab0c0347b34f73511e28a5b92906c5691">getExecutionStatusCallback</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="137" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="64">
+        <label>ossia::time_constraint</label>
+        <link refid="classossia_1_1time__constraint"/>
+        <childnode refid="61" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>ossia::detail::time_constraint_impl</label>
+        <link refid="classossia_1_1detail_1_1time__constraint__impl"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>ossia::detail::clock_impl</label>
+        <link refid="classossia_1_1detail_1_1clock__impl"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>ossia::clock</label>
+        <link refid="classossia_1_1clock"/>
+      </node>
+    </inheritancegraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" line="12" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/clock.hpp" bodystart="11" bodyend="138"/>
+    <listofallmembers>
+      <member refid="classossia_1_1clock_1a18e42faacb4981427ee145af965f04c0" prot="public" virt="non-virtual"><scope>ossia::clock</scope><name>ClockExecutionStatus</name></member>
+      <member refid="classossia_1_1clock_1a1ff17e388c8a12f036efcbd504e02394" prot="public" virt="non-virtual"><scope>ossia::clock</scope><name>create</name></member>
+      <member refid="classossia_1_1clock_1ab29da04d2a9891c6a1d22a2ff7d30f19" prot="public" virt="non-virtual"><scope>ossia::clock</scope><name>DriveMode</name></member>
+      <member refid="classossia_1_1clock_1ac6b049a94bb22183159d15198295467a" prot="public" virt="non-virtual"><scope>ossia::clock</scope><name>ExecutionCallback</name></member>
+      <member refid="classossia_1_1clock_1a3f56b527e1416f58e728fbc25c502775" prot="public" virt="non-virtual"><scope>ossia::clock</scope><name>ExecutionStatusCallback</name></member>
+      <member refid="classossia_1_1clock_1a9fd3ad43f5bf1da856578620b073d837" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>getDate</name></member>
+      <member refid="classossia_1_1clock_1ab215eea3f5fb7eb60046d62d5c166d46" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>getDriveMode</name></member>
+      <member refid="classossia_1_1clock_1acd05499b74f7862059b232666f20d39b" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>getDuration</name></member>
+      <member refid="classossia_1_1clock_1aa1aa510f42d354d447aad09dbfbaf430" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>getExecutionStatusCallback</name></member>
+      <member refid="classossia_1_1clock_1a292e905982b91d992bddd683ed6a3b9b" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>getGranularity</name></member>
+      <member refid="classossia_1_1clock_1afa9ae31d2d69534c889379ce68918218" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>getOffset</name></member>
+      <member refid="classossia_1_1clock_1a0c0069992e812e6b4414fcb874eb144f" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>getPosition</name></member>
+      <member refid="classossia_1_1clock_1a56103d7b6eec9ce62af86b14c43ad1cd" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>getRunning</name></member>
+      <member refid="classossia_1_1clock_1a6d975a25eed678ebee1f1e39391ba7a0" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>getSpeed</name></member>
+      <member refid="classossia_1_1clock_1aacddc780538de6f689acdca87bd3bc5e" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>pause</name></member>
+      <member refid="classossia_1_1clock_1a952fa30524400eaca025bcec417555b1" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>paused</name></member>
+      <member refid="classossia_1_1clock_1af59dc72b1eeed75ab6da2e25b81297a7" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>resume</name></member>
+      <member refid="classossia_1_1clock_1a18e42faacb4981427ee145af965f04c0a54de49dc9baf70f824caf9ad85fdab6a" prot="public" virt="non-virtual"><scope>ossia::clock</scope><name>RUNNING</name></member>
+      <member refid="classossia_1_1clock_1ad12f11ced84b9e016a0c7f8a41a6f9c5" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>setDriveMode</name></member>
+      <member refid="classossia_1_1clock_1a0780e2ba50e0232c07cad2ef52a75536" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>setDuration</name></member>
+      <member refid="classossia_1_1clock_1a7bcb2db763eb95f2164fafe29a2fc18e" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>setExecutionStatusCallback</name></member>
+      <member refid="classossia_1_1clock_1aff46293cec767b5afc97a97e477d28a9" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>setGranularity</name></member>
+      <member refid="classossia_1_1clock_1a595952dea8498a28b7d156170dad65bd" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>setOffset</name></member>
+      <member refid="classossia_1_1clock_1ae5cfcde7b1fa8d849ef0a6d86060e345" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>setSpeed</name></member>
+      <member refid="classossia_1_1clock_1a566815b2fa8481443491f845b61e68bf" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>start</name></member>
+      <member refid="classossia_1_1clock_1a888a5e5040e962cbb707509844f28b68" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>stop</name></member>
+      <member refid="classossia_1_1clock_1a18e42faacb4981427ee145af965f04c0ab7b047ae98171231cbbca374c33c6162" prot="public" virt="non-virtual"><scope>ossia::clock</scope><name>STOPPED</name></member>
+      <member refid="classossia_1_1clock_1a8144ea6655b3dd028eaa528f1510afca" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>tick</name></member>
+      <member refid="classossia_1_1clock_1ab78b4ccddba0fb70d78da7d23dc2c24b" prot="public" virt="pure-virtual"><scope>ossia::clock</scope><name>tick</name></member>
+      <member refid="classossia_1_1clock_1acb1ee4871f7d40a8378e75b57f16d74b" prot="public" virt="virtual"><scope>ossia::clock</scope><name>~clock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="curve_8hpp" kind="file" language="C++">
+    <compoundname>curve.hpp</compoundname>
+    <includes refid="ptr__container_8hpp" local="no">ossia/detail/ptr_container.hpp</includes>
+    <includes refid="curve__abstract_8hpp" local="no">ossia/editor/curve/curve_abstract.hpp</includes>
+    <includes refid="curve__segment_8hpp" local="no">ossia/editor/curve/curve_segment.hpp</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">map</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">ossia_export.h</includes>
+    <includes local="no">utility</includes>
+    <includedby refid="_automation__impl_8hpp" local="no">Automation_impl.hpp</includedby>
+    <includedby refid="_curve__impl_8hpp" local="no">Curve_impl.hpp</includedby>
+    <includedby refid="editor_8hpp" local="no">editor.hpp</includedby>
+    <includedby refid="_mapper__impl_8hpp" local="no">Mapper_impl.hpp</includedby>
+    <includedby refid="value_8cpp" local="no">value.cpp</includedby>
+    <incdepgraph>
+      <node id="711">
+        <label>functional</label>
+      </node>
+      <node id="708">
+        <label>ossia_export.h</label>
+      </node>
+      <node id="712">
+        <label>map</label>
+      </node>
+      <node id="710">
+        <label>ossia/editor/curve/curve_segment.hpp</label>
+        <link refid="curve__segment_8hpp_source"/>
+        <childnode refid="711" relation="include">
+        </childnode>
+      </node>
+      <node id="706">
+        <label>vector</label>
+      </node>
+      <node id="709">
+        <label>utility</label>
+      </node>
+      <node id="704">
+        <label>ossia/detail/ptr_container.hpp</label>
+        <link refid="ptr__container_8hpp_source"/>
+        <childnode refid="705" relation="include">
+        </childnode>
+        <childnode refid="706" relation="include">
+        </childnode>
+      </node>
+      <node id="707">
+        <label>ossia/editor/curve/curve_abstract.hpp</label>
+        <link refid="curve__abstract_8hpp_source"/>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="709" relation="include">
+        </childnode>
+      </node>
+      <node id="703">
+        <label>curve.hpp</label>
+        <link refid="curve.hpp"/>
+        <childnode refid="704" relation="include">
+        </childnode>
+        <childnode refid="707" relation="include">
+        </childnode>
+        <childnode refid="710" relation="include">
+        </childnode>
+        <childnode refid="711" relation="include">
+        </childnode>
+        <childnode refid="712" relation="include">
+        </childnode>
+        <childnode refid="705" relation="include">
+        </childnode>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="709" relation="include">
+        </childnode>
+      </node>
+      <node id="705">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="715">
+        <label>Curve_impl.hpp</label>
+        <link refid="_curve__impl_8hpp_source"/>
+      </node>
+      <node id="718">
+        <label>Mapper_impl.hpp</label>
+        <link refid="_mapper__impl_8hpp_source"/>
+      </node>
+      <node id="717">
+        <label>ossia.hpp</label>
+        <link refid="ossia_8hpp_source"/>
+      </node>
+      <node id="714">
+        <label>Automation_impl.hpp</label>
+        <link refid="_automation__impl_8hpp_source"/>
+      </node>
+      <node id="716">
+        <label>editor.hpp</label>
+        <link refid="editor_8hpp_source"/>
+        <childnode refid="717" relation="include">
+        </childnode>
+      </node>
+      <node id="713">
+        <label>curve.hpp</label>
+        <link refid="curve.hpp"/>
+        <childnode refid="714" relation="include">
+        </childnode>
+        <childnode refid="715" relation="include">
+        </childnode>
+        <childnode refid="716" relation="include">
+        </childnode>
+        <childnode refid="718" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classossia_1_1curve" prot="public">ossia::curve</innerclass>
+    <innernamespace refid="namespaceossia">ossia</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/detail/ptr_container.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/editor/curve/curve_abstract.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/editor/curve/curve_segment.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia_export.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceossia" kindref="compound">ossia</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Destination;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>X,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Y&gt;</highlight></codeline>
+<codeline lineno="22" refid="classossia_1_1curve" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classossia_1_1curve" kindref="compound">curve</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1curve__abstract" kindref="compound">curve_abstract</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>abscissa_type<sp/>=<sp/>X;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ordinate_type<sp/>=<sp/>Y;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;curve&gt;<sp/><ref refid="classossia_1_1curve_1a46e7986057a83383d4f922b977d73662" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1curve_1a9e370ad06572476a9121663b89cf7003" kindref="member">~curve</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1curve_1a5dff24e18e126a4033818067e3a3bd4a" kindref="member">addPoint</ref>(<ref refid="namespaceossia_1a3864160b52657c18d819ab3f02e04268" kindref="member">curve_segment&lt;Y&gt;</ref>,<sp/>X,<sp/>Y)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1curve_1a41b27afefd0cf993aea00ce69e3b27fd" kindref="member">removePoint</ref>(X)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>Y<sp/><ref refid="classossia_1_1curve_1a6d01dc062260bb92b43f3f1aa7901043" kindref="member">valueAt</ref>(X)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>X<sp/><ref refid="classossia_1_1curve_1a1d84b3c53210085083c47ecdc48e2656" kindref="member">getInitialPointAbscissa</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>Y<sp/><ref refid="classossia_1_1curve_1a53f70621bbfeca9ed28f868513af6cfa" kindref="member">getInitialPointOrdinate</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1curve_1a1bbc42350f87ad1b930c5ecdd54a90a3" kindref="member">setInitialPointAbscissa</ref>(X)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1curve_1a4c1992c9930ff9748b5f7d9345256722" kindref="member">setInitialPointOrdinate</ref>(Y)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1_destination" kindref="compound">Destination</ref>&amp;<sp/><ref refid="classossia_1_1curve_1aaa58451f48dcdf7219478dca968127bb" kindref="member">getInitialPointAbscissaDestination</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1_destination" kindref="compound">Destination</ref>&amp;<sp/><ref refid="classossia_1_1curve_1ae3265e2aa7d73ee2f1191b2c0936ee76" kindref="member">getInitialPointOrdinateDestination</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1curve_1a79d6923a79105f51445c1dba8013381d" kindref="member">setInitialPointAbscissaDestination</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1_destination" kindref="compound">Destination</ref>&amp;)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1curve_1a340be31e8963eb04e7a8950f8ab06345" kindref="member">setInitialPointOrdinateDestination</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classossia_1_1_destination" kindref="compound">Destination</ref>&amp;)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::map&lt;X,<sp/>std::pair&lt;Y,<sp/>curve_segment&lt;Y&gt;&gt;&gt;<sp/><ref refid="classossia_1_1curve_1a0094c9831b9386059a484b657e517a8c" kindref="member">getPointsMap</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(OSSIA_EXPORTS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;double, bool&gt;</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;double, int&gt;</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;double, float&gt;</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;bool, bool&gt;</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;bool, int&gt;</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;bool, float&gt;</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;int, bool&gt;</ref>;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;int, int&gt;</ref>;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;int, float&gt;</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;float, bool&gt;</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;float, int&gt;</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OSSIA_EXPORT<sp/><ref refid="classossia_1_1curve" kindref="compound">ossia::curve&lt;float, float&gt;</ref>;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_41fd1a5029e4399db33056aaa42d0090" kind="dir">
+    <compoundname>detail</compoundname>
+    <innerfile refid="_clock__impl_8cpp">Clock_impl.cpp</innerfile>
+    <innerfile refid="_clock__impl_8hpp">Clock_impl.hpp</innerfile>
+    <innerfile refid="_scenario__impl_8cpp">Scenario_impl.cpp</innerfile>
+    <innerfile refid="_scenario__impl_8hpp">Scenario_impl.hpp</innerfile>
+    <innerfile refid="_time_constraint__impl_8cpp">TimeConstraint_impl.cpp</innerfile>
+    <innerfile refid="_time_constraint__impl_8hpp">TimeConstraint_impl.hpp</innerfile>
+    <innerfile refid="_time_event__impl_8cpp">TimeEvent_impl.cpp</innerfile>
+    <innerfile refid="_time_event__impl_8hpp">TimeEvent_impl.hpp</innerfile>
+    <innerfile refid="_time_node__impl_8cpp">TimeNode_impl.cpp</innerfile>
+    <innerfile refid="_time_node__impl_8hpp">TimeNode_impl.hpp</innerfile>
+    <innerfile refid="_time_process__impl_8hpp">TimeProcess_impl.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/detail/"/>
+  </compounddef>
+</doxygen>

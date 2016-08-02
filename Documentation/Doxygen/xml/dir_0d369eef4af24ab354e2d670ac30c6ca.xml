@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_0d369eef4af24ab354e2d670ac30c6ca" kind="dir">
+    <compoundname>detail</compoundname>
+    <innerfile refid="_mapper__impl_8cpp">Mapper_impl.cpp</innerfile>
+    <innerfile refid="_mapper__impl_8hpp">Mapper_impl.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/mapper/detail/"/>
+  </compounddef>
+</doxygen>

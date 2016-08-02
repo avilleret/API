@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_d455c39a5e9922a1281abc443029dfce" kind="dir">
+    <compoundname>midi</compoundname>
+    <innerdir refid="dir_db8a6c98ca1e24f01676746c19474e3c">detail</innerdir>
+    <innerfile refid="midi_8cpp">midi.cpp</innerfile>
+    <innerfile refid="midi_8hpp">midi.hpp</innerfile>
+    <innerfile refid="midi__address_8cpp">midi_address.cpp</innerfile>
+    <innerfile refid="midi__address_8hpp">midi_address.hpp</innerfile>
+    <innerfile refid="midi__device_8cpp">midi_device.cpp</innerfile>
+    <innerfile refid="midi__device_8hpp">midi_device.hpp</innerfile>
+    <innerfile refid="midi__node_8cpp">midi_node.cpp</innerfile>
+    <innerfile refid="midi__node_8hpp">midi_node.hpp</innerfile>
+    <innerfile refid="midi__protocol_8cpp">midi_protocol.cpp</innerfile>
+    <innerfile refid="midi__protocol_8hpp">midi_protocol.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/"/>
+  </compounddef>
+</doxygen>

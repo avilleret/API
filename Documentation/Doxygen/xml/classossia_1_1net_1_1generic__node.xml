@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1net_1_1generic__node" kind="class" language="C++" prot="public">
+    <compoundname>ossia::net::generic_node</compoundname>
+    <basecompoundref refid="classossia_1_1net_1_1node__base" prot="public" virt="non-virtual">ossia::net::node_base</basecompoundref>
+    <derivedcompoundref refid="classossia_1_1net_1_1generic__device" prot="public" virt="non-virtual">ossia::net::generic_device</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classossia_1_1net_1_1generic__node_1ae5c34d9de2346e677996eb571714bcbb" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ossia::net::generic_node::mName</definition>
+        <argsstring></argsstring>
+        <name>mName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="16" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1generic__node_1a4d0b40d03f19cec4b34078502a7f24da" prot="protected" static="no" mutable="no">
+        <type><ref refid="classossia_1_1net_1_1device__base" kindref="compound">ossia::net::device_base</ref> &amp;</type>
+        <definition>ossia::net::device_base&amp; ossia::net::generic_node::mDevice</definition>
+        <argsstring></argsstring>
+        <name>mDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="17" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1generic__node_1a88fb6b3f9887b4db08a19914c988df0f" prot="protected" static="no" mutable="no">
+        <type><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> *</type>
+        <definition>generic_node* ossia::net::generic_node::mParent</definition>
+        <argsstring></argsstring>
+        <name>mParent</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="18" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1net_1_1generic__node_1ac178f19f44b383d706bc320fe04b1543" prot="protected" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;ossia::net::address_base&gt; ossia::net::generic_node::mAddress</definition>
+        <argsstring></argsstring>
+        <name>mAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="19" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1ad0372285b52be80e88140796fb925a76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::generic_node::generic_node</definition>
+        <argsstring>()=delete</argsstring>
+        <name>generic_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1ab68c58c00e7a78f406592612a64a1618" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::generic_node::generic_node</definition>
+        <argsstring>(const generic_node &amp;)=delete</argsstring>
+        <name>generic_node</name>
+        <param>
+          <type>const <ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a6e5004055ff83a19d7e31104f05ffeb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::generic_node::generic_node</definition>
+        <argsstring>(generic_node &amp;&amp;)=delete</argsstring>
+        <name>generic_node</name>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a903e03ca8416c20c817d8aa64629454f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> &amp;</type>
+        <definition>generic_node&amp; ossia::net::generic_node::operator=</definition>
+        <argsstring>(const generic_node &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a817396e140606a78573c2ab36a783030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> &amp;</type>
+        <definition>generic_node&amp; ossia::net::generic_node::operator=</definition>
+        <argsstring>(generic_node &amp;&amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1af9401d3f4603c2142a223ed9cdf5ed8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::generic_node::generic_node</definition>
+        <argsstring>(std::string name, ossia::net::device_base &amp;aDevice, generic_node &amp;aParent)</argsstring>
+        <name>generic_node</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1device__base" kindref="compound">ossia::net::device_base</ref> &amp;</type>
+          <declname>aDevice</declname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1generic__node" kindref="compound">generic_node</ref> &amp;</type>
+          <declname>aParent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="28" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.cpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a6db8eb6b4ef23b2126fa55d5ca24eed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::generic_node::generic_node</definition>
+        <argsstring>(std::string name, ossia::net::device_base &amp;aDevice)</argsstring>
+        <name>generic_node</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1device__base" kindref="compound">ossia::net::device_base</ref> &amp;</type>
+          <declname>aDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="32" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1aaaeebdb795b8f313c7b2b7ba079a4ab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::generic_node::~generic_node</definition>
+        <argsstring>()</argsstring>
+        <name>~generic_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="34" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1ad20f9b0030403a363719264732b9d1a4" prot="public" static="no" const="yes" explicit="no" inline="yes" final="yes" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1device__base" kindref="compound">ossia::net::device_base</ref> &amp;</type>
+        <definition>ossia::net::device_base&amp; ossia::net::generic_node::getDevice</definition>
+        <argsstring>() const finaloverride</argsstring>
+        <name>getDevice</name>
+        <reimplements refid="classossia_1_1net_1_1node__base_1a6917fc2cb15ea1307e58e955daef1aa3">getDevice</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="36" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a8771da9c35454b4ae02deca3aa5ccdd0" prot="public" static="no" const="yes" explicit="no" inline="yes" final="yes" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref> *</type>
+        <definition>ossia::net::node_base* ossia::net::generic_node::getParent</definition>
+        <argsstring>() const finaloverride</argsstring>
+        <name>getParent</name>
+        <reimplements refid="classossia_1_1net_1_1node__base_1a30f359310737c0e78fff62f7645342b4">getParent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="40" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a47e38f8ebc62810ae613a1f1f322273b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string ossia::net::generic_node::getName</definition>
+        <argsstring>() const override</argsstring>
+        <name>getName</name>
+        <reimplements refid="classossia_1_1net_1_1node__base_1a42c3285cb1cc2a12fb74d5a047c19504">getName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="45" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a3e3c15ce761c210363d7562997802c47" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1node__base" kindref="compound">ossia::net::node_base</ref> &amp;</type>
+        <definition>ossia::net::node_base &amp; ossia::net::generic_node::setName</definition>
+        <argsstring>(std::string) override</argsstring>
+        <name>setName</name>
+        <reimplements refid="classossia_1_1net_1_1node__base_1a7a7716c872fb3c7d4127650c526a84cb">setName</reimplements>
+        <param>
+          <type>std::string</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="49" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.cpp" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1af328944c52cb704389c8b49eea40fd52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> *</type>
+        <definition>ossia::net::address_base * ossia::net::generic_node::getAddress</definition>
+        <argsstring>() const override</argsstring>
+        <name>getAddress</name>
+        <reimplements refid="classossia_1_1net_1_1node__base_1a34831072daa1158ad4637c33d8cf7567">getAddress</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="51" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a239e8a93750c97bcd1164d39496e7bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classossia_1_1net_1_1address__base" kindref="compound">ossia::net::address_base</ref> *</type>
+        <definition>ossia::net::address_base * ossia::net::generic_node::createAddress</definition>
+        <argsstring>(ossia::val_type type) override</argsstring>
+        <name>createAddress</name>
+        <reimplements refid="classossia_1_1net_1_1node__base_1a5d5a3b6725ee0c1520f78273508da599">createAddress</reimplements>
+        <param>
+          <type><ref refid="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197" kindref="member">ossia::val_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="52" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.cpp" bodystart="43" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a64cefdd3de06053fca6e52ba4bf8c732" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ossia::net::generic_node::removeAddress</definition>
+        <argsstring>() override</argsstring>
+        <name>removeAddress</name>
+        <reimplements refid="classossia_1_1net_1_1node__base_1a1672a515c670ae00aef7e19a9f96b673">removeAddress</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="53" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.cpp" bodystart="60" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a11c7d306480439e54f2676ff9b5bbb38" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::unique_ptr&lt; <ref refid="classossia_1_1net_1_1node__base" kindref="compound">node_base</ref> &gt;</type>
+        <definition>std::unique_ptr&lt; ossia::net::node_base &gt; ossia::net::generic_node::makeChild</definition>
+        <argsstring>(const std::string &amp;name) override</argsstring>
+        <name>makeChild</name>
+        <reimplements refid="classossia_1_1net_1_1node__base_1a875f142107d7f660256fabe4ca9d2daa">makeChild</reimplements>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="56" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.cpp" bodystart="80" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1net_1_1generic__node_1a0600291b6f09073d0763bbff80bb8b73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ossia::net::generic_node::removingChild</definition>
+        <argsstring>(node_base &amp;) override</argsstring>
+        <name>removingChild</name>
+        <reimplements refid="classossia_1_1net_1_1node__base_1aa89640d63dbc082693ecb7dd418d4549">removingChild</reimplements>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1node__base" kindref="compound">node_base</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="58" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" bodystart="58" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="222">
+        <label>ossia::net::generic_node</label>
+        <link refid="classossia_1_1net_1_1generic__node"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="224">
+        <label>ossia::net::generic_device</label>
+        <link refid="classossia_1_1net_1_1generic__device"/>
+        <childnode refid="222" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>ossia::net::node_base</label>
+        <link refid="classossia_1_1net_1_1node__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="225">
+        <label>ossia::net::generic_node</label>
+        <link refid="classossia_1_1net_1_1generic__node"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+        <childnode refid="227" relation="usage">
+          <edgelabel>mDevice</edgelabel>
+        </childnode>
+        <childnode refid="225" relation="usage">
+          <edgelabel>mParent</edgelabel>
+        </childnode>
+      </node>
+      <node id="226">
+        <label>ossia::net::node_base</label>
+        <link refid="classossia_1_1net_1_1node__base"/>
+      </node>
+      <node id="227">
+        <label>ossia::net::device_base</label>
+        <link refid="classossia_1_1net_1_1device__base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" line="13" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/generic/generic_node.hpp" bodystart="12" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classossia_1_1net_1_1node__base_1ad9314bc390ead7b049ddc032d886a681" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>children</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1aa03a3584588c87c965ff49803711c0ad" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>clearChildren</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a239e8a93750c97bcd1164d39496e7bea" prot="public" virt="virtual"><scope>ossia::net::generic_node</scope><name>createAddress</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1a8df7e231f1a3dba3fe499c06326e3600" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>createChild</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1ad0372285b52be80e88140796fb925a76" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>generic_node</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1ab68c58c00e7a78f406592612a64a1618" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>generic_node</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a6e5004055ff83a19d7e31104f05ffeb7" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>generic_node</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1af9401d3f4603c2142a223ed9cdf5ed8d" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>generic_node</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a6db8eb6b4ef23b2126fa55d5ca24eed0" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>generic_node</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1af328944c52cb704389c8b49eea40fd52" prot="public" virt="virtual"><scope>ossia::net::generic_node</scope><name>getAddress</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1ad20f9b0030403a363719264732b9d1a4" prot="public" virt="virtual"><scope>ossia::net::generic_node</scope><name>getDevice</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a47e38f8ebc62810ae613a1f1f322273b" prot="public" virt="virtual"><scope>ossia::net::generic_node</scope><name>getName</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a8771da9c35454b4ae02deca3aa5ccdd0" prot="public" virt="virtual"><scope>ossia::net::generic_node</scope><name>getParent</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1ac178f19f44b383d706bc320fe04b1543" prot="protected" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>mAddress</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a11c7d306480439e54f2676ff9b5bbb38" prot="private" virt="virtual"><scope>ossia::net::generic_node</scope><name>makeChild</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1a1be850a60d95ff53fbc837d4760d99a5" prot="protected" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>mChildren</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a4d0b40d03f19cec4b34078502a7f24da" prot="protected" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>mDevice</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1ae5c34d9de2346e677996eb571714bcbb" prot="protected" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>mName</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a88fb6b3f9887b4db08a19914c988df0f" prot="protected" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>mParent</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1a5c8200ab6aec3f1dde744c757f20bb55" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>node_base</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1accb4652d236cc040f705f43898cc7252" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>node_base</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1a975096b6c1090c9304f107b17dc41a8a" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>node_base</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a903e03ca8416c20c817d8aa64629454f" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>operator=</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a817396e140606a78573c2ab36a783030" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>operator=</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1a81875a4a84cca0e3e1538724b2a5aa76" prot="public" virt="non-virtual" ambiguityscope="ossia::net::node_base::"><scope>ossia::net::generic_node</scope><name>operator=</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1a1b957673f2491909b4e0d5280774a782" prot="public" virt="non-virtual" ambiguityscope="ossia::net::node_base::"><scope>ossia::net::generic_node</scope><name>operator=</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a64cefdd3de06053fca6e52ba4bf8c732" prot="public" virt="virtual"><scope>ossia::net::generic_node</scope><name>removeAddress</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1a61f9162b61200b56677920b7cf40a1c3" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>removeChild</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1a58a5df57302ff96034d6280490933567" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>removeChild</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a0600291b6f09073d0763bbff80bb8b73" prot="private" virt="virtual"><scope>ossia::net::generic_node</scope><name>removingChild</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1a3e3c15ce761c210363d7562997802c47" prot="public" virt="virtual"><scope>ossia::net::generic_node</scope><name>setName</name></member>
+      <member refid="classossia_1_1net_1_1generic__node_1aaaeebdb795b8f313c7b2b7ba079a4ab6" prot="public" virt="non-virtual"><scope>ossia::net::generic_node</scope><name>~generic_node</name></member>
+      <member refid="classossia_1_1net_1_1node__base_1addfb9bb39e1861ce4f8d831bd7d86afe" prot="public" virt="virtual"><scope>ossia::net::generic_node</scope><name>~node_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

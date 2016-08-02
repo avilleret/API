@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1net_1_1midi_1_1midi__info" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::net::midi::midi_info</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structossia_1_1net_1_1midi_1_1midi__info_1a601e3c4ac8bf175ea836bb5869d7fc3a" prot="public" static="no">
+        <name>Type</name>
+        <enumvalue id="structossia_1_1net_1_1midi_1_1midi__info_1a601e3c4ac8bf175ea836bb5869d7fc3aaadd492fbde2624082d9fb00057ec8c66" prot="public">
+          <name>RemoteInput</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structossia_1_1net_1_1midi_1_1midi__info_1a601e3c4ac8bf175ea836bb5869d7fc3aaff5aeed33965678abcec3ed915106d4c" prot="public">
+          <name>RemoteOutput</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" line="25" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" bodystart="24" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structossia_1_1net_1_1midi_1_1midi__info_1ad6147386c640f7e318454f5df2d1b27e" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type ossia::net::midi::midi_info::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" line="36" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structossia_1_1net_1_1midi_1_1midi__info_1ad47f3f05ddbfeff1d85675cd5a1276fd" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ossia::net::midi::midi_info::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" line="37" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structossia_1_1net_1_1midi_1_1midi__info_1a2eaa8139369de6889c19b6d59852b568" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ossia::net::midi::midi_info::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" line="38" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1net_1_1midi_1_1midi__info_1ae4ad42721af30a71b288d839be6af2c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::midi::midi_info::midi_info</definition>
+        <argsstring>()=default</argsstring>
+        <name>midi_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1net_1_1midi_1_1midi__info_1aece80bc22beac40697c82d6716507670" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ossia::net::midi::midi_info::midi_info</definition>
+        <argsstring>(Type t, std::string d, int p)</argsstring>
+        <name>midi_info</name>
+        <param>
+          <type>Type</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" line="31" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" line="23" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/midi/midi_protocol.hpp" bodystart="22" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structossia_1_1net_1_1midi_1_1midi__info_1ad47f3f05ddbfeff1d85675cd5a1276fd" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_info</scope><name>device</name></member>
+      <member refid="structossia_1_1net_1_1midi_1_1midi__info_1ae4ad42721af30a71b288d839be6af2c4" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_info</scope><name>midi_info</name></member>
+      <member refid="structossia_1_1net_1_1midi_1_1midi__info_1aece80bc22beac40697c82d6716507670" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_info</scope><name>midi_info</name></member>
+      <member refid="structossia_1_1net_1_1midi_1_1midi__info_1a2eaa8139369de6889c19b6d59852b568" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_info</scope><name>port</name></member>
+      <member refid="structossia_1_1net_1_1midi_1_1midi__info_1a601e3c4ac8bf175ea836bb5869d7fc3a" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_info</scope><name>Type</name></member>
+      <member refid="structossia_1_1net_1_1midi_1_1midi__info_1ad6147386c640f7e318454f5df2d1b27e" prot="public" virt="non-virtual"><scope>ossia::net::midi::midi_info</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

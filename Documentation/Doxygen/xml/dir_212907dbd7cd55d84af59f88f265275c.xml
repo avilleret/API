@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_212907dbd7cd55d84af59f88f265275c" kind="dir">
+    <compoundname>detail</compoundname>
+    <innerfile refid="_automation__impl_8cpp">Automation_impl.cpp</innerfile>
+    <innerfile refid="_automation__impl_8hpp">Automation_impl.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/automation/detail/"/>
+  </compounddef>
+</doxygen>

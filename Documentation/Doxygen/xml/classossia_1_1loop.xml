@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1loop" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ossia::loop</compoundname>
+    <basecompoundref refid="classossia_1_1time__process" prot="public" virt="non-virtual">ossia::time_process</basecompoundref>
+    <derivedcompoundref refid="classossia_1_1detail_1_1loop__impl" prot="public" virt="non-virtual">ossia::detail::loop_impl</derivedcompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classossia_1_1loop_1ae40833611dba3f7938945bc0e827de83" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classossia_1_1loop" kindref="compound">loop</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; loop &gt; ossia::loop::create</definition>
+        <argsstring>(time_value, time_constraint::ExecutionCallback, time_event::ExecutionCallback, time_event::ExecutionCallback)</argsstring>
+        <name>create</name>
+        <param>
+          <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+          <defname>patternDuration</defname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1time__constraint_1a85fc6a7102dcada7c0589a0aa4b72e94" kindref="member">time_constraint::ExecutionCallback</ref></type>
+          <defname>patternConstraintCallback</defname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1time__event_1a3a9a769fd9ee7e8cba1e8942cd0f252a" kindref="member">time_event::ExecutionCallback</ref></type>
+          <defname>patternStartEventCallback</defname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1time__event_1a3a9a769fd9ee7e8cba1e8942cd0f252a" kindref="member">time_event::ExecutionCallback</ref></type>
+          <defname>patternEndEventCallback</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>factory <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>const</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>#TimeValue&amp; duration of the pattern #TimeConstraint </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>TimeConstraint::ExecutionCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be notified at each step of the loop </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>TimeEvent::ExecutionCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to get start pattern #TimeEvent&apos;s status back </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>TimeEvent::ExecutionCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to get end pattern #TimeEvent&apos;s status back </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a new loop </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/loop/loop.hpp" line="27" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/loop/loop.cpp" bodystart="5" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1loop_1aeb7beae75b30a55b5db7edd4da83dc13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ossia::loop::~loop</definition>
+        <argsstring>()</argsstring>
+        <name>~loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/loop/loop.hpp" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1loop_1a72118155b9f56c7920a68963ceff8c79" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="classossia_1_1time__constraint" kindref="compound">time_constraint</ref> &gt;</type>
+        <definition>virtual const std::shared_ptr&lt;time_constraint&gt; ossia::loop::getPatternTimeConstraint</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getPatternTimeConstraint</name>
+        <reimplementedby refid="classossia_1_1detail_1_1loop__impl_1ad5de2c709184482f831fe06b37e553a1">getPatternTimeConstraint</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the pattern #TimeConstraint <simplesect kind="return"><para>std::shared_ptr&lt;TimeConstraint&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/loop/loop.hpp" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1loop_1ab343cd5a74fdced76e5b3a8ea7f351ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="classossia_1_1time__node" kindref="compound">time_node</ref> &gt;</type>
+        <definition>virtual const std::shared_ptr&lt;time_node&gt; ossia::loop::getPatternStartTimeNode</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getPatternStartTimeNode</name>
+        <reimplementedby refid="classossia_1_1detail_1_1loop__impl_1a97fb30acf2d9bb28e95895ed1835cbab">getPatternStartTimeNode</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the pattern start #TimeNode <simplesect kind="return"><para>std::shared_ptr&lt;TimeNode&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/loop/loop.hpp" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1loop_1a260ec14c6192ab7e4239bbd15df67a64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="classossia_1_1time__node" kindref="compound">time_node</ref> &gt;</type>
+        <definition>virtual const std::shared_ptr&lt;time_node&gt; ossia::loop::getPatternEndTimeNode</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getPatternEndTimeNode</name>
+        <reimplementedby refid="classossia_1_1detail_1_1loop__impl_1afb0ef43fbe719b887a6f85e22ec48a04">getPatternEndTimeNode</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the pattern end #TimeNode <simplesect kind="return"><para>std::shared_ptr&lt;TimeNode&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/loop/loop.hpp" line="45" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="245">
+        <label>ossia::time_process</label>
+        <link refid="classossia_1_1time__process"/>
+      </node>
+      <node id="246">
+        <label>ossia::detail::loop_impl</label>
+        <link refid="classossia_1_1detail_1_1loop__impl"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="244">
+        <label>ossia::loop</label>
+        <link refid="classossia_1_1loop"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="248">
+        <label>ossia::time_process</label>
+        <link refid="classossia_1_1time__process"/>
+      </node>
+      <node id="247">
+        <label>ossia::loop</label>
+        <link refid="classossia_1_1loop"/>
+        <childnode refid="248" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/loop/loop.hpp" line="15" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/loop/loop.hpp" bodystart="14" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classossia_1_1loop_1ae40833611dba3f7938945bc0e827de83" prot="public" virt="non-virtual"><scope>ossia::loop</scope><name>create</name></member>
+      <member refid="classossia_1_1loop_1a260ec14c6192ab7e4239bbd15df67a64" prot="public" virt="pure-virtual"><scope>ossia::loop</scope><name>getPatternEndTimeNode</name></member>
+      <member refid="classossia_1_1loop_1ab343cd5a74fdced76e5b3a8ea7f351ef" prot="public" virt="pure-virtual"><scope>ossia::loop</scope><name>getPatternStartTimeNode</name></member>
+      <member refid="classossia_1_1loop_1a72118155b9f56c7920a68963ceff8c79" prot="public" virt="pure-virtual"><scope>ossia::loop</scope><name>getPatternTimeConstraint</name></member>
+      <member refid="classossia_1_1time__process_1a92c95de9f0ccb5bc02dec36876797d50" prot="public" virt="pure-virtual"><scope>ossia::loop</scope><name>offset</name></member>
+      <member refid="classossia_1_1time__process_1a10614dc2642a86e19a393a09c416a5a9" prot="public" virt="non-virtual"><scope>ossia::loop</scope><name>parent</name></member>
+      <member refid="classossia_1_1time__process_1a422f665c7d123d7f278b69a1078fa7af" prot="public" virt="virtual"><scope>ossia::loop</scope><name>pause</name></member>
+      <member refid="classossia_1_1time__process_1a8820b0944cadf7b6b3c4d000404e385b" prot="public" virt="virtual"><scope>ossia::loop</scope><name>resume</name></member>
+      <member refid="classossia_1_1time__process_1ad2548b4db49e9bb0b7e37bd2078d3add" prot="public" virt="virtual"><scope>ossia::loop</scope><name>start</name></member>
+      <member refid="classossia_1_1time__process_1abddea425be33b2e6d08c548a9443f6ed" prot="public" virt="pure-virtual"><scope>ossia::loop</scope><name>state</name></member>
+      <member refid="classossia_1_1time__process_1a2b36f9175d11512bb66593c94a3d2e17" prot="public" virt="virtual"><scope>ossia::loop</scope><name>stop</name></member>
+      <member refid="classossia_1_1loop_1aeb7beae75b30a55b5db7edd4da83dc13" prot="public" virt="virtual"><scope>ossia::loop</scope><name>~loop</name></member>
+      <member refid="classossia_1_1time__process_1a1ce7e65bd4252a07c65ccc0f74090c11" prot="public" virt="virtual"><scope>ossia::loop</scope><name>~time_process</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

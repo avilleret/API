@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1_float" kind="class" language="C++" prot="public">
+    <compoundname>ossia::Float</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structossia_1_1_float_1a45891722c9184839f64a8b9aea3d83d7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ossia::Float::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="13" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1_float_1acdfd7ef8cdcc9f2f917a885f85fabe97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Float::Float</definition>
+        <argsstring>(float v=0.)</argsstring>
+        <name>Float</name>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="15" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1a69ba2ca2b88ca0138191e306fe3e8d5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Float::Float</definition>
+        <argsstring>(const Float &amp;)=default</argsstring>
+        <name>Float</name>
+        <param>
+          <type>const <ref refid="structossia_1_1_float" kindref="compound">Float</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1a53790a6389128387080e28cf880efd3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Float::Float</definition>
+        <argsstring>(Float &amp;&amp;)=default</argsstring>
+        <name>Float</name>
+        <param>
+          <type><ref refid="structossia_1_1_float" kindref="compound">Float</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1ab728187e52880788c42ab30fec66e424" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structossia_1_1_float" kindref="compound">Float</ref> &amp;</type>
+        <definition>Float&amp; ossia::Float::operator=</definition>
+        <argsstring>(const Float &amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="structossia_1_1_float" kindref="compound">Float</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1a10d080f0460d748f2110d8a15164fda9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structossia_1_1_float" kindref="compound">Float</ref> &amp;</type>
+        <definition>Float&amp; ossia::Float::operator=</definition>
+        <argsstring>(Float &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="structossia_1_1_float" kindref="compound">Float</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1a2c4e12836dc83fb5f7fe1946f236bc32" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Float::operator==</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="24" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1abc3f2df29ad60bd4a09c7b7e98e9efa7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Float::operator!=</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="25" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1a3b35798401771fd747efab33f72342f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Float::operator&gt;</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="26" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1a5e991cb3d061ad68ebf3f45894003ae4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Float::operator&gt;=</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="27" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1aaf8be4abf31715fbc484b42c4b02e972" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Float::operator&lt;</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="28" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_float_1ad854c3c19a3689b3ccd4436fd136428b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Float::operator&lt;=</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="29" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" line="12" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/float.hpp" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structossia_1_1_float_1acdfd7ef8cdcc9f2f917a885f85fabe97" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>Float</name></member>
+      <member refid="structossia_1_1_float_1a69ba2ca2b88ca0138191e306fe3e8d5e" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>Float</name></member>
+      <member refid="structossia_1_1_float_1a53790a6389128387080e28cf880efd3d" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>Float</name></member>
+      <member refid="structossia_1_1_float_1abc3f2df29ad60bd4a09c7b7e98e9efa7" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>operator!=</name></member>
+      <member refid="structossia_1_1_float_1aaf8be4abf31715fbc484b42c4b02e972" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>operator&lt;</name></member>
+      <member refid="structossia_1_1_float_1ad854c3c19a3689b3ccd4436fd136428b" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>operator&lt;=</name></member>
+      <member refid="structossia_1_1_float_1ab728187e52880788c42ab30fec66e424" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>operator=</name></member>
+      <member refid="structossia_1_1_float_1a10d080f0460d748f2110d8a15164fda9" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>operator=</name></member>
+      <member refid="structossia_1_1_float_1a2c4e12836dc83fb5f7fe1946f236bc32" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>operator==</name></member>
+      <member refid="structossia_1_1_float_1a3b35798401771fd747efab33f72342f2" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>operator&gt;</name></member>
+      <member refid="structossia_1_1_float_1a5e991cb3d061ad68ebf3f45894003ae4" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>operator&gt;=</name></member>
+      <member refid="structossia_1_1_float_1a45891722c9184839f64a8b9aea3d83d7" prot="public" virt="non-virtual"><scope>ossia::Float</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,667 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceossia_1_1minuit" kind="namespace" language="C++">
+    <compoundname>ossia::minuit</compoundname>
+    <innerclass refid="structossia_1_1minuit_1_1minuit__behavior" prot="public">ossia::minuit::minuit_behavior</innerclass>
+    <innerclass refid="structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_get_01_4" prot="public">ossia::minuit::minuit_behavior&lt; minuit_command::Answer, minuit_operation::Get &gt;</innerclass>
+    <innerclass refid="structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_listen_01_4" prot="public">ossia::minuit::minuit_behavior&lt; minuit_command::Answer, minuit_operation::Listen &gt;</innerclass>
+    <innerclass refid="structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_namespace_01_4" prot="public">ossia::minuit::minuit_behavior&lt; minuit_command::Answer, minuit_operation::Namespace &gt;</innerclass>
+    <innerclass refid="structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_error_00_01_op_01_4" prot="public">ossia::minuit::minuit_behavior&lt; minuit_command::Error, Op &gt;</innerclass>
+    <innerclass refid="structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_request_00_01minuit__operation_1_1_get_01_4" prot="public">ossia::minuit::minuit_behavior&lt; minuit_command::Request, minuit_operation::Get &gt;</innerclass>
+    <innerclass refid="structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_request_00_01minuit__operation_1_1_listen_01_4" prot="public">ossia::minuit::minuit_behavior&lt; minuit_command::Request, minuit_operation::Listen &gt;</innerclass>
+    <innerclass refid="structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_request_00_01minuit__operation_1_1_namespace_01_4" prot="public">ossia::minuit::minuit_behavior&lt; minuit_command::Request, minuit_operation::Namespace &gt;</innerclass>
+    <innerclass refid="classossia_1_1minuit_1_1minuit__message__handler" prot="public">ossia::minuit::minuit_message_handler</innerclass>
+    <innerclass refid="classossia_1_1minuit_1_1name__table" prot="public">ossia::minuit::name_table</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="minuit__common_8hpp_1a37e54a3f815e6286c78ffc818b0e6f15" prot="public" static="no">
+        <name>minuit_command</name>
+        <enumvalue id="dummy_1a37e54a3f815e6286c78ffc818b0e6f15a15c2d85f1fae22a3c3a0594510a1f611" prot="public">
+          <name>Request</name>
+          <initializer>= &apos;?&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a37e54a3f815e6286c78ffc818b0e6f15a3751695c17afed4055a7a5ad5d46f6f5" prot="public">
+          <name>Answer</name>
+          <initializer>= &apos;:&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a37e54a3f815e6286c78ffc818b0e6f15a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <initializer>= &apos;!&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="12" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="enum" id="minuit__common_8hpp_1a10e438ab13443d36adeb23bf6f882097" prot="public" static="no">
+        <name>minuit_operation</name>
+        <enumvalue id="dummy_1a10e438ab13443d36adeb23bf6f882097ace6802b46091c31e2ec2363883fe8369" prot="public">
+          <name>Listen</name>
+          <initializer>= &apos;l&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a10e438ab13443d36adeb23bf6f882097ab3ba0fe968ce39dcfc6fe8cc0f1b02da" prot="public">
+          <name>Namespace</name>
+          <initializer>= &apos;n&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a10e438ab13443d36adeb23bf6f882097ac55582518cba2c464f29f5bae1c68def" prot="public">
+          <name>Get</name>
+          <initializer>= &apos;g&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="19" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="minuit__common_8hpp_1afe86aff15c77d71bc4cde61d139b6678" prot="public" static="no">
+        <name>minuit_action</name>
+        <enumvalue id="dummy_1afe86aff15c77d71bc4cde61d139b6678a8a93428c2727f086af384128afef4945" prot="public">
+          <name>NamespaceRequest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1afe86aff15c77d71bc4cde61d139b6678a60191cde1cb6f922d57b2f488b57a207" prot="public">
+          <name>NamespaceReply</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1afe86aff15c77d71bc4cde61d139b6678a4161d138eaf288da439200fbc64cdf3b" prot="public">
+          <name>NamespaceError</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1afe86aff15c77d71bc4cde61d139b6678aae35932ce7dfbf9f9a05b16231f0f678" prot="public">
+          <name>GetRequest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1afe86aff15c77d71bc4cde61d139b6678ad413b65e73eb42f63d792ccdcf8aa950" prot="public">
+          <name>GetReply</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1afe86aff15c77d71bc4cde61d139b6678ac18d435520eeb5d5ba2bac4c22e75122" prot="public">
+          <name>GetError</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1afe86aff15c77d71bc4cde61d139b6678a28a2ce9a734584e6204c649917c533e1" prot="public">
+          <name>ListenRequest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1afe86aff15c77d71bc4cde61d139b6678ab2b58063340d4076336e22bc224e4e07" prot="public">
+          <name>ListenReply</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1afe86aff15c77d71bc4cde61d139b6678a9b73585a33be93b825035954ca1b615b" prot="public">
+          <name>ListenError</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="26" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="25" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="enum" id="minuit__common_8hpp_1a1c5afc80020b5bcade39d3246e0b92d0" prot="public" static="no">
+        <name>minuit_type</name>
+        <enumvalue id="dummy_1a1c5afc80020b5bcade39d3246e0b92d0ae498749f3c42246d50b15c81c101d988" prot="public">
+          <name>Application</name>
+          <initializer>= &apos;A&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a1c5afc80020b5bcade39d3246e0b92d0a0e7278cda02a9c0446dcc75a4df34eb2" prot="public">
+          <name>Container</name>
+          <initializer>= &apos;C&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a1c5afc80020b5bcade39d3246e0b92d0af6068daa29dbb05a7ead1e3b5a48bbee" prot="public">
+          <name>Data</name>
+          <initializer>= &apos;D&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a1c5afc80020b5bcade39d3246e0b92d0a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= &apos;n&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a1c5afc80020b5bcade39d3246e0b92d0a159a4ee1e066884ac274f469badeed73" prot="public">
+          <name>ModelInfo</name>
+          <initializer>= &apos;M&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a1c5afc80020b5bcade39d3246e0b92d0a43953262a83ca624a981e4d2efa1dd8b" prot="public">
+          <name>UiInfo</name>
+          <initializer>= &apos;U&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a1c5afc80020b5bcade39d3246e0b92d0aa2c4b90829da7cb742489d906adf9631" prot="public">
+          <name>PresetManager</name>
+          <initializer>= &apos;P&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="39" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="enum" id="minuit__common_8hpp_1a9f61f5f2efc4bc8ae22f4620c288823f" prot="public" static="no">
+        <name>minuit_attribute</name>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fa689202409e48743b914713f96d93947c" prot="public">
+          <name>Value</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823faa1fa27779242b4902f7ae3bdd5c6d508" prot="public">
+          <name>Type</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fac2ba7e785c49050f48da9aacc45c2b85" prot="public">
+          <name>Service</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fa7ec74362bee3275289816676eeaad359" prot="public">
+          <name>RangeBounds</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fa7a37b4bc65dd1fecd3262c11ecf23f9f" prot="public">
+          <name>RangeClipMode</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fab5a7adde1af5c87d7fd797b6245c2a39" prot="public">
+          <name>Description</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fa94733e7755eb1372a24e2d757bb0a2bc" prot="public">
+          <name>RepetitionFilter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fa189f63f277cd73395561651753563065" prot="public">
+          <name>Tags</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fa4d3d769b812b6faa6b76e1a8abaece2d" prot="public">
+          <name>Active</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fa42ab8bbb21986edeaec9fac216734d9f" prot="public">
+          <name>ValueDefault</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fa502996d9790340c5fd7b86a5b93b1c9f" prot="public">
+          <name>Priority</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fae2d48e7bc4413d04a4dcb1fe32c877f6" prot="public">
+          <name>Dataspace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fa248740d76b0fdb59c44fac55d32650e2" prot="public">
+          <name>DataspaceUnit</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fae97d74b90eb6fc6de70da32fa5ddfad0" prot="public">
+          <name>RampFunction</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fabd6a543966a7b7a8b0c90457193f3022" prot="public">
+          <name>RampDrive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823fac3f9eea3f2d6e65ce7c538612d0b7c57" prot="public">
+          <name>ValueStepSize</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dummy_1a9f61f5f2efc4bc8ae22f4620c288823faa95791d59d68d4eef694e48f36d73378" prot="public">
+          <name>RampFunctionParameters</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="50" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="49" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="minuit__common_8hpp_1a021a9d12bdf9ff23add5c22a308e7ed4" prot="public" static="no" mutable="no">
+        <type>const std::unordered_map&lt; std::string, minuit_attribute &gt;</type>
+        <definition>const std::unordered_map&lt;std::string, minuit_attribute&gt; ossia::minuit::attribute_unordered_map</definition>
+        <argsstring></argsstring>
+        <name>attribute_unordered_map</name>
+        <initializer>{
+        {&quot;value&quot;, minuit_attribute::Value},
+        {&quot;type&quot;, minuit_attribute::Type},
+        {&quot;service&quot;, minuit_attribute::Service},
+        {&quot;priority&quot;, minuit_attribute::Priority},
+        {&quot;rangeBounds&quot;, minuit_attribute::RangeBounds},
+        {&quot;rangeClipmode&quot;, minuit_attribute::RangeClipMode},
+        {&quot;description&quot;, minuit_attribute::Description},
+        {&quot;repetitionsFilter&quot;, minuit_attribute::RepetitionFilter},
+        {&quot;tags&quot;, minuit_attribute::Tags},
+        {&quot;active&quot;, minuit_attribute::Active},
+        {&quot;valueDefault&quot;, minuit_attribute::ValueDefault},
+        {&quot;priority&quot;, minuit_attribute::Priority},
+        {&quot;dataspace&quot;, minuit_attribute::Dataspace},
+        {&quot;dataspaceUnit&quot;, minuit_attribute::DataspaceUnit},
+        {&quot;rampFunction&quot;, minuit_attribute::RampFunction},
+        {&quot;rampDrive&quot;, minuit_attribute::RampDrive},
+        {&quot;valueStepsize&quot;, minuit_attribute::ValueStepSize},
+        {&quot;rampFunctionParameters&quot;, minuit_attribute::RampFunctionParameters},
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="316" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="minuit__common_8hpp_1ae041a8457ee9340d0ef871aa61823f0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boost::string_ref</type>
+        <definition>boost::string_ref ossia::minuit::to_minuit_type_text</definition>
+        <argsstring>(const ossia::value &amp;val)</argsstring>
+        <name>to_minuit_type_text</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="70" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="70" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1a375d17cb33a577949b78cef5a2a37a25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boost::string_ref</type>
+        <definition>boost::string_ref ossia::minuit::to_minuit_type_text</definition>
+        <argsstring>(ossia::val_type val)</argsstring>
+        <name>to_minuit_type_text</name>
+        <param>
+          <type><ref refid="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197" kindref="member">ossia::val_type</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="132" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="132" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1a61efbbd454dc570bc86c731621029810" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref></type>
+        <definition>ossia::value ossia::minuit::value_from_minuit_type_text</definition>
+        <argsstring>(boost::string_ref str)</argsstring>
+        <name>value_from_minuit_type_text</name>
+        <param>
+          <type>boost::string_ref</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="158" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="158" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1aa26a69c84a7379cc41116ea8a15605d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197" kindref="member">ossia::val_type</ref></type>
+        <definition>ossia::val_type ossia::minuit::type_from_minuit_type_text</definition>
+        <argsstring>(boost::string_ref str)</argsstring>
+        <name>type_from_minuit_type_text</name>
+        <param>
+          <type>boost::string_ref</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="183" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="183" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1a95ca4386f758ac1aa5e4230f91ceb055" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boost::string_ref</type>
+        <definition>boost::string_ref ossia::minuit::to_minuit_service_text</definition>
+        <argsstring>(ossia::access_mode acc)</argsstring>
+        <name>to_minuit_service_text</name>
+        <param>
+          <type><ref refid="namespaceossia_1a12eff94246938e4d287a2afe9aeaafa4" kindref="member">ossia::access_mode</ref></type>
+          <declname>acc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="208" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="208" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1ae206655805c0abe5b0d99803d2afd658" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceossia_1a12eff94246938e4d287a2afe9aeaafa4" kindref="member">ossia::access_mode</ref></type>
+        <definition>ossia::access_mode ossia::minuit::from_minuit_service_text</definition>
+        <argsstring>(boost::string_ref str)</argsstring>
+        <name>from_minuit_service_text</name>
+        <param>
+          <type>boost::string_ref</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="223" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="223" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1a95866b64a8330254a0e55996a4dfb3ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boost::string_ref</type>
+        <definition>boost::string_ref ossia::minuit::to_minuit_bounding_text</definition>
+        <argsstring>(ossia::bounding_mode b)</argsstring>
+        <name>to_minuit_bounding_text</name>
+        <param>
+          <type><ref refid="namespaceossia_1aed414113ede1f539256e47262c495722" kindref="member">ossia::bounding_mode</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="238" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="238" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1a78b2d448c56321036b5e7626b790460d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceossia_1aed414113ede1f539256e47262c495722" kindref="member">ossia::bounding_mode</ref></type>
+        <definition>ossia::bounding_mode ossia::minuit::from_minuit_bounding_text</definition>
+        <argsstring>(boost::string_ref str)</argsstring>
+        <name>from_minuit_bounding_text</name>
+        <param>
+          <type>boost::string_ref</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="255" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="255" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1a5d0a22c14aa965c9624676ceb6685d84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boost::string_ref</type>
+        <definition>boost::string_ref ossia::minuit::to_minuit_attribute_text</definition>
+        <argsstring>(minuit_attribute str)</argsstring>
+        <name>to_minuit_attribute_text</name>
+        <param>
+          <type>minuit_attribute</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="272" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="272" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1a5bf03ae952d50be2601b80cf0639d0b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>minuit_attribute</type>
+        <definition>minuit_attribute ossia::minuit::get_attribute</definition>
+        <argsstring>(boost::string_ref str)</argsstring>
+        <name>get_attribute</name>
+        <param>
+          <type>boost::string_ref</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="337" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="337" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1a26295ac34f94c85b538b76b2c549898b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>minuit_command</type>
+        <definition>minuit_command ossia::minuit::get_command</definition>
+        <argsstring>(char str)</argsstring>
+        <name>get_command</name>
+        <param>
+          <type>char</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="346" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="346" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1af13014053f46963f8bf6abcb085b43be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>minuit_type</type>
+        <definition>minuit_type ossia::minuit::get_type</definition>
+        <argsstring>(char str)</argsstring>
+        <name>get_type</name>
+        <param>
+          <type>char</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="359" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="359" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1a845594752deda2ca7d031b19aa70bc05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>minuit_operation</type>
+        <definition>minuit_operation ossia::minuit::get_operation</definition>
+        <argsstring>(char str)</argsstring>
+        <name>get_operation</name>
+        <param>
+          <type>char</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="376" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="376" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__common_8hpp_1adec9d23ceb4664586bcfe2959b6daf5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>minuit_operation</type>
+        <definition>minuit_operation ossia::minuit::get_operation</definition>
+        <argsstring>(boost::string_ref str)</argsstring>
+        <name>get_operation</name>
+        <param>
+          <type>boost::string_ref</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="389" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" bodystart="389" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="minuit__parser_8hpp_1a0d81a58840792c3ea99000ce8454f46d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename It</type>
+          </param>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto ossia::minuit::find_if</definition>
+        <argsstring>(It begin, It end, Fun f)</argsstring>
+        <name>find_if</name>
+        <param>
+          <type>It</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>It</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_parser.hpp" line="375" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_parser.hpp" bodystart="375" bodyend="383"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_common.hpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="minuit__name__table_8hpp" kind="file" language="C++">
+    <compoundname>minuit_name_table.hpp</compoundname>
+    <includes refid="minuit__common_8hpp" local="no">ossia/network/minuit/detail/minuit_common.hpp</includes>
+    <includes local="no">array</includes>
+    <includes local="no">boost/utility/string_ref.hpp</includes>
+    <includes local="no">string</includes>
+    <includedby refid="minuit_8hpp" local="no">minuit.hpp</includedby>
+    <incdepgraph>
+      <node id="3531">
+        <label>ossia/editor/value/impulse.hpp</label>
+        <link refid="impulse_8hpp_source"/>
+        <childnode refid="3519" relation="include">
+        </childnode>
+      </node>
+      <node id="3535">
+        <label>ossia/editor/value/tuple.hpp</label>
+        <link refid="tuple_8hpp_source"/>
+        <childnode refid="3528" relation="include">
+        </childnode>
+        <childnode refid="3519" relation="include">
+        </childnode>
+        <childnode refid="3529" relation="include">
+        </childnode>
+      </node>
+      <node id="3538">
+        <label>eggs/variant.hpp</label>
+      </node>
+      <node id="3525">
+        <label>ossia/detail/destination_index.hpp</label>
+        <link refid="destination__index_8hpp_source"/>
+        <childnode refid="3526" relation="include">
+        </childnode>
+      </node>
+      <node id="3534">
+        <label>string</label>
+      </node>
+      <node id="3519">
+        <label>ossia_export.h</label>
+      </node>
+      <node id="3540">
+        <label>exception</label>
+      </node>
+      <node id="3536">
+        <label>ossia/editor/value/vec.hpp</label>
+        <link refid="vec_8hpp_source"/>
+        <childnode refid="3537" relation="include">
+        </childnode>
+      </node>
+      <node id="3533">
+        <label>ossia/editor/value/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="3519" relation="include">
+        </childnode>
+        <childnode refid="3534" relation="include">
+        </childnode>
+      </node>
+      <node id="3513">
+        <label>minuit_name_table.hpp</label>
+        <link refid="minuit_name_table.hpp"/>
+        <childnode refid="3514" relation="include">
+        </childnode>
+        <childnode refid="3537" relation="include">
+        </childnode>
+        <childnode refid="3539" relation="include">
+        </childnode>
+        <childnode refid="3534" relation="include">
+        </childnode>
+      </node>
+      <node id="3516">
+        <label>ossia/editor/value/value_base.hpp</label>
+        <link refid="value__base_8hpp_source"/>
+        <childnode refid="3517" relation="include">
+        </childnode>
+        <childnode refid="3522" relation="include">
+        </childnode>
+        <childnode refid="3523" relation="include">
+        </childnode>
+        <childnode refid="3524" relation="include">
+        </childnode>
+        <childnode refid="3530" relation="include">
+        </childnode>
+        <childnode refid="3531" relation="include">
+        </childnode>
+        <childnode refid="3532" relation="include">
+        </childnode>
+        <childnode refid="3533" relation="include">
+        </childnode>
+        <childnode refid="3535" relation="include">
+        </childnode>
+        <childnode refid="3536" relation="include">
+        </childnode>
+      </node>
+      <node id="3522">
+        <label>ossia/editor/value/bool.hpp</label>
+        <link refid="bool_8hpp_source"/>
+        <childnode refid="3519" relation="include">
+        </childnode>
+      </node>
+      <node id="3527">
+        <label>ossia/network/common/address_properties.hpp</label>
+        <link refid="address__properties_8hpp_source"/>
+      </node>
+      <node id="3529">
+        <label>vector</label>
+      </node>
+      <node id="3523">
+        <label>ossia/editor/value/char.hpp</label>
+        <link refid="char_8hpp_source"/>
+        <childnode refid="3519" relation="include">
+        </childnode>
+      </node>
+      <node id="3520">
+        <label>utility</label>
+      </node>
+      <node id="3537">
+        <label>array</label>
+      </node>
+      <node id="3524">
+        <label>ossia/editor/value/destination.hpp</label>
+        <link refid="destination_8hpp_source"/>
+        <childnode refid="3525" relation="include">
+        </childnode>
+        <childnode refid="3527" relation="include">
+        </childnode>
+        <childnode refid="3528" relation="include">
+        </childnode>
+        <childnode refid="3521" relation="include">
+        </childnode>
+        <childnode refid="3519" relation="include">
+        </childnode>
+        <childnode refid="3529" relation="include">
+        </childnode>
+      </node>
+      <node id="3514">
+        <label>ossia/network/minuit/detail/minuit_common.hpp</label>
+        <link refid="minuit__common_8hpp_source"/>
+        <childnode refid="3515" relation="include">
+        </childnode>
+        <childnode refid="3539" relation="include">
+        </childnode>
+        <childnode refid="3540" relation="include">
+        </childnode>
+        <childnode refid="3541" relation="include">
+        </childnode>
+      </node>
+      <node id="3532">
+        <label>ossia/editor/value/int.hpp</label>
+        <link refid="int_8hpp_source"/>
+        <childnode refid="3519" relation="include">
+        </childnode>
+      </node>
+      <node id="3530">
+        <label>ossia/editor/value/float.hpp</label>
+        <link refid="float_8hpp_source"/>
+        <childnode refid="3519" relation="include">
+        </childnode>
+      </node>
+      <node id="3518">
+        <label>ossia/editor/curve/curve_abstract.hpp</label>
+        <link refid="curve__abstract_8hpp_source"/>
+        <childnode refid="3519" relation="include">
+        </childnode>
+        <childnode refid="3520" relation="include">
+        </childnode>
+      </node>
+      <node id="3515">
+        <label>ossia/editor/value/value.hpp</label>
+        <link refid="value_8hpp_source"/>
+        <childnode refid="3516" relation="include">
+        </childnode>
+        <childnode refid="3538" relation="include">
+        </childnode>
+        <childnode refid="3519" relation="include">
+        </childnode>
+      </node>
+      <node id="3541">
+        <label>unordered_map</label>
+      </node>
+      <node id="3539">
+        <label>boost/utility/string_ref.hpp</label>
+      </node>
+      <node id="3517">
+        <label>ossia/editor/value/behavior.hpp</label>
+        <link refid="behavior_8hpp_source"/>
+        <childnode refid="3518" relation="include">
+        </childnode>
+        <childnode refid="3521" relation="include">
+        </childnode>
+        <childnode refid="3519" relation="include">
+        </childnode>
+      </node>
+      <node id="3526">
+        <label>boost/container/static_vector.hpp</label>
+      </node>
+      <node id="3521">
+        <label>memory</label>
+      </node>
+      <node id="3528">
+        <label>initializer_list</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3545">
+        <label>network.hpp</label>
+        <link refid="network_8hpp_source"/>
+        <childnode refid="3546" relation="include">
+        </childnode>
+      </node>
+      <node id="3544">
+        <label>minuit_parser.hpp</label>
+        <link refid="minuit__parser_8hpp_source"/>
+      </node>
+      <node id="3542">
+        <label>minuit_name_table.hpp</label>
+        <link refid="minuit_name_table.hpp"/>
+        <childnode refid="3543" relation="include">
+        </childnode>
+      </node>
+      <node id="3546">
+        <label>ossia.hpp</label>
+        <link refid="ossia_8hpp_source"/>
+      </node>
+      <node id="3543">
+        <label>minuit.hpp</label>
+        <link refid="minuit_8hpp_source"/>
+        <childnode refid="3544" relation="include">
+        </childnode>
+        <childnode refid="3545" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classossia_1_1minuit_1_1name__table" prot="public">ossia::minuit::name_table</innerclass>
+    <innernamespace refid="namespaceossia">ossia</innernamespace>
+    <innernamespace refid="namespaceossia_1_1minuit">ossia::minuit</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/network/minuit/detail/minuit_common.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/utility/string_ref.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceossia" kindref="compound">ossia</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">minuit</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="classossia_1_1minuit_1_1name__table" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classossia_1_1minuit_1_1name__table" kindref="compound">name_table</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_device_name(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>m_actions[(int)minuit_action::NamespaceRequest]<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;?namespace&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>m_actions[(int)minuit_action::NamespaceReply]<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;:namespace&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>m_actions[(int)minuit_action::NamespaceError]<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;!namespace&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>m_actions[(int)minuit_action::GetRequest]<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;?get&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>m_actions[(int)minuit_action::GetReply]<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;:get&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>m_actions[(int)minuit_action::GetError]<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;!get&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>m_actions[(int)minuit_action::ListenRequest]<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;?listen&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>m_actions[(int)minuit_action::ListenReply]<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;:listen&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>m_actions[(int)minuit_action::ListenError]<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;!listen&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>boost::string_ref<sp/>get_action(minuit_action<sp/>c)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="29"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_actions[</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(c)];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>std::array&lt;std::string,<sp/>9&gt;<sp/>m_actions;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_name_table.hpp"/>
+  </compounddef>
+</doxygen>

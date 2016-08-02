@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceossia_1_1comparisons" kind="namespace" language="C++">
+    <compoundname>ossia::comparisons</compoundname>
+    <innerclass refid="structossia_1_1comparisons_1_1_destination_value" prot="public">ossia::comparisons::DestinationValue</innerclass>
+    <innerclass refid="structossia_1_1comparisons_1_1_destination_visitor" prot="public">ossia::comparisons::DestinationVisitor</innerclass>
+    <innerclass refid="structossia_1_1comparisons_1_1_impulse___t" prot="public">ossia::comparisons::Impulse_T</innerclass>
+    <innerclass refid="structossia_1_1comparisons_1_1_numeric_value" prot="public">ossia::comparisons::NumericValue</innerclass>
+    <innerclass refid="structossia_1_1comparisons_1_1_string___t" prot="public">ossia::comparisons::String_T</innerclass>
+    <innerclass refid="structossia_1_1comparisons_1_1_string_value" prot="public">ossia::comparisons::StringValue</innerclass>
+    <innerclass refid="structossia_1_1comparisons_1_1_tuple_value" prot="public">ossia::comparisons::TupleValue</innerclass>
+    <innerclass refid="structossia_1_1comparisons_1_1_tuple_visitor" prot="public">ossia::comparisons::TupleVisitor</innerclass>
+    <innerclass refid="structossia_1_1comparisons_1_1_vec_value" prot="public">ossia::comparisons::VecValue</innerclass>
+    <innerclass refid="structossia_1_1comparisons_1_1_vec_visitor" prot="public">ossia::comparisons::VecVisitor</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="value__comparison_8hpp_1a72af274c810244ca4c7a661875cdef91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto ossia::comparisons::make_tuple_visitor</definition>
+        <argsstring>(const Tuple &amp;lhs, const ossia::value &amp;val, Fun f)</argsstring>
+        <name>make_tuple_visitor</name>
+        <param>
+          <type>const <ref refid="structossia_1_1_tuple" kindref="compound">Tuple</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="277" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="value__comparison_8hpp_1af0264914a9db2f24786cea90fb7bbd52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto ossia::comparisons::make_destination_visitor</definition>
+        <argsstring>(const Destination &amp;lhs, const ossia::value &amp;val, Fun f)</argsstring>
+        <name>make_destination_visitor</name>
+        <param>
+          <type>const <ref refid="classossia_1_1_destination" kindref="compound">Destination</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="343" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="343" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="value__comparison_8hpp_1a6f5e94eca101db6c9d00e15cd726c0ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vec_T</type>
+          </param>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto ossia::comparisons::make_vec_visitor</definition>
+        <argsstring>(const Vec_T &amp;lhs, Fun f)</argsstring>
+        <name>make_vec_visitor</name>
+        <param>
+          <type>const Vec_T &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="387" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="387" bodyend="390"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

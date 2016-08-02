@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="network_8hpp" kind="file" language="C++">
+    <compoundname>network.hpp</compoundname>
+    <includes refid="generic__address_8hpp" local="no">ossia/network/generic/generic_address.hpp</includes>
+    <includes refid="generic__device_8hpp" local="no">ossia/network/generic/generic_device.hpp</includes>
+    <includes refid="generic__node_8hpp" local="no">ossia/network/generic/generic_node.hpp</includes>
+    <includes refid="local_8hpp" local="no">ossia/network/local/local.hpp</includes>
+    <includes refid="minuit_8hpp" local="no">ossia/network/minuit/minuit.hpp</includes>
+    <includes refid="osc_8hpp" local="no">ossia/network/osc/osc.hpp</includes>
+    <includedby refid="ossia_8hpp" local="no">ossia.hpp</includedby>
+    <incdepgraph>
+      <node id="3622">
+        <label>list</label>
+      </node>
+      <node id="3639">
+        <label>ossia/editor/value/impulse.hpp</label>
+        <link refid="impulse_8hpp_source"/>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3649">
+        <label>ossia/network/domain/detail/domain_visitors.hpp</label>
+        <link refid="domain__visitors_8hpp_source"/>
+        <childnode refid="3650" relation="include">
+        </childnode>
+      </node>
+      <node id="3657">
+        <label>functional</label>
+      </node>
+      <node id="3674">
+        <label>ossia/network/osc/detail/receiver.hpp</label>
+        <link refid="receiver_8hpp_source"/>
+        <childnode refid="3657" relation="include">
+        </childnode>
+        <childnode refid="3675" relation="include">
+        </childnode>
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3676" relation="include">
+        </childnode>
+        <childnode refid="3677" relation="include">
+        </childnode>
+        <childnode refid="3678" relation="include">
+        </childnode>
+        <childnode refid="3667" relation="include">
+        </childnode>
+      </node>
+      <node id="3671">
+        <label>iterator</label>
+      </node>
+      <node id="3653">
+        <label>ossia/editor/value/value_traits.hpp</label>
+        <link refid="value__traits_8hpp_source"/>
+        <childnode refid="3623" relation="include">
+        </childnode>
+      </node>
+      <node id="3684">
+        <label>oscpack/osc/OscOutboundPacketStream.h</label>
+      </node>
+      <node id="3677">
+        <label>oscpack/osc/OscDebug.h</label>
+      </node>
+      <node id="3643">
+        <label>ossia/editor/value/tuple.hpp</label>
+        <link refid="tuple_8hpp_source"/>
+        <childnode refid="3636" relation="include">
+        </childnode>
+        <childnode refid="3627" relation="include">
+        </childnode>
+        <childnode refid="3637" relation="include">
+        </childnode>
+      </node>
+      <node id="3659">
+        <label>ossia/network/generic/generic_device.hpp</label>
+        <link refid="generic__device_8hpp_source"/>
+        <childnode refid="3660" relation="include">
+        </childnode>
+        <childnode refid="3663" relation="include">
+        </childnode>
+        <childnode refid="3665" relation="include">
+        </childnode>
+      </node>
+      <node id="3672">
+        <label>ossia/network/base/protocol.hpp</label>
+        <link refid="protocol_8hpp_source"/>
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3646">
+        <label>eggs/variant.hpp</label>
+      </node>
+      <node id="3668">
+        <label>ossia/network/local/local.hpp</label>
+        <link refid="local_8hpp_source"/>
+        <childnode refid="3669" relation="include">
+        </childnode>
+        <childnode refid="3672" relation="include">
+        </childnode>
+        <childnode refid="3637" relation="include">
+        </childnode>
+      </node>
+      <node id="3652">
+        <label>cmath</label>
+      </node>
+      <node id="3691">
+        <label>ossia/network/osc/osc.hpp</label>
+        <link refid="osc_8hpp_source"/>
+        <childnode refid="3642" relation="include">
+        </childnode>
+        <childnode refid="3672" relation="include">
+        </childnode>
+        <childnode refid="3674" relation="include">
+        </childnode>
+        <childnode refid="3679" relation="include">
+        </childnode>
+        <childnode refid="3666" relation="include">
+        </childnode>
+        <childnode refid="3688" relation="include">
+        </childnode>
+      </node>
+      <node id="3633">
+        <label>ossia/detail/destination_index.hpp</label>
+        <link refid="destination__index_8hpp_source"/>
+        <childnode refid="3634" relation="include">
+        </childnode>
+      </node>
+      <node id="3682">
+        <label>oscpack/osc/SmallString.h</label>
+      </node>
+      <node id="3681">
+        <label>ossia/network/osc/detail/string_view.hpp</label>
+        <link refid="string__view_8hpp_source"/>
+        <childnode refid="3665" relation="include">
+        </childnode>
+        <childnode refid="3657" relation="include">
+        </childnode>
+        <childnode refid="3682" relation="include">
+        </childnode>
+        <childnode refid="3656" relation="include">
+        </childnode>
+      </node>
+      <node id="3619">
+        <label>network.hpp</label>
+        <link refid="network.hpp"/>
+        <childnode refid="3620" relation="include">
+        </childnode>
+        <childnode refid="3659" relation="include">
+        </childnode>
+        <childnode refid="3663" relation="include">
+        </childnode>
+        <childnode refid="3668" relation="include">
+        </childnode>
+        <childnode refid="3673" relation="include">
+        </childnode>
+        <childnode refid="3691" relation="include">
+        </childnode>
+      </node>
+      <node id="3642">
+        <label>string</label>
+      </node>
+      <node id="3661">
+        <label>ossia/network/base/node.hpp</label>
+        <link refid="node_8hpp_source"/>
+        <childnode refid="3621" relation="include">
+        </childnode>
+        <childnode refid="3662" relation="include">
+        </childnode>
+        <childnode refid="3635" relation="include">
+        </childnode>
+        <childnode refid="3657" relation="include">
+        </childnode>
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3642" relation="include">
+        </childnode>
+        <childnode refid="3658" relation="include">
+        </childnode>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3627">
+        <label>ossia_export.h</label>
+      </node>
+      <node id="3664">
+        <label>map</label>
+      </node>
+      <node id="3687">
+        <label>exception</label>
+      </node>
+      <node id="3647">
+        <label>ossia/network/base/address.hpp</label>
+        <link refid="address_8hpp_source"/>
+        <childnode refid="3621" relation="include">
+        </childnode>
+        <childnode refid="3633" relation="include">
+        </childnode>
+        <childnode refid="3635" relation="include">
+        </childnode>
+        <childnode refid="3648" relation="include">
+        </childnode>
+        <childnode refid="3657" relation="include">
+        </childnode>
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3658" relation="include">
+        </childnode>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3678">
+        <label>oscpack/osc/OscPacketListener.h</label>
+      </node>
+      <node id="3644">
+        <label>ossia/editor/value/vec.hpp</label>
+        <link refid="vec_8hpp_source"/>
+        <childnode refid="3645" relation="include">
+        </childnode>
+      </node>
+      <node id="3641">
+        <label>ossia/editor/value/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="3627" relation="include">
+        </childnode>
+        <childnode refid="3642" relation="include">
+        </childnode>
+      </node>
+      <node id="3683">
+        <label>boost/container/small_vector.hpp</label>
+      </node>
+      <node id="3685">
+        <label>ossia/network/minuit/detail/minuit_name_table.hpp</label>
+        <link refid="minuit__name__table_8hpp_source"/>
+        <childnode refid="3686" relation="include">
+        </childnode>
+        <childnode refid="3645" relation="include">
+        </childnode>
+        <childnode refid="3665" relation="include">
+        </childnode>
+        <childnode refid="3642" relation="include">
+        </childnode>
+      </node>
+      <node id="3680">
+        <label>ossia/network/osc/detail/message_generator.hpp</label>
+        <link refid="message__generator_8hpp_source"/>
+        <childnode refid="3681" relation="include">
+        </childnode>
+        <childnode refid="3683" relation="include">
+        </childnode>
+        <childnode refid="3684" relation="include">
+        </childnode>
+        <childnode refid="3645" relation="include">
+        </childnode>
+        <childnode refid="3675" relation="include">
+        </childnode>
+        <childnode refid="3637" relation="include">
+        </childnode>
+      </node>
+      <node id="3624">
+        <label>ossia/editor/value/value_base.hpp</label>
+        <link refid="value__base_8hpp_source"/>
+        <childnode refid="3625" relation="include">
+        </childnode>
+        <childnode refid="3630" relation="include">
+        </childnode>
+        <childnode refid="3631" relation="include">
+        </childnode>
+        <childnode refid="3632" relation="include">
+        </childnode>
+        <childnode refid="3638" relation="include">
+        </childnode>
+        <childnode refid="3639" relation="include">
+        </childnode>
+        <childnode refid="3640" relation="include">
+        </childnode>
+        <childnode refid="3641" relation="include">
+        </childnode>
+        <childnode refid="3643" relation="include">
+        </childnode>
+        <childnode refid="3644" relation="include">
+        </childnode>
+      </node>
+      <node id="3620">
+        <label>ossia/network/generic/generic_address.hpp</label>
+        <link refid="generic__address_8hpp_source"/>
+        <childnode refid="3621" relation="include">
+        </childnode>
+        <childnode refid="3623" relation="include">
+        </childnode>
+        <childnode refid="3647" relation="include">
+        </childnode>
+        <childnode refid="3659" relation="include">
+        </childnode>
+        <childnode refid="3666" relation="include">
+        </childnode>
+        <childnode refid="3667" relation="include">
+        </childnode>
+      </node>
+      <node id="3621">
+        <label>ossia/detail/callback_container.hpp</label>
+        <link refid="callback__container_8hpp_source"/>
+        <childnode refid="3622" relation="include">
+        </childnode>
+      </node>
+      <node id="3630">
+        <label>ossia/editor/value/bool.hpp</label>
+        <link refid="bool_8hpp_source"/>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3648">
+        <label>ossia/network/domain/domain.hpp</label>
+        <link refid="domain_8hpp_source"/>
+        <childnode refid="3649" relation="include">
+        </childnode>
+        <childnode refid="3650" relation="include">
+        </childnode>
+      </node>
+      <node id="3654">
+        <label>boost/container/flat_set.hpp</label>
+      </node>
+      <node id="3635">
+        <label>ossia/network/common/address_properties.hpp</label>
+        <link refid="address__properties_8hpp_source"/>
+      </node>
+      <node id="3689">
+        <label>future</label>
+      </node>
+      <node id="3637">
+        <label>vector</label>
+      </node>
+      <node id="3651">
+        <label>ossia/detail/math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="3652" relation="include">
+        </childnode>
+      </node>
+      <node id="3631">
+        <label>ossia/editor/value/char.hpp</label>
+        <link refid="char_8hpp_source"/>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3662">
+        <label>ossia/detail/ptr_container.hpp</label>
+        <link refid="ptr__container_8hpp_source"/>
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3637" relation="include">
+        </childnode>
+      </node>
+      <node id="3628">
+        <label>utility</label>
+      </node>
+      <node id="3645">
+        <label>array</label>
+      </node>
+      <node id="3632">
+        <label>ossia/editor/value/destination.hpp</label>
+        <link refid="destination_8hpp_source"/>
+        <childnode refid="3633" relation="include">
+        </childnode>
+        <childnode refid="3635" relation="include">
+        </childnode>
+        <childnode refid="3636" relation="include">
+        </childnode>
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3627" relation="include">
+        </childnode>
+        <childnode refid="3637" relation="include">
+        </childnode>
+      </node>
+      <node id="3658">
+        <label>nano_signal_slot.hpp</label>
+      </node>
+      <node id="3686">
+        <label>ossia/network/minuit/detail/minuit_common.hpp</label>
+        <link refid="minuit__common_8hpp_source"/>
+        <childnode refid="3623" relation="include">
+        </childnode>
+        <childnode refid="3665" relation="include">
+        </childnode>
+        <childnode refid="3687" relation="include">
+        </childnode>
+        <childnode refid="3688" relation="include">
+        </childnode>
+      </node>
+      <node id="3640">
+        <label>ossia/editor/value/int.hpp</label>
+        <link refid="int_8hpp_source"/>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3673">
+        <label>ossia/network/minuit/minuit.hpp</label>
+        <link refid="minuit_8hpp_source"/>
+        <childnode refid="3672" relation="include">
+        </childnode>
+        <childnode refid="3648" relation="include">
+        </childnode>
+        <childnode refid="3663" relation="include">
+        </childnode>
+        <childnode refid="3674" relation="include">
+        </childnode>
+        <childnode refid="3679" relation="include">
+        </childnode>
+        <childnode refid="3685" relation="include">
+        </childnode>
+        <childnode refid="3623" relation="include">
+        </childnode>
+        <childnode refid="3666" relation="include">
+        </childnode>
+        <childnode refid="3689" relation="include">
+        </childnode>
+        <childnode refid="3690" relation="include">
+        </childnode>
+        <childnode refid="3642" relation="include">
+        </childnode>
+        <childnode refid="3688" relation="include">
+        </childnode>
+      </node>
+      <node id="3638">
+        <label>ossia/editor/value/float.hpp</label>
+        <link refid="float_8hpp_source"/>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3626">
+        <label>ossia/editor/curve/curve_abstract.hpp</label>
+        <link refid="curve__abstract_8hpp_source"/>
+        <childnode refid="3627" relation="include">
+        </childnode>
+        <childnode refid="3628" relation="include">
+        </childnode>
+      </node>
+      <node id="3676">
+        <label>oscpack/ip/UdpSocket.h</label>
+      </node>
+      <node id="3675">
+        <label>iostream</label>
+      </node>
+      <node id="3660">
+        <label>ossia/network/base/device.hpp</label>
+        <link refid="device_8hpp_source"/>
+        <childnode refid="3661" relation="include">
+        </childnode>
+        <childnode refid="3658" relation="include">
+        </childnode>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3623">
+        <label>ossia/editor/value/value.hpp</label>
+        <link refid="value_8hpp_source"/>
+        <childnode refid="3624" relation="include">
+        </childnode>
+        <childnode refid="3646" relation="include">
+        </childnode>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3688">
+        <label>unordered_map</label>
+      </node>
+      <node id="3666">
+        <label>mutex</label>
+      </node>
+      <node id="3650">
+        <label>ossia/network/domain/domain_base.hpp</label>
+        <link refid="domain__base_8hpp_source"/>
+        <childnode refid="3651" relation="include">
+        </childnode>
+        <childnode refid="3623" relation="include">
+        </childnode>
+        <childnode refid="3653" relation="include">
+        </childnode>
+        <childnode refid="3654" relation="include">
+        </childnode>
+        <childnode refid="3655" relation="include">
+        </childnode>
+        <childnode refid="3656" relation="include">
+        </childnode>
+      </node>
+      <node id="3665">
+        <label>boost/utility/string_ref.hpp</label>
+      </node>
+      <node id="3655">
+        <label>boost/optional.hpp</label>
+      </node>
+      <node id="3663">
+        <label>ossia/network/generic/generic_node.hpp</label>
+        <link refid="generic__node_8hpp_source"/>
+        <childnode refid="3621" relation="include">
+        </childnode>
+        <childnode refid="3661" relation="include">
+        </childnode>
+        <childnode refid="3635" relation="include">
+        </childnode>
+        <childnode refid="3657" relation="include">
+        </childnode>
+        <childnode refid="3664" relation="include">
+        </childnode>
+      </node>
+      <node id="3667">
+        <label>thread</label>
+      </node>
+      <node id="3679">
+        <label>ossia/network/osc/detail/sender.hpp</label>
+        <link refid="sender_8hpp_source"/>
+        <childnode refid="3680" relation="include">
+        </childnode>
+        <childnode refid="3676" relation="include">
+        </childnode>
+        <childnode refid="3684" relation="include">
+        </childnode>
+        <childnode refid="3675" relation="include">
+        </childnode>
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3642" relation="include">
+        </childnode>
+      </node>
+      <node id="3656">
+        <label>type_traits</label>
+      </node>
+      <node id="3625">
+        <label>ossia/editor/value/behavior.hpp</label>
+        <link refid="behavior_8hpp_source"/>
+        <childnode refid="3626" relation="include">
+        </childnode>
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3627" relation="include">
+        </childnode>
+      </node>
+      <node id="3690">
+        <label>set</label>
+      </node>
+      <node id="3670">
+        <label>algorithm</label>
+      </node>
+      <node id="3634">
+        <label>boost/container/static_vector.hpp</label>
+      </node>
+      <node id="3669">
+        <label>ossia/detail/algorithms.hpp</label>
+        <link refid="algorithms_8hpp_source"/>
+        <childnode refid="3670" relation="include">
+        </childnode>
+        <childnode refid="3656" relation="include">
+        </childnode>
+        <childnode refid="3671" relation="include">
+        </childnode>
+      </node>
+      <node id="3629">
+        <label>memory</label>
+      </node>
+      <node id="3636">
+        <label>initializer_list</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3692">
+        <label>network.hpp</label>
+        <link refid="network.hpp"/>
+        <childnode refid="3693" relation="include">
+        </childnode>
+      </node>
+      <node id="3693">
+        <label>ossia.hpp</label>
+        <link refid="ossia_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/network/generic/generic_address.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/network/generic/generic_device.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/network/generic/generic_node.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/network/local/local.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/network/minuit/minuit.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ossia/network/osc/osc.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/network.hpp"/>
+  </compounddef>
+</doxygen>

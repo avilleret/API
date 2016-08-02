@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="power_8hpp" kind="file" language="C++">
+    <compoundname>power.hpp</compoundname>
+    <includes local="no">cmath</includes>
+    <includedby refid="editor_8hpp" local="no">editor.hpp</includedby>
+    <incdepgraph>
+      <node id="4012">
+        <label>cmath</label>
+      </node>
+      <node id="4011">
+        <label>power.hpp</label>
+        <link refid="power.hpp"/>
+        <childnode refid="4012" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4015">
+        <label>ossia.hpp</label>
+        <link refid="ossia_8hpp_source"/>
+      </node>
+      <node id="4013">
+        <label>power.hpp</label>
+        <link refid="power.hpp"/>
+        <childnode refid="4014" relation="include">
+        </childnode>
+      </node>
+      <node id="4014">
+        <label>editor.hpp</label>
+        <link refid="editor_8hpp_source"/>
+        <childnode refid="4015" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structossia_1_1curve__segment__power" prot="public">ossia::curve_segment_power</innerclass>
+    <innernamespace refid="namespaceossia">ossia</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceossia" kindref="compound">ossia</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Y&gt;</highlight></codeline>
+<codeline lineno="7" refid="structossia_1_1curve__segment__power" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structossia_1_1curve__segment__power" kindref="compound">curve_segment_power</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>operator()(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>power)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="10"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[=](</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ratio,<sp/>Y<sp/>start,<sp/>Y<sp/>end)<sp/>-&gt;<sp/>Y<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>start<sp/>+<sp/>std::pow(ratio,<sp/>power)<sp/>*<sp/>(end<sp/>-<sp/>start);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/power.hpp"/>
+  </compounddef>
+</doxygen>

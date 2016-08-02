@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_db58b6a974b5d62d2c5244f79a26bdbc" kind="dir">
+    <compoundname>minuit</compoundname>
+    <innerdir refid="dir_5f6bffa9b60f3c475850410680f8c75b">detail</innerdir>
+    <innerfile refid="minuit_8cpp">minuit.cpp</innerfile>
+    <innerfile refid="minuit_8hpp">minuit.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/"/>
+  </compounddef>
+</doxygen>

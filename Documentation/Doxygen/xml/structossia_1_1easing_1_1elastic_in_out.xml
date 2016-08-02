@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1easing_1_1elastic_in_out" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::easing::elasticInOut</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1easing_1_1elastic_in_out_1acfe77a54a4a26a7d7f20c72f1a5e7849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr T</type>
+        <definition>constexpr T ossia::easing::elasticInOut&lt; T &gt;::operator()</definition>
+        <argsstring>(T t)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>T</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" line="305" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" bodystart="305" bodyend="318"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" line="304" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" bodystart="303" bodyend="319"/>
+    <listofallmembers>
+      <member refid="structossia_1_1easing_1_1elastic_in_out_1acfe77a54a4a26a7d7f20c72f1a5e7849" prot="public" virt="non-virtual"><scope>ossia::easing::elasticInOut</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

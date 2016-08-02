@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="time__event_8cpp" kind="file" language="C++">
+    <compoundname>time_event.cpp</compoundname>
+    <includes refid="time__event_8hpp" local="no">ossia/editor/scenario/time_event.hpp</includes>
+    <incdepgraph>
+      <node id="4833">
+        <label>list</label>
+      </node>
+      <node id="4826">
+        <label>functional</label>
+      </node>
+      <node id="4834">
+        <label>eggs/variant.hpp</label>
+      </node>
+      <node id="4828">
+        <label>string</label>
+      </node>
+      <node id="4835">
+        <label>ossia_export.h</label>
+      </node>
+      <node id="4832">
+        <label>ossia/detail/callback_container.hpp</label>
+        <link refid="callback__container_8hpp_source"/>
+        <childnode refid="4833" relation="include">
+        </childnode>
+      </node>
+      <node id="4830">
+        <label>vector</label>
+      </node>
+      <node id="4829">
+        <label>ossia/detail/ptr_container.hpp</label>
+        <link refid="ptr__container_8hpp_source"/>
+        <childnode refid="4827" relation="include">
+        </childnode>
+        <childnode refid="4830" relation="include">
+        </childnode>
+      </node>
+      <node id="4825">
+        <label>ossia/editor/scenario/time_event.hpp</label>
+        <link refid="time__event_8hpp_source"/>
+        <childnode refid="4826" relation="include">
+        </childnode>
+        <childnode refid="4827" relation="include">
+        </childnode>
+        <childnode refid="4828" relation="include">
+        </childnode>
+        <childnode refid="4829" relation="include">
+        </childnode>
+        <childnode refid="4831" relation="include">
+        </childnode>
+        <childnode refid="4835" relation="include">
+        </childnode>
+      </node>
+      <node id="4831">
+        <label>ossia/editor/expression/expression_fwd.hpp</label>
+        <link refid="expression__fwd_8hpp_source"/>
+        <childnode refid="4832" relation="include">
+        </childnode>
+        <childnode refid="4834" relation="include">
+        </childnode>
+        <childnode refid="4826" relation="include">
+        </childnode>
+        <childnode refid="4835" relation="include">
+        </childnode>
+      </node>
+      <node id="4824">
+        <label>time_event.cpp</label>
+        <link refid="time_event.cpp"/>
+        <childnode refid="4825" relation="include">
+        </childnode>
+      </node>
+      <node id="4827">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceossia">ossia</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;ossia/editor/scenario/time_event.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceossia" kindref="compound">ossia</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><ref refid="classossia_1_1time__event_1ac826f1910d0d2a94a73a59aec23919da" kindref="member">time_event::~time_event</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_event.cpp"/>
+  </compounddef>
+</doxygen>

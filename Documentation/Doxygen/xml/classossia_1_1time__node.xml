@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1time__node" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ossia::time_node</compoundname>
+    <derivedcompoundref refid="classossia_1_1detail_1_1time__node__impl" prot="public" virt="non-virtual">ossia::detail::time_node_impl</derivedcompoundref>
+    <includes refid="time__node_8hpp" local="no">time_node.hpp</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classossia_1_1time__node_1a9418bc3911d572cbdba9de90fd956668" prot="public" static="no">
+        <type>ptr_container&lt; <ref refid="classossia_1_1time__event" kindref="compound">time_event</ref> &gt;::iterator</type>
+        <definition>using ossia::time_node::iterator =  ptr_container&lt;time_event&gt;::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="30" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classossia_1_1time__node_1a4902c6dc4421b7135ca0f46ae5575134" prot="public" static="no">
+        <type>ptr_container&lt; <ref refid="classossia_1_1time__event" kindref="compound">time_event</ref> &gt;::const_iterator</type>
+        <definition>using ossia::time_node::const_iterator =  ptr_container&lt;time_event&gt;::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="31" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classossia_1_1time__node_1a46bc218d36df49a7ade39f8ea51ac744" prot="public" static="no">
+        <type>std::function&lt; void()&gt;</type>
+        <definition>using ossia::time_node::execution_callback =  std::function&lt;void()&gt;</definition>
+        <argsstring></argsstring>
+        <name>execution_callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to be notified when it is triggered </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="34" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classossia_1_1time__node_1aedf53078f68e11ec1e6d81fca3914da0" prot="private" static="no" mutable="no">
+        <type>ptr_container&lt; <ref refid="classossia_1_1time__event" kindref="compound">time_event</ref> &gt;</type>
+        <definition>ptr_container&lt;time_event&gt; ossia::time_node::m_timeEvents</definition>
+        <argsstring></argsstring>
+        <name>m_timeEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="110" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classossia_1_1time__node_1a656e374c3249674cb23bb0ff24f6e1be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classossia_1_1time__node" kindref="compound">time_node</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; time_node &gt; ossia::time_node::create</definition>
+        <argsstring>(time_node::execution_callback={})</argsstring>
+        <name>create</name>
+        <param>
+          <type><ref refid="classossia_1_1time__node_1a46bc218d36df49a7ade39f8ea51ac744" kindref="member">time_node::execution_callback</ref></type>
+          <defname>callback</defname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>factory <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>TimeNode::ExecutionCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be be notified when the #TimeNode is triggered </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::shared_ptr&lt;#TimeNode&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="40" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1time__node_1a69baae3832232dee88e027d1e1de27bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ossia::time_node::~time_node</definition>
+        <argsstring>()</argsstring>
+        <name>~time_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1a50eb2e72f29269d3bb585318463042bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ossia::time_node::setCallback</definition>
+        <argsstring>(time_node::execution_callback)=0</argsstring>
+        <name>setCallback</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__node__impl_1ad2dc3e05e1b41b29cf49cd094cd60471">setCallback</reimplementedby>
+        <param>
+          <type><ref refid="classossia_1_1time__node_1a46bc218d36df49a7ade39f8ea51ac744" kindref="member">time_node::execution_callback</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>changes the callback in the #TimeNode <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>TimeNode::ExecutionCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be be notified when the #TimeNode is triggered</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+this may be unsafe to do during execution </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1ae71fc2ecf90e5fb9aae27c3dbba203f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ossia::time_node::trigger</definition>
+        <argsstring>()=0</argsstring>
+        <name>trigger</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__node__impl_1a29ca04ab0339062e56eeed3ecd8e4fa9">trigger</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>evaluate all #TimeEvent&apos;s to make them to happen or to dispose them <simplesect kind="return"><para>boolean true if the operation succeeded </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1a04f63e38412bfbc74295e521dfb314c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+        <definition>virtual time_value ossia::time_node::getDate</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getDate</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__node__impl_1a71ab41b83889cc4265518e8a6e78f270">getDate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the date</para><para>the date is the sum of its previous #TimeConstraint durations</para><para>a #TimeNode with na previous #TimeConstraints have a date equals to 0. <simplesect kind="return"><para>#TimeValue the date </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1a29dd6dda41c1409d833e0f704a24aabf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="namespaceossia_1a5b622aa7ca8d6e60ce91f567ec10b151" kindref="member">expression</ref> &amp;</type>
+        <definition>virtual const expression&amp; ossia::time_node::getExpression</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getExpression</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__node__impl_1a24d11f92ca7c499814de9399b3bb873c">getExpression</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the expression of the #TimeNode <simplesect kind="return"><para>std::shared_ptr&lt;#Expression&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1a0868f4d7f20e5b6a0ea2ae411f8c9f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1time__node" kindref="compound">time_node</ref> &amp;</type>
+        <definition>virtual time_node&amp; ossia::time_node::setExpression</definition>
+        <argsstring>(expression_ptr)=0</argsstring>
+        <name>setExpression</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__node__impl_1ae1b271bd618d134ca77cee53d19033fa">setExpression</reimplementedby>
+        <param>
+          <type>expression_ptr</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the expression of the #TimeNode</para><para>setting the expression to ExpressionTrue will defer the evaluation on #TimeEvent&apos;s expression</para><para>setting the expression to ExpressionFalse will mute TimeNode execution <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>std::shared_ptr&lt;</parametertype>
+<parametername>Expression&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>#TimeNode the time node </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1ad5340a9360eea2848aa5e604fc6961fb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+        <definition>virtual time_value ossia::time_node::getSimultaneityMargin</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getSimultaneityMargin</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__node__impl_1ad13e9195a48a2249123f9ff681de6ab6">getSimultaneityMargin</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the simultaneity margin <simplesect kind="return"><para>#TimeValue the simultaneity margin </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1ae2dd326b7ee1f8fac0eed6bf6017fee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classossia_1_1time__node" kindref="compound">time_node</ref> &amp;</type>
+        <definition>virtual time_node&amp; ossia::time_node::setSimultaneityMargin</definition>
+        <argsstring>(time_value)=0</argsstring>
+        <name>setSimultaneityMargin</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__node__impl_1a0ff3b34f25a28043a3a370bb9e347663">setSimultaneityMargin</reimplementedby>
+        <param>
+          <type><ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the simultaneity margin <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>TimeValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the simultaneity margin </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>#TimeNode the time node </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1a21b3004cd0d50ab461dad45e2bad058d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>iterator</type>
+        <definition>virtual iterator ossia::time_node::emplace</definition>
+        <argsstring>(const_iterator, time_event::ExecutionCallback, expression_ptr=expressions::make_expression_true())=0</argsstring>
+        <name>emplace</name>
+        <reimplementedby refid="classossia_1_1detail_1_1time__node__impl_1a6ca0247f4051d377c7c6c88df11ab9c3">emplace</reimplementedby>
+        <param>
+          <type>const_iterator</type>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1time__event_1a3a9a769fd9ee7e8cba1e8942cd0f252a" kindref="member">time_event::ExecutionCallback</ref></type>
+        </param>
+        <param>
+          <type>expression_ptr</type>
+          <defval>expressions::make_expression_true()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create and store a #TimeEvent <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>Container&lt;::TimeEvent&gt;::const_iterator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>where to store the #TimeEvent </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype></parametertype>
+<parametername>TimeEvent::ExecutionCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to get #TimeEvent&apos;s status back </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>std::shared&lt;</parametertype>
+<parametername>Expression&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an optionnal #Expression to apply to the #TimeEvent </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::shared_ptr&lt;#TimeEvent&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1a52e5c3ea646557c202782e4c7cabed9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ptr_container&lt; <ref refid="classossia_1_1time__event" kindref="compound">time_event</ref> &gt; &amp;</type>
+        <definition>ptr_container&lt;time_event&gt;&amp; ossia::time_node::timeEvents</definition>
+        <argsstring>()</argsstring>
+        <name>timeEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the #TimeEvents of the #TimeNode <simplesect kind="return"><para>#Container&lt;#TimeEvent&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="97" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1time__node_1a79dc79f93ec00d834914435a9179687b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const ptr_container&lt; <ref refid="classossia_1_1time__event" kindref="compound">time_event</ref> &gt; &amp;</type>
+        <definition>const ptr_container&lt;time_event&gt;&amp; ossia::time_node::timeEvents</definition>
+        <argsstring>() const </argsstring>
+        <name>timeEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the #TimeEvents of the #TimeNode <simplesect kind="return"><para>#Container&lt;#TimeEvent&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="104" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" bodystart="104" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>#TimeNode is use to describe temporal structure to synchronize each attached #TimeEvent evaluation. </para>    </briefdescription>
+    <detaileddescription>
+<para>#TimeNode is also a #TimeEvent container. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="517">
+        <label>ossia::time_node</label>
+        <link refid="classossia_1_1time__node"/>
+      </node>
+      <node id="518">
+        <label>ossia::detail::time_node_impl</label>
+        <link refid="classossia_1_1detail_1_1time__node__impl"/>
+        <childnode refid="517" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" line="27" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_node.hpp" bodystart="26" bodyend="111"/>
+    <listofallmembers>
+      <member refid="classossia_1_1time__node_1a4902c6dc4421b7135ca0f46ae5575134" prot="public" virt="non-virtual"><scope>ossia::time_node</scope><name>const_iterator</name></member>
+      <member refid="classossia_1_1time__node_1a656e374c3249674cb23bb0ff24f6e1be" prot="public" virt="non-virtual"><scope>ossia::time_node</scope><name>create</name></member>
+      <member refid="classossia_1_1time__node_1a21b3004cd0d50ab461dad45e2bad058d" prot="public" virt="pure-virtual"><scope>ossia::time_node</scope><name>emplace</name></member>
+      <member refid="classossia_1_1time__node_1a46bc218d36df49a7ade39f8ea51ac744" prot="public" virt="non-virtual"><scope>ossia::time_node</scope><name>execution_callback</name></member>
+      <member refid="classossia_1_1time__node_1a04f63e38412bfbc74295e521dfb314c5" prot="public" virt="pure-virtual"><scope>ossia::time_node</scope><name>getDate</name></member>
+      <member refid="classossia_1_1time__node_1a29dd6dda41c1409d833e0f704a24aabf" prot="public" virt="pure-virtual"><scope>ossia::time_node</scope><name>getExpression</name></member>
+      <member refid="classossia_1_1time__node_1ad5340a9360eea2848aa5e604fc6961fb" prot="public" virt="pure-virtual"><scope>ossia::time_node</scope><name>getSimultaneityMargin</name></member>
+      <member refid="classossia_1_1time__node_1a9418bc3911d572cbdba9de90fd956668" prot="public" virt="non-virtual"><scope>ossia::time_node</scope><name>iterator</name></member>
+      <member refid="classossia_1_1time__node_1aedf53078f68e11ec1e6d81fca3914da0" prot="private" virt="non-virtual"><scope>ossia::time_node</scope><name>m_timeEvents</name></member>
+      <member refid="classossia_1_1time__node_1a50eb2e72f29269d3bb585318463042bb" prot="public" virt="pure-virtual"><scope>ossia::time_node</scope><name>setCallback</name></member>
+      <member refid="classossia_1_1time__node_1a0868f4d7f20e5b6a0ea2ae411f8c9f38" prot="public" virt="pure-virtual"><scope>ossia::time_node</scope><name>setExpression</name></member>
+      <member refid="classossia_1_1time__node_1ae2dd326b7ee1f8fac0eed6bf6017fee5" prot="public" virt="pure-virtual"><scope>ossia::time_node</scope><name>setSimultaneityMargin</name></member>
+      <member refid="classossia_1_1time__node_1a52e5c3ea646557c202782e4c7cabed9f" prot="public" virt="non-virtual"><scope>ossia::time_node</scope><name>timeEvents</name></member>
+      <member refid="classossia_1_1time__node_1a79dc79f93ec00d834914435a9179687b" prot="public" virt="non-virtual"><scope>ossia::time_node</scope><name>timeEvents</name></member>
+      <member refid="classossia_1_1time__node_1ae71fc2ecf90e5fb9aae27c3dbba203f1" prot="public" virt="pure-virtual"><scope>ossia::time_node</scope><name>trigger</name></member>
+      <member refid="classossia_1_1time__node_1a69baae3832232dee88e027d1e1de27bc" prot="public" virt="virtual"><scope>ossia::time_node</scope><name>~time_node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

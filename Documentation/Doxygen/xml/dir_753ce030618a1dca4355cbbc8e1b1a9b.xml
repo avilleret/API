@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_753ce030618a1dca4355cbbc8e1b1a9b" kind="dir">
+    <compoundname>curve</compoundname>
+    <innerdir refid="dir_8a860043b87317ca38690d119d7985b6">curve_segment</innerdir>
+    <innerdir refid="dir_d6a974c91bce14380e1263207e5c9211">detail</innerdir>
+    <innerfile refid="curve_8cpp">curve.cpp</innerfile>
+    <innerfile refid="curve_8hpp">curve.hpp</innerfile>
+    <innerfile refid="curve__abstract_8hpp">curve_abstract.hpp</innerfile>
+    <innerfile refid="curve__segment_8hpp">curve_segment.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/"/>
+  </compounddef>
+</doxygen>

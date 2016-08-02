@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceosc" kind="namespace" language="C++">
+    <compoundname>osc</compoundname>
+    <innerclass refid="classosc_1_1listener" prot="public">osc::listener</innerclass>
+    <innerclass refid="classosc_1_1receiver" prot="public">osc::receiver</innerclass>
+    <innerclass refid="classosc_1_1sender" prot="public">osc::sender</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/receiver.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

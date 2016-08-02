@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1easing_1_1cubic_in_out" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::easing::cubicInOut</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1easing_1_1cubic_in_out_1ae4a97979cb151c109ce7e42b4104fd35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr T</type>
+        <definition>constexpr T ossia::easing::cubicInOut&lt; T &gt;::operator()</definition>
+        <argsstring>(T t)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>T</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" line="100" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" bodystart="100" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" line="99" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" bodystart="98" bodyend="112"/>
+    <listofallmembers>
+      <member refid="structossia_1_1easing_1_1cubic_in_out_1ae4a97979cb151c109ce7e42b4104fd35" prot="public" virt="non-virtual"><scope>ossia::easing::cubicInOut</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

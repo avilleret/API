@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1minuit_1_1minuit__message__handler" kind="class" language="C++" prot="public">
+    <compoundname>ossia::minuit::minuit_message_handler</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classossia_1_1minuit_1_1minuit__message__handler_1af75bdb58d18c55fa548a1d18159b3c09" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ossia::minuit::minuit_message_handler::handleMinuitMessage</definition>
+        <argsstring>(ossia::net::minuit_protocol &amp;proto, ossia::net::generic_device &amp;dev, boost::string_ref address, const oscpack::ReceivedMessage &amp;m)</argsstring>
+        <name>handleMinuitMessage</name>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1minuit__protocol" kindref="compound">ossia::net::minuit_protocol</ref> &amp;</type>
+          <declname>proto</declname>
+        </param>
+        <param>
+          <type><ref refid="classossia_1_1net_1_1generic__device" kindref="compound">ossia::net::generic_device</ref> &amp;</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>boost::string_ref</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const oscpack::ReceivedMessage &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_parser.hpp" line="555" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_parser.hpp" bodystart="555" bodyend="641"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_parser.hpp" line="553" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/minuit/detail/minuit_parser.hpp" bodystart="552" bodyend="642"/>
+    <listofallmembers>
+      <member refid="classossia_1_1minuit_1_1minuit__message__handler_1af75bdb58d18c55fa548a1d18159b3c09" prot="public" virt="non-virtual"><scope>ossia::minuit::minuit_message_handler</scope><name>handleMinuitMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

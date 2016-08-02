@@ -1,0 +1,1144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceossia" kind="namespace" language="C++">
+    <compoundname>ossia</compoundname>
+    <innerclass refid="classossia_1_1automation" prot="public">ossia::automation</innerclass>
+    <innerclass refid="structossia_1_1_behavior" prot="public">ossia::Behavior</innerclass>
+    <innerclass refid="structossia_1_1_bool" prot="public">ossia::Bool</innerclass>
+    <innerclass refid="classossia_1_1callback__container" prot="public">ossia::callback_container</innerclass>
+    <innerclass refid="structossia_1_1_char" prot="public">ossia::Char</innerclass>
+    <innerclass refid="classossia_1_1clock" prot="public">ossia::clock</innerclass>
+    <innerclass refid="classossia_1_1curve" prot="public">ossia::curve</innerclass>
+    <innerclass refid="classossia_1_1curve__abstract" prot="public">ossia::curve_abstract</innerclass>
+    <innerclass refid="structossia_1_1curve__segment__ease" prot="public">ossia::curve_segment_ease</innerclass>
+    <innerclass refid="structossia_1_1curve__segment__empty" prot="public">ossia::curve_segment_empty</innerclass>
+    <innerclass refid="structossia_1_1curve__segment__linear" prot="public">ossia::curve_segment_linear</innerclass>
+    <innerclass refid="structossia_1_1curve__segment__power" prot="public">ossia::curve_segment_power</innerclass>
+    <innerclass refid="structossia_1_1curve__segment__sin" prot="public">ossia::curve_segment_sin</innerclass>
+    <innerclass refid="classossia_1_1custom__state" prot="public">ossia::custom_state</innerclass>
+    <innerclass refid="classossia_1_1_destination" prot="public">ossia::Destination</innerclass>
+    <innerclass refid="structossia_1_1_float" prot="public">ossia::Float</innerclass>
+    <innerclass refid="structossia_1_1_impulse" prot="public">ossia::Impulse</innerclass>
+    <innerclass refid="structossia_1_1_int" prot="public">ossia::Int</innerclass>
+    <innerclass refid="classossia_1_1loop" prot="public">ossia::loop</innerclass>
+    <innerclass refid="classossia_1_1mapper" prot="public">ossia::mapper</innerclass>
+    <innerclass refid="structossia_1_1message" prot="public">ossia::message</innerclass>
+    <innerclass refid="classossia_1_1network__logger" prot="public">ossia::network_logger</innerclass>
+    <innerclass refid="classossia_1_1scenario" prot="public">ossia::scenario</innerclass>
+    <innerclass refid="classossia_1_1state" prot="public">ossia::state</innerclass>
+    <innerclass refid="structossia_1_1state__execution__visitor" prot="public">ossia::state_execution_visitor</innerclass>
+    <innerclass refid="structossia_1_1state__flatten__visitor" prot="public">ossia::state_flatten_visitor</innerclass>
+    <innerclass refid="structossia_1_1state__print__visitor" prot="public">ossia::state_print_visitor</innerclass>
+    <innerclass refid="structossia_1_1_string" prot="public">ossia::String</innerclass>
+    <innerclass refid="classossia_1_1time__constraint" prot="public">ossia::time_constraint</innerclass>
+    <innerclass refid="classossia_1_1time__event" prot="public">ossia::time_event</innerclass>
+    <innerclass refid="classossia_1_1time__node" prot="public">ossia::time_node</innerclass>
+    <innerclass refid="classossia_1_1time__process" prot="public">ossia::time_process</innerclass>
+    <innerclass refid="classossia_1_1time__value" prot="public">ossia::time_value</innerclass>
+    <innerclass refid="structossia_1_1_tuple" prot="public">ossia::Tuple</innerclass>
+    <innerclass refid="classossia_1_1value" prot="public">ossia::value</innerclass>
+    <innerclass refid="structossia_1_1value__comparison__visitor" prot="public">ossia::value_comparison_visitor</innerclass>
+    <innerclass refid="structossia_1_1value__trait" prot="public">ossia::value_trait</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4" prot="public">ossia::value_trait&lt; ossia::Bool &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_char_01_4" prot="public">ossia::value_trait&lt; ossia::Char &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_destination_01_4" prot="public">ossia::value_trait&lt; ossia::Destination &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_float_01_4" prot="public">ossia::value_trait&lt; ossia::Float &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_impulse_01_4" prot="public">ossia::value_trait&lt; ossia::Impulse &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_int_01_4" prot="public">ossia::value_trait&lt; ossia::Int &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_string_01_4" prot="public">ossia::value_trait&lt; ossia::String &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_tuple_01_4" prot="public">ossia::value_trait&lt; ossia::Tuple &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_vec_3_01float_00_012_01_4_01_4" prot="public">ossia::value_trait&lt; ossia::Vec&lt; float, 2 &gt; &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_vec_3_01float_00_013_01_4_01_4" prot="public">ossia::value_trait&lt; ossia::Vec&lt; float, 3 &gt; &gt;</innerclass>
+    <innerclass refid="structossia_1_1value__trait_3_01ossia_1_1_vec_3_01float_00_014_01_4_01_4" prot="public">ossia::value_trait&lt; ossia::Vec&lt; float, 4 &gt; &gt;</innerclass>
+    <innerclass refid="classossia_1_1_vec" prot="public">ossia::Vec</innerclass>
+    <innernamespace refid="namespaceossia_1_1comparisons">ossia::comparisons</innernamespace>
+    <innernamespace refid="namespaceossia_1_1detail">ossia::detail</innernamespace>
+    <innernamespace refid="namespaceossia_1_1easing">ossia::easing</innernamespace>
+    <innernamespace refid="namespaceossia_1_1expressions">ossia::expressions</innernamespace>
+    <innernamespace refid="namespaceossia_1_1minuit">ossia::minuit</innernamespace>
+    <innernamespace refid="namespaceossia_1_1net">ossia::net</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502" prot="public" static="no">
+        <name>curve_segment_type</name>
+        <enumvalue id="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502a53f93baa3057821107c750323892fa92" prot="public">
+          <name>INT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502ae738c26bf4ce1037fa81b039a915cbf6" prot="public">
+          <name>FLOAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502afd3e4ece78a7d422280d5ed379482229" prot="public">
+          <name>DOUBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502aa97b2c144243b2b9d2c593ec268b62f5" prot="public">
+          <name>BOOL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The curve_segment_type enum. </para>        </briefdescription>
+        <detaileddescription>
+<para>Represents the result type of either the X or Y parameter of a curve. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_abstract.hpp" line="14" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_abstract.hpp" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197" prot="public" static="no">
+        <name>val_type</name>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197a088ae75055323518ba811d33fed05fe4" prot="public">
+          <name>IMPULSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197aa97b2c144243b2b9d2c593ec268b62f5" prot="public">
+          <name>BOOL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="structossia_1_1_impulse" kindref="compound">Impulse</ref> </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197a53f93baa3057821107c750323892fa92" prot="public">
+          <name>INT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="structossia_1_1_bool" kindref="compound">Bool</ref> </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197ae738c26bf4ce1037fa81b039a915cbf6" prot="public">
+          <name>FLOAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="structossia_1_1_int" kindref="compound">Int</ref> </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197a027acd3aa6b1dd7f26119d3cf0f9a063" prot="public">
+          <name>CHAR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="structossia_1_1_float" kindref="compound">Float</ref> </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197a63b588d5559f64f89a416e656880b949" prot="public">
+          <name>STRING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="structossia_1_1_char" kindref="compound">Char</ref> </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197a5f6f02198ea426cd88e552e6a59ba307" prot="public">
+          <name>TUPLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="structossia_1_1_string" kindref="compound">String</ref> </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197add7222e7029b92693a7f0d900c070d5e" prot="public">
+          <name>VEC2F</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="structossia_1_1_tuple" kindref="compound">Tuple</ref> </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197a18814f886cf9f30ca199c1e81900fa03" prot="public">
+          <name>VEC3F</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para>Vec2f </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197a4bf4a3b0dd50ca982c6d8f671593cbe9" prot="public">
+          <name>VEC4F</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para>Vec3f </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197aadb0ea4a02d4ddc10a515e2c0b7ea200" prot="public">
+          <name>DESTINATION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para>Vec4f </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197ad39b16a7ab73cbdc6d560d1cf9515034" prot="public">
+          <name>BEHAVIOR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classossia_1_1_destination" kindref="compound">Destination</ref> </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>type of value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/common/address_properties.hpp" line="7" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/common/address_properties.hpp" bodystart="6" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceossia_1a12eff94246938e4d287a2afe9aeaafa4" prot="public" static="no">
+        <name>access_mode</name>
+        <enumvalue id="namespaceossia_1a12eff94246938e4d287a2afe9aeaafa4a7528035a93ee69cedb1dbddb2f0bfcc8" prot="public">
+          <name>GET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a12eff94246938e4d287a2afe9aeaafa4a8c52684db8f49511e9b44471716bf164" prot="public">
+          <name>SET</name>
+          <briefdescription>
+<para>The value can be retrieved. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1a12eff94246938e4d287a2afe9aeaafa4aaf7f0273997b9b290bd7c57aa19f36c2" prot="public">
+          <name>BI</name>
+          <briefdescription>
+<para>The value can be changed. </para>          </briefdescription>
+          <detaileddescription>
+<para>The value can be retrieved and changed </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Address behaviors at crossing domain boundaries time. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/common/address_properties.hpp" line="27" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/common/address_properties.hpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceossia_1aed414113ede1f539256e47262c495722" prot="public" static="no">
+        <name>bounding_mode</name>
+        <enumvalue id="namespaceossia_1aed414113ede1f539256e47262c495722a88c189a42c87aa49d667fc8ab76bc323" prot="public">
+          <name>FREE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1aed414113ede1f539256e47262c495722a960f0b6c4711bd0a42965edec68192d8" prot="public">
+          <name>CLIP</name>
+          <briefdescription>
+<para>The bounds are ignored. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1aed414113ede1f539256e47262c495722ae1c8555fcf0ea2bb648a6fd527d658c0" prot="public">
+          <name>WRAP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para>ossia::clamp </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1aed414113ede1f539256e47262c495722a18ecfd9398171a94e13ac6019ef27903" prot="public">
+          <name>FOLD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="see"><para>ossia::wrap</para></simplesect>
+<simplesect kind="see"><para>ossia::fold </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Address behaviors at crossing domain boundaries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/common/address_properties.hpp" line="37" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/common/address_properties.hpp" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespaceossia_1aac39a31c26df4a22e2553efeccd2e245" prot="public" static="no">
+        <name>repetition_filter</name>
+        <enumvalue id="namespaceossia_1aac39a31c26df4a22e2553efeccd2e245a88559a0cfd8250c9d65970cc145c92d4" prot="public">
+          <name>OFF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceossia_1aac39a31c26df4a22e2553efeccd2e245a90651ebea9a35ec4e018c8157492e17c" prot="public">
+          <name>ON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>If enabled, sending twice the same value will only send it once by network. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/common/address_properties.hpp" line="48" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/common/address_properties.hpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceossia_1a599388f59c9bfdeffab6d6c0252c96f7" prot="public" static="no">
+        <type>typename std::remove_reference&lt; Vector &gt;::type::iterator</type>
+        <definition>using ossia::iterator_t = typedef typename std::remove_reference&lt;Vector&gt;::type::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" line="13" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1a958f8755ee4ec8c71d5d4eac73e0c5f5" prot="public" static="no">
+        <type>boost::container::static_vector&lt; char, 8 &gt;</type>
+        <definition>using ossia::destination_index = typedef boost::container::static_vector&lt;char, 8&gt;</definition>
+        <argsstring></argsstring>
+        <name>destination_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Identifies an element in a nested tuple. For instance :</para><para><programlisting><codeline><highlight class="normal">Tuple_A{</highlight></codeline>
+<codeline><highlight class="normal"><sp/>Tuple_B{1,<sp/>2,<sp/>3},</highlight></codeline>
+<codeline><highlight class="normal"><sp/>Tuple_C{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>Tuple_D{4},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>Tuple_E{5}</highlight></codeline>
+<codeline><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">destination_index{}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>Tuple_A</highlight></codeline>
+<codeline><highlight class="normal">destination_index{0}<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>Tuple_B</highlight></codeline>
+<codeline><highlight class="normal">destination_index{0,<sp/>1}<sp/><sp/><sp/><sp/>=&gt;<sp/>&apos;1&apos;</highlight></codeline>
+<codeline><highlight class="normal">destination_index{0,<sp/>2}<sp/><sp/><sp/><sp/>=&gt;<sp/>&apos;2&apos;</highlight></codeline>
+<codeline><highlight class="normal">destination_index{0,<sp/>3}<sp/><sp/><sp/><sp/>=&gt;<sp/>&apos;3&apos;</highlight></codeline>
+<codeline><highlight class="normal">destination_index{1}<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>Tuple_C</highlight></codeline>
+<codeline><highlight class="normal">destination_index{1,<sp/>0}<sp/><sp/><sp/><sp/>=&gt;<sp/>Tuple_D</highlight></codeline>
+<codeline><highlight class="normal">destination_index{1,<sp/>0,<sp/>0}<sp/>=&gt;<sp/>&apos;4&apos;</highlight></codeline>
+<codeline><highlight class="normal">destination_index{1,<sp/>1}<sp/><sp/><sp/><sp/>=&gt;<sp/>Tuple_E</highlight></codeline>
+<codeline><highlight class="normal">destination_index{1,<sp/>1,<sp/>0}<sp/>=&gt;<sp/>&apos;5&apos;</highlight></codeline>
+</programlisting></para><para>There are at most 8 nested depth level. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/destination_index.hpp" line="32" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/destination_index.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1ab73cbec975bd936431dd9f1d54db233c" prot="public" static="no">
+        <type>std::vector&lt; std::shared_ptr&lt; T &gt;, std::allocator&lt; std::shared_ptr&lt; T &gt;&gt;&gt;</type>
+        <definition>using ossia::ptr_container = typedef std::vector&lt;std::shared_ptr&lt;T&gt;, std::allocator&lt;std::shared_ptr&lt;T&gt;&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>ptr_container</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/ptr_container.hpp" line="13" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/ptr_container.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1a933ed06840e2374f3c893bcec4bbf990" prot="public" static="no">
+        <type>std::pair&lt; <ref refid="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502" kindref="member">ossia::curve_segment_type</ref>, <ref refid="namespaceossia_1a6cc90a4b624130d54ed1adfc738e5502" kindref="member">ossia::curve_segment_type</ref> &gt;</type>
+        <definition>using ossia::curve_type = typedef std::pair&lt;ossia::curve_segment_type, ossia::curve_segment_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>curve_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_abstract.hpp" line="26" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_abstract.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1a3864160b52657c18d819ab3f02e04268" prot="public" static="no">
+        <type>std::function&lt; Y(double, Y, Y)&gt;</type>
+        <definition>ossia::curve_segment</definition>
+        <argsstring></argsstring>
+        <name>curve_segment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A curve segment is a function that maps a point between a start and an end.</para><para>Ex. : <programlisting><codeline><highlight class="normal">double<sp/>my_fun(double<sp/>x,<sp/>double<sp/>start,<sp/>double<sp/>end)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>return<sp/>start<sp/>+<sp/>x<sp/>*<sp/>(end<sp/>-<sp/>start);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>is the basic ease function that interpolates from start to end when x is between [0; 1].</para><para>In our case x can sometimes be greater than 1. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment.hpp" line="26" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1a1e1e4a5458abfff67a5bc40df5c2af69" prot="public" static="no">
+        <type>std::unique_ptr&lt; expressions::expression_base &gt;</type>
+        <definition>using ossia::expression_ptr = typedef std::unique_ptr&lt;expressions::expression_base&gt;</definition>
+        <argsstring></argsstring>
+        <name>expression_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_fwd.hpp" line="45" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_fwd.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1a5b622aa7ca8d6e60ce91f567ec10b151" prot="public" static="no">
+        <type>expressions::expression_base</type>
+        <definition>ossia::expression</definition>
+        <argsstring></argsstring>
+        <name>expression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An expression is a formula that checks truth values according to values in a network tree.</para><para>For instance :</para><para><programlisting><codeline><highlight class="normal">(a:/b<sp/>==<sp/>50)<sp/>&amp;&amp;<sp/>!(c:/d<sp/>&lt;<sp/>e:/f)</highlight></codeline>
+</programlisting></para><para>Expressions are built with factories found in <ref refid="expression_8hpp_source" kindref="compound">expression.hpp</ref> :<itemizedlist>
+<listitem><para>make_expression_true : a constant &quot;true&quot; node.</para></listitem><listitem><para>make_expression_false : a constant &quot;false&quot; node.</para></listitem><listitem><para>make_expression_atom : a relational comparison node (==, &lt;=, !=, etc...) between two <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref>.</para></listitem><listitem><para>make_expression_pulse : a node that becomes true if a message is received opn a given address since the last time update() has been called on it.</para></listitem><listitem><para>make_expression_not : standard logical not operator.</para></listitem><listitem><para>make_expression_composition : standard logical and, or, xor, operators between two expressions..</para></listitem></itemizedlist>
+</para><para><simplesect kind="see"><para>expression_atom </para></simplesect>
+<simplesect kind="see"><para>expression_bool </para></simplesect>
+<simplesect kind="see"><para>expression_composition </para></simplesect>
+<simplesect kind="see"><para>expression_not </para></simplesect>
+<simplesect kind="see"><para>expression_pulse </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_fwd.hpp" line="77" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_fwd.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1ac2fcaa5e0ff809d85f9d4f43520f2f39" prot="public" static="no">
+        <type>eggs::variant&lt; <ref refid="structossia_1_1message" kindref="compound">message</ref>, <ref refid="classossia_1_1state" kindref="compound">state</ref>, <ref refid="classossia_1_1custom__state" kindref="compound">custom_state</ref> &gt;</type>
+        <definition>ossia::state_element</definition>
+        <argsstring></argsstring>
+        <name>state_element</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A variant of elements that are meant to be triggered during execution of a score.</para><para><simplesect kind="see"><para><ref refid="structossia_1_1message" kindref="compound">message</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="classossia_1_1state" kindref="compound">state</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="classossia_1_1custom__state" kindref="compound">custom_state</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="state__element_8hpp_source" kindref="compound">state_element.hpp</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state_element_fwd.hpp" line="20" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state_element_fwd.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1a60b2c39d65ca4d2cc45a593c91a05387" prot="public" static="no">
+        <type><ref refid="classossia_1_1_vec" kindref="compound">Vec</ref>&lt; float, 2 &gt;</type>
+        <definition>using ossia::Vec2f = typedef Vec&lt;float, 2&gt;</definition>
+        <argsstring></argsstring>
+        <name>Vec2f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="43" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1ab0dd107560efa4c3eba822509de86ba7" prot="public" static="no">
+        <type><ref refid="classossia_1_1_vec" kindref="compound">Vec</ref>&lt; float, 3 &gt;</type>
+        <definition>using ossia::Vec3f = typedef Vec&lt;float, 3&gt;</definition>
+        <argsstring></argsstring>
+        <name>Vec3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="44" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceossia_1a2328e8e276976cde58685bc831143b91" prot="public" static="no">
+        <type><ref refid="classossia_1_1_vec" kindref="compound">Vec</ref>&lt; float, 4 &gt;</type>
+        <definition>using ossia::Vec4f = typedef Vec&lt;float, 4&gt;</definition>
+        <argsstring></argsstring>
+        <name>Vec4f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="45" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceossia_1a8a7acc93977518f89add799616e949c9" prot="public" static="no" mutable="no">
+        <type>const constexpr double</type>
+        <definition>const constexpr double ossia::pi</definition>
+        <argsstring></argsstring>
+        <name>pi</name>
+        <initializer>= 3.1415926535897932384626</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" line="12" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceossia_1a42c8f01297658e5a39ac293f77be51cb" prot="public" static="no" mutable="no">
+        <type>const constexpr double</type>
+        <definition>const constexpr double ossia::two_pi</definition>
+        <argsstring></argsstring>
+        <name>two_pi</name>
+        <initializer>= 2. * pi</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" line="13" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceossia_1a2277eca09c34e220931e8b3c94d85cf4" prot="public" static="no" mutable="no">
+        <type>const constexpr double</type>
+        <definition>const constexpr double ossia::half_pi</definition>
+        <argsstring></argsstring>
+        <name>half_pi</name>
+        <initializer>= pi / 2.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" line="14" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceossia_1ae9f2f4d7de4099a349616d1ac9f3220a" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+        <definition>const time_value ossia::Infinite</definition>
+        <argsstring></argsstring>
+        <name>Infinite</name>
+        <initializer>{INFINITY}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_value.hpp" line="124" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_value.hpp" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceossia_1a80f35c5bb204ed527be8c648af0716c7" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+        <definition>const time_value ossia::Zero</definition>
+        <argsstring></argsstring>
+        <name>Zero</name>
+        <initializer>{0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_value.hpp" line="125" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_value.hpp" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceossia_1aaa338c9cacc30e66458daf6c0ea5cb96" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classossia_1_1time__value" kindref="compound">time_value</ref></type>
+        <definition>const time_value ossia::One</definition>
+        <argsstring></argsstring>
+        <name>One</name>
+        <initializer>{1.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_value.hpp" line="126" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/scenario/time_value.hpp" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceossia_1a3aa011476f6e3a0905b950b4adf1956d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Value</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto ossia::find</definition>
+        <argsstring>(Vector &amp;&amp;v, const Value &amp;val)</argsstring>
+        <name>find</name>
+        <param>
+          <type>Vector &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const Value &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" line="16" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1ad47ca245f5936268bdfee6fea37613ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto ossia::find_if</definition>
+        <argsstring>(Vector &amp;&amp;v, Fun fun)</argsstring>
+        <name>find_if</name>
+        <param>
+          <type>Vector &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>fun</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" line="22" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1aaa1a211f2fd0293a49e9abb8b24aeed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Value</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool ossia::contains</definition>
+        <argsstring>(Vector &amp;&amp;v, const Value &amp;val)</argsstring>
+        <name>contains</name>
+        <param>
+          <type>Vector &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const Value &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" line="28" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1ad5f20619df49201c662d3b1819f42fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Value</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ossia::remove_one</definition>
+        <argsstring>(Vector &amp;&amp;v, const Value &amp;val)</argsstring>
+        <name>remove_one</name>
+        <param>
+          <type>Vector &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const Value &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" line="34" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a7cfcc8a77a67a7e7a30f2fb9dd3055cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool ossia::any_of</definition>
+        <argsstring>(Vector &amp;&amp;v, Fun fun)</argsstring>
+        <name>any_of</name>
+        <param>
+          <type>Vector &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>fun</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" line="44" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a0a7ddfd9fdea897861803d39712b91eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool ossia::none_of</definition>
+        <argsstring>(Vector &amp;&amp;v, Fun fun)</argsstring>
+        <name>none_of</name>
+        <param>
+          <type>Vector &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>fun</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" line="50" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1adb48b240e2c2f852aad6942ff43857f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Fun</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto ossia::remove_if</definition>
+        <argsstring>(Vector &amp;&amp;v, Fun fun)</argsstring>
+        <name>remove_if</name>
+        <param>
+          <type>Vector &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>Fun</type>
+          <declname>fun</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" line="56" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a97333cf26ecca5f79735394432ea6964" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T ossia::clamp</definition>
+        <argsstring>(T d, T min, T max)</argsstring>
+        <name>clamp</name>
+        <param>
+          <type>T</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" line="18" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a9626541b8166b3587fa72a05dc87054e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T ossia::wrap</definition>
+        <argsstring>(T val, const T low, const T high)</argsstring>
+        <name>wrap</name>
+        <param>
+          <type>T</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const T</type>
+          <declname>low</declname>
+        </param>
+        <param>
+          <type>const T</type>
+          <declname>high</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" line="27" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" bodystart="27" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1abdfd0d117b68dbed67899fe71d52385e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T ossia::fold</definition>
+        <argsstring>(T val, const T low, const T high)</argsstring>
+        <name>fold</name>
+        <param>
+          <type>T</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>const T</type>
+          <declname>low</declname>
+        </param>
+        <param>
+          <type>const T</type>
+          <declname>high</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" line="38" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/detail/math.hpp" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1aba6c9e89c2691227908749d5c21c0c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::operator==</definition>
+        <argsstring>(const state &amp;lhs, const state &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state.cpp" line="53" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a3da0ccd665808b2e406f90392072cdc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::operator!=</definition>
+        <argsstring>(const state &amp;lhs, const state &amp;rhs)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state.cpp" line="58" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1aed564e77a88d3a74abd2bb99732dbd14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>OSSIA_EXPORT void ossia::flatten_and_filter</definition>
+        <argsstring>(state &amp;state, const state_element &amp;element)</argsstring>
+        <name>flatten_and_filter</name>
+        <param>
+          <type><ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <defname>state</defname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceossia_1ac2fcaa5e0ff809d85f9d4f43520f2f39" kindref="member">state_element</ref> &amp;</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>append each message of the state to the current state in order to eliminate address redundancy <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>std::shared_ptr&lt;State&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the State to fill </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>std::shared_ptr&lt;StateElement&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the StateElement to store </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state.cpp" line="63" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a32ec6ffc9eb1ea364a2dbb6a1b026920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>OSSIA_EXPORT void ossia::flatten_and_filter</definition>
+        <argsstring>(state &amp;state, state_element &amp;&amp;element)</argsstring>
+        <name>flatten_and_filter</name>
+        <param>
+          <type><ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceossia_1ac2fcaa5e0ff809d85f9d4f43520f2f39" kindref="member">state_element</ref> &amp;&amp;</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state.cpp" line="68" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a9a28ec506d5c515440c967b71c0216e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto ossia::begin</definition>
+        <argsstring>(state &amp;s)</argsstring>
+        <name>begin</name>
+        <param>
+          <type><ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state.hpp" line="75" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state.hpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1aa1f3515e00ac2f26d04d6672e38f8c5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto ossia::begin</definition>
+        <argsstring>(const state &amp;s)</argsstring>
+        <name>begin</name>
+        <param>
+          <type>const <ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state.hpp" line="79" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state.hpp" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1ad5d25473ec8614168c35332f09080988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto ossia::end</definition>
+        <argsstring>(state &amp;s)</argsstring>
+        <name>end</name>
+        <param>
+          <type><ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state.hpp" line="83" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state.hpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a9dc2ee9206317e61b2f739204762ae12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto ossia::end</definition>
+        <argsstring>(const state &amp;s)</argsstring>
+        <name>end</name>
+        <param>
+          <type>const <ref refid="classossia_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state.hpp" line="87" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state.hpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1ae9e56b7579cf9dfb007bc697d2f12d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>OSSIA_EXPORT void ossia::launch</definition>
+        <argsstring>(const state_element &amp;e)</argsstring>
+        <name>launch</name>
+        <param>
+          <type>const <ref refid="namespaceossia_1ac2fcaa5e0ff809d85f9d4f43520f2f39" kindref="member">state_element</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>launch Launch a <ref refid="namespaceossia_1ac2fcaa5e0ff809d85f9d4f43520f2f39" kindref="member">state_element</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state_element.cpp" line="7" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state_element.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1af4de3ae18ccad7094e21169dcc09e997" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>OSSIA_EXPORT std::ostream &amp; ossia::print</definition>
+        <argsstring>(std::ostream &amp;os, const state_element &amp;dt)</argsstring>
+        <name>print</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceossia_1ac2fcaa5e0ff809d85f9d4f43520f2f39" kindref="member">state_element</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>print Print a <ref refid="namespaceossia_1ac2fcaa5e0ff809d85f9d4f43520f2f39" kindref="member">state_element</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/state/state_element.cpp" line="12" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/state/state_element.cpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a0cbc4e2cbddc6b5057592ff160aefdfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>OSSIA_EXPORT std::string ossia::to_pretty_string</definition>
+        <argsstring>(const ossia::value &amp;val)</argsstring>
+        <name>to_pretty_string</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>getValueAsString Returns a string corresponding to the value </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a valid value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string in the format : &quot;type: value&quot;.</para></simplesect>
+ex. &quot;int: 3&quot; &quot;string: tutu&quot; &quot;tuple: [ int: 2, float: 3 ]&quot; etc... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" line="383" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="383" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a3f551b7fe12cfe277bf7828d6f54640d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Visitor</type>
+          </param>
+          <param>
+            <type>typename Variant</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto ossia::apply</definition>
+        <argsstring>(Visitor &amp;&amp;v, Variant &amp;&amp;var) -&gt; decltype(auto)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Visitor &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>Variant &amp;&amp;</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="namespaceossia_1a3f551b7fe12cfe277bf7828d6f54640d" kindref="member">ossia::apply</ref> : helper function to apply a visitor to a variant without throwing in the empty variant case. </para>        </briefdescription>
+        <detaileddescription>
+<para>By default, a eggs::variant throws bad_variant. In this case, the operator()() without arguments will be called. This allows a simpler handling of the default case. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value.hpp" line="18" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.hpp" bodystart="18" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceossia_1a1bb207d66136fd0744aa16f92bbe467c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref></type>
+        <definition>ossia::value ossia::init_value</definition>
+        <argsstring>(ossia::val_type type)</argsstring>
+        <name>init_value</name>
+        <param>
+          <type><ref refid="namespaceossia_1a3ffbe4af0c7e8ac5cf1503a72f2a6197" kindref="member">ossia::val_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value.hpp" line="254" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.hpp" bodystart="254" bodyend="285"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This header contains various range-style functions that mimic std::algorithm functions. This won&apos;t be necessary anymore when ranges are introduced in C++20 (hopefully). </para>    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/detail/algorithms.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

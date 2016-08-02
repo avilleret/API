@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceoscpack" kind="namespace" language="C++">
+    <compoundname>oscpack</compoundname>
+    <innerclass refid="classoscpack_1_1_message_generator" prot="public">oscpack::MessageGenerator</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="message__generator_8hpp_1aac6dcbf7991de7a92fdb27b7cbb0e9c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>oscpack::OutboundPacketStream &amp;</type>
+        <definition>oscpack::OutboundPacketStream&amp; oscpack::operator&lt;&lt;</definition>
+        <argsstring>(oscpack::OutboundPacketStream &amp;p, const std::vector&lt; boost::string_ref &gt; &amp;values)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>oscpack::OutboundPacketStream &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; boost::string_ref &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/message_generator.hpp" line="11" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/message_generator.hpp" bodystart="11" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="message__generator_8hpp_1aedb5fcd6dc658b03b6d88532d8d8bb6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>oscpack::OutboundPacketStream &amp;</type>
+        <definition>oscpack::OutboundPacketStream&amp; oscpack::operator&lt;&lt;</definition>
+        <argsstring>(oscpack::OutboundPacketStream &amp;p, const std::vector&lt; std::string &gt; &amp;values)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>oscpack::OutboundPacketStream &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/message_generator.hpp" line="23" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/message_generator.hpp" bodystart="23" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1a580b55e8b743992ac22848911aac3dba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>oscpack::OutboundPacketStream &amp;</type>
+        <definition>oscpack::OutboundPacketStream &amp; oscpack::operator&lt;&lt;</definition>
+        <argsstring>(oscpack::OutboundPacketStream &amp;p, const ossia::value &amp;val)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>oscpack::OutboundPacketStream &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="12" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="353" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="detail_2osc_8hpp_1a0f0b3ae284de0f8d40b91fa721ae884c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>oscpack::OutboundPacketStream &amp;</type>
+        <definition>oscpack::OutboundPacketStream&amp; oscpack::operator&lt;&lt;</definition>
+        <argsstring>(oscpack::OutboundPacketStream &amp;p, const ossia::net::domain &amp;dom)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>oscpack::OutboundPacketStream &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const ossia::net::domain &amp;</type>
+          <declname>dom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" line="359" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/osc.hpp" bodystart="360" bodyend="368"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/message_generator.hpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

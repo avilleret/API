@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_e09359214a09b92a67055ef53a350377" kind="dir">
+    <compoundname>common</compoundname>
+    <innerfile refid="address__properties_8hpp">address_properties.hpp</innerfile>
+    <innerfile refid="network__logger_8hpp">network_logger.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/common/"/>
+  </compounddef>
+</doxygen>

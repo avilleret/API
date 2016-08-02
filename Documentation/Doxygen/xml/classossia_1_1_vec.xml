@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1_vec" kind="class" language="C++" prot="public">
+    <compoundname>ossia::Vec</compoundname>
+    <includes refid="vec_8hpp" local="no">ossia/editor/value/value.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>N</declname>
+        <defname>N</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classossia_1_1_vec_1a48ffb85ee0705620529c72d84f83624d" prot="public" static="yes" mutable="no">
+        <type>const constexpr int</type>
+        <definition>const constexpr int ossia::Vec&lt; T, N &gt;::size_value</definition>
+        <argsstring></argsstring>
+        <name>size_value</name>
+        <initializer>= N</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="21" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classossia_1_1_vec_1a2b56933c0cdb86b09fcd839f9b112543" prot="public" static="no" mutable="no">
+        <type>std::array&lt; T, N &gt;</type>
+        <definition>std::array&lt;T, N&gt; ossia::Vec&lt; T, N &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="23" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1_vec_1a110c69e6b6ae2d4747a5406b48ceac3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Vec&lt; T, N &gt;::Vec</definition>
+        <argsstring>()=default</argsstring>
+        <name>Vec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1a771a8ffcf43d6eb42ba98b5e90aa7761" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Vec&lt; T, N &gt;::Vec</definition>
+        <argsstring>(std::array&lt; T, N &gt; v)</argsstring>
+        <name>Vec</name>
+        <param>
+          <type>std::array&lt; T, N &gt;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="26" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1a9f6e1d6004c53833e1e0d62db6a688dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Vec&lt; T, N &gt;::Vec</definition>
+        <argsstring>(const Vec &amp;)=default</argsstring>
+        <name>Vec</name>
+        <param>
+          <type>const <ref refid="classossia_1_1_vec" kindref="compound">Vec</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1a17d13ce566b5b40733d55c1df0ec87df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Vec&lt; T, N &gt;::Vec</definition>
+        <argsstring>(Vec &amp;&amp;)=default</argsstring>
+        <name>Vec</name>
+        <param>
+          <type><ref refid="classossia_1_1_vec" kindref="compound">Vec</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1ae7e5ad608e1e4bc125d8f00d6a43b50e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1_vec" kindref="compound">Vec</ref> &amp;</type>
+        <definition>Vec&amp; ossia::Vec&lt; T, N &gt;::operator=</definition>
+        <argsstring>(const Vec &amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1_vec" kindref="compound">Vec</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1a1f0f59599704c9c7b0cb989f24b1df8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1_vec" kindref="compound">Vec</ref> &amp;</type>
+        <definition>Vec&amp; ossia::Vec&lt; T, N &gt;::operator=</definition>
+        <argsstring>(Vec &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classossia_1_1_vec" kindref="compound">Vec</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1ad5f05d65b31d97c8e47258ce033071a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Vec&lt; T, N &gt;::operator==</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="35" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="403" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1ac6ccd749e3edde073cef0217da542224" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Vec&lt; T, N &gt;::operator!=</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="36" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="408" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1a2ac9d17c6d0a929da3fe10e10939323c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Vec&lt; T, N &gt;::operator&gt;</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="37" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="414" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1a8c380eb05c8d39c6c8ceedba9c35ec18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Vec&lt; T, N &gt;::operator&gt;=</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="38" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="419" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1ab8fec3d1b6df9952ac45a5166e8cad7e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Vec&lt; T, N &gt;::operator&lt;</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="39" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="425" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1_vec_1a928e02fd520c4c167d2b7eb7d0f3cb23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Vec&lt; T, N &gt;::operator&lt;=</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/vec.hpp" line="40" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="430" bodyend="433"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A class optimized for holding a fixed number of values. For instance, we know for sure that a 3D position has three components. Hence we can use <ref refid="classossia_1_1_vec" kindref="compound">Vec</ref> instead of <ref refid="structossia_1_1_tuple" kindref="compound">Tuple</ref> in order to avoid a dynamic allocation.</para><para><simplesect kind="see"><para><ref refid="structossia_1_1_tuple" kindref="compound">Tuple</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" line="8" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" bodystart="8" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classossia_1_1_vec_1ac6ccd749e3edde073cef0217da542224" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>operator!=</name></member>
+      <member refid="classossia_1_1_vec_1ab8fec3d1b6df9952ac45a5166e8cad7e" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>operator&lt;</name></member>
+      <member refid="classossia_1_1_vec_1a928e02fd520c4c167d2b7eb7d0f3cb23" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>operator&lt;=</name></member>
+      <member refid="classossia_1_1_vec_1ae7e5ad608e1e4bc125d8f00d6a43b50e" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>operator=</name></member>
+      <member refid="classossia_1_1_vec_1a1f0f59599704c9c7b0cb989f24b1df8c" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>operator=</name></member>
+      <member refid="classossia_1_1_vec_1ad5f05d65b31d97c8e47258ce033071a7" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>operator==</name></member>
+      <member refid="classossia_1_1_vec_1a2ac9d17c6d0a929da3fe10e10939323c" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>operator&gt;</name></member>
+      <member refid="classossia_1_1_vec_1a8c380eb05c8d39c6c8ceedba9c35ec18" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>operator&gt;=</name></member>
+      <member refid="classossia_1_1_vec_1a48ffb85ee0705620529c72d84f83624d" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>size_value</name></member>
+      <member refid="classossia_1_1_vec_1a2b56933c0cdb86b09fcd839f9b112543" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>value</name></member>
+      <member refid="classossia_1_1_vec_1a110c69e6b6ae2d4747a5406b48ceac3b" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>Vec</name></member>
+      <member refid="classossia_1_1_vec_1a771a8ffcf43d6eb42ba98b5e90aa7761" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>Vec</name></member>
+      <member refid="classossia_1_1_vec_1a9f6e1d6004c53833e1e0d62db6a688dd" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>Vec</name></member>
+      <member refid="classossia_1_1_vec_1a17d13ce566b5b40733d55c1df0ec87df" prot="public" virt="non-virtual"><scope>ossia::Vec</scope><name>Vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

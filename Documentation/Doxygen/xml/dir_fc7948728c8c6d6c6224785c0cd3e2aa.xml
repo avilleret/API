@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_fc7948728c8c6d6c6224785c0cd3e2aa" kind="dir">
+    <compoundname>OSSIA</compoundname>
+    <innerdir refid="dir_6096a9be72ff3aad5b9801229b7e2606">ossia</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/"/>
+  </compounddef>
+</doxygen>

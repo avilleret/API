@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1comparisons_1_1_impulse___t" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::comparisons::Impulse_T</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structossia_1_1comparisons_1_1_impulse___t_1ac22e7e15c804ac61d84bca89236cbbdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const T &amp;, Impulse_T)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="structossia_1_1comparisons_1_1_impulse___t" kindref="compound">Impulse_T</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="15" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="friend" id="structossia_1_1comparisons_1_1_impulse___t_1aed2926f075cccd292217bcd431219973" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(const T &amp;, Impulse_T)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="structossia_1_1comparisons_1_1_impulse___t" kindref="compound">Impulse_T</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="20" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="friend" id="structossia_1_1comparisons_1_1_impulse___t_1adbe836fcae34e724456ce724150bc7fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator&lt;=</definition>
+        <argsstring>(const T &amp;, Impulse_T)</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="structossia_1_1comparisons_1_1_impulse___t" kindref="compound">Impulse_T</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="25" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="friend" id="structossia_1_1comparisons_1_1_impulse___t_1af5c0ed73ee5dd741d2206759d1832ffa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator&gt;=</definition>
+        <argsstring>(const T &amp;, Impulse_T)</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="structossia_1_1comparisons_1_1_impulse___t" kindref="compound">Impulse_T</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="30" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="friend" id="structossia_1_1comparisons_1_1_impulse___t_1a426c8f3faaf599c2bf90ca253a5644a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const T &amp;, Impulse_T)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="structossia_1_1comparisons_1_1_impulse___t" kindref="compound">Impulse_T</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="35" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="friend" id="structossia_1_1comparisons_1_1_impulse___t_1a0b858ce3f69d62278f313623f911d7bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator&gt;</definition>
+        <argsstring>(const T &amp;, Impulse_T)</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="structossia_1_1comparisons_1_1_impulse___t" kindref="compound">Impulse_T</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="40" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" line="13" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_comparison.hpp" bodystart="12" bodyend="44"/>
+    <listofallmembers>
+      <member refid="structossia_1_1comparisons_1_1_impulse___t_1aed2926f075cccd292217bcd431219973" prot="public" virt="non-virtual"><scope>ossia::comparisons::Impulse_T</scope><name>operator!=</name></member>
+      <member refid="structossia_1_1comparisons_1_1_impulse___t_1a426c8f3faaf599c2bf90ca253a5644a3" prot="public" virt="non-virtual"><scope>ossia::comparisons::Impulse_T</scope><name>operator&lt;</name></member>
+      <member refid="structossia_1_1comparisons_1_1_impulse___t_1adbe836fcae34e724456ce724150bc7fd" prot="public" virt="non-virtual"><scope>ossia::comparisons::Impulse_T</scope><name>operator&lt;=</name></member>
+      <member refid="structossia_1_1comparisons_1_1_impulse___t_1ac22e7e15c804ac61d84bca89236cbbdc" prot="public" virt="non-virtual"><scope>ossia::comparisons::Impulse_T</scope><name>operator==</name></member>
+      <member refid="structossia_1_1comparisons_1_1_impulse___t_1a0b858ce3f69d62278f313623f911d7bf" prot="public" virt="non-virtual"><scope>ossia::comparisons::Impulse_T</scope><name>operator&gt;</name></member>
+      <member refid="structossia_1_1comparisons_1_1_impulse___t_1af5c0ed73ee5dd741d2206759d1832ffa" prot="public" virt="non-virtual"><scope>ossia::comparisons::Impulse_T</scope><name>operator&gt;=</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

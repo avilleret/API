@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_behavior_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::net::domain_conversion&lt; domain_base&lt; Behavior &gt; &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_behavior_01_4_01_4_1a76d24b0bbb8790b97c5150df04cdd7f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>domain</type>
+        <definition>domain ossia::net::domain_conversion&lt; domain_base&lt; Behavior &gt; &gt;::operator()</definition>
+        <argsstring>(const domain_base&lt; Behavior &gt; &amp;src)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; <ref refid="structossia_1_1_behavior" kindref="compound">Behavior</ref> &gt; &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_conversion.hpp" line="99" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_conversion.hpp" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_behavior_01_4_01_4_1a0da84950b979d5e07d265f1bb4154d33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>domain</type>
+        <definition>domain ossia::net::domain_conversion&lt; domain_base&lt; Behavior &gt; &gt;::operator()</definition>
+        <argsstring>(const T &amp;)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_conversion.hpp" line="105" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_conversion.hpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_conversion.hpp" line="98" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_conversion.hpp" bodystart="97" bodyend="109"/>
+    <listofallmembers>
+      <member refid="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_behavior_01_4_01_4_1a76d24b0bbb8790b97c5150df04cdd7f2" prot="public" virt="non-virtual"><scope>ossia::net::domain_conversion&lt; domain_base&lt; Behavior &gt; &gt;</scope><name>operator()</name></member>
+      <member refid="structossia_1_1net_1_1domain__conversion_3_01domain__base_3_01_behavior_01_4_01_4_1a0da84950b979d5e07d265f1bb4154d33" prot="public" virt="non-virtual"><scope>ossia::net::domain_conversion&lt; domain_base&lt; Behavior &gt; &gt;</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

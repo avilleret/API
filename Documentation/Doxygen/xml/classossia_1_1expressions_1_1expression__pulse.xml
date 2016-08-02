@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1expressions_1_1expression__pulse" kind="class" language="C++" prot="public">
+    <compoundname>ossia::expressions::expression_pulse</compoundname>
+    <basecompoundref refid="classossia_1_1callback__container" prot="public" virt="non-virtual">ossia::callback_container&lt; expression_result_callback &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classossia_1_1expressions_1_1expression__pulse_1ad096fb52c013553000669b6b0bad9887" prot="private" static="no" mutable="no">
+        <type><ref refid="classossia_1_1_destination" kindref="compound">Destination</ref></type>
+        <definition>Destination ossia::expressions::expression_pulse::mDestination</definition>
+        <argsstring></argsstring>
+        <name>mDestination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="45" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1expressions_1_1expression__pulse_1a45e446e867a010fd4053d0d5bd1b729d" prot="private" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool ossia::expressions::expression_pulse::mResult</definition>
+        <argsstring></argsstring>
+        <name>mResult</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="46" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classossia_1_1expressions_1_1expression__pulse_1a58a8e153e3967dfcd2ed631652f63506" prot="private" static="no" mutable="no">
+        <type>net::address_base::callback_index</type>
+        <definition>net::address_base::callback_index ossia::expressions::expression_pulse::mDestinationCallbackIndex</definition>
+        <argsstring></argsstring>
+        <name>mDestinationCallbackIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="48" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1a43189996b7f961e50f465ac918b0bc84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_pulse::expression_pulse</definition>
+        <argsstring>(const Destination &amp;destination)</argsstring>
+        <name>expression_pulse</name>
+        <param>
+          <type>const <ref refid="classossia_1_1_destination" kindref="compound">Destination</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="20" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.cpp" bodystart="8" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1a1f1cc1558773b4d034166cd845c1ee1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_pulse::expression_pulse</definition>
+        <argsstring>(expression_pulse &amp;&amp;other)=delete</argsstring>
+        <name>expression_pulse</name>
+        <param>
+          <type><ref refid="classossia_1_1expressions_1_1expression__pulse" kindref="compound">expression_pulse</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1a1948427149e3a063e7a3491d9a59718d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1expressions_1_1expression__pulse" kindref="compound">expression_pulse</ref> &amp;</type>
+        <definition>expression_pulse&amp; ossia::expressions::expression_pulse::operator=</definition>
+        <argsstring>(expression_pulse &amp;&amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classossia_1_1expressions_1_1expression__pulse" kindref="compound">expression_pulse</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1a7ac31c293a77f7439934704ad8b1c6e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_pulse::expression_pulse</definition>
+        <argsstring>(const expression_pulse &amp;other)=delete</argsstring>
+        <name>expression_pulse</name>
+        <param>
+          <type>const <ref refid="classossia_1_1expressions_1_1expression__pulse" kindref="compound">expression_pulse</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1a0d903ecfb93ee13cbca8483b1f893248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1expressions_1_1expression__pulse" kindref="compound">expression_pulse</ref> &amp;</type>
+        <definition>expression_pulse&amp; ossia::expressions::expression_pulse::operator=</definition>
+        <argsstring>(const expression_pulse &amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1expressions_1_1expression__pulse" kindref="compound">expression_pulse</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1ac61087170fe453fe9844a3e5498c9903" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_pulse::~expression_pulse</definition>
+        <argsstring>()</argsstring>
+        <name>~expression_pulse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="26" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.cpp" bodystart="19" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1a2df331092e0f4806aa37d3dee92df0c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::expressions::expression_pulse::evaluate</definition>
+        <argsstring>() const </argsstring>
+        <name>evaluate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>evaluate if a destination value change have been observed since expression creation or since the last update <simplesect kind="return"><para>true after the destination being updated </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="32" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1ab024f6a73e619df125d7c3b59f226e56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_pulse::update</definition>
+        <argsstring>() const </argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reset the evaluation to false until the next destination update </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="35" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.cpp" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1af0c659bf80d724445dcec62cf3e69499" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classossia_1_1_destination" kindref="compound">Destination</ref> &amp;</type>
+        <definition>const Destination &amp; ossia::expressions::expression_pulse::getDestination</definition>
+        <argsstring>() const </argsstring>
+        <name>getDestination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="37" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1a5a3826f5eed99c2bd74e1ae41e7bf362" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_pulse::onFirstCallbackAdded</definition>
+        <argsstring>() override</argsstring>
+        <name>onFirstCallbackAdded</name>
+        <reimplements refid="classossia_1_1callback__container_1ad6b20377c200c7e458cfbcb6e2922373">onFirstCallbackAdded</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="40" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.cpp" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1a303a7898403a25ff949a3c359d46a5e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_pulse::onRemovingLastCallback</definition>
+        <argsstring>() override</argsstring>
+        <name>onRemovingLastCallback</name>
+        <reimplements refid="classossia_1_1callback__container_1aed6b18d99e31b4b3f2932f2161a5bf23">onRemovingLastCallback</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="41" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.cpp" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__pulse_1a44a2949d0512c784254a3ffbf6538786" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_pulse::destinationCallback</definition>
+        <argsstring>(const value &amp;value)</argsstring>
+        <name>destinationCallback</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">value</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="43" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.cpp" bodystart="53" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="202">
+        <label>expression_callback_container</label>
+        <link refid="classossia_1_1callback__container"/>
+      </node>
+      <node id="201">
+        <label>ossia::expressions::expression_pulse</label>
+        <link refid="classossia_1_1expressions_1_1expression__pulse"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="204">
+        <label>expression_callback_container</label>
+        <link refid="classossia_1_1callback__container"/>
+      </node>
+      <node id="203">
+        <label>ossia::expressions::expression_pulse</label>
+        <link refid="classossia_1_1expressions_1_1expression__pulse"/>
+        <childnode refid="204" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" line="18" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_pulse.hpp" bodystart="17" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classossia_1_1callback__container_1ad21ff92bc6284ef5a0b6097e0ed7b455" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>add_callback</name></member>
+      <member refid="classossia_1_1callback__container_1a9c1b5ed0a5feaf59665578c1c8b4f87c" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>callback_count</name></member>
+      <member refid="classossia_1_1callback__container_1a72acb3badf806e11bd22d424a0151e01" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>callbacks_empty</name></member>
+      <member refid="classossia_1_1callback__container_1a1f09835226ea883c77e1b5d55f0f3b9c" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>clear</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a44a2949d0512c784254a3ffbf6538786" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>destinationCallback</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a2df331092e0f4806aa37d3dee92df0c2" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>evaluate</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a43189996b7f961e50f465ac918b0bc84" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>expression_pulse</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a1f1cc1558773b4d034166cd845c1ee1b" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>expression_pulse</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a7ac31c293a77f7439934704ad8b1c6e2" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>expression_pulse</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1af0c659bf80d724445dcec62cf3e69499" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>getDestination</name></member>
+      <member refid="classossia_1_1callback__container_1a144133e0f59b6ec47c2a99d91a20b993" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>impl</name></member>
+      <member refid="classossia_1_1callback__container_1a867e817087e302ab14dad64fcf683139" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>iterator</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1ad096fb52c013553000669b6b0bad9887" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>mDestination</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a58a8e153e3967dfcd2ed631652f63506" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>mDestinationCallbackIndex</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a45e446e867a010fd4053d0d5bd1b729d" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>mResult</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a5a3826f5eed99c2bd74e1ae41e7bf362" prot="private" virt="virtual"><scope>ossia::expressions::expression_pulse</scope><name>onFirstCallbackAdded</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a303a7898403a25ff949a3c359d46a5e4" prot="private" virt="virtual"><scope>ossia::expressions::expression_pulse</scope><name>onRemovingLastCallback</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a1948427149e3a063e7a3491d9a59718d" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>operator=</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1a0d903ecfb93ee13cbca8483b1f893248" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>operator=</name></member>
+      <member refid="classossia_1_1callback__container_1ac7c057961187bd1b7f0b9f3cfe22f4d0" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>remove_callback</name></member>
+      <member refid="classossia_1_1callback__container_1a64bffd9efaf340f463b05524b6c92a05" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>send</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1ab024f6a73e619df125d7c3b59f226e56" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_pulse</scope><name>update</name></member>
+      <member refid="classossia_1_1callback__container_1a07a0636fddb69c17c0c5782e4af00456" prot="public" virt="virtual"><scope>ossia::expressions::expression_pulse</scope><name>~callback_container</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__pulse_1ac61087170fe453fe9844a3e5498c9903" prot="public" virt="virtual"><scope>ossia::expressions::expression_pulse</scope><name>~expression_pulse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_db8a6c98ca1e24f01676746c19474e3c" kind="dir">
+    <compoundname>detail</compoundname>
+    <innerfile refid="channel_8hpp">channel.hpp</innerfile>
+    <innerfile refid="midi__impl_8cpp">midi_impl.cpp</innerfile>
+    <innerfile refid="midi__impl_8hpp">midi_impl.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/detail/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1easing_1_1circular_in" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::easing::circularIn</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1easing_1_1circular_in_1a84766481c562810ed4b17f681f23b2c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr T</type>
+        <definition>constexpr T ossia::easing::circularIn&lt; T &gt;::operator()</definition>
+        <argsstring>(T t)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>T</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" line="216" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" bodystart="216" bodyend="219"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" line="215" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/curve/curve_segment/easing.hpp" bodystart="214" bodyend="220"/>
+    <listofallmembers>
+      <member refid="structossia_1_1easing_1_1circular_in_1a84766481c562810ed4b17f681f23b2c5" prot="public" virt="non-virtual"><scope>ossia::easing::circularIn</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="channel_8hpp" kind="file" language="C++">
+    <compoundname>channel.hpp</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">cinttypes</includes>
+    <includes local="no">utility</includes>
+    <includedby refid="midi__impl_8hpp" local="no">midi_impl.hpp</includedby>
+    <includedby refid="midi__address_8hpp" local="no">midi_address.hpp</includedby>
+    <incdepgraph>
+      <node id="552">
+        <label>cinttypes</label>
+      </node>
+      <node id="550">
+        <label>channel.hpp</label>
+        <link refid="channel.hpp"/>
+        <childnode refid="551" relation="include">
+        </childnode>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="553" relation="include">
+        </childnode>
+      </node>
+      <node id="553">
+        <label>utility</label>
+      </node>
+      <node id="551">
+        <label>array</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="558">
+        <label>midi_address.hpp</label>
+        <link refid="midi__address_8hpp_source"/>
+        <childnode refid="555" relation="include">
+        </childnode>
+      </node>
+      <node id="555">
+        <label>midi_impl.hpp</label>
+        <link refid="midi__impl_8hpp_source"/>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="554">
+        <label>channel.hpp</label>
+        <link refid="channel.hpp"/>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="558" relation="include">
+        </childnode>
+      </node>
+      <node id="557">
+        <label>midi.hpp</label>
+        <link refid="midi_8hpp_source"/>
+      </node>
+      <node id="556">
+        <label>midi_protocol.hpp</label>
+        <link refid="midi__protocol_8hpp_source"/>
+        <childnode refid="557" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structossia_1_1net_1_1midi_1_1midi__channel" prot="public">ossia::net::midi::midi_channel</innerclass>
+    <innernamespace refid="namespaceossia">ossia</innernamespace>
+    <innernamespace refid="namespaceossia_1_1net">ossia::net</innernamespace>
+    <innernamespace refid="namespaceossia_1_1net_1_1midi">ossia::net::midi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cinttypes&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceossia" kindref="compound">ossia</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">net</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">midi</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>midi_size_t<sp/>=<sp/>uint8_t;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">midi_address;</highlight></codeline>
+<codeline lineno="13" refid="structossia_1_1net_1_1midi_1_1midi__channel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structossia_1_1net_1_1midi_1_1midi__channel" kindref="compound">midi_channel</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>[<sp/>note,<sp/>vel<sp/>]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>std::pair&lt;midi_size_t,<sp/>midi_size_t&gt;<sp/>mNoteOn;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>std::pair&lt;midi_size_t,<sp/>midi_size_t&gt;<sp/>mNoteOff;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>[<sp/>CC,<sp/>value<sp/>]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>std::pair&lt;midi_size_t,<sp/>midi_size_t&gt;<sp/>mCC;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>PC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>midi_size_t<sp/>mPC;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>velocity<sp/>or<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>std::array&lt;midi_size_t,<sp/>127&gt;<sp/>mNoteOn_N<sp/>=<sp/>{{64}};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>std::array&lt;midi_size_t,<sp/>127&gt;<sp/>mNoteOff_N<sp/>=<sp/>{{64}};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>std::array&lt;midi_size_t,<sp/>127&gt;<sp/>mCC_N<sp/>=<sp/>{{64}};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>No<sp/>need<sp/>to<sp/>store<sp/>PC<sp/>since<sp/>they<sp/>are<sp/>only<sp/>impulses</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Callbacks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1midi_1_1midi__address" kindref="compound">midi_address</ref>*<sp/>mCallbackNoteOn{};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1midi_1_1midi__address" kindref="compound">midi_address</ref>*<sp/>mCallbackNoteOff{};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1midi_1_1midi__address" kindref="compound">midi_address</ref>*<sp/>mCallbackCC{};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><ref refid="classossia_1_1net_1_1midi_1_1midi__address" kindref="compound">midi_address</ref>*<sp/>mCallbackPC{};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>std::array&lt;midi_address*,<sp/>127&gt;<sp/>mCallbackNoteOn_N<sp/>=<sp/>{{}};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>std::array&lt;midi_address*,<sp/>127&gt;<sp/>mCallbackNoteOff_N<sp/>=<sp/>{{}};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>std::array&lt;midi_address*,<sp/>127&gt;<sp/>mCallbackCC_N<sp/>=<sp/>{{}};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>std::array&lt;midi_address*,<sp/>127&gt;<sp/>mCallbackPC_N<sp/>=<sp/>{{}};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/midi/detail/channel.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1net_1_1domain__clamp__visitor" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::net::domain_clamp_visitor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structossia_1_1net_1_1domain__clamp__visitor_1a01842ae6290b05a368deb060520a2d83" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceossia_1aed414113ede1f539256e47262c495722" kindref="member">bounding_mode</ref></type>
+        <definition>bounding_mode ossia::net::domain_clamp_visitor::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/detail/domain_visitors.hpp" line="10" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/detail/domain_visitors.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1net_1_1domain__clamp__visitor_1a3f675612e644f82826ca2ea882d63e96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref></type>
+        <definition>ossia::value ossia::net::domain_clamp_visitor::operator()</definition>
+        <argsstring>(const T &amp;value, const U &amp;bad_domain)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>bad_domain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/detail/domain_visitors.hpp" line="13" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/detail/domain_visitors.hpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1net_1_1domain__clamp__visitor_1a42380052822b6bc77c88d00169f362e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classossia_1_1value" kindref="compound">ossia::value</ref></type>
+        <definition>ossia::value ossia::net::domain_clamp_visitor::operator()</definition>
+        <argsstring>(const T &amp;value, const domain_base&lt; T &gt; &amp;domain)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structossia_1_1net_1_1domain__base" kindref="compound">domain_base</ref>&lt; T &gt; &amp;</type>
+          <declname>domain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/detail/domain_visitors.hpp" line="19" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/detail/domain_visitors.hpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/detail/domain_visitors.hpp" line="9" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/detail/domain_visitors.hpp" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="structossia_1_1net_1_1domain__clamp__visitor_1a01842ae6290b05a368deb060520a2d83" prot="public" virt="non-virtual"><scope>ossia::net::domain_clamp_visitor</scope><name>b</name></member>
+      <member refid="structossia_1_1net_1_1domain__clamp__visitor_1a3f675612e644f82826ca2ea882d63e96" prot="public" virt="non-virtual"><scope>ossia::net::domain_clamp_visitor</scope><name>operator()</name></member>
+      <member refid="structossia_1_1net_1_1domain__clamp__visitor_1a42380052822b6bc77c88d00169f362e0" prot="public" virt="non-virtual"><scope>ossia::net::domain_clamp_visitor</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

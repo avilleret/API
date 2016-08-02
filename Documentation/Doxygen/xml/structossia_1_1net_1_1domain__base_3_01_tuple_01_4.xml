@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1net_1_1domain__base_3_01_tuple_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::net::domain_base&lt; Tuple &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1net_1_1domain__base_3_01_tuple_01_4_1a4179631e0c58b93e661a8bacd4302160" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classossia_1_1value" kindref="compound">value</ref></type>
+        <definition>value ossia::net::domain_base&lt; Tuple &gt;::clamp</definition>
+        <argsstring>(bounding_mode b, const Tuple &amp;val) const </argsstring>
+        <name>clamp</name>
+        <param>
+          <type><ref refid="namespaceossia_1aed414113ede1f539256e47262c495722" kindref="member">bounding_mode</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structossia_1_1_tuple" kindref="compound">Tuple</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_base.hpp" line="164" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_base.hpp" bodystart="164" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_base.hpp" line="163" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/network/domain/domain_base.hpp" bodystart="162" bodyend="169"/>
+    <listofallmembers>
+      <member refid="structossia_1_1net_1_1domain__base_3_01_tuple_01_4_1a4179631e0c58b93e661a8bacd4302160" prot="public" virt="non-virtual"><scope>ossia::net::domain_base&lt; Tuple &gt;</scope><name>clamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

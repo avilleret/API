@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1_int" kind="class" language="C++" prot="public">
+    <compoundname>ossia::Int</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structossia_1_1_int_1a6476c446f8368b86051b51d54f556877" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ossia::Int::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="13" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structossia_1_1_int_1aed105dd37af4500fa1a25f2df891f994" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Int::Int</definition>
+        <argsstring>(int v=0)</argsstring>
+        <name>Int</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="15" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1ac4f25008d0b3f897646ca80db0c47c07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ossia::Int::Int</definition>
+        <argsstring>(T *)=delete</argsstring>
+        <name>Int</name>
+        <param>
+          <type>T *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1ac4a961692f7ef3c0ab96d36b9a7be17e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Int::Int</definition>
+        <argsstring>(const Int &amp;)=default</argsstring>
+        <name>Int</name>
+        <param>
+          <type>const <ref refid="structossia_1_1_int" kindref="compound">Int</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1ae9eaa265c56885eae449f80f68834de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::Int::Int</definition>
+        <argsstring>(Int &amp;&amp;)=default</argsstring>
+        <name>Int</name>
+        <param>
+          <type><ref refid="structossia_1_1_int" kindref="compound">Int</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1a6a6b21fdfedbcc62f1189a9e414b8235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structossia_1_1_int" kindref="compound">Int</ref> &amp;</type>
+        <definition>Int&amp; ossia::Int::operator=</definition>
+        <argsstring>(const Int &amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="structossia_1_1_int" kindref="compound">Int</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1a74a175a7e49cf7c69981a9bb22b1763d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structossia_1_1_int" kindref="compound">Int</ref> &amp;</type>
+        <definition>Int&amp; ossia::Int::operator=</definition>
+        <argsstring>(Int &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="structossia_1_1_int" kindref="compound">Int</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1a72b21b113e55cc40a24f08f32d019ed7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Int::operator==</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="27" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1a31f47b4a87cbc80c4da68dae4e0f1471" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Int::operator!=</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="28" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1a9c6a3a866abc72e2466b122ff1c29288" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Int::operator&gt;</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="29" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1af6cbc7e7083d84a18cf8301805577d2f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Int::operator&gt;=</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="30" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1ab6e283dbdbc72a72c25af70e97f4e1d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Int::operator&lt;</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="31" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="structossia_1_1_int_1a2aedcc26561b232254096b4284a13857" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::Int::operator&lt;=</definition>
+        <argsstring>(const ossia::value &amp;) const </argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1value" kindref="compound">ossia::value</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="32" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value.cpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" line="12" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/int.hpp" bodystart="11" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structossia_1_1_int_1aed105dd37af4500fa1a25f2df891f994" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>Int</name></member>
+      <member refid="structossia_1_1_int_1ac4f25008d0b3f897646ca80db0c47c07" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>Int</name></member>
+      <member refid="structossia_1_1_int_1ac4a961692f7ef3c0ab96d36b9a7be17e" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>Int</name></member>
+      <member refid="structossia_1_1_int_1ae9eaa265c56885eae449f80f68834de7" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>Int</name></member>
+      <member refid="structossia_1_1_int_1a31f47b4a87cbc80c4da68dae4e0f1471" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>operator!=</name></member>
+      <member refid="structossia_1_1_int_1ab6e283dbdbc72a72c25af70e97f4e1d6" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>operator&lt;</name></member>
+      <member refid="structossia_1_1_int_1a2aedcc26561b232254096b4284a13857" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>operator&lt;=</name></member>
+      <member refid="structossia_1_1_int_1a6a6b21fdfedbcc62f1189a9e414b8235" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>operator=</name></member>
+      <member refid="structossia_1_1_int_1a74a175a7e49cf7c69981a9bb22b1763d" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>operator=</name></member>
+      <member refid="structossia_1_1_int_1a72b21b113e55cc40a24f08f32d019ed7" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>operator==</name></member>
+      <member refid="structossia_1_1_int_1a9c6a3a866abc72e2466b122ff1c29288" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>operator&gt;</name></member>
+      <member refid="structossia_1_1_int_1af6cbc7e7083d84a18cf8301805577d2f" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>operator&gt;=</name></member>
+      <member refid="structossia_1_1_int_1a6476c446f8368b86051b51d54f556877" prot="public" virt="non-virtual"><scope>ossia::Int</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

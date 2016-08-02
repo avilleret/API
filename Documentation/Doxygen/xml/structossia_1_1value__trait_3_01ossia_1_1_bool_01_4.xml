@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>ossia::value_trait&lt; ossia::Bool &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4_1a4781083b8da75b0194f57f87c2d77b37" prot="public" static="no">
+        <type><ref refid="structossia_1_1_bool" kindref="compound">ossia::Bool</ref></type>
+        <definition>using ossia::value_trait&lt; ossia::Bool &gt;::ossia_type =  ossia::Bool</definition>
+        <argsstring></argsstring>
+        <name>ossia_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" line="43" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4_1ae9576af9f048bb15606ac23138afe144" prot="public" static="no">
+        <type>bool</type>
+        <definition>using ossia::value_trait&lt; ossia::Bool &gt;::value_type =  bool</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" line="44" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4_1a69743505925a919e0884cb79fc4ba770" prot="public" static="yes" mutable="no">
+        <type>const constexpr auto</type>
+        <definition>const constexpr auto ossia::value_trait&lt; ossia::Bool &gt;::ossia_enum</definition>
+        <argsstring></argsstring>
+        <name>ossia_enum</name>
+        <initializer>= val_type::BOOL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" line="45" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4_1a1a39c46db8d4330f4a95d38ae82ea3ad" prot="public" static="yes" mutable="no">
+        <type>const constexpr bool</type>
+        <definition>const constexpr bool ossia::value_trait&lt; ossia::Bool &gt;::is_numeric</definition>
+        <argsstring></argsstring>
+        <name>is_numeric</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" line="46" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" line="42" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/value/value_traits.hpp" bodystart="41" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4_1a1a39c46db8d4330f4a95d38ae82ea3ad" prot="public" virt="non-virtual"><scope>ossia::value_trait&lt; ossia::Bool &gt;</scope><name>is_numeric</name></member>
+      <member refid="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4_1a69743505925a919e0884cb79fc4ba770" prot="public" virt="non-virtual"><scope>ossia::value_trait&lt; ossia::Bool &gt;</scope><name>ossia_enum</name></member>
+      <member refid="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4_1a4781083b8da75b0194f57f87c2d77b37" prot="public" virt="non-virtual"><scope>ossia::value_trait&lt; ossia::Bool &gt;</scope><name>ossia_type</name></member>
+      <member refid="structossia_1_1value__trait_3_01ossia_1_1_bool_01_4_1ae9576af9f048bb15606ac23138afe144" prot="public" virt="non-virtual"><scope>ossia::value_trait&lt; ossia::Bool &gt;</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

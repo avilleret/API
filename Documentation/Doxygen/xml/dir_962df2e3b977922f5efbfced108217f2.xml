@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_962df2e3b977922f5efbfced108217f2" kind="dir">
+    <compoundname>detail</compoundname>
+    <innerfile refid="message__generator_8hpp">message_generator.hpp</innerfile>
+    <innerfile refid="detail_2osc_8hpp">detail/osc.hpp</innerfile>
+    <innerfile refid="receiver_8hpp">receiver.hpp</innerfile>
+    <innerfile refid="sender_8hpp">sender.hpp</innerfile>
+    <innerfile refid="string__view_8hpp">string_view.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/i-score/API/OSSIA/ossia/network/osc/detail/"/>
+  </compounddef>
+</doxygen>

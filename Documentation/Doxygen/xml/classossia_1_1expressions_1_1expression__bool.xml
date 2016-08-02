@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classossia_1_1expressions_1_1expression__bool" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>ossia::expressions::expression_bool</compoundname>
+    <basecompoundref refid="classossia_1_1callback__container" prot="public" virt="non-virtual">ossia::callback_container&lt; expression_result_callback &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classossia_1_1expressions_1_1expression__bool_1aef5ad4dd75100a4be516c5e6b0f4a392" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ossia::expressions::expression_bool::mResult</definition>
+        <argsstring></argsstring>
+        <name>mResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="11" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__bool_1aa02fdfb44579a3b6ac8bacd8b65e6328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_bool::expression_bool</definition>
+        <argsstring>(bool result)</argsstring>
+        <name>expression_bool</name>
+        <param>
+          <type>bool</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="14" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__bool_1ac6aabcbe5193f1a8c51566760f44a9b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_bool::expression_bool</definition>
+        <argsstring>(expression_bool &amp;&amp;other)=delete</argsstring>
+        <name>expression_bool</name>
+        <param>
+          <type><ref refid="classossia_1_1expressions_1_1expression__bool" kindref="compound">expression_bool</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__bool_1a0d1777cf2f96c920eb144db50257ee3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1expressions_1_1expression__bool" kindref="compound">expression_bool</ref> &amp;</type>
+        <definition>expression_bool&amp; ossia::expressions::expression_bool::operator=</definition>
+        <argsstring>(expression_bool &amp;&amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classossia_1_1expressions_1_1expression__bool" kindref="compound">expression_bool</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__bool_1adec88aba3827570303d88cc88901f4e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_bool::expression_bool</definition>
+        <argsstring>(const expression_bool &amp;other)=delete</argsstring>
+        <name>expression_bool</name>
+        <param>
+          <type>const <ref refid="classossia_1_1expressions_1_1expression__bool" kindref="compound">expression_bool</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__bool_1a21cb3b0465ba1d975577862cf06013d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classossia_1_1expressions_1_1expression__bool" kindref="compound">expression_bool</ref> &amp;</type>
+        <definition>expression_bool&amp; ossia::expressions::expression_bool::operator=</definition>
+        <argsstring>(const expression_bool &amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classossia_1_1expressions_1_1expression__bool" kindref="compound">expression_bool</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__bool_1a901aa46445fa817064b84bdb2f15150f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ossia::expressions::expression_bool::~expression_bool</definition>
+        <argsstring>()</argsstring>
+        <name>~expression_bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__bool_1a21e59b6d8f9c83d1655ead558ac36418" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ossia::expressions::expression_bool::evaluate</definition>
+        <argsstring>() const </argsstring>
+        <name>evaluate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="23" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classossia_1_1expressions_1_1expression__bool_1a285626f529ee4cad092a28c6d06325f9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ossia::expressions::expression_bool::update</definition>
+        <argsstring>() const </argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="27" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="190">
+        <label>expression_callback_container</label>
+        <link refid="classossia_1_1callback__container"/>
+      </node>
+      <node id="189">
+        <label>ossia::expressions::expression_bool</label>
+        <link refid="classossia_1_1expressions_1_1expression__bool"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="192">
+        <label>expression_callback_container</label>
+        <link refid="classossia_1_1callback__container"/>
+      </node>
+      <node id="191">
+        <label>ossia::expressions::expression_bool</label>
+        <link refid="classossia_1_1expressions_1_1expression__bool"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" line="10" column="1" bodyfile="/tmp/i-score/API/OSSIA/ossia/editor/expression/expression_bool.hpp" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classossia_1_1callback__container_1ad21ff92bc6284ef5a0b6097e0ed7b455" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>add_callback</name></member>
+      <member refid="classossia_1_1callback__container_1a9c1b5ed0a5feaf59665578c1c8b4f87c" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>callback_count</name></member>
+      <member refid="classossia_1_1callback__container_1a72acb3badf806e11bd22d424a0151e01" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>callbacks_empty</name></member>
+      <member refid="classossia_1_1callback__container_1a1f09835226ea883c77e1b5d55f0f3b9c" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>clear</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__bool_1a21e59b6d8f9c83d1655ead558ac36418" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>evaluate</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__bool_1aa02fdfb44579a3b6ac8bacd8b65e6328" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>expression_bool</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__bool_1ac6aabcbe5193f1a8c51566760f44a9b4" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>expression_bool</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__bool_1adec88aba3827570303d88cc88901f4e1" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>expression_bool</name></member>
+      <member refid="classossia_1_1callback__container_1a144133e0f59b6ec47c2a99d91a20b993" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>impl</name></member>
+      <member refid="classossia_1_1callback__container_1a867e817087e302ab14dad64fcf683139" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>iterator</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__bool_1aef5ad4dd75100a4be516c5e6b0f4a392" prot="private" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>mResult</name></member>
+      <member refid="classossia_1_1callback__container_1ad6b20377c200c7e458cfbcb6e2922373" prot="protected" virt="virtual"><scope>ossia::expressions::expression_bool</scope><name>onFirstCallbackAdded</name></member>
+      <member refid="classossia_1_1callback__container_1aed6b18d99e31b4b3f2932f2161a5bf23" prot="protected" virt="virtual"><scope>ossia::expressions::expression_bool</scope><name>onRemovingLastCallback</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__bool_1a0d1777cf2f96c920eb144db50257ee3c" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>operator=</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__bool_1a21cb3b0465ba1d975577862cf06013d2" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>operator=</name></member>
+      <member refid="classossia_1_1callback__container_1ac7c057961187bd1b7f0b9f3cfe22f4d0" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>remove_callback</name></member>
+      <member refid="classossia_1_1callback__container_1a64bffd9efaf340f463b05524b6c92a05" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>send</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__bool_1a285626f529ee4cad092a28c6d06325f9" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>update</name></member>
+      <member refid="classossia_1_1callback__container_1a07a0636fddb69c17c0c5782e4af00456" prot="public" virt="virtual"><scope>ossia::expressions::expression_bool</scope><name>~callback_container</name></member>
+      <member refid="classossia_1_1expressions_1_1expression__bool_1a901aa46445fa817064b84bdb2f15150f" prot="public" virt="non-virtual"><scope>ossia::expressions::expression_bool</scope><name>~expression_bool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
