@@ -1,0 +1,7 @@
+var structossia_1_1detail_1_1partial__value__merger__helper_3_01_t_00_01_u_00_01enable__if__both__iterable_3_01_t_00_01_u_01_4_01_4 =
+[
+    [ "handle_vec", "structossia_1_1detail_1_1partial__value__merger__helper_3_01_t_00_01_u_00_01enable__if__both__iterable_3_01_t_00_01_u_01_4_01_4.html#a095d7ab187facd7fcbec0ea484573e3c", null ],
+    [ "handle_vec", "structossia_1_1detail_1_1partial__value__merger__helper_3_01_t_00_01_u_00_01enable__if__both__iterable_3_01_t_00_01_u_01_4_01_4.html#a844693e402fe304b355300a0c3672c9d", null ],
+    [ "operator()", "structossia_1_1detail_1_1partial__value__merger__helper_3_01_t_00_01_u_00_01enable__if__both__iterable_3_01_t_00_01_u_01_4_01_4.html#aa569467754fe9f5e0334267df98bc35b", null ],
+    [ "operator()", "structossia_1_1detail_1_1partial__value__merger__helper_3_01_t_00_01_u_00_01enable__if__both__iterable_3_01_t_00_01_u_01_4_01_4.html#a1f7cc77204d9b053421b69fa1a05d15b", null ]
+];

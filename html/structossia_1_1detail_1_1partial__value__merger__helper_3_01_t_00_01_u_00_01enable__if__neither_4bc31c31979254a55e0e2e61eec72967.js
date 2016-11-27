@@ -1,0 +1,5 @@
+var structossia_1_1detail_1_1partial__value__merger__helper_3_01_t_00_01_u_00_01enable__if__neither_4bc31c31979254a55e0e2e61eec72967 =
+[
+    [ "operator()", "structossia_1_1detail_1_1partial__value__merger__helper_3_01_t_00_01_u_00_01enable__if__neither_4bc31c31979254a55e0e2e61eec72967.html#a7874036536b4199e1818ce8b1f4b8a9c", null ],
+    [ "operator()", "structossia_1_1detail_1_1partial__value__merger__helper_3_01_t_00_01_u_00_01enable__if__neither_4bc31c31979254a55e0e2e61eec72967.html#a79f2f961526c127a7f177742c75902c4", null ]
+];

@@ -1,0 +1,4 @@
+var structossia_1_1detail_1_1unit__accessor__helper_3_01_unit_00_01detail_1_1enable__if__multidimensional_3_01_unit_01_4_01_4 =
+[
+    [ "operator()", "structossia_1_1detail_1_1unit__accessor__helper_3_01_unit_00_01detail_1_1enable__if__multidimensional_3_01_unit_01_4_01_4.html#a7e6cc245b1e53d0273541603c1dacf36", null ]
+];

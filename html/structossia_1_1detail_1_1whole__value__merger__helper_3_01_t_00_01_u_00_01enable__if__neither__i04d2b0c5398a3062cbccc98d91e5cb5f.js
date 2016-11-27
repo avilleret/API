@@ -1,0 +1,4 @@
+var structossia_1_1detail_1_1whole__value__merger__helper_3_01_t_00_01_u_00_01enable__if__neither__i04d2b0c5398a3062cbccc98d91e5cb5f =
+[
+    [ "operator()", "structossia_1_1detail_1_1whole__value__merger__helper_3_01_t_00_01_u_00_01enable__if__neither__i04d2b0c5398a3062cbccc98d91e5cb5f.html#a30ee4295a0176984660069cf222c781f", null ]
+];

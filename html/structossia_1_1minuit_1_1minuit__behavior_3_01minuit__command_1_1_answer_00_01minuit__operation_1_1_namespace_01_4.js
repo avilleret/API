@@ -1,0 +1,4 @@
+var structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_namespace_01_4 =
+[
+    [ "operator()", "structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_namespace_01_4.html#a50b01a517a30b9a2a1f4958c7c13b83e", null ]
+];

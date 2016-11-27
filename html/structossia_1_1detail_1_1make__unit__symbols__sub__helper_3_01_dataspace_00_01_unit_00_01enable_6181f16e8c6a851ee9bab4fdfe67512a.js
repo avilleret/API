@@ -1,0 +1,4 @@
+var structossia_1_1detail_1_1make__unit__symbols__sub__helper_3_01_dataspace_00_01_unit_00_01enable_6181f16e8c6a851ee9bab4fdfe67512a =
+[
+    [ "operator()", "structossia_1_1detail_1_1make__unit__symbols__sub__helper_3_01_dataspace_00_01_unit_00_01enable_6181f16e8c6a851ee9bab4fdfe67512a.html#a3e96bbd31988d443f76177461b1a101d", null ]
+];

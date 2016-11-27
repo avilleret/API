@@ -1,0 +1,4 @@
+var structossia_1_1detail_1_1convert__unit__helper_3_01_t_00_01_u_00_01enable__if__same__dataspace_3_01_t_00_01_u_01_4_01_4 =
+[
+    [ "operator()", "structossia_1_1detail_1_1convert__unit__helper_3_01_t_00_01_u_00_01enable__if__same__dataspace_3_01_t_00_01_u_01_4_01_4.html#a54236da65406a35e530dd15d6ff83aad", null ]
+];
