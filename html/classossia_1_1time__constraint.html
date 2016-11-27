@@ -121,6 +121,7 @@ $(document).ready(function(){initNavTree('classossia_1_1time__constraint.html','
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a85fc6a7102dcada7c0589a0aa4b72e94"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a85fc6a7102dcada7c0589a0aa4b72e94">ExecutionCallback</a> = std::function&lt; void(<a class="el" href="classossia_1_1time__value.html">time_value</a>, <a class="el" href="classossia_1_1time__value.html">time_value</a>, const <a class="el" href="classossia_1_1state.html">state</a> &amp;)&gt;</td></tr>
+<tr class="memdesc:a85fc6a7102dcada7c0589a0aa4b72e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">to get the constraint execution back  <a href="#a85fc6a7102dcada7c0589a0aa4b72e94">More...</a><br/></td></tr>
 <tr class="separator:a85fc6a7102dcada7c0589a0aa4b72e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -179,51 +180,76 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setExecutionStatusCal
 <tr class="memitem:a95b75fce9875c2d5cd97e1a0846e1630"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a95b75fce9875c2d5cd97e1a0846e1630"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b> (<a class="el" href="classossia_1_1time__constraint.html#a85fc6a7102dcada7c0589a0aa4b72e94">time_constraint::ExecutionCallback</a>, <a class="el" href="classossia_1_1time__event.html">time_event</a> &amp;, <a class="el" href="classossia_1_1time__event.html">time_event</a> &amp;, <a class="el" href="classossia_1_1time__value.html">time_value</a>=Infinite, <a class="el" href="classossia_1_1time__value.html">time_value</a>=Zero, <a class="el" href="classossia_1_1time__value.html">time_value</a>=Infinite)</td></tr>
 <tr class="separator:a95b75fce9875c2d5cd97e1a0846e1630"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89d87e76dd4f230c111e06f5cba1ef1a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a89d87e76dd4f230c111e06f5cba1ef1a">~time_constraint</a> ()</td></tr>
+<tr class="memitem:a89d87e76dd4f230c111e06f5cba1ef1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89d87e76dd4f230c111e06f5cba1ef1a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a89d87e76dd4f230c111e06f5cba1ef1a">~time_constraint</a> ()</td></tr>
+<tr class="memdesc:a89d87e76dd4f230c111e06f5cba1ef1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">desctructor <br/></td></tr>
 <tr class="separator:a89d87e76dd4f230c111e06f5cba1ef1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a113babfc3172fb270751bca936001b57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a113babfc3172fb270751bca936001b57">start</a> ()</td></tr>
+<tr class="memitem:a113babfc3172fb270751bca936001b57"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a113babfc3172fb270751bca936001b57"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a113babfc3172fb270751bca936001b57">start</a> ()</td></tr>
+<tr class="memdesc:a113babfc3172fb270751bca936001b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">start #TimeConstraint's #Clock <br/></td></tr>
 <tr class="separator:a113babfc3172fb270751bca936001b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8443fc327790e1e0d23af4873407df07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a8443fc327790e1e0d23af4873407df07">stop</a> ()</td></tr>
+<tr class="memitem:a8443fc327790e1e0d23af4873407df07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8443fc327790e1e0d23af4873407df07"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a8443fc327790e1e0d23af4873407df07">stop</a> ()</td></tr>
+<tr class="memdesc:a8443fc327790e1e0d23af4873407df07"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop #TimeConstraint's #Clock <br/></td></tr>
 <tr class="separator:a8443fc327790e1e0d23af4873407df07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34757fd6878e61449bc3d4231276c1be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a34757fd6878e61449bc3d4231276c1be">pause</a> ()</td></tr>
+<tr class="memitem:a34757fd6878e61449bc3d4231276c1be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34757fd6878e61449bc3d4231276c1be"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a34757fd6878e61449bc3d4231276c1be">pause</a> ()</td></tr>
+<tr class="memdesc:a34757fd6878e61449bc3d4231276c1be"><td class="mdescLeft">&#160;</td><td class="mdescRight">start #TimeConstraint's #Clock <br/></td></tr>
 <tr class="separator:a34757fd6878e61449bc3d4231276c1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96e3d4a1631389642727df91bd002eaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a96e3d4a1631389642727df91bd002eaa">resume</a> ()</td></tr>
+<tr class="memitem:a96e3d4a1631389642727df91bd002eaa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96e3d4a1631389642727df91bd002eaa"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a96e3d4a1631389642727df91bd002eaa">resume</a> ()</td></tr>
+<tr class="memdesc:a96e3d4a1631389642727df91bd002eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop #TimeConstraint's #Clock <br/></td></tr>
 <tr class="separator:a96e3d4a1631389642727df91bd002eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b8338fe1bfd6dcdccecfe1137a1e997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1state.html">ossia::state</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a3b8338fe1bfd6dcdccecfe1137a1e997">offset</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memdesc:a3b8338fe1bfd6dcdccecfe1137a1e997"><td class="mdescLeft">&#160;</td><td class="mdescRight">set #TimeConstraint's #Clock offset and process a state at offset date  <a href="#a3b8338fe1bfd6dcdccecfe1137a1e997">More...</a><br/></td></tr>
 <tr class="separator:a3b8338fe1bfd6dcdccecfe1137a1e997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa22aa2d961f76da86e895581f896c4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1state.html">ossia::state</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#aaa22aa2d961f76da86e895581f896c4c">state</a> ()</td></tr>
+<tr class="memdesc:aaa22aa2d961f76da86e895581f896c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a #State from the constraint depending on its #Clock date  <a href="#aaa22aa2d961f76da86e895581f896c4c">More...</a><br/></td></tr>
 <tr class="separator:aaa22aa2d961f76da86e895581f896c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02371d3df57ab4f16b13d4e385af82da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a02371d3df57ab4f16b13d4e385af82da">setCallback</a> (<a class="el" href="classossia_1_1time__constraint.html#a85fc6a7102dcada7c0589a0aa4b72e94">ExecutionCallback</a>)</td></tr>
+<tr class="memdesc:a02371d3df57ab4f16b13d4e385af82da"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets a new callback for the constraint  <a href="#a02371d3df57ab4f16b13d4e385af82da">More...</a><br/></td></tr>
 <tr class="separator:a02371d3df57ab4f16b13d4e385af82da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae671d2b9b6b28b5ae13e3e8df42314ed"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classossia_1_1time__value.html">time_value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#ae671d2b9b6b28b5ae13e3e8df42314ed">getDurationNominal</a> () const </td></tr>
+<tr class="memdesc:ae671d2b9b6b28b5ae13e3e8df42314ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the #TimeConstraint nominal duration  <a href="#ae671d2b9b6b28b5ae13e3e8df42314ed">More...</a><br/></td></tr>
 <tr class="separator:ae671d2b9b6b28b5ae13e3e8df42314ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a293685c665ea7a33af9257846863b333"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__constraint.html">time_constraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a293685c665ea7a33af9257846863b333">setDurationNominal</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memdesc:a293685c665ea7a33af9257846863b333"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the #TimeConstraint duration  <a href="#a293685c665ea7a33af9257846863b333">More...</a><br/></td></tr>
 <tr class="separator:a293685c665ea7a33af9257846863b333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee7baca26e251464be8df60195d63374"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classossia_1_1time__value.html">time_value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#aee7baca26e251464be8df60195d63374">getDurationMin</a> () const </td></tr>
+<tr class="memdesc:aee7baca26e251464be8df60195d63374"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the #TimeConstraint minimal duration  <a href="#aee7baca26e251464be8df60195d63374">More...</a><br/></td></tr>
 <tr class="separator:aee7baca26e251464be8df60195d63374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2144e8484f3cc99a23d718295bf1a6c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__constraint.html">time_constraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a2144e8484f3cc99a23d718295bf1a6c6">setDurationMin</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memdesc:a2144e8484f3cc99a23d718295bf1a6c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the #TimeConstraint minimal duration  <a href="#a2144e8484f3cc99a23d718295bf1a6c6">More...</a><br/></td></tr>
 <tr class="separator:a2144e8484f3cc99a23d718295bf1a6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a023ac75b92dd761c5c71b2371ed54bdf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classossia_1_1time__value.html">time_value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a023ac75b92dd761c5c71b2371ed54bdf">getDurationMax</a> () const </td></tr>
+<tr class="memdesc:a023ac75b92dd761c5c71b2371ed54bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the #TimeConstraint maximal duration  <a href="#a023ac75b92dd761c5c71b2371ed54bdf">More...</a><br/></td></tr>
 <tr class="separator:a023ac75b92dd761c5c71b2371ed54bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae62153409f8e718032aaef34de9de3d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__constraint.html">time_constraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#ae62153409f8e718032aaef34de9de3d4">setDurationMax</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memdesc:ae62153409f8e718032aaef34de9de3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the #TimeConstraint maximal duration  <a href="#ae62153409f8e718032aaef34de9de3d4">More...</a><br/></td></tr>
 <tr class="separator:ae62153409f8e718032aaef34de9de3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e8fedbc00d0b467b11ab37edc1fa099"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__event.html">time_event</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a5e8fedbc00d0b467b11ab37edc1fa099">getStartEvent</a> () const </td></tr>
+<tr class="memdesc:a5e8fedbc00d0b467b11ab37edc1fa099"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the event from where the #TimeConstraint starts  <a href="#a5e8fedbc00d0b467b11ab37edc1fa099">More...</a><br/></td></tr>
 <tr class="separator:a5e8fedbc00d0b467b11ab37edc1fa099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09d3a0582067976d4a89ad806390e425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__event.html">time_event</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a09d3a0582067976d4a89ad806390e425">getEndEvent</a> () const </td></tr>
+<tr class="memdesc:a09d3a0582067976d4a89ad806390e425"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the event from where the #TimeConstraint starts  <a href="#a09d3a0582067976d4a89ad806390e425">More...</a><br/></td></tr>
 <tr class="separator:a09d3a0582067976d4a89ad806390e425"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bcdeea130fcadb1e289018841b77b37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a0bcdeea130fcadb1e289018841b77b37">addTimeProcess</a> (std::unique_ptr&lt; <a class="el" href="classossia_1_1time__process.html">time_process</a> &gt;)</td></tr>
+<tr class="memdesc:a0bcdeea130fcadb1e289018841b77b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a #TimeProcess  <a href="#a0bcdeea130fcadb1e289018841b77b37">More...</a><br/></td></tr>
 <tr class="separator:a0bcdeea130fcadb1e289018841b77b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a616176382e40903ff62249e61a75419f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a616176382e40903ff62249e61a75419f">removeTimeProcess</a> (<a class="el" href="classossia_1_1time__process.html">time_process</a> *)</td></tr>
+<tr class="memdesc:a616176382e40903ff62249e61a75419f"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove a #TimeProcess  <a href="#a616176382e40903ff62249e61a75419f">More...</a><br/></td></tr>
 <tr class="separator:a616176382e40903ff62249e61a75419f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a185393023980f773ae3319da405f4f1b"><td class="memItemLeft" align="right" valign="top">const std::vector<br class="typebreak"/>
 &lt; std::unique_ptr<br class="typebreak"/>
 &lt; <a class="el" href="classossia_1_1time__process.html">time_process</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#a185393023980f773ae3319da405f4f1b">timeProcesses</a> () const </td></tr>
+<tr class="memdesc:a185393023980f773ae3319da405f4f1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get time processes attached to the #TimeConstraint  <a href="#a185393023980f773ae3319da405f4f1b">More...</a><br/></td></tr>
 <tr class="separator:a185393023980f773ae3319da405f4f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab9b57f3d0f9b750e7634482fd0eebaca"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="classossia_1_1time__constraint.html">time_constraint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__constraint.html#ab9b57f3d0f9b750e7634482fd0eebaca">create</a> (<a class="el" href="classossia_1_1time__constraint.html#a85fc6a7102dcada7c0589a0aa4b72e94">time_constraint::ExecutionCallback</a>, <a class="el" href="classossia_1_1time__event.html">time_event</a> &amp;, <a class="el" href="classossia_1_1time__event.html">time_event</a> &amp;, <a class="el" href="classossia_1_1time__value.html">time_value</a>=Infinite, <a class="el" href="classossia_1_1time__value.html">time_value</a>=Zero, <a class="el" href="classossia_1_1time__value.html">time_value</a>=Infinite)</td></tr>
+<tr class="memdesc:ab9b57f3d0f9b750e7634482fd0eebaca"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#ab9b57f3d0f9b750e7634482fd0eebaca">More...</a><br/></td></tr>
 <tr class="separator:ab9b57f3d0f9b750e7634482fd0eebaca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -241,6 +267,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>to get the constraint execution back </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -250,23 +277,6 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a89d87e76dd4f230c111e06f5cba1ef1a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ossia::time_constraint::~time_constraint </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>desctructor </p>
 
 </div>
 </div>
@@ -284,7 +294,8 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>add a #TimeProcess</p>
+
+<p>add a #TimeProcess </p>
 <p>it also stores the #TimeProcess's start and end #States into the #TimeConstraint's start and end #TimeEvents </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -350,7 +361,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>constructor</p>
+
+<p>constructor </p>
 <p>by default a #TimeConstraint has an infinite duration with no minimal duration and an infinite maximal duration. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -379,6 +391,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the #TimeConstraint maximal duration </p>
 <dl class="section return"><dt>Returns</dt><dd>const #TimeValue&amp; maximal duration </dd></dl>
 
@@ -396,6 +409,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the #TimeConstraint minimal duration </p>
 <dl class="section return"><dt>Returns</dt><dd>const #TimeValue&amp; minimal duration </dd></dl>
 
@@ -413,6 +427,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the #TimeConstraint nominal duration </p>
 <dl class="section return"><dt>Returns</dt><dd>const #TimeValue&amp; nominal duration </dd></dl>
 
@@ -430,6 +445,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the event from where the #TimeConstraint starts </p>
 <dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;#TimeEvent&gt; start event </dd></dl>
 
@@ -447,6 +463,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the event from where the #TimeConstraint starts </p>
 <dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;#TimeEvent&gt; start event </dd></dl>
 
@@ -465,7 +482,8 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>set #TimeConstraint's #Clock offset and process a state at offset date</p>
+
+<p>set #TimeConstraint's #Clock offset and process a state at offset date </p>
 <p>the returned #State is made of as many as sub States for each TimeProcess the #TimeConstraint manages</p>
 <p>don't call offset when the #TimeConstraint is running </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -475,22 +493,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;#State&gt; </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a34757fd6878e61449bc3d4231276c1be"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::time_constraint::pause </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>start #TimeConstraint's #Clock </p>
 
 </div>
 </div>
@@ -507,7 +509,8 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>remove a #TimeProcess</p>
+
+<p>remove a #TimeProcess </p>
 <p>it also removes the #TimeProcess's start and end #States from the #TimeConstraint's start and end #TimeEvents </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -515,22 +518,6 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a class="anchor" id="a96e3d4a1631389642727df91bd002eaa"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::time_constraint::resume </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>stop #TimeConstraint's #Clock </p>
 
 </div>
 </div>
@@ -547,6 +534,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>sets a new callback for the constraint </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -570,6 +558,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>set the #TimeConstraint maximal duration </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -594,6 +583,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>set the #TimeConstraint minimal duration </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -618,6 +608,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>set the #TimeConstraint duration </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -626,22 +617,6 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>#TimeConstraint the constraint </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a113babfc3172fb270751bca936001b57"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::time_constraint::start </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>start #TimeConstraint's #Clock </p>
 
 </div>
 </div>
@@ -657,26 +632,11 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>get a #State from the constraint depending on its #Clock date</p>
+
+<p>get a #State from the constraint depending on its #Clock date </p>
 <p>the returned #State is made of as many as sub States for each TimeProcess the #TimeConstraint manages</p>
 <p>don't call state when the #TimeConstraint is not running </p>
 <dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;#State&gt; </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a8443fc327790e1e0d23af4873407df07"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::time_constraint::stop </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>stop #TimeConstraint's #Clock </p>
 
 </div>
 </div>
@@ -700,6 +660,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>get time processes attached to the #TimeConstraint </p>
 <dl class="section return"><dt>Returns</dt><dd>#Container&lt;#TimeProcess&gt; </dd></dl>
 
@@ -715,7 +676,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>ossia</b></li><li class="navelem"><a class="el" href="classossia_1_1time__constraint.html">time_constraint</a></li>
-    <li class="footer">Generated on Sun Nov 27 2016 18:00:00 for OSSIA by
+    <li class="footer">Generated on Sun Nov 27 2016 19:23:30 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

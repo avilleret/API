@@ -123,11 +123,13 @@ Public Types</h2></td></tr>
 <tr class="memitem:ab29da04d2a9891c6a1d22a2ff7d30f19"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ab29da04d2a9891c6a1d22a2ff7d30f19">DriveMode</a> { <b>INTERNAL</b>, 
 <b>EXTERNAL</b>
  }</td></tr>
+<tr class="memdesc:ab29da04d2a9891c6a1d22a2ff7d30f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">how the time flows for the clock <br/></td></tr>
 <tr class="separator:ab29da04d2a9891c6a1d22a2ff7d30f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87d6f3f5f3b0754f7f6d044a30122226"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87d6f3f5f3b0754f7f6d044a30122226"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>clock_type</b> = std::chrono::steady_clock</td></tr>
 <tr class="separator:a87d6f3f5f3b0754f7f6d044a30122226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6b049a94bb22183159d15198295467a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ac6b049a94bb22183159d15198295467a">ExecutionCallback</a> = std::function&lt; void(<a class="el" href="classossia_1_1time__value.html">time_value</a>, <a class="el" href="classossia_1_1time__value.html">time_value</a>, unsigned char)&gt;</td></tr>
+<tr class="memdesc:ac6b049a94bb22183159d15198295467a"><td class="mdescLeft">&#160;</td><td class="mdescRight">to get the clock execution back  <a href="#ac6b049a94bb22183159d15198295467a">More...</a><br/></td></tr>
 <tr class="separator:ac6b049a94bb22183159d15198295467a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f56b527e1416f58e728fbc25c502775"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f56b527e1416f58e728fbc25c502775"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>ExecutionStatusCallback</b> = std::function&lt; void(ClockExecutionStatus)&gt;</td></tr>
@@ -136,48 +138,73 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>ExecutionStatusCallb
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0af89e1f1bbc8fca436bbb2e868934a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a0af89e1f1bbc8fca436bbb2e868934a4">clock</a> (<a class="el" href="classossia_1_1clock.html#ac6b049a94bb22183159d15198295467a">clock::ExecutionCallback</a>, <a class="el" href="classossia_1_1time__value.html">time_value</a>=Infinite, <a class="el" href="classossia_1_1time__value.html">time_value</a>=<a class="el" href="classossia_1_1time__value.html">time_value</a>{10.}, <a class="el" href="classossia_1_1time__value.html">time_value</a>=Zero, float=1., <a class="el" href="classossia_1_1clock.html#ab29da04d2a9891c6a1d22a2ff7d30f19">clock::DriveMode</a>=clock::DriveMode::INTERNAL)</td></tr>
+<tr class="memdesc:a0af89e1f1bbc8fca436bbb2e868934a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctor  <a href="#a0af89e1f1bbc8fca436bbb2e868934a4">More...</a><br/></td></tr>
 <tr class="separator:a0af89e1f1bbc8fca436bbb2e868934a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb1ee4871f7d40a8378e75b57f16d74b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#acb1ee4871f7d40a8378e75b57f16d74b">~clock</a> ()</td></tr>
+<tr class="memitem:acb1ee4871f7d40a8378e75b57f16d74b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb1ee4871f7d40a8378e75b57f16d74b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#acb1ee4871f7d40a8378e75b57f16d74b">~clock</a> ()</td></tr>
+<tr class="memdesc:acb1ee4871f7d40a8378e75b57f16d74b"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor <br/></td></tr>
 <tr class="separator:acb1ee4871f7d40a8378e75b57f16d74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8f915d7184fd8e0d865562c9313cf8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ab8f915d7184fd8e0d865562c9313cf8b">start</a> ()</td></tr>
+<tr class="memitem:ab8f915d7184fd8e0d865562c9313cf8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8f915d7184fd8e0d865562c9313cf8b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ab8f915d7184fd8e0d865562c9313cf8b">start</a> ()</td></tr>
+<tr class="memdesc:ab8f915d7184fd8e0d865562c9313cf8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">start the clock <br/></td></tr>
 <tr class="separator:ab8f915d7184fd8e0d865562c9313cf8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a427a377a3bf50a20a168646d3b2f5fd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a427a377a3bf50a20a168646d3b2f5fd2">stop</a> ()</td></tr>
+<tr class="memitem:a427a377a3bf50a20a168646d3b2f5fd2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a427a377a3bf50a20a168646d3b2f5fd2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a427a377a3bf50a20a168646d3b2f5fd2">stop</a> ()</td></tr>
+<tr class="memdesc:a427a377a3bf50a20a168646d3b2f5fd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">halt the clock <br/></td></tr>
 <tr class="separator:a427a377a3bf50a20a168646d3b2f5fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21767b34d541fd9fc23696319b5f9b58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a21767b34d541fd9fc23696319b5f9b58">pause</a> ()</td></tr>
+<tr class="memitem:a21767b34d541fd9fc23696319b5f9b58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21767b34d541fd9fc23696319b5f9b58"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a21767b34d541fd9fc23696319b5f9b58">pause</a> ()</td></tr>
+<tr class="memdesc:a21767b34d541fd9fc23696319b5f9b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">pause the clock progression <br/></td></tr>
 <tr class="separator:a21767b34d541fd9fc23696319b5f9b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6dbfec97e277065fa98f415e11677ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ad6dbfec97e277065fa98f415e11677ce">paused</a> () const </td></tr>
+<tr class="memitem:ad6dbfec97e277065fa98f415e11677ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6dbfec97e277065fa98f415e11677ce"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ad6dbfec97e277065fa98f415e11677ce">paused</a> () const </td></tr>
+<tr class="memdesc:ad6dbfec97e277065fa98f415e11677ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the constraint is running and paused, else false <br/></td></tr>
 <tr class="separator:ad6dbfec97e277065fa98f415e11677ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00d8bb07808fe21c89bfc43f4bf2874a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a00d8bb07808fe21c89bfc43f4bf2874a">resume</a> ()</td></tr>
+<tr class="memitem:a00d8bb07808fe21c89bfc43f4bf2874a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00d8bb07808fe21c89bfc43f4bf2874a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a00d8bb07808fe21c89bfc43f4bf2874a">resume</a> ()</td></tr>
+<tr class="memdesc:a00d8bb07808fe21c89bfc43f4bf2874a"><td class="mdescLeft">&#160;</td><td class="mdescRight">resume the clock progression <br/></td></tr>
 <tr class="separator:a00d8bb07808fe21c89bfc43f4bf2874a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95c33dd141bff0ae2451fbe93d78bb4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a95c33dd141bff0ae2451fbe93d78bb4c">tick</a> ()</td></tr>
+<tr class="memdesc:a95c33dd141bff0ae2451fbe93d78bb4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called every time a new step should be processed.  <a href="#a95c33dd141bff0ae2451fbe93d78bb4c">More...</a><br/></td></tr>
 <tr class="separator:a95c33dd141bff0ae2451fbe93d78bb4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab06d96ccab2b7e4bafd01014e39c4d4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ab06d96ccab2b7e4bafd01014e39c4d4e">tick</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a> usec)</td></tr>
+<tr class="memdesc:ab06d96ccab2b7e4bafd01014e39c4d4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be called by hand to advance the clock from a certain number of ticks.  <a href="#ab06d96ccab2b7e4bafd01014e39c4d4e">More...</a><br/></td></tr>
 <tr class="separator:ab06d96ccab2b7e4bafd01014e39c4d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a465c0b75fa0e17c924dc7a2a0d63ce76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__value.html">time_value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a465c0b75fa0e17c924dc7a2a0d63ce76">getDuration</a> () const </td></tr>
+<tr class="memdesc:a465c0b75fa0e17c924dc7a2a0d63ce76"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the duration of the clock  <a href="#a465c0b75fa0e17c924dc7a2a0d63ce76">More...</a><br/></td></tr>
 <tr class="separator:a465c0b75fa0e17c924dc7a2a0d63ce76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01edba649c4ff64caf827d1d24127851"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1clock.html">clock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a01edba649c4ff64caf827d1d24127851">setDuration</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memdesc:a01edba649c4ff64caf827d1d24127851"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the duration of the clock execution  <a href="#a01edba649c4ff64caf827d1d24127851">More...</a><br/></td></tr>
 <tr class="separator:a01edba649c4ff64caf827d1d24127851"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac463268d034d35ce963444bb0150e3b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__value.html">time_value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ac463268d034d35ce963444bb0150e3b9">getOffset</a> () const </td></tr>
+<tr class="memdesc:ac463268d034d35ce963444bb0150e3b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the offset of the clock  <a href="#ac463268d034d35ce963444bb0150e3b9">More...</a><br/></td></tr>
 <tr class="separator:ac463268d034d35ce963444bb0150e3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcb4770b8fd5b1ae306885541cff2096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1clock.html">clock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#abcb4770b8fd5b1ae306885541cff2096">setOffset</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
 <tr class="separator:abcb4770b8fd5b1ae306885541cff2096"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee273ffb1e558fdafa93d3f68034185c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__value.html">time_value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#aee273ffb1e558fdafa93d3f68034185c">getGranularity</a> () const </td></tr>
+<tr class="memdesc:aee273ffb1e558fdafa93d3f68034185c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the granularity of the clock  <a href="#aee273ffb1e558fdafa93d3f68034185c">More...</a><br/></td></tr>
 <tr class="separator:aee273ffb1e558fdafa93d3f68034185c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a384a3e1b18560411f3bd12df36e00a19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1clock.html">clock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a384a3e1b18560411f3bd12df36e00a19">setGranularity</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memdesc:a384a3e1b18560411f3bd12df36e00a19"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the granularity of the clock execution  <a href="#a384a3e1b18560411f3bd12df36e00a19">More...</a><br/></td></tr>
 <tr class="separator:a384a3e1b18560411f3bd12df36e00a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57fc8a6f03ab73c6d3015daa2268526c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a57fc8a6f03ab73c6d3015daa2268526c">getSpeed</a> () const </td></tr>
+<tr class="memdesc:a57fc8a6f03ab73c6d3015daa2268526c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the speed of the clock  <a href="#a57fc8a6f03ab73c6d3015daa2268526c">More...</a><br/></td></tr>
 <tr class="separator:a57fc8a6f03ab73c6d3015daa2268526c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b1ab32b37e883e029f1dae74a6c5f45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1clock.html">clock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a9b1ab32b37e883e029f1dae74a6c5f45">setSpeed</a> (double)</td></tr>
 <tr class="separator:a9b1ab32b37e883e029f1dae74a6c5f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a6d255db81049c337542496d2f3d1b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1clock.html#ab29da04d2a9891c6a1d22a2ff7d30f19">DriveMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a7a6d255db81049c337542496d2f3d1b1">getDriveMode</a> () const </td></tr>
+<tr class="memdesc:a7a6d255db81049c337542496d2f3d1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the clock drive mode  <a href="#a7a6d255db81049c337542496d2f3d1b1">More...</a><br/></td></tr>
 <tr class="separator:a7a6d255db81049c337542496d2f3d1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1dc4a09c9ab57f985fed06b821c4217"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1clock.html">clock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ab1dc4a09c9ab57f985fed06b821c4217">setDriveMode</a> (<a class="el" href="classossia_1_1clock.html#ab29da04d2a9891c6a1d22a2ff7d30f19">DriveMode</a>)</td></tr>
 <tr class="separator:ab1dc4a09c9ab57f985fed06b821c4217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad994492501264ec0598ecb53c3b1b34a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ad994492501264ec0598ecb53c3b1b34a">getRunning</a> () const </td></tr>
+<tr class="memdesc:ad994492501264ec0598ecb53c3b1b34a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the running status of the clock  <a href="#ad994492501264ec0598ecb53c3b1b34a">More...</a><br/></td></tr>
 <tr class="separator:ad994492501264ec0598ecb53c3b1b34a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a556a45e211e99dfc5611f25798ef5882"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__value.html">time_value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a556a45e211e99dfc5611f25798ef5882">getPosition</a> () const </td></tr>
+<tr class="memdesc:a556a45e211e99dfc5611f25798ef5882"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the position of the clock  <a href="#a556a45e211e99dfc5611f25798ef5882">More...</a><br/></td></tr>
 <tr class="separator:a556a45e211e99dfc5611f25798ef5882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a443021f3422196e620afc3baa7656d61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__value.html">time_value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a443021f3422196e620afc3baa7656d61">getDate</a> () const </td></tr>
+<tr class="memdesc:a443021f3422196e620afc3baa7656d61"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the date of the clock  <a href="#a443021f3422196e620afc3baa7656d61">More...</a><br/></td></tr>
 <tr class="separator:a443021f3422196e620afc3baa7656d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c6592a7d898a7aaa248743465ce8dbf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c6592a7d898a7aaa248743465ce8dbf"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setExecutionStatusCallback</b> (ExecutionStatusCallback)</td></tr>
@@ -185,15 +212,25 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setExecutionStatusCal
 <tr class="memitem:aa241e9a157ff2fcce42407a5e05c8912"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa241e9a157ff2fcce42407a5e05c8912"></a>
 ExecutionStatusCallback&#160;</td><td class="memItemRight" valign="bottom"><b>getExecutionStatusCallback</b> () const </td></tr>
 <tr class="separator:aa241e9a157ff2fcce42407a5e05c8912"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63eea25bf25b4528595629668e7571f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a63eea25bf25b4528595629668e7571f0">do_start</a> ()</td></tr>
+<tr class="memitem:a63eea25bf25b4528595629668e7571f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63eea25bf25b4528595629668e7571f0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a63eea25bf25b4528595629668e7571f0">do_start</a> ()</td></tr>
+<tr class="memdesc:a63eea25bf25b4528595629668e7571f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">to allow TimeConstraint to override start method <br/></td></tr>
 <tr class="separator:a63eea25bf25b4528595629668e7571f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36c93bf39e7e8b86b545f83406566c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a36c93bf39e7e8b86b545f83406566c00">do_stop</a> ()</td></tr>
+<tr class="memitem:a36c93bf39e7e8b86b545f83406566c00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36c93bf39e7e8b86b545f83406566c00"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a36c93bf39e7e8b86b545f83406566c00">do_stop</a> ()</td></tr>
+<tr class="memdesc:a36c93bf39e7e8b86b545f83406566c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">to allow TimeConstraint to override stop method <br/></td></tr>
 <tr class="separator:a36c93bf39e7e8b86b545f83406566c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab71f05991a09acafa64f851909745ff7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ab71f05991a09acafa64f851909745ff7">do_setDuration</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memitem:ab71f05991a09acafa64f851909745ff7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab71f05991a09acafa64f851909745ff7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#ab71f05991a09acafa64f851909745ff7">do_setDuration</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memdesc:ab71f05991a09acafa64f851909745ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">to allow TimeConstraint to override setDuration accessor <br/></td></tr>
 <tr class="separator:ab71f05991a09acafa64f851909745ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67e3c55d3d558f258d60226bb039c8e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a67e3c55d3d558f258d60226bb039c8e2">do_setOffset</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memitem:a67e3c55d3d558f258d60226bb039c8e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67e3c55d3d558f258d60226bb039c8e2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a67e3c55d3d558f258d60226bb039c8e2">do_setOffset</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memdesc:a67e3c55d3d558f258d60226bb039c8e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">to allow TimeConstraint to override setOffset accessor <br/></td></tr>
 <tr class="separator:a67e3c55d3d558f258d60226bb039c8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fc64fe93e3b348c9a6890437931c169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a6fc64fe93e3b348c9a6890437931c169">request_stop</a> ()</td></tr>
+<tr class="memitem:a6fc64fe93e3b348c9a6890437931c169"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fc64fe93e3b348c9a6890437931c169"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1clock.html#a6fc64fe93e3b348c9a6890437931c169">request_stop</a> ()</td></tr>
+<tr class="memdesc:a6fc64fe93e3b348c9a6890437931c169"><td class="mdescLeft">&#160;</td><td class="mdescRight">to avoid dead lock in EXTERNAL drive mode if a TimeProcess wants to end its ParentTimeConstraint's clock <br/></td></tr>
 <tr class="separator:a6fc64fe93e3b348c9a6890437931c169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -256,6 +293,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>to get the clock execution back </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -265,28 +303,6 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="ab29da04d2a9891c6a1d22a2ff7d30f19"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classossia_1_1clock.html#ab29da04d2a9891c6a1d22a2ff7d30f19">ossia::clock::DriveMode</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>how the time flows for the clock </p>
 
 </div>
 </div>
@@ -338,6 +354,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>ctor </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -354,89 +371,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
 
 </div>
 </div>
-<a class="anchor" id="acb1ee4871f7d40a8378e75b57f16d74b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ossia::clock::~clock </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>destructor </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab71f05991a09acafa64f851909745ff7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::clock::do_setDuration </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classossia_1_1time__value.html">time_value</a>&#160;</td>
-          <td class="paramname"><em>duration</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>to allow TimeConstraint to override setDuration accessor </p>
-
-</div>
-</div>
-<a class="anchor" id="a67e3c55d3d558f258d60226bb039c8e2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::clock::do_setOffset </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classossia_1_1time__value.html">time_value</a>&#160;</td>
-          <td class="paramname"><em>offset</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>to allow TimeConstraint to override setOffset accessor </p>
-
-</div>
-</div>
-<a class="anchor" id="a63eea25bf25b4528595629668e7571f0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::clock::do_start </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>to allow TimeConstraint to override start method </p>
-
-</div>
-</div>
-<a class="anchor" id="a36c93bf39e7e8b86b545f83406566c00"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::clock::do_stop </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>to allow TimeConstraint to override stop method </p>
-
-</div>
-</div>
 <a class="anchor" id="a443021f3422196e620afc3baa7656d61"></a>
 <div class="memitem">
 <div class="memproto">
@@ -449,6 +384,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the date of the clock </p>
 <dl class="section return"><dt>Returns</dt><dd>const #TimeValue date </dd></dl>
 
@@ -466,8 +402,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the clock drive mode </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classossia_1_1clock.html#ab29da04d2a9891c6a1d22a2ff7d30f19">DriveMode</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classossia_1_1clock.html#ab29da04d2a9891c6a1d22a2ff7d30f19" title="how the time flows for the clock ">DriveMode</a> </dd></dl>
 
 </div>
 </div>
@@ -483,6 +420,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the duration of the clock </p>
 <dl class="section return"><dt>Returns</dt><dd>const #TimeValue duration </dd></dl>
 
@@ -500,6 +438,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the granularity of the clock </p>
 <dl class="section return"><dt>Returns</dt><dd>const #TimeValue granularity </dd></dl>
 
@@ -517,6 +456,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the offset of the clock </p>
 <dl class="section return"><dt>Returns</dt><dd>const #TimeValue offset </dd></dl>
 
@@ -534,6 +474,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the position of the clock </p>
 <dl class="section return"><dt>Returns</dt><dd>const #TimeValue position </dd></dl>
 
@@ -551,6 +492,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the running status of the clock </p>
 <dl class="section return"><dt>Returns</dt><dd>bool true if is running </dd></dl>
 
@@ -568,72 +510,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the speed of the clock </p>
 <dl class="section return"><dt>Returns</dt><dd>const #TimeValue speed </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a21767b34d541fd9fc23696319b5f9b58"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::clock::pause </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>pause the clock progression </p>
-
-</div>
-</div>
-<a class="anchor" id="ad6dbfec97e277065fa98f415e11677ce"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ossia::clock::paused </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>true if the constraint is running and paused, else false </p>
-
-</div>
-</div>
-<a class="anchor" id="a6fc64fe93e3b348c9a6890437931c169"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::clock::request_stop </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>to avoid dead lock in EXTERNAL drive mode if a TimeProcess wants to end its ParentTimeConstraint's clock </p>
-
-</div>
-</div>
-<a class="anchor" id="a00d8bb07808fe21c89bfc43f4bf2874a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::clock::resume </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>resume the clock progression </p>
 
 </div>
 </div>
@@ -674,6 +553,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>set the duration of the clock execution </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -698,6 +578,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>set the granularity of the clock execution </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -757,38 +638,6 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
 
 </div>
 </div>
-<a class="anchor" id="ab8f915d7184fd8e0d865562c9313cf8b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::clock::start </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>start the clock </p>
-
-</div>
-</div>
-<a class="anchor" id="a427a377a3bf50a20a168646d3b2f5fd2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::clock::stop </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>halt the clock </p>
-
-</div>
-</div>
 <a class="anchor" id="a95c33dd141bff0ae2451fbe93d78bb4c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -801,7 +650,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
-<p>called every time a new step should be processed.</p>
+
+<p>called every time a new step should be processed. </p>
 <p>can be use to force step processing in case of external drive but the callback will not be called </p>
 <dl class="section return"><dt>Returns</dt><dd>bool true if the clock ticks </dd></dl>
 <p>cout &lt;&lt; "+ " &lt;&lt; droppedTicks * mGranularity * mSpeed &lt;&lt; endl; </p>
@@ -821,6 +671,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>can be called by hand to advance the clock from a certain number of ticks. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -914,7 +765,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
   </tr>
 </table>
 </div><div class="memdoc">
-<p>in EXTERNAL drive mode the <a class="el" href="classossia_1_1clock.html#a95c33dd141bff0ae2451fbe93d78bb4c">tick()</a> method is called from outside </p>
+<p>in EXTERNAL drive mode the <a class="el" href="classossia_1_1clock.html#a95c33dd141bff0ae2451fbe93d78bb4c" title="called every time a new step should be processed. ">tick()</a> method is called from outside </p>
 
 </div>
 </div>
@@ -949,7 +800,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>ossia</b></li><li class="navelem"><a class="el" href="classossia_1_1clock.html">clock</a></li>
-    <li class="footer">Generated on Sun Nov 27 2016 18:00:00 for OSSIA by
+    <li class="footer">Generated on Sun Nov 27 2016 19:23:30 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

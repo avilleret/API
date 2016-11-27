@@ -143,8 +143,11 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classossia_1_1expressions_1_1expression__pulse.html">expression_pulse</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classossia_1_1expressions_1_1expression__pulse.html">expression_pulse</a> &amp;other)=delete</td></tr>
 <tr class="separator:a0d903ecfb93ee13cbca8483b1f893248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2df331092e0f4806aa37d3dee92df0c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1expressions_1_1expression__pulse.html#a2df331092e0f4806aa37d3dee92df0c2">evaluate</a> () const </td></tr>
+<tr class="memdesc:a2df331092e0f4806aa37d3dee92df0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluate if a destination value change have been observed since expression creation or since the last update  <a href="#a2df331092e0f4806aa37d3dee92df0c2">More...</a><br/></td></tr>
 <tr class="separator:a2df331092e0f4806aa37d3dee92df0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab024f6a73e619df125d7c3b59f226e56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1expressions_1_1expression__pulse.html#ab024f6a73e619df125d7c3b59f226e56">update</a> () const </td></tr>
+<tr class="memitem:ab024f6a73e619df125d7c3b59f226e56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab024f6a73e619df125d7c3b59f226e56"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1expressions_1_1expression__pulse.html#ab024f6a73e619df125d7c3b59f226e56">update</a> () const </td></tr>
+<tr class="memdesc:ab024f6a73e619df125d7c3b59f226e56"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset the evaluation to false until the next destination update <br/></td></tr>
 <tr class="separator:ab024f6a73e619df125d7c3b59f226e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0c659bf80d724445dcec62cf3e69499"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0c659bf80d724445dcec62cf3e69499"></a>
 const <a class="el" href="classossia_1_1_destination.html">Destination</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getDestination</b> () const </td></tr>
@@ -198,24 +201,9 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>iterator</b> = typen
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>evaluate if a destination value change have been observed since expression creation or since the last update </p>
 <dl class="section return"><dt>Returns</dt><dd>true after the destination being updated </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ab024f6a73e619df125d7c3b59f226e56"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ossia::expressions::expression_pulse::update </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>reset the evaluation to false until the next destination update </p>
 
 </div>
 </div>
@@ -229,7 +217,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>iterator</b> = typen
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>ossia</b></li><li class="navelem"><b>expressions</b></li><li class="navelem"><a class="el" href="classossia_1_1expressions_1_1expression__pulse.html">expression_pulse</a></li>
-    <li class="footer">Generated on Sun Nov 27 2016 18:00:01 for OSSIA by
+    <li class="footer">Generated on Sun Nov 27 2016 19:23:30 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

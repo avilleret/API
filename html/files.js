@@ -182,6 +182,7 @@ var files =
     [ "value.hpp", "value_8hpp_source.html", null ],
     [ "value_algorithms.hpp", "value__algorithms_8hpp_source.html", null ],
     [ "value_base.hpp", "value__base_8hpp_source.html", null ],
+    [ "value_callback.hpp", "value__callback_8hpp_source.html", null ],
     [ "value_comparison.hpp", "value__comparison_8hpp_source.html", null ],
     [ "value_conversion.hpp", "value__conversion_8hpp_source.html", null ],
     [ "value_conversion_impl.hpp", "value__conversion__impl_8hpp_source.html", null ],

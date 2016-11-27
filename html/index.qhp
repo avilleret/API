@@ -1130,7 +1130,7 @@
                   <section title="setValueType" ref="classossia_1_1net_1_1generic__address.html#ae77aa2e8db30b26ca336636ea9971aac" />
                   <section title="mAccessMode" ref="classossia_1_1net_1_1generic__address.html#ab4ec38006fef66c0803da1c40bd7ca9b" />
                   <section title="mBoundingMode" ref="classossia_1_1net_1_1generic__address.html#a2863f3beb8c82174ac8184409481e928" />
-                  <section title="mCallback" ref="classossia_1_1net_1_1generic__address.html#a9bae04526e559e623faf5196fc073d7b" />
+                  <section title="mCallback" ref="classossia_1_1net_1_1generic__address.html#acf433f1536e46eb0bab2bbfbfbfeb6f8" />
                   <section title="mDefault" ref="classossia_1_1net_1_1generic__address.html#a5dc4d0873e2f9828e7ee25e34ec04f4f" />
                   <section title="mDescription" ref="classossia_1_1net_1_1generic__address.html#a5a18773eb0ea6d98c070932df4a3dfc1" />
                   <section title="mDomain" ref="classossia_1_1net_1_1generic__address.html#a74343652b0d5657f5d56efec9de762c4" />
@@ -3532,6 +3532,7 @@
             <section title="value.hpp" ref="value_8hpp_source.html" />
             <section title="value_algorithms.hpp" ref="value__algorithms_8hpp_source.html" />
             <section title="value_base.hpp" ref="value__base_8hpp_source.html" />
+            <section title="value_callback.hpp" ref="value__callback_8hpp_source.html" />
             <section title="value_comparison.hpp" ref="value__comparison_8hpp_source.html" />
             <section title="value_conversion.hpp" ref="value__conversion_8hpp_source.html" />
             <section title="value_conversion_impl.hpp" ref="value__conversion__impl_8hpp_source.html" />
@@ -5856,7 +5857,7 @@
       <keyword name="mDefault" id="ossia::net::generic_address::mDefault" ref="classossia_1_1net_1_1generic__address.html#a5dc4d0873e2f9828e7ee25e34ec04f4f" />
       <keyword name="mTags" id="ossia::net::generic_address::mTags" ref="classossia_1_1net_1_1generic__address.html#a7d8e34149454389e251129c77556ee4e" />
       <keyword name="mUnit" id="ossia::net::generic_address::mUnit" ref="classossia_1_1net_1_1generic__address.html#ab54344aa2756ec1bd5b2f45004fbacda" />
-      <keyword name="mCallback" id="ossia::net::generic_address::mCallback" ref="classossia_1_1net_1_1generic__address.html#a9bae04526e559e623faf5196fc073d7b" />
+      <keyword name="mCallback" id="ossia::net::generic_address::mCallback" ref="classossia_1_1net_1_1generic__address.html#acf433f1536e46eb0bab2bbfbfbfeb6f8" />
       <keyword name="callback_index" id="ossia::net::address_base::callback_index" ref="classossia_1_1net_1_1address__base.html#a2928a1cca41cb3fb394e377d2ce39c60" />
       <keyword name="impl" id="callback_container&lt; value_callback &gt;::impl" ref="classossia_1_1callback__container.html#a144133e0f59b6ec47c2a99d91a20b993" />
       <keyword name="iterator" id="callback_container&lt; value_callback &gt;::iterator" ref="classossia_1_1callback__container.html#a867e817087e302ab14dad64fcf683139" />
@@ -6011,7 +6012,7 @@
       <keyword name="mDefault" id="ossia::net::generic_address::mDefault" ref="classossia_1_1net_1_1generic__address.html#a5dc4d0873e2f9828e7ee25e34ec04f4f" />
       <keyword name="mTags" id="ossia::net::generic_address::mTags" ref="classossia_1_1net_1_1generic__address.html#a7d8e34149454389e251129c77556ee4e" />
       <keyword name="mUnit" id="ossia::net::generic_address::mUnit" ref="classossia_1_1net_1_1generic__address.html#ab54344aa2756ec1bd5b2f45004fbacda" />
-      <keyword name="mCallback" id="ossia::net::generic_address::mCallback" ref="classossia_1_1net_1_1generic__address.html#a9bae04526e559e623faf5196fc073d7b" />
+      <keyword name="mCallback" id="ossia::net::generic_address::mCallback" ref="classossia_1_1net_1_1generic__address.html#acf433f1536e46eb0bab2bbfbfbfeb6f8" />
       <keyword name="ossia::net::http_address_data_base" id="ossia::net::http_address_data_base" ref="structossia_1_1net_1_1http__address__data__base.html" />
       <keyword name="http_address_data_base" id="ossia::net::http_address_data_base::http_address_data_base" ref="structossia_1_1net_1_1http__address__data__base.html#a8f5bc850451e072a06e23dc63282c4b3" />
       <keyword name="http_address_data_base" id="ossia::net::http_address_data_base::http_address_data_base" ref="structossia_1_1net_1_1http__address__data__base.html#a4d909e6d51fa23e2ad2c004bb2828457" />
@@ -6352,7 +6353,7 @@
       <keyword name="mDefault" id="ossia::net::generic_address::mDefault" ref="classossia_1_1net_1_1generic__address.html#a5dc4d0873e2f9828e7ee25e34ec04f4f" />
       <keyword name="mTags" id="ossia::net::generic_address::mTags" ref="classossia_1_1net_1_1generic__address.html#a7d8e34149454389e251129c77556ee4e" />
       <keyword name="mUnit" id="ossia::net::generic_address::mUnit" ref="classossia_1_1net_1_1generic__address.html#ab54344aa2756ec1bd5b2f45004fbacda" />
-      <keyword name="mCallback" id="ossia::net::generic_address::mCallback" ref="classossia_1_1net_1_1generic__address.html#a9bae04526e559e623faf5196fc073d7b" />
+      <keyword name="mCallback" id="ossia::net::generic_address::mCallback" ref="classossia_1_1net_1_1generic__address.html#acf433f1536e46eb0bab2bbfbfbfeb6f8" />
       <keyword name="ossia::net::serial_address_data_base" id="ossia::net::serial_address_data_base" ref="structossia_1_1net_1_1serial__address__data__base.html" />
       <keyword name="serial_address_data_base" id="ossia::net::serial_address_data_base::serial_address_data_base" ref="structossia_1_1net_1_1serial__address__data__base.html#a69ebb5c3d158eb4b130c690417de6d07" />
       <keyword name="serial_address_data_base" id="ossia::net::serial_address_data_base::serial_address_data_base" ref="structossia_1_1net_1_1serial__address__data__base.html#a83ece143feea04ade0a9de4550305b67" />
@@ -6554,7 +6555,7 @@
       <keyword name="mDefault" id="ossia::net::generic_address::mDefault" ref="classossia_1_1net_1_1generic__address.html#a5dc4d0873e2f9828e7ee25e34ec04f4f" />
       <keyword name="mTags" id="ossia::net::generic_address::mTags" ref="classossia_1_1net_1_1generic__address.html#a7d8e34149454389e251129c77556ee4e" />
       <keyword name="mUnit" id="ossia::net::generic_address::mUnit" ref="classossia_1_1net_1_1generic__address.html#ab54344aa2756ec1bd5b2f45004fbacda" />
-      <keyword name="mCallback" id="ossia::net::generic_address::mCallback" ref="classossia_1_1net_1_1generic__address.html#a9bae04526e559e623faf5196fc073d7b" />
+      <keyword name="mCallback" id="ossia::net::generic_address::mCallback" ref="classossia_1_1net_1_1generic__address.html#acf433f1536e46eb0bab2bbfbfbfeb6f8" />
       <keyword name="ossia::net::ws_generic_client_address_data_base" id="ossia::net::ws_generic_client_address_data_base" ref="structossia_1_1net_1_1ws__generic__client__address__data__base.html" />
       <keyword name="ws_generic_client_address_data_base" id="ossia::net::ws_generic_client_address_data_base::ws_generic_client_address_data_base" ref="structossia_1_1net_1_1ws__generic__client__address__data__base.html#a7d9e88b8be542bf11ce798bf249eb2c9" />
       <keyword name="ws_generic_client_address_data_base" id="ossia::net::ws_generic_client_address_data_base::ws_generic_client_address_data_base" ref="structossia_1_1net_1_1ws__generic__client__address__data__base.html#a4037c1f9493d829c3b68f419111c8256" />
@@ -7355,6 +7356,7 @@
       <file>value_8hpp_source.html</file>
       <file>value__algorithms_8hpp_source.html</file>
       <file>value__base_8hpp_source.html</file>
+      <file>value__callback_8hpp_source.html</file>
       <file>value__comparison_8hpp_source.html</file>
       <file>value__conversion_8hpp_source.html</file>
       <file>value__conversion__impl_8hpp_source.html</file>

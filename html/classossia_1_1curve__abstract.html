@@ -128,9 +128,12 @@ Inheritance diagram for ossia::curve_abstract:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4dd2a95830508a62a4ac35668f3ff737"><td class="memItemLeft" align="right" valign="top">virtual curve_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve__abstract.html#a4dd2a95830508a62a4ac35668f3ff737">getType</a> () const =0</td></tr>
+<tr class="memitem:a4dd2a95830508a62a4ac35668f3ff737"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4dd2a95830508a62a4ac35668f3ff737"></a>
+virtual curve_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve__abstract.html#a4dd2a95830508a62a4ac35668f3ff737">getType</a> () const =0</td></tr>
+<tr class="memdesc:a4dd2a95830508a62a4ac35668f3ff737"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the type of both coordinates <br/></td></tr>
 <tr class="separator:a4dd2a95830508a62a4ac35668f3ff737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5132f6ae3c0eaa547c9d1fac0c4b0792"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve__abstract.html#a5132f6ae3c0eaa547c9d1fac0c4b0792">reset</a> ()=0</td></tr>
+<tr class="memdesc:a5132f6ae3c0eaa547c9d1fac0c4b0792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear internal data structures of the curve.  <a href="#a5132f6ae3c0eaa547c9d1fac0c4b0792">More...</a><br/></td></tr>
 <tr class="separator:a5132f6ae3c0eaa547c9d1fac0c4b0792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -138,32 +141,6 @@ Public Member Functions</h2></td></tr>
 <p>Base class for curves.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classossia_1_1curve.html">curve</a> curve_segment </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a4dd2a95830508a62a4ac35668f3ff737"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual curve_type ossia::curve_abstract::getType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>get the type of both coordinates </p>
-
-<p>Implemented in <a class="el" href="classossia_1_1constant__curve.html#a2337d71096fcd6e66a21e0b052921792">ossia::constant_curve</a>, and <a class="el" href="classossia_1_1curve.html#af903ccf7e9874b84fc37640fae08cb4f">ossia::curve&lt; X, Y &gt;</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a5132f6ae3c0eaa547c9d1fac0c4b0792"></a>
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +161,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Clear internal data structures of the curve. Call before a new execution. </p>
+
+<p>Clear internal data structures of the curve. </p>
+<p>Call before a new execution. </p>
 
 <p>Implemented in <a class="el" href="classossia_1_1constant__curve.html#a457a742e6a314fde06da1d8f7cdbd9b4">ossia::constant_curve</a>, and <a class="el" href="classossia_1_1curve.html#a05b56923af0b57028000686b1b351234">ossia::curve&lt; X, Y &gt;</a>.</p>
 
@@ -200,7 +179,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>ossia</b></li><li class="navelem"><a class="el" href="classossia_1_1curve__abstract.html">curve_abstract</a></li>
-    <li class="footer">Generated on Sun Nov 27 2016 18:00:00 for OSSIA by
+    <li class="footer">Generated on Sun Nov 27 2016 19:23:29 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

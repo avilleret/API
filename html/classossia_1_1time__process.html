@@ -132,11 +132,15 @@ Inheritance diagram for ossia::time_process:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1ce7e65bd4252a07c65ccc0f74090c11"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__process.html#a1ce7e65bd4252a07c65ccc0f74090c11">~time_process</a> ()</td></tr>
+<tr class="memitem:a1ce7e65bd4252a07c65ccc0f74090c11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ce7e65bd4252a07c65ccc0f74090c11"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__process.html#a1ce7e65bd4252a07c65ccc0f74090c11">~time_process</a> ()</td></tr>
+<tr class="memdesc:a1ce7e65bd4252a07c65ccc0f74090c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor <br/></td></tr>
 <tr class="separator:a1ce7e65bd4252a07c65ccc0f74090c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92c95de9f0ccb5bc02dec36876797d50"><td class="memItemLeft" align="right" valign="top">virtual state_element&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__process.html#a92c95de9f0ccb5bc02dec36876797d50">offset</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)=0</td></tr>
+<tr class="memdesc:a92c95de9f0ccb5bc02dec36876797d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a #StateElement from the process on its parent #TimeConstraint offset  <a href="#a92c95de9f0ccb5bc02dec36876797d50">More...</a><br/></td></tr>
 <tr class="separator:a92c95de9f0ccb5bc02dec36876797d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abddea425be33b2e6d08c548a9443f6ed"><td class="memItemLeft" align="right" valign="top">virtual state_element&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__process.html#abddea425be33b2e6d08c548a9443f6ed">state</a> ()=0</td></tr>
+<tr class="memdesc:abddea425be33b2e6d08c548a9443f6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a #StateElement from the process depending on its parent #TimeConstraint date  <a href="#abddea425be33b2e6d08c548a9443f6ed">More...</a><br/></td></tr>
 <tr class="separator:abddea425be33b2e6d08c548a9443f6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2548b4db49e9bb0b7e37bd2078d3add"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__process.html#ad2548b4db49e9bb0b7e37bd2078d3add">start</a> ()</td></tr>
 <tr class="memdesc:ad2548b4db49e9bb0b7e37bd2078d3add"><td class="mdescLeft">&#160;</td><td class="mdescRight">start  <a href="#ad2548b4db49e9bb0b7e37bd2078d3add">More...</a><br/></td></tr>
@@ -181,32 +185,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classossia_1_1time__process.html" title="The time_process class. ">time_process</a> class. </p>
 <p>#TimeProcess is the parent class used to describe temporal content. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a1ce7e65bd4252a07c65ccc0f74090c11"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ossia::time_process::~time_process </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>destructor </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a92c95de9f0ccb5bc02dec36876797d50"></a>
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +207,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
   </tr>
 </table>
 </div><div class="memdoc">
-<p>get a #StateElement from the process on its parent #TimeConstraint offset</p>
+
+<p>get a #StateElement from the process on its parent #TimeConstraint offset </p>
 <p>don't call offset when the parent #TimeConstraint is running </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -373,7 +353,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
   </tr>
 </table>
 </div><div class="memdoc">
-<p>get a #StateElement from the process depending on its parent #TimeConstraint date</p>
+
+<p>get a #StateElement from the process depending on its parent #TimeConstraint date </p>
 <p>don't call state when the parent #TimeConstraint is not running </p>
 <dl class="section return"><dt>Returns</dt><dd>state_element </dd></dl>
 
@@ -419,7 +400,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>time_constraint</b><
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>ossia</b></li><li class="navelem"><a class="el" href="classossia_1_1time__process.html">time_process</a></li>
-    <li class="footer">Generated on Sun Nov 27 2016 18:00:00 for OSSIA by
+    <li class="footer">Generated on Sun Nov 27 2016 19:23:30 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

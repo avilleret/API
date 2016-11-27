@@ -153,36 +153,53 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a581c8ae2a458a4f68f1e7f0ac0721adf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a581c8ae2a458a4f68f1e7f0ac0721adf"></a>
 <a class="el" href="classossia_1_1curve.html">curve</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="classossia_1_1curve.html">curve</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a581c8ae2a458a4f68f1e7f0ac0721adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd9be385eeea3815786f0ab23b739b2f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#acd9be385eeea3815786f0ab23b739b2f">~curve</a> ()=default</td></tr>
+<tr class="memitem:acd9be385eeea3815786f0ab23b739b2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd9be385eeea3815786f0ab23b739b2f"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#acd9be385eeea3815786f0ab23b739b2f">~curve</a> ()=default</td></tr>
+<tr class="memdesc:acd9be385eeea3815786f0ab23b739b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor <br/></td></tr>
 <tr class="separator:acd9be385eeea3815786f0ab23b739b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05b56923af0b57028000686b1b351234"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#a05b56923af0b57028000686b1b351234">reset</a> () override</td></tr>
+<tr class="memdesc:a05b56923af0b57028000686b1b351234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear internal data structures of the curve.  <a href="#a05b56923af0b57028000686b1b351234">More...</a><br/></td></tr>
 <tr class="separator:a05b56923af0b57028000686b1b351234"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92c72a4656f04db60de5a53628ef074c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#a92c72a4656f04db60de5a53628ef074c">addPoint</a> (ossia::curve_segment&lt; Y &gt; segment, X abscissa, Y <a class="el" href="classossia_1_1value.html">value</a>)</td></tr>
+<tr class="memdesc:a92c72a4656f04db60de5a53628ef074c"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a segment to reach a target point to the curve  <a href="#a92c72a4656f04db60de5a53628ef074c">More...</a><br/></td></tr>
 <tr class="separator:a92c72a4656f04db60de5a53628ef074c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac67b3b08c20dd17426f5682a9728d813"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#ac67b3b08c20dd17426f5682a9728d813">removePoint</a> (X abscissa)</td></tr>
+<tr class="memdesc:ac67b3b08c20dd17426f5682a9728d813"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove a point from the curve  <a href="#ac67b3b08c20dd17426f5682a9728d813">More...</a><br/></td></tr>
 <tr class="separator:ac67b3b08c20dd17426f5682a9728d813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8188345c3de99e56a4a536982d0d818c"><td class="memItemLeft" align="right" valign="top">Y&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#a8188345c3de99e56a4a536982d0d818c">valueAt</a> (X abscissa) const </td></tr>
+<tr class="memdesc:a8188345c3de99e56a4a536982d0d818c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get value at an abscissa  <a href="#a8188345c3de99e56a4a536982d0d818c">More...</a><br/></td></tr>
 <tr class="separator:a8188345c3de99e56a4a536982d0d818c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af903ccf7e9874b84fc37640fae08cb4f"><td class="memItemLeft" align="right" valign="top">ossia::curve_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#af903ccf7e9874b84fc37640fae08cb4f">getType</a> () const override</td></tr>
+<tr class="memitem:af903ccf7e9874b84fc37640fae08cb4f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af903ccf7e9874b84fc37640fae08cb4f"></a>
+ossia::curve_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#af903ccf7e9874b84fc37640fae08cb4f">getType</a> () const override</td></tr>
+<tr class="memdesc:af903ccf7e9874b84fc37640fae08cb4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the type of both coordinates <br/></td></tr>
 <tr class="separator:af903ccf7e9874b84fc37640fae08cb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d223fe8b2aea491d9a296a6115a0bda"><td class="memItemLeft" align="right" valign="top">X&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#a4d223fe8b2aea491d9a296a6115a0bda">getInitialPointAbscissa</a> () const </td></tr>
+<tr class="memdesc:a4d223fe8b2aea491d9a296a6115a0bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">get initial point abscissa  <a href="#a4d223fe8b2aea491d9a296a6115a0bda">More...</a><br/></td></tr>
 <tr class="separator:a4d223fe8b2aea491d9a296a6115a0bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8d6aa1e6f69fa49793fcbb78e007e7a"><td class="memItemLeft" align="right" valign="top">Y&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#aa8d6aa1e6f69fa49793fcbb78e007e7a">getInitialPointOrdinate</a> () const </td></tr>
+<tr class="memdesc:aa8d6aa1e6f69fa49793fcbb78e007e7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get initial point ordinate  <a href="#aa8d6aa1e6f69fa49793fcbb78e007e7a">More...</a><br/></td></tr>
 <tr class="separator:aa8d6aa1e6f69fa49793fcbb78e007e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab12cc0e6b66d85a06444075d3e42223b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#ab12cc0e6b66d85a06444075d3e42223b">setInitialPointAbscissa</a> (X <a class="el" href="classossia_1_1value.html">value</a>)</td></tr>
+<tr class="memdesc:ab12cc0e6b66d85a06444075d3e42223b"><td class="mdescLeft">&#160;</td><td class="mdescRight">set initial point abscissa  <a href="#ab12cc0e6b66d85a06444075d3e42223b">More...</a><br/></td></tr>
 <tr class="separator:ab12cc0e6b66d85a06444075d3e42223b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3490855d8c2ddb3e568e9ec6e03b537"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#ae3490855d8c2ddb3e568e9ec6e03b537">setInitialPointOrdinate</a> (Y <a class="el" href="classossia_1_1value.html">value</a>)</td></tr>
+<tr class="memdesc:ae3490855d8c2ddb3e568e9ec6e03b537"><td class="mdescLeft">&#160;</td><td class="mdescRight">set initial point ordinate  <a href="#ae3490855d8c2ddb3e568e9ec6e03b537">More...</a><br/></td></tr>
 <tr class="separator:ae3490855d8c2ddb3e568e9ec6e03b537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad016135da54b41d393cbb3b88c2bf375"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="classossia_1_1_destination.html">Destination</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#ad016135da54b41d393cbb3b88c2bf375">getInitialPointAbscissaDestination</a> () const </td></tr>
+<tr class="memdesc:ad016135da54b41d393cbb3b88c2bf375"><td class="mdescLeft">&#160;</td><td class="mdescRight">get initial point abscissa destination  <a href="#ad016135da54b41d393cbb3b88c2bf375">More...</a><br/></td></tr>
 <tr class="separator:ad016135da54b41d393cbb3b88c2bf375"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a128ed165fc23f7d3e0884f4bd1254edf"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="classossia_1_1_destination.html">Destination</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#a128ed165fc23f7d3e0884f4bd1254edf">getInitialPointOrdinateDestination</a> () const </td></tr>
+<tr class="memdesc:a128ed165fc23f7d3e0884f4bd1254edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">get initial point ordinate destination  <a href="#a128ed165fc23f7d3e0884f4bd1254edf">More...</a><br/></td></tr>
 <tr class="separator:a128ed165fc23f7d3e0884f4bd1254edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7aca14d69f5549eeed37d311d8c3ae8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#ad7aca14d69f5549eeed37d311d8c3ae8">setInitialPointAbscissaDestination</a> (const <a class="el" href="classossia_1_1_destination.html">ossia::Destination</a> &amp;destination)</td></tr>
+<tr class="memdesc:ad7aca14d69f5549eeed37d311d8c3ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">set initial curve abscissa using a <a class="el" href="classossia_1_1_destination.html">Destination</a>  <a href="#ad7aca14d69f5549eeed37d311d8c3ae8">More...</a><br/></td></tr>
 <tr class="separator:ad7aca14d69f5549eeed37d311d8c3ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb84681dd38a840b1f3837e1fd7d69ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#afb84681dd38a840b1f3837e1fd7d69ab">setInitialPointOrdinateDestination</a> (const <a class="el" href="classossia_1_1_destination.html">ossia::Destination</a> &amp;destination)</td></tr>
+<tr class="memdesc:afb84681dd38a840b1f3837e1fd7d69ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">set initial curve ordinate using a <a class="el" href="classossia_1_1_destination.html">Destination</a>  <a href="#afb84681dd38a840b1f3837e1fd7d69ab">More...</a><br/></td></tr>
 <tr class="separator:afb84681dd38a840b1f3837e1fd7d69ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a642d662b6dca4c2a9636976a10d881bd"><td class="memItemLeft" align="right" valign="top">std::map&lt; X, std::pair&lt; Y, <br class="typebreak"/>
 curve_segment&lt; Y &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1curve.html#a642d662b6dca4c2a9636976a10d881bd">getPointsMap</a> () const </td></tr>
+<tr class="memdesc:a642d662b6dca4c2a9636976a10d881bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">get points of the curve  <a href="#a642d662b6dca4c2a9636976a10d881bd">More...</a><br/></td></tr>
 <tr class="separator:a642d662b6dca4c2a9636976a10d881bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -197,34 +214,7 @@ class ossia::curve&lt; X, Y &gt;</h3>
 
 <p>The curve class. </p>
 <p>A curve is a succession of curve_segment. It is used in a Behavior to drive <a class="el" href="classossia_1_1automation.html">automation</a> or <a class="el" href="classossia_1_1mapper.html">mapper</a>. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="acd9be385eeea3815786f0ab23b739b2f"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename X , typename Y &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="classossia_1_1curve.html">ossia::curve</a>&lt; X, Y &gt;::~<a class="el" href="classossia_1_1curve.html">curve</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>destructor </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a92c72a4656f04db60de5a53628ef074c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -264,6 +254,7 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>add a segment to reach a target point to the curve </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -299,7 +290,8 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>get initial point abscissa</p>
+
+<p>get initial point abscissa </p>
 <p>if there is an initial abcissa destination, it will return the value of the address </p>
 <dl class="section return"><dt>Returns</dt><dd>X value </dd></dl>
 
@@ -327,6 +319,7 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>get initial point abscissa destination </p>
 <dl class="section return"><dt>Returns</dt><dd>const Destination* </dd></dl>
 
@@ -354,7 +347,8 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>get initial point ordinate</p>
+
+<p>get initial point ordinate </p>
 <p>if there is an initial ordinate destination, it will return the value of the address </p>
 <dl class="section return"><dt>Returns</dt><dd>Y value </dd></dl>
 
@@ -382,6 +376,7 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>get initial point ordinate destination </p>
 <dl class="section return"><dt>Returns</dt><dd>const Destination* </dd></dl>
 
@@ -409,36 +404,9 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>get points of the curve </p>
 <dl class="section return"><dt>Returns</dt><dd>std::map&lt;X, pair&lt;Y, CurveSegment&lt;Y&gt;&gt;&gt; map of {abscissa, {value, previous segment} </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="af903ccf7e9874b84fc37640fae08cb4f"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename X , typename Y &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ossia::curve_type <a class="el" href="classossia_1_1curve.html">ossia::curve</a>&lt; X, Y &gt;::getType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>get the type of both coordinates </p>
-
-<p>Implements <a class="el" href="classossia_1_1curve__abstract.html#a4dd2a95830508a62a4ac35668f3ff737">ossia::curve_abstract</a>.</p>
 
 </div>
 </div>
@@ -465,6 +433,7 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>remove a point from the curve </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -498,7 +467,9 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Clear internal data structures of the curve. Call before a new execution. </p>
+
+<p>Clear internal data structures of the curve. </p>
+<p>Call before a new execution. </p>
 
 <p>Implements <a class="el" href="classossia_1_1curve__abstract.html#a5132f6ae3c0eaa547c9d1fac0c4b0792">ossia::curve_abstract</a>.</p>
 
@@ -527,7 +498,8 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>set initial point abscissa</p>
+
+<p>set initial point abscissa </p>
 <p>if there is an initial abscissa destination, this accessor is useless </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -561,6 +533,7 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>set initial curve abscissa using a <a class="el" href="classossia_1_1_destination.html">Destination</a> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -594,7 +567,8 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>set initial point ordinate</p>
+
+<p>set initial point ordinate </p>
 <p>if there is an initial ordinate destination, this accessor is useless </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -628,6 +602,7 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>set initial curve ordinate using a <a class="el" href="classossia_1_1_destination.html">Destination</a> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -661,6 +636,7 @@ template&lt;typename X , typename Y &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>get value at an abscissa </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -681,7 +657,7 @@ template&lt;typename X , typename Y &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>ossia</b></li><li class="navelem"><a class="el" href="classossia_1_1curve.html">curve</a></li>
-    <li class="footer">Generated on Sun Nov 27 2016 18:00:00 for OSSIA by
+    <li class="footer">Generated on Sun Nov 27 2016 19:23:29 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

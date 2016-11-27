@@ -112,21 +112,21 @@ $(document).ready(function(){initNavTree('address_8hpp_source.html','');});
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;ossia/editor/dataspace/dataspace_fwd.hpp&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;ossia/editor/value/tuple.hpp&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;ossia/editor/value/destination.hpp&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;nano_signal_slot.hpp&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;ossia_export.h&gt;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;future&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span>ossia</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span>value;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span>net</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">class </span>node_base;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">using</span> value_callback = std::function&lt;void(const value&amp;)&gt;;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;ossia/network/base/value_callback.hpp&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;nano_signal_slot.hpp&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;ossia_export.h&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;future&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span>ossia</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">class </span>value;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span>net</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">class </span>node_base;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classossia_1_1net_1_1address__base.html">   34</a></span>&#160;<span class="keyword">class </span>OSSIA_EXPORT <a class="code" href="classossia_1_1net_1_1address__base.html">address_base</a> : <span class="keyword">public</span> <a class="code" href="classossia_1_1callback__container.html">callback_container</a>&lt;value_callback&gt;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
@@ -282,7 +282,7 @@ $(document).ready(function(){initNavTree('address_8hpp_source.html','');});
 <div class="ttc" id="classossia_1_1_destination_html"><div class="ttname"><a href="classossia_1_1_destination.html">ossia::Destination</a></div><div class="ttdef"><b>Definition:</b> destination.hpp:24</div></div>
 <div class="ttc" id="structossia_1_1value__with__unit_html"><div class="ttname"><a href="structossia_1_1value__with__unit.html">ossia::value_with_unit</a></div><div class="ttdef"><b>Definition:</b> value_with_unit.hpp:21</div></div>
 <div class="ttc" id="classossia_1_1callback__container_html"><div class="ttname"><a href="classossia_1_1callback__container.html">ossia::callback_container</a></div><div class="ttdoc">The callback_container class. </div><div class="ttdef"><b>Definition:</b> callback_container.hpp:42</div></div>
-<div class="ttc" id="classossia_1_1value_html"><div class="ttname"><a href="classossia_1_1value.html">ossia::value</a></div><div class="ttdoc">The value class. </div><div class="ttdef"><b>Definition:</b> value.hpp:96</div></div>
+<div class="ttc" id="classossia_1_1value_html"><div class="ttname"><a href="classossia_1_1value.html">ossia::value</a></div><div class="ttdoc">The value class. </div><div class="ttdef"><b>Definition:</b> value.hpp:95</div></div>
 <div class="ttc" id="structossia_1_1net_1_1domain_html"><div class="ttname"><a href="structossia_1_1net_1_1domain.html">ossia::net::domain</a></div><div class="ttdef"><b>Definition:</b> domain_base.hpp:131</div></div>
 <div class="ttc" id="classossia_1_1net_1_1node__base_html"><div class="ttname"><a href="classossia_1_1net_1_1node__base.html">ossia::net::node_base</a></div><div class="ttdoc">The node_base class. </div><div class="ttdef"><b>Definition:</b> node.hpp:43</div></div>
 <div class="ttc" id="structossia_1_1unit__t_html"><div class="ttname"><a href="structossia_1_1unit__t.html">ossia::unit_t</a></div><div class="ttdef"><b>Definition:</b> dataspace.hpp:16</div></div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('address_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fc7948728c8c6d6c6224785c0cd3e2aa.html">OSSIA</a></li><li class="navelem"><a class="el" href="dir_6096a9be72ff3aad5b9801229b7e2606.html">ossia</a></li><li class="navelem"><a class="el" href="dir_cec6e7b427f273c17f4ff626ab8e1f32.html">network</a></li><li class="navelem"><a class="el" href="dir_164895474fee5d51a6dec801fd77db2d.html">base</a></li><li class="navelem"><b>address.hpp</b></li>
-    <li class="footer">Generated on Sun Nov 27 2016 18:00:00 for OSSIA by
+    <li class="footer">Generated on Sun Nov 27 2016 19:23:29 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

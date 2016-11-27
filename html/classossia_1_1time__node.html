@@ -127,7 +127,9 @@ Inheritance diagram for ossia::time_node:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a46bc218d36df49a7ade39f8ea51ac744"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a46bc218d36df49a7ade39f8ea51ac744">execution_callback</a> = std::function&lt; void()&gt;</td></tr>
+<tr class="memitem:a46bc218d36df49a7ade39f8ea51ac744"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46bc218d36df49a7ade39f8ea51ac744"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a46bc218d36df49a7ade39f8ea51ac744">execution_callback</a> = std::function&lt; void()&gt;</td></tr>
+<tr class="memdesc:a46bc218d36df49a7ade39f8ea51ac744"><td class="mdescLeft">&#160;</td><td class="mdescRight">to be notified when it is triggered <br/></td></tr>
 <tr class="separator:a46bc218d36df49a7ade39f8ea51ac744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9418bc3911d572cbdba9de90fd956668"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9418bc3911d572cbdba9de90fd956668"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>iterator</b> = ptr_container&lt; <a class="el" href="classossia_1_1time__event.html">time_event</a> &gt;::iterator</td></tr>
@@ -141,27 +143,39 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf2e61d8279abc036657c4d264fbbeaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf2e61d8279abc036657c4d264fbbeaf"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>time_node</b> (<a class="el" href="classossia_1_1time__node.html#a46bc218d36df49a7ade39f8ea51ac744">time_node::execution_callback</a> callback={})</td></tr>
 <tr class="separator:acf2e61d8279abc036657c4d264fbbeaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69baae3832232dee88e027d1e1de27bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a69baae3832232dee88e027d1e1de27bc">~time_node</a> ()</td></tr>
+<tr class="memitem:a69baae3832232dee88e027d1e1de27bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69baae3832232dee88e027d1e1de27bc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a69baae3832232dee88e027d1e1de27bc">~time_node</a> ()</td></tr>
+<tr class="memdesc:a69baae3832232dee88e027d1e1de27bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor <br/></td></tr>
 <tr class="separator:a69baae3832232dee88e027d1e1de27bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad33f6d40c74466b9d759c05a68f56403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#ad33f6d40c74466b9d759c05a68f56403">setCallback</a> (<a class="el" href="classossia_1_1time__node.html#a46bc218d36df49a7ade39f8ea51ac744">time_node::execution_callback</a>)</td></tr>
+<tr class="memdesc:ad33f6d40c74466b9d759c05a68f56403"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes the callback in the #TimeNode  <a href="#ad33f6d40c74466b9d759c05a68f56403">More...</a><br/></td></tr>
 <tr class="separator:ad33f6d40c74466b9d759c05a68f56403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89f05abf5e8c18c70b7923e3c791c7d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a89f05abf5e8c18c70b7923e3c791c7d6">trigger</a> ()</td></tr>
+<tr class="memdesc:a89f05abf5e8c18c70b7923e3c791c7d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluate all #TimeEvent's to make them to happen or to dispose them  <a href="#a89f05abf5e8c18c70b7923e3c791c7d6">More...</a><br/></td></tr>
 <tr class="separator:a89f05abf5e8c18c70b7923e3c791c7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa841fa856d0f0c9d6766293028f8c1f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__value.html">time_value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#aa841fa856d0f0c9d6766293028f8c1f7">getDate</a> () const </td></tr>
+<tr class="memdesc:aa841fa856d0f0c9d6766293028f8c1f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the date  <a href="#aa841fa856d0f0c9d6766293028f8c1f7">More...</a><br/></td></tr>
 <tr class="separator:aa841fa856d0f0c9d6766293028f8c1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1b358c85f52b802c161c8f51b30de3d"><td class="memItemLeft" align="right" valign="top">const expression &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#af1b358c85f52b802c161c8f51b30de3d">getExpression</a> () const </td></tr>
+<tr class="memdesc:af1b358c85f52b802c161c8f51b30de3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the expression of the #TimeNode  <a href="#af1b358c85f52b802c161c8f51b30de3d">More...</a><br/></td></tr>
 <tr class="separator:af1b358c85f52b802c161c8f51b30de3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4dd681da0a2ef21273561a514ccd3e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__node.html">time_node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#aa4dd681da0a2ef21273561a514ccd3e4">setExpression</a> (expression_ptr)</td></tr>
+<tr class="memdesc:aa4dd681da0a2ef21273561a514ccd3e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the expression of the #TimeNode  <a href="#aa4dd681da0a2ef21273561a514ccd3e4">More...</a><br/></td></tr>
 <tr class="separator:aa4dd681da0a2ef21273561a514ccd3e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cd1dcf33993f2166c1859c77713f3bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__value.html">time_value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a5cd1dcf33993f2166c1859c77713f3bc">getSimultaneityMargin</a> () const </td></tr>
+<tr class="memdesc:a5cd1dcf33993f2166c1859c77713f3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the simultaneity margin  <a href="#a5cd1dcf33993f2166c1859c77713f3bc">More...</a><br/></td></tr>
 <tr class="separator:a5cd1dcf33993f2166c1859c77713f3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab386333d2871d5b4f23372bc80d243f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classossia_1_1time__node.html">time_node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#ab386333d2871d5b4f23372bc80d243f4">setSimultaneityMargin</a> (<a class="el" href="classossia_1_1time__value.html">time_value</a>)</td></tr>
+<tr class="memdesc:ab386333d2871d5b4f23372bc80d243f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the simultaneity margin  <a href="#ab386333d2871d5b4f23372bc80d243f4">More...</a><br/></td></tr>
 <tr class="separator:ab386333d2871d5b4f23372bc80d243f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a868d18a7b1f8cb952c3c5dd7b92e8bc2"><td class="memItemLeft" align="right" valign="top">iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a868d18a7b1f8cb952c3c5dd7b92e8bc2">emplace</a> (const_iterator, <a class="el" href="classossia_1_1time__event.html#a3a9a769fd9ee7e8cba1e8942cd0f252a">time_event::ExecutionCallback</a>, expression_ptr=expressions::make_expression_true())</td></tr>
+<tr class="memdesc:a868d18a7b1f8cb952c3c5dd7b92e8bc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">create and store a #TimeEvent  <a href="#a868d18a7b1f8cb952c3c5dd7b92e8bc2">More...</a><br/></td></tr>
 <tr class="separator:a868d18a7b1f8cb952c3c5dd7b92e8bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52e5c3ea646557c202782e4c7cabed9f"><td class="memItemLeft" align="right" valign="top">ptr_container&lt; <a class="el" href="classossia_1_1time__event.html">time_event</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a52e5c3ea646557c202782e4c7cabed9f">timeEvents</a> ()</td></tr>
+<tr class="memdesc:a52e5c3ea646557c202782e4c7cabed9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the #TimeEvents of the #TimeNode  <a href="#a52e5c3ea646557c202782e4c7cabed9f">More...</a><br/></td></tr>
 <tr class="separator:a52e5c3ea646557c202782e4c7cabed9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79dc79f93ec00d834914435a9179687b"><td class="memItemLeft" align="right" valign="top">const ptr_container&lt; <a class="el" href="classossia_1_1time__event.html">time_event</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a79dc79f93ec00d834914435a9179687b">timeEvents</a> () const </td></tr>
+<tr class="memdesc:a79dc79f93ec00d834914435a9179687b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the #TimeEvents of the #TimeNode  <a href="#a79dc79f93ec00d834914435a9179687b">More...</a><br/></td></tr>
 <tr class="separator:a79dc79f93ec00d834914435a9179687b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62ee09fdff2fdb16d346720f5fc6cd8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classossia_1_1time__node.html#a62ee09fdff2fdb16d346720f5fc6cd8e">process</a> (ptr_container&lt; <a class="el" href="classossia_1_1time__event.html">time_event</a> &gt; &amp;statusChangedEvents)</td></tr>
 <tr class="separator:a62ee09fdff2fdb16d346720f5fc6cd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,46 +197,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup</b> ()</td></
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>#TimeNode is use to describe temporal structure to synchronize each attached #TimeEvent evaluation. </p>
 <p>#TimeNode is also a #TimeEvent container. </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a46bc218d36df49a7ade39f8ea51ac744"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classossia_1_1time__node.html#a46bc218d36df49a7ade39f8ea51ac744">ossia::time_node::execution_callback</a> =  std::function&lt;void()&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>to be notified when it is triggered </p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a69baae3832232dee88e027d1e1de27bc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ossia::time_node::~time_node </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>destructor </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a868d18a7b1f8cb952c3c5dd7b92e8bc2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -252,6 +227,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup</b> ()</td></
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>create and store a #TimeEvent </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -277,7 +253,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup</b> ()</td></
         </tr>
       </table>
 </div><div class="memdoc">
-<p>get the date</p>
+
+<p>get the date </p>
 <p>the date is the sum of its previous #TimeConstraint durations</p>
 <p>a #TimeNode with na previous #TimeConstraints have a date equals to 0. </p>
 <dl class="section return"><dt>Returns</dt><dd>#TimeValue the date </dd></dl>
@@ -296,6 +273,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup</b> ()</td></
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the expression of the #TimeNode </p>
 <dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;#Expression&gt; </dd></dl>
 
@@ -313,6 +291,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanup</b> ()</td></
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>get the simultaneity margin </p>
 <dl class="section return"><dt>Returns</dt><dd>#TimeValue the simultaneity margin </dd></dl>
 
@@ -367,6 +346,7 @@ the observation of the expression allows to observe all <a class="el" href="clas
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>changes the callback in the #TimeNode </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -391,7 +371,8 @@ the observation of the expression allows to observe all <a class="el" href="clas
         </tr>
       </table>
 </div><div class="memdoc">
-<p>set the expression of the #TimeNode</p>
+
+<p>set the expression of the #TimeNode </p>
 <p>setting the expression to ExpressionTrue will defer the evaluation on #TimeEvent's expression</p>
 <p>setting the expression to ExpressionFalse will mute TimeNode execution </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -417,6 +398,7 @@ the observation of the expression allows to observe all <a class="el" href="clas
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>set the simultaneity margin </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -448,6 +430,7 @@ the observation of the expression allows to observe all <a class="el" href="clas
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>get the #TimeEvents of the #TimeNode </p>
 <dl class="section return"><dt>Returns</dt><dd>#Container&lt;#TimeEvent&gt; </dd></dl>
 
@@ -473,6 +456,7 @@ the observation of the expression allows to observe all <a class="el" href="clas
   </tr>
 </table>
 </div><div class="memdoc">
+
 <p>get the #TimeEvents of the #TimeNode </p>
 <dl class="section return"><dt>Returns</dt><dd>#Container&lt;#TimeEvent&gt; </dd></dl>
 
@@ -490,6 +474,7 @@ the observation of the expression allows to observe all <a class="el" href="clas
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>evaluate all #TimeEvent's to make them to happen or to dispose them </p>
 <dl class="section return"><dt>Returns</dt><dd>boolean true if the operation succeeded </dd></dl>
 
@@ -505,7 +490,7 @@ the observation of the expression allows to observe all <a class="el" href="clas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>ossia</b></li><li class="navelem"><a class="el" href="classossia_1_1time__node.html">time_node</a></li>
-    <li class="footer">Generated on Sun Nov 27 2016 18:00:00 for OSSIA by
+    <li class="footer">Generated on Sun Nov 27 2016 19:23:30 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

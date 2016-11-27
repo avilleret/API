@@ -32,7 +32,7 @@ var NAVTREEINDEX =
 "structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_namespace_01_4.html#a50b01a517a30b9a2a1f4958c7c13b83e",
 "structossia_1_1net_1_1midi_1_1address__info.html#a12100c1f868b1c1c4b512edb25dea7ad",
 "structossia_1_1state__flatten__visitor__merger.html#aac303498708d774e95123674ca636eef",
-"ws__generic__client__address__data_8hpp_source.html"
+"ws__generic__client__address_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
