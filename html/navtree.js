@@ -25,14 +25,14 @@ var NAVTREEINDEX =
 ".html",
 "classossia_1_1expressions_1_1expression__atom.html#a9b652eb2ca78e1b1dbf46888040be706",
 "classossia_1_1net_1_1http__address.html#a131c29eda2d0d6050b283b7ba584cc1b",
-"classossia_1_1net_1_1serial__node.html#a0948441363b735c7ded2f6ff18ebb1e3",
-"classossia_1_1time__value.html#afc01ab5c4db8ce38b5bd5e471633e415",
-"state__element_8hpp_source.html",
-"structossia_1_1detail_1_1partial__value__merger__helper_3_01_t_00_01_u_00_01enable__if__both__iterable_3_01_t_00_01_u_01_4_01_4.html#a844693e402fe304b355300a0c3672c9d",
-"structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_namespace_01_4.html#a50b01a517a30b9a2a1f4958c7c13b83e",
-"structossia_1_1net_1_1midi_1_1address__info.html#a12100c1f868b1c1c4b512edb25dea7ad",
-"structossia_1_1state__flatten__visitor__merger.html#aac303498708d774e95123674ca636eef",
-"ws__generic__client__address_8hpp_source.html"
+"classossia_1_1net_1_1serial__address.html#ae278924f4754f1e63318dd337f7ee2a4",
+"classossia_1_1time__value.html#a6e4f1598ff2f94f9dae4a53e04f12cad",
+"sender_8hpp_source.html",
+"structossia_1_1detail_1_1numeric__value__converter.html#a7b526c5c463533c04492fd4c814c050e",
+"structossia_1_1midi__pitch__u.html",
+"structossia_1_1net_1_1http__address__data__base.html#a0076f9a60bc4c53bc54e304ad14a8af6",
+"structossia_1_1state__flatten__visitor__merger.html#a28b0ec0f63d669edfb156bd416cfd533",
+"value__base_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

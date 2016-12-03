@@ -1,5 +1,15 @@
 var NAVTREEINDEX7 =
 {
+"structossia_1_1midi__pitch__u.html":[0,0,5,107],
+"structossia_1_1midigain__u.html":[0,0,5,75],
+"structossia_1_1millisecond__u.html":[0,0,5,108],
+"structossia_1_1minuit_1_1minuit__behavior.html":[0,0,5,5,1],
+"structossia_1_1minuit_1_1minuit__behavior.html#ae1ff08ab3fe91fbdf698c0b520b9aa77":[0,0,5,5,1,0],
+"structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_get_01_4.html":[0,0,5,5,8],
+"structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_get_01_4.html#a213da709dece133294e55691f383956a":[0,0,5,5,8,0],
+"structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_listen_01_4.html":[0,0,5,5,7],
+"structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_listen_01_4.html#ac7c9f575cd7d970bd21d25be925c880f":[0,0,5,5,7,0],
+"structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_namespace_01_4.html":[0,0,5,5,9],
 "structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_answer_00_01minuit__operation_1_1_namespace_01_4.html#a50b01a517a30b9a2a1f4958c7c13b83e":[0,0,5,5,9,0],
 "structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_error_00_01_op_01_4.html":[0,0,5,5,2],
 "structossia_1_1minuit_1_1minuit__behavior_3_01minuit__command_1_1_error_00_01_op_01_4.html#a0c2b81d757fddec15d2f67ebcfc42d99":[0,0,5,5,2,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX7 =
 "structossia_1_1net_1_1http__address__data.html#ac5dd003c0f66e98ca65e29d107b63668":[0,0,5,6,39,2],
 "structossia_1_1net_1_1http__address__data.html#acec7fff2e26c9089db471e07fbc7e652":[0,0,5,6,39,1],
 "structossia_1_1net_1_1http__address__data.html#aebb3aaf7c9d428d7734121c0ea1ba24a":[0,0,5,6,39,3],
-"structossia_1_1net_1_1http__address__data__base.html":[0,0,5,6,38],
-"structossia_1_1net_1_1http__address__data__base.html#a0076f9a60bc4c53bc54e304ad14a8af6":[0,0,5,6,38,7],
-"structossia_1_1net_1_1http__address__data__base.html#a3910fbf82ef723774e6c14832cf67d94":[0,0,5,6,38,5],
-"structossia_1_1net_1_1http__address__data__base.html#a4d909e6d51fa23e2ad2c004bb2828457":[0,0,5,6,38,2],
-"structossia_1_1net_1_1http__address__data__base.html#a674b214891a39ab1c1eabc0b88492ed5":[0,0,5,6,38,0],
-"structossia_1_1net_1_1http__address__data__base.html#a8f5bc850451e072a06e23dc63282c4b3":[0,0,5,6,38,1],
-"structossia_1_1net_1_1http__address__data__base.html#a9caccdff15939c79b0c42b99956d47f6":[0,0,5,6,38,4],
-"structossia_1_1net_1_1http__address__data__base.html#aba61fff3d6350d0600c718dd2d42319a":[0,0,5,6,38,6],
-"structossia_1_1net_1_1http__address__data__base.html#afa32e023131f5b821a4ff87c9242b1f5":[0,0,5,6,38,3],
-"structossia_1_1net_1_1midi_1_1address__info.html":[0,0,5,6,1,10],
-"structossia_1_1net_1_1midi_1_1address__info.html#a0cc56958067f02cd27460ca91aad88a0":[0,0,5,6,1,10,4]
+"structossia_1_1net_1_1http__address__data__base.html":[0,0,5,6,38]
 };

@@ -611,38 +611,47 @@
                   </section>
                   <section title="note_on_N_node" ref="classossia_1_1net_1_1midi_1_1note__on___n__node.html">
                     <section title="note_on_N_node" ref="classossia_1_1net_1_1midi_1_1note__on___n__node.html#a2913a8261ffe43702c4978e8783c172c" />
+                    <section title="~note_on_N_node" ref="classossia_1_1net_1_1midi_1_1note__on___n__node.html#ad2bb6c1686a6b25a4118dceb3212cfb8" />
                     <section title="getName" ref="classossia_1_1net_1_1midi_1_1note__on___n__node.html#ae5ae5b7f0e343ff0ca781d2db3e97cd0" />
                   </section>
                   <section title="note_off_N_node" ref="classossia_1_1net_1_1midi_1_1note__off___n__node.html">
                     <section title="note_off_N_node" ref="classossia_1_1net_1_1midi_1_1note__off___n__node.html#a19378979ab59ed9ae601e1970ff7696a" />
+                    <section title="~note_off_N_node" ref="classossia_1_1net_1_1midi_1_1note__off___n__node.html#a254e3f24830141668ae18c6165d13ee6" />
                     <section title="getName" ref="classossia_1_1net_1_1midi_1_1note__off___n__node.html#aafab9127d2e7ca627f52d654a501a1ba" />
                   </section>
                   <section title="control_N_node" ref="classossia_1_1net_1_1midi_1_1control___n__node.html">
                     <section title="control_N_node" ref="classossia_1_1net_1_1midi_1_1control___n__node.html#aa5b86d6b1dc7dff91820423d93c3b34f" />
+                    <section title="~control_N_node" ref="classossia_1_1net_1_1midi_1_1control___n__node.html#a81b6cb2d21672a55e3126defd2a31c1c" />
                     <section title="getName" ref="classossia_1_1net_1_1midi_1_1control___n__node.html#a441f55ca2dcff1a1f976a123e1ad930c" />
                   </section>
                   <section title="program_N_node" ref="classossia_1_1net_1_1midi_1_1program___n__node.html">
                     <section title="program_N_node" ref="classossia_1_1net_1_1midi_1_1program___n__node.html#ad65512f9e5b8e3928ba12ff820486941" />
+                    <section title="~program_N_node" ref="classossia_1_1net_1_1midi_1_1program___n__node.html#ad0173d9347f0d7a502123f1249ecc6b2" />
                     <section title="getName" ref="classossia_1_1net_1_1midi_1_1program___n__node.html#a78d703a2351f1e18a358040cf3be8db1" />
                   </section>
                   <section title="program_node" ref="classossia_1_1net_1_1midi_1_1program__node.html">
                     <section title="program_node" ref="classossia_1_1net_1_1midi_1_1program__node.html#a966b1fce5d96142c977b5079204f3a6b" />
+                    <section title="~program_node" ref="classossia_1_1net_1_1midi_1_1program__node.html#a645695af4d73460fd1a41144048c5fcc" />
                     <section title="getName" ref="classossia_1_1net_1_1midi_1_1program__node.html#afaa5df2c18b86710c397d0584c642a26" />
                   </section>
                   <section title="note_on_node" ref="classossia_1_1net_1_1midi_1_1note__on__node.html">
                     <section title="note_on_node" ref="classossia_1_1net_1_1midi_1_1note__on__node.html#a03bda9f3733a0b9322c27708e73aea67" />
+                    <section title="~note_on_node" ref="classossia_1_1net_1_1midi_1_1note__on__node.html#a3bd8f7dc0a112408b1590a1eecc9ed8c" />
                     <section title="getName" ref="classossia_1_1net_1_1midi_1_1note__on__node.html#aed371fd0aa415f75b0e2f2d7bfc512ad" />
                   </section>
                   <section title="note_off_node" ref="classossia_1_1net_1_1midi_1_1note__off__node.html">
                     <section title="note_off_node" ref="classossia_1_1net_1_1midi_1_1note__off__node.html#ad4696c6fb902cfadd8b2b281666904fd" />
+                    <section title="~note_off_node" ref="classossia_1_1net_1_1midi_1_1note__off__node.html#a8d2434fe0f7fc6409aceaaed1518eab9" />
                     <section title="getName" ref="classossia_1_1net_1_1midi_1_1note__off__node.html#aadefc2c52df0b729228a2e89a4a19a05" />
                   </section>
                   <section title="control_node" ref="classossia_1_1net_1_1midi_1_1control__node.html">
                     <section title="control_node" ref="classossia_1_1net_1_1midi_1_1control__node.html#acc2233b4d7fa6e82beaceef7db8d0922" />
+                    <section title="~control_node" ref="classossia_1_1net_1_1midi_1_1control__node.html#a2d1cba7217adc36afad9eac1c5a6191b" />
                     <section title="getName" ref="classossia_1_1net_1_1midi_1_1control__node.html#afbf3c2c8e5d94d4ef5f3cf519dfcb95d" />
                   </section>
                   <section title="channel_node" ref="classossia_1_1net_1_1midi_1_1channel__node.html">
                     <section title="channel_node" ref="classossia_1_1net_1_1midi_1_1channel__node.html#adc8edf005f650f03d1e53591de1a4284" />
+                    <section title="~channel_node" ref="classossia_1_1net_1_1midi_1_1channel__node.html#a934a434b82eeb76fa1834a2482aa547c" />
                     <section title="getName" ref="classossia_1_1net_1_1midi_1_1channel__node.html#a3dcdf8d0c8253c9b45d9ba82b72bd939" />
                     <section title="note_off" ref="classossia_1_1net_1_1midi_1_1channel__node.html#a86e8278eea7b8eaf4367bb2af067fc11" />
                     <section title="note_on" ref="classossia_1_1net_1_1midi_1_1channel__node.html#a101b391cb9922c61f3ccab422ec6dc0e" />
@@ -832,6 +841,7 @@
                   <section title="removeChild" ref="classossia_1_1net_1_1node__base.html#a58a5df57302ff96034d6280490933567" />
                   <section title="removingChild" ref="classossia_1_1net_1_1node__base.html#aa89640d63dbc082693ecb7dd418d4549" />
                   <section title="setName" ref="classossia_1_1net_1_1node__base.html#a7a7716c872fb3c7d4127650c526a84cb" />
+                  <section title="aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
                   <section title="mChildren" ref="classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5" />
                 </section>
                 <section title="protocol_base" ref="classossia_1_1net_1_1protocol__base.html">
@@ -5570,6 +5580,7 @@
       <keyword name="removeChild" id="ossia::net::node_base::removeChild" ref="classossia_1_1net_1_1node__base.html#a58a5df57302ff96034d6280490933567" />
       <keyword name="clearChildren" id="ossia::net::node_base::clearChildren" ref="classossia_1_1net_1_1node__base.html#aa03a3584588c87c965ff49803711c0ad" />
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="makeChild" id="ossia::net::node_base::makeChild" ref="classossia_1_1net_1_1node__base.html#a875f142107d7f660256fabe4ca9d2daa" />
       <keyword name="removingChild" id="ossia::net::node_base::removingChild" ref="classossia_1_1net_1_1node__base.html#aa89640d63dbc082693ecb7dd418d4549" />
       <keyword name="mChildren" id="ossia::net::node_base::mChildren" ref="classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5" />
@@ -5907,6 +5918,7 @@
       <keyword name="onAddressCreated" id="ossia::net::device_base::onAddressCreated" ref="classossia_1_1net_1_1device__base.html#a76a91136781074af5265d74166bb32d1" />
       <keyword name="onAddressModified" id="ossia::net::device_base::onAddressModified" ref="classossia_1_1net_1_1device__base.html#a31104370993d5c0ee993d0cec4c7e86c" />
       <keyword name="onAddressRemoving" id="ossia::net::device_base::onAddressRemoving" ref="classossia_1_1net_1_1device__base.html#ad546a64fc9e296cc243151936b6f1306" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mProtocol" id="ossia::net::device_base::mProtocol" ref="classossia_1_1net_1_1device__base.html#a295ce39ed5e2b72bb4e31c95726081ec" />
       <keyword name="mCapabilities" id="ossia::net::device_base::mCapabilities" ref="classossia_1_1net_1_1device__base.html#ae5434f6c0a1f4746365bd01c7fdd04a4" />
       <keyword name="mName" id="ossia::net::generic_node::mName" ref="classossia_1_1net_1_1generic__node.html#ae5c34d9de2346e677996eb571714bcbb" />
@@ -5943,6 +5955,7 @@
       <keyword name="mParent" id="ossia::net::generic_node::mParent" ref="classossia_1_1net_1_1generic__node.html#a88fb6b3f9887b4db08a19914c988df0f" />
       <keyword name="mAddress" id="ossia::net::generic_node::mAddress" ref="classossia_1_1net_1_1generic__node.html#ac178f19f44b383d706bc320fe04b1543" />
       <keyword name="mChildren" id="ossia::net::node_base::mChildren" ref="classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="ossia::net::http_address" id="ossia::net::http_address" ref="classossia_1_1net_1_1http__address.html" />
       <keyword name="http_address" id="ossia::net::http_address::http_address" ref="classossia_1_1net_1_1http__address.html#ab1516ff28e7473447b6ab046bb87593b" />
       <keyword name="http_address" id="ossia::net::http_address::http_address" ref="classossia_1_1net_1_1http__address.html#a131c29eda2d0d6050b283b7ba584cc1b" />
@@ -6093,6 +6106,7 @@
       <keyword name="onAddressCreated" id="ossia::net::device_base::onAddressCreated" ref="classossia_1_1net_1_1device__base.html#a76a91136781074af5265d74166bb32d1" />
       <keyword name="onAddressModified" id="ossia::net::device_base::onAddressModified" ref="classossia_1_1net_1_1device__base.html#a31104370993d5c0ee993d0cec4c7e86c" />
       <keyword name="onAddressRemoving" id="ossia::net::device_base::onAddressRemoving" ref="classossia_1_1net_1_1device__base.html#ad546a64fc9e296cc243151936b6f1306" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mProtocol" id="ossia::net::device_base::mProtocol" ref="classossia_1_1net_1_1device__base.html#a295ce39ed5e2b72bb4e31c95726081ec" />
       <keyword name="mCapabilities" id="ossia::net::device_base::mCapabilities" ref="classossia_1_1net_1_1device__base.html#ae5434f6c0a1f4746365bd01c7fdd04a4" />
       <keyword name="mChildren" id="ossia::net::node_base::mChildren" ref="classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5" />
@@ -6118,6 +6132,7 @@
       <keyword name="clearChildren" id="ossia::net::node_base::clearChildren" ref="classossia_1_1net_1_1node__base.html#aa03a3584588c87c965ff49803711c0ad" />
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="http_protocol" id="ossia::net::http_node::http_protocol" ref="classossia_1_1net_1_1http__node.html#a8ebe714680fd4a7cc3d26aebc2d17173" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mChildren" id="ossia::net::node_base::mChildren" ref="classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5" />
       <keyword name="ossia::net::http_protocol" id="ossia::net::http_protocol" ref="classossia_1_1net_1_1http__protocol.html" />
       <keyword name="sig_push" id="ossia::net::http_protocol::sig_push" ref="classossia_1_1net_1_1http__protocol.html#a61c5b703d9094eeb08639cf7755c219c" />
@@ -6432,6 +6447,7 @@
       <keyword name="onAddressCreated" id="ossia::net::device_base::onAddressCreated" ref="classossia_1_1net_1_1device__base.html#a76a91136781074af5265d74166bb32d1" />
       <keyword name="onAddressModified" id="ossia::net::device_base::onAddressModified" ref="classossia_1_1net_1_1device__base.html#a31104370993d5c0ee993d0cec4c7e86c" />
       <keyword name="onAddressRemoving" id="ossia::net::device_base::onAddressRemoving" ref="classossia_1_1net_1_1device__base.html#ad546a64fc9e296cc243151936b6f1306" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mProtocol" id="ossia::net::device_base::mProtocol" ref="classossia_1_1net_1_1device__base.html#a295ce39ed5e2b72bb4e31c95726081ec" />
       <keyword name="mCapabilities" id="ossia::net::device_base::mCapabilities" ref="classossia_1_1net_1_1device__base.html#ae5434f6c0a1f4746365bd01c7fdd04a4" />
       <keyword name="mName" id="ossia::net::serial_node::mName" ref="classossia_1_1net_1_1serial__node.html#add461d38f5902c41bc82dbdb386f7e89" />
@@ -6467,6 +6483,7 @@
       <keyword name="mParent" id="ossia::net::serial_node::mParent" ref="classossia_1_1net_1_1serial__node.html#a268ee5ce65027e865ed70fea26236cf0" />
       <keyword name="mAddress" id="ossia::net::serial_node::mAddress" ref="classossia_1_1net_1_1serial__node.html#aec10fabe1436f101df51f0fdb40c373a" />
       <keyword name="mChildren" id="ossia::net::node_base::mChildren" ref="classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="ossia::net::serial_wrapper" id="ossia::net::serial_wrapper" ref="classossia_1_1net_1_1serial__wrapper.html" />
       <keyword name="on_write" id="ossia::net::serial_wrapper::on_write" ref="classossia_1_1net_1_1serial__wrapper.html#ac981e0cbeb92e51664d925bc62e0e22b" />
       <keyword name="write" id="ossia::net::serial_wrapper::write" ref="classossia_1_1net_1_1serial__wrapper.html#a8ea05635aeba3f8de6745f0cd7d4e903" />
@@ -6638,6 +6655,7 @@
       <keyword name="onAddressCreated" id="ossia::net::device_base::onAddressCreated" ref="classossia_1_1net_1_1device__base.html#a76a91136781074af5265d74166bb32d1" />
       <keyword name="onAddressModified" id="ossia::net::device_base::onAddressModified" ref="classossia_1_1net_1_1device__base.html#a31104370993d5c0ee993d0cec4c7e86c" />
       <keyword name="onAddressRemoving" id="ossia::net::device_base::onAddressRemoving" ref="classossia_1_1net_1_1device__base.html#ad546a64fc9e296cc243151936b6f1306" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mProtocol" id="ossia::net::device_base::mProtocol" ref="classossia_1_1net_1_1device__base.html#a295ce39ed5e2b72bb4e31c95726081ec" />
       <keyword name="mCapabilities" id="ossia::net::device_base::mCapabilities" ref="classossia_1_1net_1_1device__base.html#ae5434f6c0a1f4746365bd01c7fdd04a4" />
       <keyword name="mChildren" id="ossia::net::node_base::mChildren" ref="classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5" />
@@ -6663,6 +6681,7 @@
       <keyword name="clearChildren" id="ossia::net::node_base::clearChildren" ref="classossia_1_1net_1_1node__base.html#aa03a3584588c87c965ff49803711c0ad" />
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="ws_generic_client_protocol" id="ossia::net::ws_generic_client_node::ws_generic_client_protocol" ref="classossia_1_1net_1_1ws__generic__client__node.html#a2c5ffb798922f329b02c757aefd1e5be" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mChildren" id="ossia::net::node_base::mChildren" ref="classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5" />
       <keyword name="ossia::net::ws_generic_client_protocol" id="ossia::net::ws_generic_client_protocol" ref="classossia_1_1net_1_1ws__generic__client__protocol.html" />
       <keyword name="sig_push" id="ossia::net::ws_generic_client_protocol::sig_push" ref="classossia_1_1net_1_1ws__generic__client__protocol.html#ad10c4d4fb0a12959ca45b63aee361d5c" />
@@ -6739,6 +6758,7 @@
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="iterator" id="ossia::net::midi::midi_node::iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#ab225e48d312c257e8235701ffc8e1444" />
       <keyword name="const_iterator" id="ossia::net::midi::midi_node::const_iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#a7abd150831114011d62e401a270d925a" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
@@ -6767,6 +6787,7 @@
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="iterator" id="ossia::net::midi::midi_node::iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#ab225e48d312c257e8235701ffc8e1444" />
       <keyword name="const_iterator" id="ossia::net::midi::midi_node::const_iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#a7abd150831114011d62e401a270d925a" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
@@ -6795,6 +6816,7 @@
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="iterator" id="ossia::net::midi::midi_node::iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#ab225e48d312c257e8235701ffc8e1444" />
       <keyword name="const_iterator" id="ossia::net::midi::midi_node::const_iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#a7abd150831114011d62e401a270d925a" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
@@ -6823,6 +6845,7 @@
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="iterator" id="ossia::net::midi::midi_node::iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#ab225e48d312c257e8235701ffc8e1444" />
       <keyword name="const_iterator" id="ossia::net::midi::midi_node::const_iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#a7abd150831114011d62e401a270d925a" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
@@ -6851,6 +6874,7 @@
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="iterator" id="ossia::net::midi::midi_node::iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#ab225e48d312c257e8235701ffc8e1444" />
       <keyword name="const_iterator" id="ossia::net::midi::midi_node::const_iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#a7abd150831114011d62e401a270d925a" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
@@ -6879,6 +6903,7 @@
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="iterator" id="ossia::net::midi::midi_node::iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#ab225e48d312c257e8235701ffc8e1444" />
       <keyword name="const_iterator" id="ossia::net::midi::midi_node::const_iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#a7abd150831114011d62e401a270d925a" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
@@ -6907,6 +6932,7 @@
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="iterator" id="ossia::net::midi::midi_node::iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#ab225e48d312c257e8235701ffc8e1444" />
       <keyword name="const_iterator" id="ossia::net::midi::midi_node::const_iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#a7abd150831114011d62e401a270d925a" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
@@ -6935,6 +6961,7 @@
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="iterator" id="ossia::net::midi::midi_node::iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#ab225e48d312c257e8235701ffc8e1444" />
       <keyword name="const_iterator" id="ossia::net::midi::midi_node::const_iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#a7abd150831114011d62e401a270d925a" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
@@ -6965,6 +6992,7 @@
       <keyword name="children" id="ossia::net::node_base::children" ref="classossia_1_1net_1_1node__base.html#ad9314bc390ead7b049ddc032d886a681" />
       <keyword name="iterator" id="ossia::net::midi::midi_node::iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#ab225e48d312c257e8235701ffc8e1444" />
       <keyword name="const_iterator" id="ossia::net::midi::midi_node::const_iterator" ref="classossia_1_1net_1_1midi_1_1midi__node.html#a7abd150831114011d62e401a270d925a" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
@@ -7072,6 +7100,7 @@
       <keyword name="onAddressCreated" id="ossia::net::device_base::onAddressCreated" ref="classossia_1_1net_1_1device__base.html#a76a91136781074af5265d74166bb32d1" />
       <keyword name="onAddressModified" id="ossia::net::device_base::onAddressModified" ref="classossia_1_1net_1_1device__base.html#a31104370993d5c0ee993d0cec4c7e86c" />
       <keyword name="onAddressRemoving" id="ossia::net::device_base::onAddressRemoving" ref="classossia_1_1net_1_1device__base.html#ad546a64fc9e296cc243151936b6f1306" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="mProtocol" id="ossia::net::device_base::mProtocol" ref="classossia_1_1net_1_1device__base.html#a295ce39ed5e2b72bb4e31c95726081ec" />
       <keyword name="mCapabilities" id="ossia::net::device_base::mCapabilities" ref="classossia_1_1net_1_1device__base.html#ae5434f6c0a1f4746365bd01c7fdd04a4" />
       <keyword name="mDevice" id="ossia::net::midi::midi_node::mDevice" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa4d6a72d3d2bce308357068321c8d3e2" />
@@ -7107,6 +7136,7 @@
       <keyword name="mParent" id="ossia::net::midi::midi_node::mParent" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aacc7a33cb7a542268b7bbc0681ca5a31" />
       <keyword name="mAddress" id="ossia::net::midi::midi_node::mAddress" ref="classossia_1_1net_1_1midi_1_1midi__node.html#aa1b36b963bb0e8a45e2d1593ad44eb40" />
       <keyword name="mChildren" id="ossia::net::node_base::mChildren" ref="classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5" />
+      <keyword name="aboutToBeDeleted" id="ossia::net::node_base::aboutToBeDeleted" ref="classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca" />
       <keyword name="ossia::net::midi::midi_info" id="ossia::net::midi::midi_info" ref="structossia_1_1net_1_1midi_1_1midi__info.html" />
       <keyword name="midi_info" id="ossia::net::midi::midi_info::midi_info" ref="structossia_1_1net_1_1midi_1_1midi__info.html#aece80bc22beac40697c82d6716507670" />
       <keyword name="type" id="ossia::net::midi::midi_info::type" ref="structossia_1_1net_1_1midi_1_1midi__info.html#ad6147386c640f7e318454f5df2d1b27e" />

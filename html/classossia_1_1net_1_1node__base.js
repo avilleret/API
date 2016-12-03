@@ -21,5 +21,6 @@ var classossia_1_1net_1_1node__base =
     [ "removeChild", "classossia_1_1net_1_1node__base.html#a58a5df57302ff96034d6280490933567", null ],
     [ "removingChild", "classossia_1_1net_1_1node__base.html#aa89640d63dbc082693ecb7dd418d4549", null ],
     [ "setName", "classossia_1_1net_1_1node__base.html#a7a7716c872fb3c7d4127650c526a84cb", null ],
+    [ "aboutToBeDeleted", "classossia_1_1net_1_1node__base.html#af2888a24ddb6ebf7f1c36c286d2b9dca", null ],
     [ "mChildren", "classossia_1_1net_1_1node__base.html#a1be850a60d95ff53fbc837d4760d99a5", null ]
 ];

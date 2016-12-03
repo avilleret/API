@@ -1,5 +1,15 @@
 var NAVTREEINDEX8 =
 {
+"structossia_1_1net_1_1http__address__data__base.html#a0076f9a60bc4c53bc54e304ad14a8af6":[0,0,5,6,38,7],
+"structossia_1_1net_1_1http__address__data__base.html#a3910fbf82ef723774e6c14832cf67d94":[0,0,5,6,38,5],
+"structossia_1_1net_1_1http__address__data__base.html#a4d909e6d51fa23e2ad2c004bb2828457":[0,0,5,6,38,2],
+"structossia_1_1net_1_1http__address__data__base.html#a674b214891a39ab1c1eabc0b88492ed5":[0,0,5,6,38,0],
+"structossia_1_1net_1_1http__address__data__base.html#a8f5bc850451e072a06e23dc63282c4b3":[0,0,5,6,38,1],
+"structossia_1_1net_1_1http__address__data__base.html#a9caccdff15939c79b0c42b99956d47f6":[0,0,5,6,38,4],
+"structossia_1_1net_1_1http__address__data__base.html#aba61fff3d6350d0600c718dd2d42319a":[0,0,5,6,38,6],
+"structossia_1_1net_1_1http__address__data__base.html#afa32e023131f5b821a4ff87c9242b1f5":[0,0,5,6,38,3],
+"structossia_1_1net_1_1midi_1_1address__info.html":[0,0,5,6,1,10],
+"structossia_1_1net_1_1midi_1_1address__info.html#a0cc56958067f02cd27460ca91aad88a0":[0,0,5,6,1,10,4],
 "structossia_1_1net_1_1midi_1_1address__info.html#a12100c1f868b1c1c4b512edb25dea7ad":[0,0,5,6,1,10,0],
 "structossia_1_1net_1_1midi_1_1address__info.html#a12100c1f868b1c1c4b512edb25dea7ada392b06517dc40739343a9ef9533cad46":[0,0,5,6,1,10,0,0],
 "structossia_1_1net_1_1midi_1_1address__info.html#a12100c1f868b1c1c4b512edb25dea7ada3ec979b1815b75be5dba19236853a11e":[0,0,5,6,1,10,0,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX8 =
 "structossia_1_1state__flatten__visitor.html#abb02866ecb577cfdb487c56458c54177":[0,0,5,130,3],
 "structossia_1_1state__flatten__visitor.html#aec982de486ae6022d707a70c3aafa24e":[0,0,5,130,2],
 "structossia_1_1state__flatten__visitor__merger.html":[0,0,5,129],
-"structossia_1_1state__flatten__visitor__merger.html#a01874587c5e5a473cfd25208b877054d":[0,0,5,129,3],
-"structossia_1_1state__flatten__visitor__merger.html#a28b0ec0f63d669edfb156bd416cfd533":[0,0,5,129,11],
-"structossia_1_1state__flatten__visitor__merger.html#a33d8263348713379877e229f6f0e7e3f":[0,0,5,129,2],
-"structossia_1_1state__flatten__visitor__merger.html#a391184f01773273016db1538c6b4a520":[0,0,5,129,6],
-"structossia_1_1state__flatten__visitor__merger.html#a40814f7eb9ffb700316063543ac979e1":[0,0,5,129,9],
-"structossia_1_1state__flatten__visitor__merger.html#a6a2272d3b5f3603e3fb3ec0b688e8950":[0,0,5,129,13],
-"structossia_1_1state__flatten__visitor__merger.html#a71e14d8c6db7eca02a81f6b529f1aa3e":[0,0,5,129,1],
-"structossia_1_1state__flatten__visitor__merger.html#a79b4201ca11f8ee4c22ce979f5180ca6":[0,0,5,129,14],
-"structossia_1_1state__flatten__visitor__merger.html#a7a3dc4f8af57b5066dd6111e16b2c390":[0,0,5,129,7],
-"structossia_1_1state__flatten__visitor__merger.html#a7c6c6e065fb348de2a66bbc589dd134e":[0,0,5,129,16],
-"structossia_1_1state__flatten__visitor__merger.html#a824fe2ad6fc7063c53d8738b01754376":[0,0,5,129,12]
+"structossia_1_1state__flatten__visitor__merger.html#a01874587c5e5a473cfd25208b877054d":[0,0,5,129,3]
 };

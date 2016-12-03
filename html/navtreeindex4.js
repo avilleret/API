@@ -1,5 +1,15 @@
 var NAVTREEINDEX4 =
 {
+"classossia_1_1time__value.html#a6e4f1598ff2f94f9dae4a53e04f12cad":[0,0,5,124,21],
+"classossia_1_1time__value.html#a6edead19a4c43a714d1af916b61a0434":[0,0,5,124,3],
+"classossia_1_1time__value.html#a9fe7dcfb9c73b9deb32e39c0f51fc446":[0,0,5,124,10],
+"classossia_1_1time__value.html#aa0012730e9a77bc4b3e3faa823f0d76d":[0,0,5,124,13],
+"classossia_1_1time__value.html#aa110b076b544a5a25845ddd26a675ce3":[0,0,5,124,4],
+"classossia_1_1time__value.html#aaa0a75cef178bdc2ae6d9305e3d39761":[0,0,5,124,7],
+"classossia_1_1time__value.html#abe61290016bc5f1d5846d8db018049a8":[0,0,5,124,5],
+"classossia_1_1time__value.html#ae934105f9fa4076d0185f369c505b46c":[0,0,5,124,2],
+"classossia_1_1time__value.html#aee04ef22f549213fa99b6ee262463f83":[0,0,5,124,14],
+"classossia_1_1time__value.html#af9b482dad8a2d981ba5d01dd5289ae23":[0,0,5,124,19],
 "classossia_1_1time__value.html#afc01ab5c4db8ce38b5bd5e471633e415":[0,0,5,124,22],
 "classossia_1_1value.html":[0,0,5,145],
 "classossia_1_1value.html#a042c173d6e3a5adfb8c455d2fa83ed57":[0,0,5,145,35],
@@ -239,15 +249,5 @@ var NAVTREEINDEX4 =
 "ptr__container_8hpp_source.html":[1,0,111],
 "receiver_8hpp_source.html":[1,0,112],
 "result_8h_source.html":[1,0,113],
-"scenario_8hpp_source.html":[1,0,114],
-"sender_8hpp_source.html":[1,0,115],
-"serial_8hpp_source.html":[1,0,116],
-"serial__address_8hpp_source.html":[1,0,117],
-"serial__address__data_8hpp_source.html":[1,0,118],
-"serial__device_8hpp_source.html":[1,0,119],
-"serial__node_8hpp_source.html":[1,0,120],
-"serial__protocol_8hpp_source.html":[1,0,121],
-"sin_8hpp_source.html":[1,0,122],
-"speed_8hpp_source.html":[1,0,123],
-"state_8hpp_source.html":[1,0,124]
+"scenario_8hpp_source.html":[1,0,114]
 };

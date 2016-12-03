@@ -1,5 +1,15 @@
 var NAVTREEINDEX9 =
 {
+"structossia_1_1state__flatten__visitor__merger.html#a28b0ec0f63d669edfb156bd416cfd533":[0,0,5,129,11],
+"structossia_1_1state__flatten__visitor__merger.html#a33d8263348713379877e229f6f0e7e3f":[0,0,5,129,2],
+"structossia_1_1state__flatten__visitor__merger.html#a391184f01773273016db1538c6b4a520":[0,0,5,129,6],
+"structossia_1_1state__flatten__visitor__merger.html#a40814f7eb9ffb700316063543ac979e1":[0,0,5,129,9],
+"structossia_1_1state__flatten__visitor__merger.html#a6a2272d3b5f3603e3fb3ec0b688e8950":[0,0,5,129,13],
+"structossia_1_1state__flatten__visitor__merger.html#a71e14d8c6db7eca02a81f6b529f1aa3e":[0,0,5,129,1],
+"structossia_1_1state__flatten__visitor__merger.html#a79b4201ca11f8ee4c22ce979f5180ca6":[0,0,5,129,14],
+"structossia_1_1state__flatten__visitor__merger.html#a7a3dc4f8af57b5066dd6111e16b2c390":[0,0,5,129,7],
+"structossia_1_1state__flatten__visitor__merger.html#a7c6c6e065fb348de2a66bbc589dd134e":[0,0,5,129,16],
+"structossia_1_1state__flatten__visitor__merger.html#a824fe2ad6fc7063c53d8738b01754376":[0,0,5,129,12],
 "structossia_1_1state__flatten__visitor__merger.html#aac303498708d774e95123674ca636eef":[0,0,5,129,5],
 "structossia_1_1state__flatten__visitor__merger.html#ace5c85caf29870aad05a593ba881ac69":[0,0,5,129,8],
 "structossia_1_1state__flatten__visitor__merger.html#ace8d8c57a93c16b34ca2ac4182298ab2":[0,0,5,129,17],
@@ -239,15 +249,5 @@ var NAVTREEINDEX9 =
 "tinyformat_8h_source.html":[1,0,139],
 "tuple_8hpp_source.html":[1,0,140],
 "value_8hpp_source.html":[1,0,141],
-"value__algorithms_8hpp_source.html":[1,0,142],
-"value__base_8hpp_source.html":[1,0,143],
-"value__callback_8hpp_source.html":[1,0,144],
-"value__comparison_8hpp_source.html":[1,0,145],
-"value__conversion_8hpp_source.html":[1,0,146],
-"value__conversion__impl_8hpp_source.html":[1,0,147],
-"value__set__domain_8hpp_source.html":[1,0,148],
-"value__traits_8hpp_source.html":[1,0,149],
-"value__with__unit_8hpp_source.html":[1,0,150],
-"vec_8hpp_source.html":[1,0,151],
-"ws__generic__client_8hpp_source.html":[1,0,152]
+"value__algorithms_8hpp_source.html":[1,0,142]
 };
