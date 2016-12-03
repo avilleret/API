@@ -232,7 +232,7 @@
                   <section title="operator()" ref="structossia_1_1detail_1_1unit__map__factory_3_01_arg_01_4.html#ae9e701b15a610d3103925aad6afb0e9b" />
                 </section>
                 <section title="make_unit_map" ref="structossia_1_1detail_1_1make__unit__map.html">
-                  <section title="operator()" ref="structossia_1_1detail_1_1make__unit__map.html#a4121f9493d5b76db0d4275fe192c01ef" />
+                  <section title="operator()" ref="structossia_1_1detail_1_1make__unit__map.html#ac8e4997667a1230b827fbf72def943bb" />
                 </section>
                 <section title="unit_factory_visitor" ref="structossia_1_1detail_1_1unit__factory__visitor.html">
                   <section title="operator()" ref="structossia_1_1detail_1_1unit__factory__visitor.html#a193dc35a30394df19b4cb25955499498" />
@@ -5052,7 +5052,7 @@
       <keyword name="enable_if_first_iterable" id="ossia::detail::enable_if_first_iterable" ref="namespaceossia_1_1detail.html#a25bc99975e999251602f674da8bbd12b" />
       <keyword name="enable_if_second_iterable" id="ossia::detail::enable_if_second_iterable" ref="namespaceossia_1_1detail.html#a1beaa4c7a05a49237093ee8b42e15555" />
       <keyword name="enable_if_neither_iterable" id="ossia::detail::enable_if_neither_iterable" ref="namespaceossia_1_1detail.html#a62e928fe6fe34df9d0be3a721f68de2d" />
-      <keyword name="unit_map" id="ossia::detail::unit_map" ref="namespaceossia_1_1detail.html#a06d8b759ea336c92049220919eb50dd7" />
+      <keyword name="unit_map" id="ossia::detail::unit_map" ref="namespaceossia_1_1detail.html#aea2cb8a3c37aef0cd29c3da54d2db7f0" />
       <keyword name="enable_if_multidimensional" id="ossia::detail::enable_if_multidimensional" ref="namespaceossia_1_1detail.html#a502db6f793021b1abe96f18e75d9a898" />
       <keyword name="LinearGainToDecibels" id="ossia::detail::LinearGainToDecibels" ref="namespaceossia_1_1detail.html#a5b425683649fcca65763dff681fd2a05" />
       <keyword name="LinearGainToDecibelsClipped" id="ossia::detail::LinearGainToDecibelsClipped" ref="namespaceossia_1_1detail.html#a6d473c8c91cb69c4b3a6eb0f02ade3e1" />
@@ -5139,7 +5139,7 @@
       <keyword name="ossia::detail::unit_map_factory&lt; Arg &gt;" id="ossia::detail::unit_map_factory&lt; Arg &gt;" ref="structossia_1_1detail_1_1unit__map__factory_3_01_arg_01_4.html" />
       <keyword name="operator()" id="ossia::detail::unit_map_factory&lt; Arg &gt;::operator()" ref="structossia_1_1detail_1_1unit__map__factory_3_01_arg_01_4.html#ae9e701b15a610d3103925aad6afb0e9b" />
       <keyword name="ossia::detail::make_unit_map" id="ossia::detail::make_unit_map" ref="structossia_1_1detail_1_1make__unit__map.html" />
-      <keyword name="operator()" id="ossia::detail::make_unit_map::operator()" ref="structossia_1_1detail_1_1make__unit__map.html#a4121f9493d5b76db0d4275fe192c01ef" />
+      <keyword name="operator()" id="ossia::detail::make_unit_map::operator()" ref="structossia_1_1detail_1_1make__unit__map.html#ac8e4997667a1230b827fbf72def943bb" />
       <keyword name="ossia::detail::unit_factory_visitor" id="ossia::detail::unit_factory_visitor" ref="structossia_1_1detail_1_1unit__factory__visitor.html" />
       <keyword name="operator()" id="ossia::detail::unit_factory_visitor::operator()" ref="structossia_1_1detail_1_1unit__factory__visitor.html#a193dc35a30394df19b4cb25955499498" />
       <keyword name="operator()" id="ossia::detail::unit_factory_visitor::operator()" ref="structossia_1_1detail_1_1unit__factory__visitor.html#a363a9ddb1a075c68f06469acf127aed9" />

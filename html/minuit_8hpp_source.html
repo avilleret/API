@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('minuit_8hpp_source.html','');});
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;future&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;set&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;hopscotch_map.h&gt;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;atomic&gt;</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;ossia/network/minuit/minuit_zeroconf.hpp&gt;</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('minuit_8hpp_source.html','');});
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  uint16_t mLocalPort{};  </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  std::mutex mListeningMutex;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  std::unordered_map&lt;std::string, ossia::net::address_base*&gt; mListening;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  tsl::hopscotch_map&lt;std::string, ossia::net::address_base*&gt; mListening;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  std::promise&lt;void&gt; mNamespaceFinishedPromise;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="classossia_1_1net_1_1generic__device.html">ossia::net::generic_device</a>* mDevice{};</div>
@@ -230,7 +230,7 @@ $(document).ready(function(){initNavTree('minuit_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fc7948728c8c6d6c6224785c0cd3e2aa.html">OSSIA</a></li><li class="navelem"><a class="el" href="dir_6096a9be72ff3aad5b9801229b7e2606.html">ossia</a></li><li class="navelem"><a class="el" href="dir_cec6e7b427f273c17f4ff626ab8e1f32.html">network</a></li><li class="navelem"><a class="el" href="dir_db58b6a974b5d62d2c5244f79a26bdbc.html">minuit</a></li><li class="navelem"><b>minuit.hpp</b></li>
-    <li class="footer">Generated on Sat Dec 3 2016 17:14:46 for OSSIA by
+    <li class="footer">Generated on Sat Dec 3 2016 18:51:31 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

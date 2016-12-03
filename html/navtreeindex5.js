@@ -235,7 +235,7 @@ var NAVTREEINDEX5 =
 "structossia_1_1detail_1_1is__numeric__helper.html":[0,0,5,1,43],
 "structossia_1_1detail_1_1is__numeric__helper.html#ad40763816a4daa3f1e0d35a59c10fcb8":[0,0,5,1,43,0],
 "structossia_1_1detail_1_1make__unit__map.html":[0,0,5,1,24],
-"structossia_1_1detail_1_1make__unit__map.html#a4121f9493d5b76db0d4275fe192c01ef":[0,0,5,1,24,0],
+"structossia_1_1detail_1_1make__unit__map.html#ac8e4997667a1230b827fbf72def943bb":[0,0,5,1,24,0],
 "structossia_1_1detail_1_1make__unit__symbols__helper.html":[0,0,5,1,28],
 "structossia_1_1detail_1_1make__unit__symbols__helper.html#a2fa098beed794e825dfba5e74a8ce0da":[0,0,5,1,28,0],
 "structossia_1_1detail_1_1make__unit__symbols__helper.html#a9d734b3d0cbb1303967a0b41463fb6aa":[0,0,5,1,28,1],

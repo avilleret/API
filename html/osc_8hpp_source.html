@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('osc_8hpp_source.html','');});
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;ossia/network/base/protocol.hpp&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;mutex&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;hopscotch_map.h&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;atomic&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>oscpack</div>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('osc_8hpp_source.html','');});
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  uint16_t mLocalPort{};  </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  std::atomic_bool mLearning{};       </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  std::mutex mListeningMutex;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  std::unordered_map&lt;std::string, ossia::net::address_base*&gt; mListening;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  tsl::hopscotch_map&lt;std::string, ossia::net::address_base*&gt; mListening;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  std::unique_ptr&lt;osc::sender&gt; mSender;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  std::unique_ptr&lt;osc::receiver&gt; mReceiver;</div>
@@ -191,7 +191,7 @@ $(document).ready(function(){initNavTree('osc_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fc7948728c8c6d6c6224785c0cd3e2aa.html">OSSIA</a></li><li class="navelem"><a class="el" href="dir_6096a9be72ff3aad5b9801229b7e2606.html">ossia</a></li><li class="navelem"><a class="el" href="dir_cec6e7b427f273c17f4ff626ab8e1f32.html">network</a></li><li class="navelem"><a class="el" href="dir_bd62acd87d68962ebcca4c26e2f0bf65.html">osc</a></li><li class="navelem"><b>osc.hpp</b></li>
-    <li class="footer">Generated on Sat Dec 3 2016 17:14:46 for OSSIA by
+    <li class="footer">Generated on Sat Dec 3 2016 18:51:31 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

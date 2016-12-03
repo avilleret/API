@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('minuit__common_8hpp_source.html','');}
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="algorithms_8hpp.html">ossia/detail/algorithms.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;boost/utility/string_view.hpp&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;exception&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;hopscotch_map.h&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>ossia</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
@@ -434,7 +434,7 @@ $(document).ready(function(){initNavTree('minuit__common_8hpp_source.html','');}
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  <span class="keywordflow">return</span> {};</div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;}</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="keyword">const</span> std::unordered_map&lt;std::string, minuit_attribute&gt;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="keyword">const</span> tsl::hopscotch_map&lt;std::string, minuit_attribute&gt;</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    attribute_unordered_map{</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        {<span class="stringliteral">&quot;value&quot;</span>, minuit_attribute::Value},</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        {<span class="stringliteral">&quot;type&quot;</span>, minuit_attribute::Type},</div>
@@ -528,7 +528,7 @@ $(document).ready(function(){initNavTree('minuit__common_8hpp_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fc7948728c8c6d6c6224785c0cd3e2aa.html">OSSIA</a></li><li class="navelem"><a class="el" href="dir_6096a9be72ff3aad5b9801229b7e2606.html">ossia</a></li><li class="navelem"><a class="el" href="dir_cec6e7b427f273c17f4ff626ab8e1f32.html">network</a></li><li class="navelem"><a class="el" href="dir_db58b6a974b5d62d2c5244f79a26bdbc.html">minuit</a></li><li class="navelem"><a class="el" href="dir_5f6bffa9b60f3c475850410680f8c75b.html">detail</a></li><li class="navelem"><b>minuit_common.hpp</b></li>
-    <li class="footer">Generated on Sat Dec 3 2016 17:14:46 for OSSIA by
+    <li class="footer">Generated on Sat Dec 3 2016 18:51:31 for OSSIA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
