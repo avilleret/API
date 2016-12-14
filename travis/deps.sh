@@ -24,6 +24,7 @@ case "$TRAVIS_OS_NAME" in
         # Download PureData for Windows
         wget http://msp.ucsd.edu/Software/pd-0.47-1.msw.zip -O pd-msw.zip
         unzip -q pd-msw.zip
+        mv pd-* pd
     fi
   ;;
   osx)
