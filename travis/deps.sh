@@ -22,7 +22,7 @@ case "$TRAVIS_OS_NAME" in
         tar -xf mingw-w64-install.tar.gz
 
         # Download PureData for Windows
-        wget http://msp.ucsd.edu/Software/pd-0.47-1.msw.zip -0 pd-msw.zip
+        wget http://msp.ucsd.edu/Software/pd-0.47-1.msw.zip -O pd-msw.zip
         unzip -q pd-msw.zip
     fi
   ;;
