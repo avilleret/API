@@ -24,8 +24,8 @@ set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 add_definitions(-DTT_PLATFORM_WIN)
 add_definitions(-DTTSTATIC)
 
-install(FILES
-${CROSS_COMPILER_PATH}/x86_64-w64-mingw32/lib32/libstdc++-6.dll
-${CROSS_COMPILER_PATH}/x86_64-w64-mingw32/lib32/libgcc_s_sjlj-1.dll
-${CROSS_COMPILER_PATH}/local32/bin/libxml2-2.dll
-        DESTINATION ${JAMOMAPD_INSTALL_FOLDER}/Jamoma)
+#install(FILES
+#${CROSS_COMPILER_PATH}/x86_64-w64-mingw32/lib32/libstdc++-6.dll
+#${CROSS_COMPILER_PATH}/x86_64-w64-mingw32/lib32/libgcc_s_sjlj-1.dll
+#${CROSS_COMPILER_PATH}/local32/bin/libxml2-2.dll
+#        DESTINATION ${JAMOMAPD_INSTALL_FOLDER}/Jamoma)
