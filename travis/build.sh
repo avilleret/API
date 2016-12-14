@@ -22,7 +22,7 @@ case "$TRAVIS_OS_NAME" in
     QT_ENV_SCRIPT=$(find /opt -name 'qt*-env.sh')
     source $QT_ENV_SCRIPT
     export LD_LIBRARY_PATH="/usr/lib64:$LD_LIBRARY_PATH"
-    if [[ "x$ARCH" = "xmingw-w64" ]]; then
+    if [[ "x$TARGET" = "xmingw-w64" ]]; then
       CMAKE_OPTIONS="-DOSSIA_PD_PATH=${HOME}/pd -DCROSS_COMPILER_PATH=${HOME}/mingw-w64-install/ -DCMAKE_TOOLCHAIN_FILE=${TRAVIS_BUILD_DIR}/Shared/CMake/toolchains/mingw-w64.cmake"
       $CMAKE_BIN ${CMAKE_OPTIONS} -DBOOST_ROOT="$BOOST_ROOT" -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DOSSIA_STATIC=$OSSIA_STATIC -DOSSIA_TESTING=1 -DOSSIA_EXAMPLES=1 -DOSSIA_CI=1 ..
       $CMAKE_BIN --build . -- -j2
