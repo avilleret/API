@@ -13,7 +13,7 @@ case "$TRAVIS_OS_NAME" in
 
     wget https://cmake.org/files/v3.7/cmake-3.7.0-Linux-x86_64.tar.gz -O cmake-linux.tgz
     tar xaf cmake-linux.tgz
-    mv cmake-*-x86_64
+    mv cmake-*-x86_64 cmake
     if [[ "x$TARGET" = "xmingw-w64" ]]; then
 
         wget https://dl.dropboxusercontent.com/u/3680458/mingw-w64-install.tar.gz
